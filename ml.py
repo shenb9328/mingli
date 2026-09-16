@@ -244,7 +244,7 @@ LIU_REN = ["大安", "留连", "速喜", "赤口", "小吉", "空亡"]
 
 def get_liuren_pan(dt=None):
     if dt is None:
-        dt = datetime.datetime.now()
+        dt = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).replace(tzinfo=None)
 
     base = (dt.year + dt.month + dt.day + dt.hour) % 6
     start_index = base
@@ -362,7 +362,7 @@ def _to_name(upper, lower):
 
 def get_meihua_pan(dt=None, input_obj=None):
     if dt is None:
-        dt = datetime.datetime.now()
+        dt = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).replace(tzinfo=None)
 
     if input_obj is None:
         solar = Solar.fromYmdHms(dt.year, dt.month, dt.day, dt.hour, dt.minute, dt.second)
@@ -544,7 +544,7 @@ def calculate_all(dt=None, city_name="杭州", longitude=None):
     核心计算引擎：计算八字、小六壬、梅花易数、奇门遁甲等所有结构化排盘数据
     """
     if dt is None:
-        dt = datetime.datetime.now()
+        dt = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).replace(tzinfo=None)
 
     # 解析经度和真太阳时
     if longitude is not None:
