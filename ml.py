@@ -9,6 +9,7 @@ import io
 import json
 import math
 import unicodedata
+import argparse
 from lunar_python import Solar, Lunar
 
 
@@ -307,6 +308,15 @@ HEXAGRAM_NAME = {
     (8,5):"地风升",(8,6):"地水师",(8,7):"地山谦",(8,8):"坤为地"
 }
 
+def get_trigrams(gua_name):
+    """
+    根据六十四卦名获取其上下单卦名说明，如：（上巽下坎）
+    """
+    for (upper, lower), name in HEXAGRAM_NAME.items():
+        if name == gua_name:
+            return f"（上{GUA[upper]}下{GUA[lower]}）"
+    return ""
+
 
 class MeiHuaInput:
     def __init__(self, year_zhi, month, day, hour_zhi):
@@ -529,54 +539,29 @@ def format_palace_block(p_no, name, data):
     return [line1, line2, line3, line4]
 
 
-def run_all(dt=None, city_name="杭州", json_mode=False):
-    if json_mode:
-        old_stdout = sys.stdout
-        sys.stdout = io.StringIO()
-
+def calculate_all(dt=None, city_name="杭州", longitude=None):
+    """
+    核心计算引擎：计算八字、小六壬、梅花易数、奇门遁甲等所有结构化排盘数据
+    """
     if dt is None:
         dt = datetime.datetime.now()
 
     # 解析经度和真太阳时
-    longitude, city_display = get_longitude(city_name)
-    if longitude is None:
-        longitude = 120.16
-        city_display = "杭州 (未识别城市，默认兜底)"
+    if longitude is not None:
+        city_display = f"{city_name} (自定义经度)" if city_name else f"东经 {longitude:.2f}°"
+    else:
+        lon_found, city_disp = get_longitude(city_name)
+        if lon_found is None:
+            longitude = 120.16
+            city_display = "杭州 (未识别城市，默认兜底)"
+        else:
+            longitude = lon_found
+            city_display = city_disp
 
     true_dt, lon_offset, eot_offset = get_true_solar_time(dt, longitude)
-
-    print("\n" + "=" * 66)
-    print("                      术数综合排盘系统")
-    print("=" * 66)
-
-    # -----------------------
-    # 时间及八字
-    # -----------------------
-    print("\n[ 核心时间与八字 ]")
-    print(f" 公历北京时间: {dt.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f" 测算城市方位: {city_display} (东经 {longitude:.2f}°)")
-    print(f" 时差修正数据: 经度差修正({lon_offset:+.2f}分钟) | 均时差修正({eot_offset:+.2f}分钟) | 总修正({lon_offset+eot_offset:+.2f}分钟)")
-    print(f" 当地真太阳时: {true_dt.strftime('%Y-%m-%d %H:%M:%S')}")
     bazi = get_bazi(true_dt)
-    print(f" 农历时间: {bazi.lunar_time}")
-    print(f" 四柱八字: {bazi.eight_char_str}")
-    print(f" 拆解四柱: 年柱({bazi.year_gz})  月柱({bazi.month_gz})  日柱({bazi.day_gz})  时柱({bazi.time_gz})")
-    print("-" * 66)
-
-    # -----------------------
-    # 小六壬
-    # -----------------------
-    print("[ 小六壬时间起局 ]")
     liuren = get_liuren_pan(true_dt)
-    print(f" 局数: {liuren['局数']}  |  当前落宫: {liuren['当前']}")
-    lr_宫位串 = "  ".join([f"宫{k}({v})" for k, v in liuren["六宫"].items()])
-    print(f" 六宫分布: {lr_宫位串}")
-    print("-" * 66)
 
-    # -----------------------
-    # 梅花易数
-    # -----------------------
-    print("[ 梅花易数排盘 ]")
     mh_input = MeiHuaInput(
         year_zhi=bazi.year_zhi,
         month=bazi.lunar_month,
@@ -584,12 +569,8 @@ def run_all(dt=None, city_name="杭州", json_mode=False):
         hour_zhi=bazi.time_zhi
     )
     meihua = get_meihua_pan(true_dt, input_obj=mh_input)
-    print(f" 本卦: {meihua['本卦']}   |   互卦: {meihua['互卦']}   |   变卦: {meihua['变卦']}   |   动爻: {meihua['动爻']}爻动")
-    print("-" * 66)
 
-    # -----------------------
     # 奇门遁甲推演
-    # -----------------------
     year_gz, month_gz, day_gz, time_gz = bazi.year_gz, bazi.month_gz, bazi.day_gz, bazi.time_gz
     
     solar = Solar.fromYmdHms(true_dt.year, true_dt.month, true_dt.day, true_dt.hour, true_dt.minute, true_dt.second)
@@ -721,136 +702,356 @@ def run_all(dt=None, city_name="杭州", json_mode=False):
             "status": status_str
         }
 
-    if json_mode:
-        sys.stdout = old_stdout
-        result_data = {
-            "city_info": {
-                "city": city_display,
-                "longitude": longitude,
-                "lon_offset_min": round(lon_offset, 2),
-                "eot_offset_min": round(eot_offset, 2),
-                "total_offset_min": round(lon_offset + eot_offset, 2)
-            },
-            "bazi": {
-                "solar_time": dt.strftime('%Y-%m-%d %H:%M:%S'),
-                "true_solar_time": true_dt.strftime('%Y-%m-%d %H:%M:%S'),
-                "lunar_time": bazi.lunar_time,
-                "eight_char_str": bazi.eight_char_str,
-                "pillars": {
-                    "year": bazi.year_gz,
-                    "month": bazi.month_gz,
-                    "day": bazi.day_gz,
-                    "time": bazi.time_gz
-                }
-            },
-            "liuren": liuren,
-            "meihua": meihua,
-            "qimen": {
-                "ju_str": ju_str,
-                "zhifu": f"{time_xun}{hidden_yi}落{PALACE_INFO[time_palace]['name']}",
-                "zhishi": f"{zhishi_door}落{PALACE_INFO[zhishi_palace]['name']}",
-                "day_kong": day_kong,
-                "time_kong": time_kong,
-                "yima": yima_branch,
-                "palaces": palaces_output
+    return {
+        "city_info": {
+            "city": city_display,
+            "longitude": longitude,
+            "lon_offset_min": round(lon_offset, 2),
+            "eot_offset_min": round(eot_offset, 2),
+            "total_offset_min": round(lon_offset + eot_offset, 2)
+        },
+        "bazi": {
+            "solar_time": dt.strftime('%Y-%m-%d %H:%M:%S'),
+            "true_solar_time": true_dt.strftime('%Y-%m-%d %H:%M:%S'),
+            "lunar_time": bazi.lunar_time,
+            "eight_char_str": bazi.eight_char_str,
+            "pillars": {
+                "year": bazi.year_gz,
+                "month": bazi.month_gz,
+                "day": bazi.day_gz,
+                "time": bazi.time_gz
             }
+        },
+        "liuren": liuren,
+        "meihua": meihua,
+        "qimen": {
+            "ju_str": ju_str,
+            "zhifu": f"{time_xun}{hidden_yi}落{PALACE_INFO[time_palace]['name']}",
+            "zhishi": f"{zhishi_door}落{PALACE_INFO[zhishi_palace]['name']}",
+            "day_kong": day_kong,
+            "time_kong": time_kong,
+            "yima": yima_branch,
+            "palaces": palaces_output
         }
-        print(json.dumps(result_data, ensure_ascii=False, indent=2))
-        return
+    }
 
-    print("[ 奇门遁甲盘局 ]")
-    print(f" 节气定局: {ju_str} | 值符: {time_xun}{hidden_yi}落{PALACE_INFO[time_palace]['name']} | 值使: {zhishi_door}落{PALACE_INFO[zhishi_palace]['name']}")
-    print(f" 空亡方位: 日空({'-'.join(day_kong)}) 时空({'-'.join(time_kong)}) | 驿马星: {yima_branch}方")
-    print()
 
-    # -----------------------
-    # 经典洛书九宫终端图形渲染
-    # -----------------------
-    # 构造标准九宫格方阵行数据（4, 9, 2 / 3, 5, 7 / 8, 1, 6）
+def render_terminal(data):
+    """
+    格式化为终端美化文本与经典洛书九宫格
+    """
+    lines = []
+    lines.append("\n" + "=" * 66)
+    lines.append("                      术数综合排盘系统")
+    lines.append("=" * 66)
+
+    ci = data["city_info"]
+    bz = data["bazi"]
+    lines.append("\n[ 核心时间与八字 ]")
+    lines.append(f" 公历北京时间: {bz['solar_time']}")
+    lines.append(f" 测算城市方位: {ci['city']} (东经 {ci['longitude']:.2f}°)")
+    lines.append(f" 时差修正数据: 经度差修正({ci['lon_offset_min']:+.2f}分钟) | 均时差修正({ci['eot_offset_min']:+.2f}分钟) | 总修正({ci['total_offset_min']:+.2f}分钟)")
+    lines.append(f" 当地真太阳时: {bz['true_solar_time']}")
+    lines.append(f" 农历时间: {bz['lunar_time']}")
+    lines.append(f" 四柱八字: {bz['eight_char_str']}")
+    p = bz['pillars']
+    lines.append(f" 拆解四柱: 年柱({p['year']})  月柱({p['month']})  日柱({p['day']})  时柱({p['time']})")
+    lines.append("-" * 66)
+
+    lr = data["liuren"]
+    lines.append("[ 小六壬时间起局 ]")
+    lines.append(f" 局数: {lr['局数']}  |  当前落宫: {lr['当前']}")
+    lr_宫位串 = "  ".join([f"宫{k}({v})" for k, v in lr["六宫"].items()])
+    lines.append(f" 六宫分布: {lr_宫位串}")
+    lines.append("-" * 66)
+
+    mh = data["meihua"]
+    lines.append("[ 梅花易数排盘 ]")
+    lines.append(f" 本卦: {mh['本卦']}   |   互卦: {mh['互卦']}   |   变卦: {mh['变卦']}   |   动爻: {mh['动爻']}爻动")
+    lines.append("-" * 66)
+
+    qm = data["qimen"]
+    lines.append("[ 奇门遁甲盘局 ]")
+    lines.append(f" 节气定局: {qm['ju_str']} | 值符: {qm['zhifu']} | 值使: {qm['zhishi']}")
+    day_kong_str = "-".join(qm['day_kong']) if qm['day_kong'] else "无"
+    time_kong_str = "-".join(qm['time_kong']) if qm['time_kong'] else "无"
+    lines.append(f" 空亡方位: 日空({day_kong_str}) 时空({time_kong_str}) | 驿马星: {qm['yima']}方\n")
+
+    # 经典洛书九宫格
     rows_palaces = [
         [4, 9, 2],
         [3, 5, 7],
         [8, 1, 6]
     ]
-    
     border = "+" + "--------------------+" * 3
-    print(border)
-    
+    lines.append(border)
     for row in rows_palaces:
-        # 获取当前行三个宫位格式化好的各4行文本
-        p1 = format_palace_block(row[0], PALACE_INFO[row[0]]["name"], palaces_output[row[0]])
-        p2 = format_palace_block(row[1], PALACE_INFO[row[1]]["name"], palaces_output[row[1]])
-        p3 = format_palace_block(row[2], PALACE_INFO[row[2]]["name"], palaces_output[row[2]])
-        
-        # 逐行横向拼接打印
+        p1 = format_palace_block(row[0], PALACE_INFO[row[0]]["name"], qm['palaces'][row[0]])
+        p2 = format_palace_block(row[1], PALACE_INFO[row[1]]["name"], qm['palaces'][row[1]])
+        p3 = format_palace_block(row[2], PALACE_INFO[row[2]]["name"], qm['palaces'][row[2]])
         for i in range(4):
             s1 = pad_string(p1[i], 18)
             s2 = pad_string(p2[i], 18)
             s3 = pad_string(p3[i], 18)
-            print(f"| {s1} | {s2} | {s3} |")
-        print(border)
+            lines.append(f"| {s1} | {s2} | {s3} |")
+        lines.append(border)
 
-    print("\n" + "=" * 66)
+    lines.append("\n" + "=" * 66)
+    return "\n".join(lines)
 
 
-if __name__ == "__main__":
-    args = sys.argv[1:]
-    json_mode = False
-    city_name = "杭州"
+def render_markdown(data):
+    """
+    格式化为精美 Markdown 格式（供飞书、GitHub、语雀等直接渲染）
+    """
+    lines = []
+    city_display = data['city_info']['city']
+    longitude = data['city_info']['longitude']
     
-    # 解析 --city 或 -c 参数
-    if "--city" in args:
-        idx = args.index("--city")
-        if idx + 1 < len(args):
-            city_name = args[idx+1]
-            args = args[:idx] + args[idx+2:]
-    elif "-c" in args:
-        idx = args.index("-c")
-        if idx + 1 < len(args):
-            city_name = args[idx+1]
-            args = args[:idx] + args[idx+2:]
+    solar_time_str = data['bazi']['solar_time']
+    try:
+        dt_solar = datetime.datetime.strptime(solar_time_str, "%Y-%m-%d %H:%M:%S")
+        title_time = dt_solar.strftime("%Y-%m-%d %H:%M")
+    except ValueError:
+        title_time = solar_time_str
+        
+    true_solar_time_str = data['bazi']['true_solar_time']
+    try:
+        dt_true = datetime.datetime.strptime(true_solar_time_str, "%Y-%m-%d %H:%M:%S")
+        true_solar_time = dt_true.strftime("%H:%M")
+    except ValueError:
+        true_solar_time = true_solar_time_str
+        
+    lunar_time = data['bazi']['lunar_time']
+    city_short = city_display.split(' ')[0]
     
-    if args:
-        user_input = " ".join(args).strip()
-        json_mode = True
+    # 1. Output Header
+    lines.append(f"**当前时刻（{title_time} · 北京时间）地点：{city_short}排盘结果**\n")
+    lines.append("---")
+    lines.append("\n**基本信息**")
+    lines.append(f"- **公历**：{solar_time_str}（北京时间）")
+    lines.append(f"- **真太阳时**：{true_solar_time}")
+    lines.append(f"- **农历**：{lunar_time}")
+    lines.append(f"- **测算方位**：{city_display} 东经 {longitude:.2f}°\n")
+    lines.append("---")
+    
+    # 2. Bazi Table
+    lines.append("\n**八字四柱**")
+    lines.append("```text")
+    lines.append("柱    天干地支")
+    lines.append("────  ────────")
+    lines.append(f"年柱  {data['bazi']['pillars']['year']}")
+    lines.append(f"月柱  {data['bazi']['pillars']['month']}")
+    lines.append(f"日柱  {data['bazi']['pillars']['day']}")
+    lines.append(f"时柱  {data['bazi']['pillars']['time']}")
+    lines.append("```\n")
+    lines.append("---")
+    
+    # 3. Xiao Liuren
+    liuren = data['liuren']
+    lines.append("\n**小六壬**")
+    lines.append(f"- **局数**：{liuren['局数']}")
+    lines.append(f"- **当前落宫**：{liuren['当前']}\n")
+    lines.append("```text")
+    lines.append("宫位  名称")
+    lines.append("────  ────")
+    for k in sorted([str(x) for x in liuren['六宫'].keys()], key=int):
+        val = liuren['六宫'].get(int(k), liuren['六宫'].get(str(k), ""))
+        lines.append(f"{pad_string(str(k), 6)}{val}")
+    lines.append("```\n")
+    lines.append("---")
+    
+    # 4. Meihua
+    mh = data['meihua']
+    move_str = ["一", "二", "三", "四", "五", "六"][int(mh['动爻'])-1]
+    lines.append("\n**梅花易数**")
+    lines.append(f"- **本卦**：{mh['本卦']}{get_trigrams(mh['本卦'])}")
+    lines.append(f"- **互卦**：{mh['互卦']}{get_trigrams(mh['互卦'])}")
+    lines.append(f"- **变卦**：{mh['变卦']}{get_trigrams(mh['变卦'])}")
+    lines.append(f"- **动爻**：{move_str}爻\n")
+    lines.append("---")
+    
+    # 5. Qimen
+    qm = data['qimen']
+    lines.append("\n**奇门遁甲**")
+    lines.append(f"- **局制**：{qm['ju_str']}")
+    lines.append(f"- **值符**：{qm['zhifu']}")
+    lines.append(f"- **值使**：{qm['zhishi']}")
+    lines.append(f"- **日空**：{'、'.join(qm['day_kong']) if qm['day_kong'] else '无'}")
+    lines.append(f"- **时空**：{'、'.join(qm['time_kong']) if qm['time_kong'] else '无'}")
+    lines.append(f"- **驿马**：{qm['yima']}\n")
+    
+    lines.append("```text")
+    lines.append("宫位  九星  八神  八门  天干   备注")
+    lines.append("────  ────  ────  ────  ─────  ────")
+    for p_no in sorted([str(x) for x in qm['palaces'].keys()], key=int):
+        p_key = int(p_no) if int(p_no) in qm['palaces'] else p_no
+        p_data = qm['palaces'][p_key]
+        if str(p_no) == "5" or p_data['msg'] == "-":
+            god, star, door = "—", "—", "—"
+        else:
+            parts = p_data['msg'].split('/')
+            god, star, door = parts[0], parts[1], parts[2]
+            
+        stems = p_data['stems']
+        
+        remarks = []
+        if p_data['kong']:
+            remarks.append(p_data['kong'])
+        if p_data['status']:
+            remarks.append(p_data['status'])
+        remarks_str = "、".join(remarks)
+        
+        col_no = pad_string(str(p_no), 6)
+        col_star = pad_string(star, 6)
+        col_god = pad_string(god, 6)
+        col_door = pad_string(door, 6)
+        col_stems = pad_string(stems, 7)
+        col_remarks = remarks_str
+        
+        lines.append(f"{col_no}{col_star}{col_god}{col_door}{col_stems}{col_remarks}")
+    lines.append("```")
+    return "\n".join(lines)
+
+
+def render_json(data):
+    """
+    格式化为标准 JSON 字符串
+    """
+    return json.dumps(data, ensure_ascii=False, indent=2)
+
+
+def run_all(dt=None, city_name="杭州", json_mode=False):
+    """
+    兼容历史接口
+    """
+    data = calculate_all(dt=dt, city_name=city_name)
+    if json_mode:
+        print(render_json(data))
     else:
-        user_input = input("请输入排盘时间 (格式: YYYY-MM-DD HH:MM:SS，直接回车使用当前系统时间): ").strip()
-        # 交互模式下询问城市
+        print(render_terminal(data))
+    return data
+
+
+def parse_datetime(user_input):
+    """
+    解析各种格式的日期时间字符串
+    """
+    if not user_input:
+        return None
+    s = user_input.strip()
+    formats = [
+        "%Y-%m-%d %H:%M:%S",
+        "%Y-%m-%d %H:%M",
+        "%Y-%m-%d",
+        "%Y/%m/%d %H:%M:%S",
+        "%Y/%m/%d %H:%M",
+        "%Y/%m/%d",
+        "%Y年%m月%d日 %H:%M:%S",
+        "%Y年%m月%d日 %H:%M",
+        "%Y年%m月%d日",
+        "%Y%m%d%H%M%S",
+        "%Y%m%d %H%M%S",
+        "%Y%m%d",
+    ]
+    for fmt in formats:
+        try:
+            return datetime.datetime.strptime(s, fmt)
+        except ValueError:
+            pass
+    return None
+
+
+def parse_arguments(args=None, default_format="terminal"):
+    """
+    构建标准命令行参数解析器
+    """
+    parser = argparse.ArgumentParser(
+        description="术数综合排盘系统（八字 + 小六壬 + 梅花易数 + 奇门遁甲）",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""使用示例:
+  python3 ml.py                           # 当前时间排盘（终端表格）
+  python3 ml.py "2026-09-16 16:00:00"     # 指定时间排盘
+  python3 ml.py -c 北京                   # 指定测算城市
+  python3 ml.py --lon 104.06              # 直接指定经度
+  python3 ml.py -f markdown               # 输出 Markdown 排版
+  python3 ml.py -f json                   # 输出 JSON 格式
+  python3 ml.py -i                        # 进入交互式排盘
+"""
+    )
+    parser.add_argument("time_pos", nargs="*", default=None, help="排盘时间 (如 '2026-09-16 16:00:00')")
+    parser.add_argument("-t", "--time", dest="time_opt", default=None, help="排盘时间 (显式指定参数)")
+    parser.add_argument("-c", "--city", dest="city", default="杭州", help="排盘城市名称 (默认: 杭州)")
+    parser.add_argument("--lon", "--longitude", dest="longitude", type=float, default=None, help="直接指定测算地经度 (如 120.16)")
+    parser.add_argument("-f", "--format", dest="format", choices=["terminal", "markdown", "json"], default=default_format, help="输出格式: terminal (默认), markdown, json")
+    parser.add_argument("-m", "--markdown", dest="markdown_flag", action="store_true", help="快捷开关: 输出 Markdown 格式")
+    parser.add_argument("-j", "--json", dest="json_flag", action="store_true", help="快捷开关: 输出 JSON 格式")
+    parser.add_argument("-i", "--interactive", dest="interactive", action="store_true", help="进入交互模式引导输入")
+    return parser.parse_args(args)
+
+
+def main_cli(args=None, default_format="terminal"):
+    """
+    CLI 统一主入口
+    """
+    parsed = parse_arguments(args, default_format=default_format)
+    
+    # 格式优先级判定
+    out_format = parsed.format
+    if parsed.markdown_flag:
+        out_format = "markdown"
+    elif parsed.json_flag:
+        out_format = "json"
+        
+    city_name = parsed.city
+    longitude = parsed.longitude
+    dt = None
+    
+    if parsed.interactive:
+        user_time_str = input("请输入排盘时间 (格式: YYYY-MM-DD HH:MM:SS，直接回车使用当前系统时间): ").strip()
+        if user_time_str:
+            dt = parse_datetime(user_time_str)
+            if dt is None:
+                print("时间格式解析失败，将使用当前系统时间。")
+                
         temp_city = input("请输入出生/排盘城市名称 (如: 北京、成都、杭州，直接回车默认杭州): ").strip()
         if temp_city:
             city_name = temp_city
             
-        # 验证或输入自定义经度
-        lon, _ = get_longitude(city_name)
-        if lon is None:
+        lon_chk, _ = get_longitude(city_name)
+        if lon_chk is None:
             custom_lon_str = input(f"未在预设数据库中找到城市 '{city_name}'。请输入其经度（如 104.06，直接回车默认使用杭州经度 120.16）: ").strip()
             if custom_lon_str:
-                city_name = custom_lon_str
+                try:
+                    longitude = float(custom_lon_str)
+                except ValueError:
+                    city_name = "杭州"
             else:
                 city_name = "杭州"
-    
-    dt = None
-    if user_input:
-        formats = [
-            "%Y-%m-%d %H:%M:%S",
-            "%Y-%m-%d %H:%M",
-            "%Y-%m-%d",
-            "%Y/%m/%d %H:%M:%S",
-            "%Y/%m/%d %H:%M",
-            "%Y/%m/%d",
-            "%Y年%m月%d日 %H:%M:%S",
-            "%Y年%m月%d日 %H:%M",
-            "%Y年%m月%d日"
-        ]
-        for fmt in formats:
-            try:
-                dt = datetime.datetime.strptime(user_input, fmt)
-                break
-            except ValueError:
-                pass
-        
-        if dt is None:
-            if not json_mode:
-                print("时间格式解析失败，将使用当前系统时间。")
+    else:
+        # 非交互模式
+        time_str = None
+        if parsed.time_opt:
+            time_str = parsed.time_opt.strip()
+        elif parsed.time_pos:
+            time_str = " ".join(parsed.time_pos).strip()
             
-    run_all(dt, city_name, json_mode)
+        if time_str:
+            dt = parse_datetime(time_str)
+            if dt is None and out_format == "terminal":
+                print(f"提示: 时间格式 '{time_str}' 无法解析，已使用当前系统时间。")
+                
+    data = calculate_all(dt=dt, city_name=city_name, longitude=longitude)
+    
+    if out_format == "markdown":
+        print(render_markdown(data))
+    elif out_format == "json":
+        print(render_json(data))
+    else:
+        print(render_terminal(data))
+        
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main_cli())
