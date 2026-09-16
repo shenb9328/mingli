@@ -1,0 +1,152 @@
+# ☯️ MingLi (命理综合排盘引擎)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Code Style: Clean](https://img.shields.io/badge/code%20style-clean-brightgreen.svg)]()
+[![Execution Time: <0.08s](https://img.shields.io/badge/speed-%3C80ms-green.svg)]()
+
+极速、专业、纯粹的中国传统术数综合排盘引擎。一次计算，同时输出 **四柱八字（真太阳时）**、**时家奇门遁甲（转盘法）**、**梅花易数** 与 **小六壬**。
+
+专为高并发 API 网关、智能体助手（Agent Skill）、命令行终端以及自动化易学研究设计，单次完整排盘运算与渲染耗时 **< 0.08 秒**。
+
+---
+
+## 🌟 核心特性
+
+- ⚡ **超低延迟内存架构**：计算与渲染完全解耦，告别繁重的子进程与 IPC 管道开销，单次全量排盘仅需数十毫秒。
+- 🕒 **真太阳时与天文校正**：
+  - 内置全国各省市 **120+ 主流地级市经纬度数据库**；
+  - 集成天文学真太阳时均时差（Equation of Time, EOT）校正公式；
+  - 支持自定义浮点数经度输入及在线查询降级，彻底杜绝北京时间平太阳时误差。
+- 🔮 **严谨易理算法体系**：
+  - **四柱八字**：严格遵循二十四节气换月建，包含干支、藏干、十神格局基底；
+  - **奇门遁甲（时家转盘法）**：严密实现**拆补法**定局、冬至/夏至阴阳九局严谨切换；精准推演天乙贵人、值符值使随时干支运转；
+  - **梅花易数**：以起盘时空之**农历月、日、时辰数**起先天卦，完整推算本卦、互卦、变卦及动爻体用五行生克；
+  - **小六壬**：标准月日时三传速断（大安、留连、速喜、赤口、小吉、空亡）。
+- 🎨 **多格式自适应渲染**：
+  - **Terminal (ANSI)**：支持宽字符等宽对齐、九宫格自适应框线；
+  - **Markdown**：完美兼容 GitHub、飞书（Lark）、Notion 等富文本阅读器；
+  - **JSON**：纯净结构化数据输出，包含所有天文要素与推演中间态，开箱即用对接 Web API。
+
+---
+
+## 📦 安装与依赖
+
+环境要求：`Python 3.8+`
+
+```bash
+git clone git@github.com:shenb9328/mingli.git
+cd mingli
+pip install -r requirements.txt
+```
+
+*(主要依赖仅包含 `lunar_python`，可选依赖 `geopy` 用于未收录小城镇在线经度解析)*
+
+---
+
+## 💻 命令行 (CLI) 使用指南
+
+系统提供标准现代化命令行参数：
+
+```bash
+# 1. 默认排盘（当前时刻北京时间，默认测算地为杭州）
+python3 ml.py
+
+# 2. 指定城市（自动校准经度与真太阳时）
+python3 ml.py -c 乌鲁木齐
+python3 ml.py -c 成都
+
+# 3. 指定历史或未来时间
+python3 ml.py -c 北京 "2026-09-16 16:30:00"
+python3 ml.py -t "1990-05-18 08:15:00" -c 广州
+
+# 4. 指定输出格式 (terminal / markdown / json)
+python3 ml.py -f markdown -c 乌鲁木齐
+python3 ml.py -m -c 杭州              # -m 快捷开关输出 Markdown
+python3 ml.py -j -c 上海              # -j 快捷开关输出 JSON 结构体
+
+# 5. 直接指定测算地点经度
+python3 ml.py --lon 104.06 "2026-09-16 12:00:00"
+
+# 6. 交互式引导模式
+python3 ml.py -i
+```
+
+### 快捷包装脚本
+项目提供 `ml_markdown.py` 作为 Markdown 输出的极速入口：
+```bash
+python3 ml_markdown.py -c 乌鲁木齐
+```
+
+---
+
+## 🐍 Python SDK / API 调用
+
+可在任何 Python 项目中作为库直接导入使用：
+
+```python
+from ml import calculate_all, render_terminal, render_markdown, render_json
+import datetime
+
+# 1. 执行全量推演计算
+data = calculate_all(
+    dt=datetime.datetime.now(),
+    city_name="乌鲁木齐"
+)
+
+# 2. 提取数据要素
+print(f"真太阳时: {data['solar_time_str']}")
+print(f"四柱八字: {data['bazi_str']}")
+print(f"奇门遁甲: {data['qimen']['ju_name']}，值符【{data['qimen']['zhifu_star']}】值使【{data['qimen']['zhishi_door']}】")
+print(f"梅花易数: 本卦【{data['meihua']['ben_gua']}】 互卦【{data['meihua']['hu_gua']}】 变卦【{data['meihua']['bian_gua']}】")
+print(f"小六壬: {data['xiaoliuren']['sanchuan']}")
+
+# 3. 渲染为 Markdown 或 JSON
+markdown_text = render_markdown(data)
+json_str = render_json(data)
+```
+
+---
+
+## 📊 输出效果示例 (Markdown)
+
+```markdown
+### ☯️ 术数综合时空排盘
+
+- **公历时间**: 2026年09月16日 16:30:00
+- **农历时间**: 丙午年八月初六 申时
+- **测算地点**: 乌鲁木齐 (经度 87.68°，真太阳时时差: -129.28 分钟)
+- **真太阳时**: 2026年09月16日 14:20:43
+
+#### 1. 🀄 四柱八字
+| 柱别 | 年柱 | 月柱 | 日柱 | 时柱 |
+| :---: | :---: | :---: | :---: | :---: |
+| **天干** | 丙 | 丁 | 癸 | 庚 |
+| **地支** | 午 | 酉 | 丑 | 申 |
+
+#### 2. 🌌 时家奇门遁甲 (转盘法)
+- **定局**: 阴遁七局 (拆补法)
+- **旬首与符使**: 旬首【甲寅癸】，值符【天柱星】落兑七宫，值使【惊门】落兑七宫
+
+| 巽四宫 (木) | 离九宫 (火) | 坤二宫 (土) |
+| :---: | :---: | :---: |
+| 九地<br>天芮(禽)<br>死门<br>丙(辛) | 九天<br>天柱<br>惊门<br>癸 | 值符<br>天心<br>开门<br>戊 |
+...
+```
+
+---
+
+## 🛠️ 关键易理算法与修复记录
+
+1. **二十四节气与中气识别修复**：
+   - 严格区分“节”与“中气”。修复夏至、冬至等 12 中气未正确纳入奇门阴阳遁切换边界的 Bug，保证阴遁、阳遁分界 100% 契合天道历法。
+2. **时家奇门值使门飞宫与八门归位**：
+   - 精确实现中五寄宫逻辑（阳遁寄艮八宫，阴遁寄坤二宫）；值使门随时支顺逆飞九宫求落宫，随后八门依序排布。
+3. **梅花易数年月日时起卦算法规范**：
+   - 先天卦数起卦标准规范为：上卦用 `(农历年支数 + 农历月数 + 农历日数) % 8`，下卦用 `(上卦和 + 农历时支数) % 8`，动爻用总和 `% 6`。
+
+---
+
+## 📄 开源协议
+
+本项目采用 [MIT License](LICENSE) 授权开源。
