@@ -173,6 +173,8 @@ class BaZiResult:
     def __init__(self):
         self.solar_time = None
         self.lunar_time = None
+        self.lunar_month = 1
+        self.lunar_day = 1
 
         self.year_gz = ""
         self.month_gz = ""
@@ -215,6 +217,8 @@ def get_bazi(dt=None, tz_offset=8):
 
     result.solar_time = dt.strftime("%Y-%m-%d %H:%M:%S")
     result.lunar_time = f"{lunar.getYearInChinese()}年{lunar.getMonthInChinese()}月{lunar.getDayInChinese()}"
+    result.lunar_month = abs(lunar.getMonth())
+    result.lunar_day = lunar.getDay()
 
     result.year_gz = eight_char.getYear()
     result.month_gz = eight_char.getMonth()
@@ -351,11 +355,13 @@ def get_meihua_pan(dt=None, input_obj=None):
         dt = datetime.datetime.now()
 
     if input_obj is None:
+        solar = Solar.fromYmdHms(dt.year, dt.month, dt.day, dt.hour, dt.minute, dt.second)
+        lunar = solar.getLunar()
         input_obj = MeiHuaInput(
-            year_zhi="子",   
-            month=dt.month,
-            day=dt.day,
-            hour_zhi="子"
+            year_zhi=lunar.getYearZhi(),   
+            month=abs(lunar.getMonth()),
+            day=lunar.getDay(),
+            hour_zhi=lunar.getTimeZhi()
         )
 
     upper, lower, move = _calc_gua(input_obj)
@@ -503,7 +509,7 @@ def format_palace_block(p_no, name, data):
     if p_no == 5:
         line1 = f"  {name}"
         line2 = f"   中五宫"
-        line3 = f" 乙/乙 {data['kong']}"
+        line3 = f" {data['stems']} {data['kong']}"
         line4 = f"  {data['status']}"
     else:
         # 分离神/星/门
@@ -573,8 +579,8 @@ def run_all(dt=None, city_name="杭州", json_mode=False):
     print("[ 梅花易数排盘 ]")
     mh_input = MeiHuaInput(
         year_zhi=bazi.year_zhi,
-        month=true_dt.month,
-        day=true_dt.day,
+        month=bazi.lunar_month,
+        day=bazi.lunar_day,
         hour_zhi=bazi.time_zhi
     )
     meihua = get_meihua_pan(true_dt, input_obj=mh_input)
@@ -588,7 +594,7 @@ def run_all(dt=None, city_name="杭州", json_mode=False):
     
     solar = Solar.fromYmdHms(true_dt.year, true_dt.month, true_dt.day, true_dt.hour, true_dt.minute, true_dt.second)
     lunar = solar.getLunar()
-    current_jie_name = lunar.getPrevJie(False).getName()
+    current_jie_name = lunar.getPrevJieQi(False).getName()
     
     day_idx = JIAZI.index(day_gz)
     yuan = ["上元", "中元", "下元"][(day_idx // 5) % 3]
@@ -615,8 +621,10 @@ def run_all(dt=None, city_name="杭州", json_mode=False):
     stems_order = EARTH_STEM_ORDER[dun_type]
     earth_plate = dict(zip(rotated_p, stems_order))
     
+    BRANCH_LIST = ["子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌", "亥"]
     hidden_yi = XUNSHOU_TO_HIDDEN_YI[time_xun]
     time_gan = time_gz[0]
+    time_branch = time_gz[1]
     visible_time_gan = hidden_yi if time_gan == "甲" else time_gan
     
     def find_palace_by_stem(stem):
@@ -628,33 +636,45 @@ def run_all(dt=None, city_name="杭州", json_mode=False):
     xunshou_palace = find_palace_by_stem(hidden_yi)
     time_palace = find_palace_by_stem(visible_time_gan)
     
+    # 1. 九星排盘（值符随时干）
+    zhifu_star = STAR_RING[ROTATION_RING.index(xunshou_palace)]
+    star_palace_order = rotate_to_start(ROTATION_RING, time_palace)
+    star_order = rotate_to_start(STAR_RING, zhifu_star)
+    star_map = dict(zip(star_palace_order, star_order))
+    
+    # 2. 八神排盘（小值符随大值符）
     if dun_type == "阳遁":
-        palace_order = rotate_to_start(ROTATION_RING, time_palace)
-        star_order = rotate_to_start(STAR_RING, STAR_RING[ROTATION_RING.index(xunshou_palace)])
-        door_order = rotate_to_start(DOOR_RING, DOOR_RING[ROTATION_RING.index(xunshou_palace)])
+        god_palace_order = rotate_to_start(ROTATION_RING, time_palace)
         god_order = GOD_RING_YANG
-        outer_earth = [earth_plate[palace] for palace in ROTATION_RING]
     else:
         reverse_ring = list(reversed(ROTATION_RING))
-        reverse_star_ring = list(reversed(STAR_RING))
-        reverse_door_ring = list(reversed(DOOR_RING))
-        palace_order = rotate_to_start(reverse_ring, time_palace)
-        star_order = rotate_to_start(reverse_star_ring, STAR_RING[ROTATION_RING.index(xunshou_palace)])
-        door_order = rotate_to_start(reverse_door_ring, DOOR_RING[ROTATION_RING.index(xunshou_palace)])
+        god_palace_order = rotate_to_start(reverse_ring, time_palace)
         god_order = GOD_RING_YIN
-        outer_earth = [earth_plate[palace] for palace in reverse_ring]
+    god_map = dict(zip(god_palace_order, god_order))
+    
+    # 3. 天盘三奇六仪（九星携干转）
+    sky_map = {}
+    for p in ROTATION_RING:
+        star_here = star_map[p]
+        orig_palace = ROTATION_RING[STAR_RING.index(star_here)]
+        sky_map[p] = earth_plate[orig_palace]
         
-    sky_start_stem = hidden_yi if earth_plate[xunshou_palace] == hidden_yi else earth_plate[xunshou_palace]
-    sky_order = rotate_to_start(outer_earth, sky_start_stem)
+    # 4. 八门排盘（值使随时支）
+    zhishi_door = DOOR_RING[ROTATION_RING.index(xunshou_palace)]
+    xun_branch = time_xun[1]
+    b_steps = (BRANCH_LIST.index(time_branch) - BRANCH_LIST.index(xun_branch)) % 12
     
-    star_map = dict(zip(palace_order, star_order))
-    door_map = dict(zip(palace_order, door_order))
-    god_map = dict(zip(palace_order, god_order))
-    sky_map = dict(zip(palace_order, sky_order))
+    if dun_type == "阳遁":
+        fly_palace = (xunshou_palace - 1 + b_steps) % 9 + 1
+    else:
+        fly_palace = (xunshou_palace - 1 - b_steps) % 9 + 1
+        
+    zhishi_palace = 2 if fly_palace == 5 else fly_palace
     
-    zhishi_door = door_map.get(time_palace, "死门")
+    door_palace_order = rotate_to_start(ROTATION_RING, zhishi_palace)
+    door_order = rotate_to_start(DOOR_RING, zhishi_door)
+    door_map = dict(zip(door_palace_order, door_order))
     
-    time_branch = time_gz[1]
     yima_branch = YIMA_TABLE[time_branch]
     yima_palace = BRANCH_TO_PALACE[yima_branch]
     
@@ -684,13 +704,19 @@ def run_all(dt=None, city_name="杭州", json_mode=False):
             
         status_str = "、".join(other_status) if other_status else ""
         
-        sky_stem = "乙" if p_no == 5 else sky_map.get(p_no, "乙")
-        earth_stem = "乙" if p_no == 5 else earth_plate.get(p_no, "乙")
-        m_s_g = "-" if p_no == 5 else f"{god}/{star}/{door}"
+        earth_stem = earth_plate.get(p_no, "")
+        if p_no == 5:
+            sky_stem = "-"
+            m_s_g = "-"
+            stems_display = f"-/{earth_stem}"
+        else:
+            sky_stem = sky_map.get(p_no, "")
+            m_s_g = f"{god}/{star}/{door}"
+            stems_display = f"{sky_stem}/{earth_stem}"
         
         palaces_output[p_no] = {
             "msg": m_s_g,
-            "stems": f"{sky_stem}/{earth_stem}",
+            "stems": stems_display,
             "kong": kong_type,
             "status": status_str
         }
@@ -722,7 +748,7 @@ def run_all(dt=None, city_name="杭州", json_mode=False):
             "qimen": {
                 "ju_str": ju_str,
                 "zhifu": f"{time_xun}{hidden_yi}落{PALACE_INFO[time_palace]['name']}",
-                "zhishi": f"{zhishi_door}落{PALACE_INFO[time_palace]['name']}",
+                "zhishi": f"{zhishi_door}落{PALACE_INFO[zhishi_palace]['name']}",
                 "day_kong": day_kong,
                 "time_kong": time_kong,
                 "yima": yima_branch,
@@ -733,7 +759,7 @@ def run_all(dt=None, city_name="杭州", json_mode=False):
         return
 
     print("[ 奇门遁甲盘局 ]")
-    print(f" 节气定局: {ju_str} | 值符: {time_xun}{hidden_yi}落{PALACE_INFO[time_palace]['name']} | 值使: {zhishi_door}落{PALACE_INFO[time_palace]['name']}")
+    print(f" 节气定局: {ju_str} | 值符: {time_xun}{hidden_yi}落{PALACE_INFO[time_palace]['name']} | 值使: {zhishi_door}落{PALACE_INFO[zhishi_palace]['name']}")
     print(f" 空亡方位: 日空({'-'.join(day_kong)}) 时空({'-'.join(time_kong)}) | 驿马星: {yima_branch}方")
     print()
 
