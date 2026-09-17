@@ -56,8 +56,9 @@ python3 ml.py
 python3 ml.py -c 乌鲁木齐
 python3 ml.py -c 成都
 
-# 3. 指定历史或未来时间
+# 3. 指定历史或未来时间 (支持标准格式与中文年月日时分格式)
 python3 ml.py -c 北京 "2026-09-16 16:30:00"
+python3 ml.py -c 杭州 "时间2026年9月22日14点30分"
 python3 ml.py -t "1990-05-18 08:15:00" -c 广州
 
 # 4. 指定输出格式 (terminal / markdown / json)
@@ -65,8 +66,8 @@ python3 ml.py -f markdown -c 乌鲁木齐
 python3 ml.py -m -c 杭州              # -m 快捷开关输出 Markdown
 python3 ml.py -j -c 上海              # -j 快捷开关输出 JSON 结构体
 
-# 5. 直接指定测算地点经度
-python3 ml.py --lon 104.06 "2026-09-16 12:00:00"
+# 5. 直接指定测算地点经度 (便于区县/乡村精准计算真太阳时)
+python3 ml.py -c 高台县 --lon 99.82 "2026-09-25 10:30:00"
 
 # 6. 交互式引导模式
 python3 ml.py -i
