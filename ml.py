@@ -4,6 +4,7 @@
 # =====================================================================
 
 import datetime
+import re
 import sys
 import io
 import json
@@ -826,7 +827,7 @@ def render_markdown(data):
     city_short = city_display.split(' ')[0]
     
     # 1. Output Header
-    lines.append(f"**当前时刻（{title_time} · 北京时间）地点：{city_short}排盘结果**\n")
+    lines.append(f"**排盘时刻（{title_time} · 北京时间）地点：{city_short}排盘结果**\n")
     lines.append("---")
     lines.append("\n**基本信息**")
     lines.append(f"- **公历**：{solar_time_str}（北京时间）")
@@ -935,11 +936,15 @@ def run_all(dt=None, city_name="杭州", json_mode=False):
 
 def parse_datetime(user_input):
     """
-    解析各种格式的日期时间字符串
+    智能解析各种中英文格式的日期时间字符串（支持2026年9月22日14点30分、前缀剥离等）
     """
     if not user_input:
         return None
     s = user_input.strip()
+    # 剥离 "时间"、"日期"、"时刻"、"公历"、"阳历" 等前缀
+    s = re.sub(r"^(时间|时刻|日期|公历|阳历)[:：\s]*", "", s).strip()
+    
+    # 1. 尝试标准 strptime 格式
     formats = [
         "%Y-%m-%d %H:%M:%S",
         "%Y-%m-%d %H:%M",
@@ -947,6 +952,9 @@ def parse_datetime(user_input):
         "%Y/%m/%d %H:%M:%S",
         "%Y/%m/%d %H:%M",
         "%Y/%m/%d",
+        "%Y.%m.%d %H:%M:%S",
+        "%Y.%m.%d %H:%M",
+        "%Y.%m.%d",
         "%Y年%m月%d日 %H:%M:%S",
         "%Y年%m月%d日 %H:%M",
         "%Y年%m月%d日",
@@ -959,6 +967,23 @@ def parse_datetime(user_input):
             return datetime.datetime.strptime(s, fmt)
         except ValueError:
             pass
+
+    # 2. 强大的正则容错提取（支持中文年/月/日/点/时/分/秒，单双位数均可）
+    pattern = r"(\d{4})[年/\-.](\d{1,2})[月/\-.](\d{1,2})[日号]?(?:[\sT]*(\d{1,2})(?:[点时:](\d{1,2})(?:[分:](\d{1,2})[秒]?)?|[点时]))?"
+    m = re.search(pattern, s)
+    if m:
+        y, mon, d = m.group(1), m.group(2), m.group(3)
+        h = m.group(4)
+        minute = m.group(5)
+        sec = m.group(6)
+        hour = int(h) if h is not None else 0
+        minute = int(minute) if minute is not None else 0
+        second = int(sec) if sec is not None else 0
+        try:
+            return datetime.datetime(int(y), int(mon), int(d), hour, minute, second)
+        except ValueError:
+            pass
+
     return None
 
 
