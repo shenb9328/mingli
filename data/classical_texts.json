@@ -897,5 +897,157 @@
       "is_quotation": false,
       "is_editorial_commentary": false
     }
+  },
+  {
+    "text_id": "TXT_ZPZQ_YS_003",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "cross_book",
+    "chapter": "论用神",
+    "type": "原文",
+    "text": "是以善而顺用之，则财喜食神以相生，生官以护财；官喜透财以相生，生印以护官；印喜官煞以相生，劫才以护印；食喜身旺以相生，生财以护食。不善而逆用之，则七煞喜食神以制伏，忌财印以资扶；伤官喜佩印以制伏，生财以化伤；阳刃喜官煞以制伏，忌官煞之俱无；月劫喜透官以制伏，利用财而透食以化劫。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://donglishuzhai.net/chapter/3721.html",
+        "https://www.taiyi.me/book/index?id=214242405904453"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻《子平真诠》",
+      "attribution_status": "traditional_text_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_YY_002",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "cross_book",
+    "chapter": "论用神变化",
+    "type": "原文",
+    "text": "用神既主月令矣，然月令所藏不一，而用神遂有变化。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻《子平真诠》",
+      "attribution_status": "traditional_text_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_GD_001",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "cross_book",
+    "chapter": "论用神格局高低",
+    "type": "原文",
+    "text": "八字既有用神，必有格局，有格局必有高低，财官印食煞伤劫刃，何格无贵？何格无贱？",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://shixingji.club/library/zipingzhenquan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻《子平真诠》",
+      "attribution_status": "traditional_text_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_DTS_SW_002",
+    "source_id": "SRC_DTS",
+    "source_layer": "original_text",
+    "chapter": "衰旺",
+    "type": "经文",
+    "text": "能知衰旺之真机，其于立命之奥，思过半矣。旺则宜泄宜伤，衰则喜帮喜助，子平之理也，然旺中有衰者存，不可损也。衰中有旺者存，不可益也。旺之极者不可损，以损在其中矣，衰之极者不可益，以益在其中矣。至于所当损者而损之反凶，所当益者而益之反害，此中真机皆能知之，何难于立命之微奥乎。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://zh.wikisource.org/wiki/滴天髓/12"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "宋·京图（传统署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_DTS_QX_002",
+    "source_id": "SRC_DTS",
+    "source_layer": "original_text",
+    "chapter": "气象",
+    "type": "经文",
+    "text": "天地顺遂而精粹者昌，阴阳乖悖而混乱者亡。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hant/%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "宋·京图（传统署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_DTS_BJ_002",
+    "source_id": "SRC_DTS",
+    "source_layer": "original_text",
+    "chapter": "病药",
+    "type": "经文",
+    "text": "有病方为贵，无伤不是奇；格中如去病，财禄两相随。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://deeporacle.ai/dianji"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "宋·京图（传统署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
   }
 ]
