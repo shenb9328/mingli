@@ -1,5 +1,5 @@
 {
-  "version": "3.3",
+  "version": "3.5",
   "nodes": [
     {
       "id": "month_order",
@@ -41,7 +41,19 @@
       "depends_on": [
         "month_order",
         "day_master",
-        "ten_gods"
+        "ten_gods",
+        "strength",
+        "relations",
+        "transformation"
+      ]
+    },
+    {
+      "id": "transformation",
+      "name": "合化/冲突消解",
+      "depends_on": [
+        "relations",
+        "month_order",
+        "strength"
       ]
     },
     {
@@ -140,6 +152,9 @@
     "任何数值评分必须标记为heuristic",
     "神煞计算必须声明trigger_source与school_variant",
     "启发式旺衰分数不得伪装成经典原文",
-    "病药模式只产生候选病/药，不直接输出吉凶"
+    "病药模式只产生候选病/药，不直接输出吉凶",
+    "专旺、从格、化气格只产生变格候选状态，不得仅凭单一Boolean条件直接认定成格",
+    "化气格必须经过transformation状态机；普通五合不得直接等同化气格",
+    "变格判断必须保留支持证据与破格证据"
   ]
 }
