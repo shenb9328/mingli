@@ -523,7 +523,7 @@
   },
   {
     "text_id": "TXT_ZPZQ_YS_001",
-    "source_id": "SRC_YHZP",
+    "source_id": "SRC_ZPZQ",
     "source_layer": "reference_only",
     "chapter": "—",
     "type": "placeholder",
@@ -549,7 +549,7 @@
   },
   {
     "text_id": "TXT_ZPZQ_YY_001",
-    "source_id": "SRC_YHZP",
+    "source_id": "SRC_ZPZQ",
     "source_layer": "cross_book",
     "chapter": "论阴阳生克",
     "type": "原文",
@@ -574,7 +574,7 @@
   },
   {
     "text_id": "TXT_ZPZQ_YH_001",
-    "source_id": "SRC_YHZP",
+    "source_id": "SRC_ZPZQ",
     "source_layer": "cross_book",
     "chapter": "论刑冲会合解法",
     "type": "原文",
@@ -599,7 +599,7 @@
   },
   {
     "text_id": "TXT_ZPZQ_YS_002",
-    "source_id": "SRC_YHZP",
+    "source_id": "SRC_ZPZQ",
     "source_layer": "cross_book",
     "chapter": "论用神",
     "type": "原文",
@@ -625,7 +625,7 @@
   },
   {
     "text_id": "TXT_ZPZQ_CS_001",
-    "source_id": "SRC_YHZP",
+    "source_id": "SRC_ZPZQ",
     "source_layer": "cross_book",
     "chapter": "论用神成败救应",
     "type": "原文",
@@ -650,7 +650,7 @@
   },
   {
     "text_id": "TXT_ZPZQ_QY_001",
-    "source_id": "SRC_YHZP",
+    "source_id": "SRC_ZPZQ",
     "source_layer": "cross_book",
     "chapter": "论用神变化",
     "type": "原文",
@@ -675,7 +675,7 @@
   },
   {
     "text_id": "TXT_SFTK_BY_001",
-    "source_id": "SRC_YHZP",
+    "source_id": "SRC_SFTK",
     "source_layer": "cross_book",
     "chapter": "病药说",
     "type": "论法",
@@ -700,7 +700,7 @@
   },
   {
     "text_id": "TXT_SFTK_XM_001",
-    "source_id": "SRC_YHZP",
+    "source_id": "SRC_SFTK",
     "source_layer": "cross_book",
     "chapter": "叙",
     "type": "总论",
