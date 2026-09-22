@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"
 def load(n):
     with open(DATA/n,"r",encoding="utf-8") as f:return json.load(f)
 sources=load("sources.json"); texts=load("classical_texts.json"); interps=load("interpretations.json"); rules=load("core_rules.json"); aux=load("auxiliary_rules.json"); evidence=load("evidence_records.json"); rejected=load("rejected_texts.json")
-relations=load("stem_branch_relations.json"); hidden=load("branch_hidden_stems.json"); ten_gods=load("ten_gods_schema.json"); luck=load("luck_rules.json"); tiaohou=load("tiaohou_matrix.json"); growth=load("twelve_growth.json")
+relations=load("stem_branch_relations.json"); hidden=load("branch_hidden_stems.json"); ten_gods=load("ten_gods_schema.json"); luck=load("luck_rules.json"); shensha=load("shensha_schema.json"); jiazi=load("sixty_jiazi.json"); strength=load("heuristic_strength_model.json"); flaws=load("flaw_and_remedy.json"); pattern_logic=load("pattern_logic.json"); tiaohou=load("tiaohou_matrix.json"); growth=load("twelve_growth.json")
 source_ids={x["source_id"] for x in sources}; text_ids={x["text_id"] for x in texts}; interp_ids={x["interp_id"] for x in interps}
 errors=[]
 # V3.2 结构矩阵审计
@@ -18,6 +18,13 @@ for r in tiaohou.get("records",[]):
     if r.get("evidence_level") not in {"E0","E1","E2","E3","E4","E5"}: errors.append(f"{r.get("id")}: evidence_level非法")
     if r.get("evidence_level")=="E2" and not r.get("source_refs"): errors.append(f"{r.get("id")}: E2必须有source_refs")
 if len(growth.get("stages",[])) != 12: errors.append("twelve_growth: stages必须12项")
+# V3.3 工程模块审计
+if len(jiazi.get("records",[])) != 60: errors.append("sixty_jiazi: 必须60项")
+if len(shensha.get("schemas",[])) < 1: errors.append("shensha_schema: schemas不能为空")
+if not strength.get("weights"): errors.append("heuristic_strength_model: weights不能为空")
+if not flaws.get("patterns"): errors.append("flaw_and_remedy: patterns不能为空")
+if not pattern_logic.get("patterns"): errors.append("pattern_logic: patterns不能为空")
+if abs(sum(strength.get("weights",{}).values())-1)>1e-9: errors.append("heuristic_strength_model: weights之和必须为1")
 for t in texts:
     e=t.get("evidence",{})
     if t["source_id"] not in source_ids: errors.append(f'{t["text_id"]}: source_id不存在')
