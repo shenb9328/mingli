@@ -112,5 +112,428 @@
       ]
     },
     "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_YHZP_001",
+    "category": "月令",
+    "rule_type": "核心",
+    "name": "月令提纲优先",
+    "priority": 100,
+    "source_refs": [
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_YHZP_BF_002",
+      "TXT_YHZP_JS_001"
+    ],
+    "interp_refs": [
+      "INT_YHZP_BF_002"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_YHZP_BF_002",
+        "statement": "先看提纲为重……皆以月令为用，不可以年取格。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "month_order_priority",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统文献原则的程序化表达，不等于古人固定权重。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_YHZP_002",
+    "category": "日主",
+    "rule_type": "核心",
+    "name": "日干为主",
+    "priority": 99,
+    "source_refs": [
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_YHZP_RZ_001",
+      "TXT_YHZP_BF_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_YHZP_RZ_001",
+        "statement": "取日干为主。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "day_master_anchor",
+      "parameter_status": "heuristic",
+      "parameter_basis": "程序以日干作为十神和生克关系的参照点。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_YHZP_003",
+    "category": "用神",
+    "rule_type": "核心",
+    "name": "月令用神与节气浅深",
+    "priority": 98,
+    "source_refs": [
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_YHZP_JS_001",
+      "TXT_YHZP_BF_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_YHZP_JS_001",
+        "statement": "取用凭于生月，当推究于浅深；发觉在于日时，要消详于强弱。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "month_hidden_stem_selection",
+      "parameter_status": "heuristic",
+      "parameter_basis": "根据月令藏干和节气深浅实现，不宣称唯一古法算法。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_YHZP_004",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "取格先定提纲",
+    "priority": 97,
+    "source_refs": [
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_YHZP_BF_001",
+      "TXT_YHZP_BF_002"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_YHZP_BF_001",
+        "statement": "凡格用月令提纲，勿于傍求年日时为格。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "pattern_first",
+      "parameter_status": "heuristic",
+      "parameter_basis": "程序化格局识别规则。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_YHZP_005",
+    "category": "十神",
+    "rule_type": "核心",
+    "name": "十神由日干定",
+    "priority": 95,
+    "source_refs": [
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_YHZP_RZ_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "ten_god_mapping",
+      "parameter_status": "deterministic",
+      "parameter_basis": "依据五行生克与阴阳同异确定比劫食伤财官印。"
+    },
+    "verification": "traditional_framework"
+  },
+  {
+    "rule_id": "CORE_ZPZQ_001",
+    "category": "用神",
+    "rule_type": "核心",
+    "name": "子平真诠月令用神",
+    "priority": 99,
+    "source_refs": [
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_ZPZQ_YS_002"
+    ],
+    "interp_refs": [
+      "INT_ZPZQ_YS_001"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_ZPZQ_YS_002",
+        "statement": "八字用神，专求月令，以日干配月令地支，而生克不同，格局分焉。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "ziping_month_use_god",
+      "parameter_status": "heuristic",
+      "parameter_basis": "依据原文构造格局判断流程。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_ZPZQ_002",
+    "category": "顺逆",
+    "rule_type": "核心",
+    "name": "善用神顺用不善用神逆用",
+    "priority": 96,
+    "source_refs": [
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_ZPZQ_YS_002"
+    ],
+    "interp_refs": [
+      "INT_ZPZQ_YS_001"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_ZPZQ_YS_002",
+        "statement": "财官印食，此用神之善而顺用之者也；煞伤劫刃，用神之不善而逆用之者也。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "shun_ni_usage",
+      "parameter_status": "heuristic",
+      "parameter_basis": "按格局类型建立顺用/逆用条件。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_ZPZQ_003",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "格局成败救应",
+    "priority": 95,
+    "source_refs": [
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_ZPZQ_CS_001"
+    ],
+    "interp_refs": [
+      "INT_ZPZQ_CS_001"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_ZPZQ_CS_001",
+        "statement": "官逢财印，又无刑冲破害，官格成也。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "pattern_success_failure",
+      "parameter_status": "heuristic",
+      "parameter_basis": "逐项检查成格、破格、救应。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_DTS_001",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "旺衰不可机械化",
+    "priority": 96,
+    "source_refs": [
+      "SRC_DTS"
+    ],
+    "text_refs": [
+      "TXT_DTS_SW_001",
+      "TXT_DTS_ZS_001"
+    ],
+    "interp_refs": [
+      "INT_DTS_SW_001"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_SW_001",
+        "statement": "旺中有衰者存，不可损也；衰中有旺者存，不可益也。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "whole_chart_strength",
+      "parameter_status": "heuristic",
+      "parameter_basis": "多柱综合评估，权重为工程参数。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_DTS_002",
+    "category": "寒暖",
+    "rule_type": "核心",
+    "name": "寒暖为独立气候维度",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS"
+    ],
+    "text_refs": [
+      "TXT_DTS_HN_001"
+    ],
+    "interp_refs": [
+      "INT_DTS_HN_001"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_HN_001",
+        "statement": "天道有寒暖，发育万物。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "climate_axis",
+      "parameter_status": "heuristic",
+      "parameter_basis": "按季节、月令和干支组合估计寒暖燥湿。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_DTS_003",
+    "category": "病药",
+    "rule_type": "核心",
+    "name": "病药制化",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_SFTK"
+    ],
+    "text_refs": [
+      "TXT_DTS_BJ_001",
+      "TXT_SFTK_BY_001"
+    ],
+    "interp_refs": [
+      "INT_DTS_BJ_001",
+      "INT_SFTK_BY_001"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_BJ_001",
+        "statement": "有病方为贵，无伤不是奇；格中如去病，财禄两相随。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "problem_solution",
+      "parameter_status": "heuristic",
+      "parameter_basis": "先识别主要失衡，再寻找制化。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_DTS_004",
+    "category": "财官",
+    "rule_type": "核心",
+    "name": "财官需看通关与成局",
+    "priority": 88,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_JG_001",
+      "TXT_DTS_CF_001",
+      "TXT_YHZP_JS_004"
+    ],
+    "interp_refs": [
+      "INT_DTS_CF_001"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_CF_001",
+        "statement": "何知其人富，财气通门户。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "wealth_officer_structure",
+      "parameter_status": "heuristic",
+      "parameter_basis": "财官数量不作为唯一判据，增加根气、制化、流通条件。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_DTS_005",
+    "category": "岁运",
+    "rule_type": "核心",
+    "name": "岁运动态重算",
+    "priority": 92,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_SMTH"
+    ],
+    "text_refs": [
+      "TXT_DTS_SY_001",
+      "TXT_SMTH_RY_003"
+    ],
+    "interp_refs": [
+      "INT_DTS_SY_001",
+      "INT_SMTH_RY_002"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_SY_001",
+        "statement": "休咎系乎运，尤系乎岁。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "original_plus_luck_year",
+      "parameter_status": "heuristic",
+      "parameter_basis": "每步大运、每年流年重新计算合冲刑害及十神作用。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_SMTH_001",
+    "category": "先后天",
+    "rule_type": "核心",
+    "name": "先天过不及由后天调节",
+    "priority": 88,
+    "source_refs": [
+      "SRC_SMTH"
+    ],
+    "text_refs": [
+      "TXT_SMTH_RY_002"
+    ],
+    "interp_refs": [
+      "INT_SMTH_RY_002"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SMTH_RY_002",
+        "statement": "先天太过后天减之，先天不及后天补之。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "luck_adjustment",
+      "parameter_status": "heuristic",
+      "parameter_basis": "大运作为后天变量调节原局偏性。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_QTBG_001",
+    "category": "调候",
+    "rule_type": "核心",
+    "name": "穷通宝鉴季节调候",
+    "priority": 88,
+    "source_refs": [
+      "SRC_QTBG"
+    ],
+    "text_refs": [
+      "TXT_QTBG_BH_001",
+      "TXT_QTBG_BH_002",
+      "TXT_QTBG_BH_003"
+    ],
+    "interp_refs": [
+      "INT_QTBG_BH_001"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_QTBG_BH_003",
+        "statement": "正月丙火，三阳开泰，火气渐炎，取壬为尊，庚金佐之。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "seasonal_tiao_hou",
+      "parameter_status": "heuristic",
+      "parameter_basis": "按天干与月份建立季节性需求表。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
   }
 ]

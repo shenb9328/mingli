@@ -1,0 +1,18 @@
+{
+  "direction_rule": {
+    "common_rule": "阳男阴女顺，阴男阳女逆",
+    "status": "traditional_common",
+    "caveat": "不同门派存在以年干、日干及节气取法差异，数据库默认此规则但保留可配置项。"
+  },
+  "start_age": {
+    "common_methods": [
+      "按出生时刻至相邻节气折算",
+      "三日折一年、一天折四个月等传统折算法"
+    ],
+    "status": "school_variant",
+    "caveat": "起运岁数并非所有古籍采用同一固定算法，必须记录采用门派与节气时刻。"
+  },
+  "luck_span_years": 10,
+  "year_luck_relation": "大运十年一阶段，流年逐年叠加观察",
+  "calculation_policy": "不把大运本身标为吉凶；以原局、用神、格局、岁运关系动态计算。"
+}

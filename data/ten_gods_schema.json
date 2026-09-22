@@ -1,0 +1,13 @@
+{
+  "description": "以日干为参照的十神确定规则；不存成固定吉凶分数。",
+  "same_polarity": "比肩/偏财/七杀/偏印/食神",
+  "opposite_polarity": "劫财/正财/正官/正印/伤官",
+  "relations": {
+    "same_element": "比肩或劫财",
+    "self_generates": "食神或伤官",
+    "self_controls": "正财或偏财",
+    "controls_self": "正官或七杀",
+    "generates_self": "正印或偏印"
+  },
+  "note": "具体十神由五行生克方向与阴阳同异共同决定。"
+}

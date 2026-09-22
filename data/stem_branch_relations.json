@@ -1,0 +1,308 @@
+[
+  {
+    "relation_id": "REL_STEM_COMB_01",
+    "type": "天干五合",
+    "pairs": [
+      [
+        "甲",
+        "己"
+      ]
+    ],
+    "transformation": "土",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_STEM_COMB_02",
+    "type": "天干五合",
+    "pairs": [
+      [
+        "乙",
+        "庚"
+      ]
+    ],
+    "transformation": "金",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_STEM_COMB_03",
+    "type": "天干五合",
+    "pairs": [
+      [
+        "丙",
+        "辛"
+      ]
+    ],
+    "transformation": "水",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_STEM_COMB_04",
+    "type": "天干五合",
+    "pairs": [
+      [
+        "丁",
+        "壬"
+      ]
+    ],
+    "transformation": "木",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_STEM_COMB_05",
+    "type": "天干五合",
+    "pairs": [
+      [
+        "戊",
+        "癸"
+      ]
+    ],
+    "transformation": "火",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_LIUHE",
+    "type": "地支六合",
+    "pairs": [
+      [
+        "子",
+        "丑"
+      ],
+      [
+        "寅",
+        "亥"
+      ],
+      [
+        "卯",
+        "戌"
+      ],
+      [
+        "辰",
+        "酉"
+      ],
+      [
+        "巳",
+        "申"
+      ],
+      [
+        "午",
+        "未"
+      ]
+    ],
+    "transformation": "依传统合化五行表另判",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_LIUCHONG",
+    "type": "地支六冲",
+    "pairs": [
+      [
+        "子",
+        "午"
+      ],
+      [
+        "丑",
+        "未"
+      ],
+      [
+        "寅",
+        "申"
+      ],
+      [
+        "卯",
+        "酉"
+      ],
+      [
+        "辰",
+        "戌"
+      ],
+      [
+        "巳",
+        "亥"
+      ]
+    ],
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_LIUHAI",
+    "type": "地支六害",
+    "pairs": [
+      [
+        "子",
+        "未"
+      ],
+      [
+        "丑",
+        "午"
+      ],
+      [
+        "寅",
+        "巳"
+      ],
+      [
+        "卯",
+        "辰"
+      ],
+      [
+        "申",
+        "亥"
+      ],
+      [
+        "酉",
+        "戌"
+      ]
+    ],
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_SANHE",
+    "type": "地支三合",
+    "groups": [
+      {
+        "branches": [
+          "申",
+          "子",
+          "辰"
+        ],
+        "element": "水"
+      },
+      {
+        "branches": [
+          "亥",
+          "卯",
+          "未"
+        ],
+        "element": "木"
+      },
+      {
+        "branches": [
+          "寅",
+          "午",
+          "戌"
+        ],
+        "element": "火"
+      },
+      {
+        "branches": [
+          "巳",
+          "酉",
+          "丑"
+        ],
+        "element": "金"
+      }
+    ],
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_SANHUI",
+    "type": "地支三会",
+    "groups": [
+      {
+        "branches": [
+          "寅",
+          "卯",
+          "辰"
+        ],
+        "element": "木"
+      },
+      {
+        "branches": [
+          "巳",
+          "午",
+          "未"
+        ],
+        "element": "火"
+      },
+      {
+        "branches": [
+          "申",
+          "酉",
+          "戌"
+        ],
+        "element": "金"
+      },
+      {
+        "branches": [
+          "亥",
+          "子",
+          "丑"
+        ],
+        "element": "水"
+      }
+    ],
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_SANXING_01",
+    "type": "地支三刑",
+    "group": [
+      "寅",
+      "巳",
+      "申"
+    ],
+    "name": "无恩之刑",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_SANXING_02",
+    "type": "地支三刑",
+    "group": [
+      "丑",
+      "戌",
+      "未"
+    ],
+    "name": "恃势之刑",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_SANXING_03",
+    "type": "地支三刑",
+    "group": [
+      "子",
+      "卯"
+    ],
+    "name": "无礼之刑",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_ZIXING",
+    "type": "地支自刑",
+    "branches": [
+      "辰",
+      "午",
+      "酉",
+      "亥"
+    ],
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_POH",
+    "type": "地支六破",
+    "pairs": [
+      [
+        "子",
+        "酉"
+      ],
+      [
+        "丑",
+        "辰"
+      ],
+      [
+        "寅",
+        "亥"
+      ],
+      [
+        "卯",
+        "午"
+      ],
+      [
+        "巳",
+        "申"
+      ],
+      [
+        "未",
+        "戌"
+      ]
+    ],
+    "status": "traditional_common"
+  }
+]
