@@ -2,362 +2,148 @@
   {
     "text_id": "TXT_DTS_TY_001",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "original_text",
     "chapter": "体用",
     "type": "经文",
-    "text": "道有体用，不可以一端论也，要在审其轻重而已矣。",
+    "text": "道有体用，不可以一端论也，要在扶之抑之得其宜。",
     "evidence": {
-      "evidence_level": "E4",
-      "base_edition": "守山阁丛书本·卷上",
-      "digital_ref": "ctext:ditiansui/12",
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "待影印页核验；公开可靠电子文本已交叉确认",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/滴天髓",
+        "https://ctext.org/wiki.pl?chapter=826601&if=en&remap=gb"
+      ],
       "transcription_verified": true,
-      "variants": [
-        { "edition": "四库全书存目本", "has_variant": false, "variant_text": "" },
-        { "edition": "道光阐微刻本", "has_variant": false, "variant_text": "" }
-      ]
+      "scan_verified": false,
+      "variants": [],
+      "note": "原数据库‘要在审其轻重而已矣’与现可核对文本不一致，已纠正。"
     },
     "text_provenance": {
-      "author": "京图",
+      "traditional_attribution": "宋·京图（传统署名）",
+      "attribution_status": "traditional_attribution",
       "quoted_author": null,
       "is_quotation": false,
       "is_editorial_commentary": false
-    },
-    "notes": "守山阁丛书本与文渊阁四库全书存目字句完全一致，为经文首倡。"
+    }
   },
   {
     "text_id": "TXT_DTS_SW_001",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "original_text",
     "chapter": "衰旺",
     "type": "经文",
     "text": "能知衰旺之真机，其于立命之奥，思过半矣。旺则宜泄宜伤，衰则喜帮喜助，子平之理也。然旺中有衰者存，不可损也；衰中有旺者存，不可益也。旺之极者不可损，以损在其中矣；衰之极者不可益，以益在其中矣。",
     "evidence": {
-      "evidence_level": "E4",
-      "base_edition": "守山阁丛书本·卷上 / 道光二十八年晋阳刻本",
-      "digital_ref": "ctext:ditiansui/17",
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "待影印页核验；公开可靠电子文本已交叉确认",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/滴天髓/12"
+      ],
       "transcription_verified": true,
+      "scan_verified": false,
       "variants": [
         {
-          "edition": "部分通行坊本",
-          "has_variant": true,
-          "variant_text": "其于三命之奥（坊本作三命，守山阁与道光原刻作立命）"
+          "edition": "部分通行文本",
+          "reading": "三命",
+          "status": "reported_variant",
+          "note": "异文必须在扫描底本层再次核实，当前不据此确定版本优劣。"
         }
       ]
     },
     "text_provenance": {
-      "author": "京图",
+      "traditional_attribution": "宋·京图（传统署名）",
+      "attribution_status": "traditional_attribution",
       "quoted_author": null,
       "is_quotation": false,
       "is_editorial_commentary": false
-    },
-    "notes": "道光刻本与守山阁本均为‘立命’而非‘三命’，底本无后人私加之‘宜从宜顺’等词。"
+    }
   },
   {
     "text_id": "TXT_DTS_SY_001",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "original_text",
     "chapter": "岁运",
     "type": "经文",
-    "text": "休咎系乎运，尤系乎岁。战冲绁掣，往往为祸；休祥顺逆，亦当详审。",
+    "text": "休咎系乎运，尤系乎岁。冲战视其孰降，和好视其孰切。",
     "evidence": {
-      "evidence_level": "E3",
-      "base_edition": "守山阁丛书本·卷下",
-      "digital_ref": "ctext:ditiansui/岁运",
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "待影印页核验；公开可靠电子文本已交叉确认",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/滴天髓/09"
+      ],
       "transcription_verified": true,
+      "scan_verified": false,
       "variants": []
     },
     "text_provenance": {
-      "author": "京图",
+      "traditional_attribution": "宋·京图（传统署名）",
+      "attribution_status": "traditional_attribution",
       "quoted_author": null,
       "is_quotation": false,
       "is_editorial_commentary": false
-    },
-    "notes": "京图原文，确立岁运干支战冲掣肘为吉凶发越机锋。"
-  },
-  {
-    "text_id": "TXT_YHZP_ML_001",
-    "source_id": "SRC_YHZP",
-    "source_layer": "bian_zhe",
-    "chapter": "卷一·论月令",
-    "type": "原文",
-    "text": "月令者，如人之家宅。专以月令提纲为重，次看日干得何等气，若月令有官星，即为官禄之命。",
-    "evidence": {
-      "evidence_level": "E3",
-      "base_edition": "文渊阁四库全书·子部·卷一",
-      "digital_ref": "ctext:yuanhai-ziping/juan-1",
-      "transcription_verified": true,
-      "variants": []
-    },
-    "text_provenance": {
-      "author": "徐升",
-      "quoted_author": null,
-      "is_quotation": false,
-      "is_editorial_commentary": false
-    },
-    "notes": "四库本文渊阁影印本卷一原文。"
+    }
   },
   {
     "text_id": "TXT_YHZP_JS_001",
     "source_id": "SRC_YHZP",
     "source_layer": "fu_wen",
-    "chapter": "卷三·继善篇",
+    "chapter": "继善篇",
     "type": "赋文",
-    "text": "欲知贵贱，先观月令乃提纲；次察中和，要审日主为紧要。",
+    "text": "欲知贵贱，先观月令乃提纲，次断吉凶。专用日干为主本；三元要成格局，四柱喜见财官。",
     "evidence": {
-      "evidence_level": "E4",
-      "base_edition": "文渊阁四库全书·子部·卷三·继善篇第一句",
-      "digital_ref": "四库全书影印本第809册",
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "待四库影印页核验；公开电子文本与《渊海子平》PDF交叉确认",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/渊海子平",
+        "https://www.anhappy.com/share/books/others/books/国学/渊海子平.pdf"
+      ],
       "transcription_verified": true,
+      "scan_verified": false,
       "variants": []
     },
     "text_provenance": {
-      "author": "先贤（宋代托名璐国公）",
+      "traditional_attribution": "《渊海子平·继善篇》所载古赋",
+      "attribution_status": "traditional_text_attribution",
       "quoted_author": null,
-      "is_quotation": true,
+      "is_quotation": false,
       "is_editorial_commentary": false
-    },
-    "notes": "子平古赋首句，定月令提纲与日主中和之体用纲目。"
-  },
-  {
-    "text_id": "TXT_YHZP_JS_002",
-    "source_id": "SRC_YHZP",
-    "source_layer": "fu_wen",
-    "chapter": "卷三·继善篇",
-    "type": "赋文",
-    "text": "岁运并临，灾殃立至。阳刃偏官，伪为慈祥之德。",
-    "evidence": {
-      "evidence_level": "E4",
-      "base_edition": "文渊阁四库全书·子部·卷三·继善篇",
-      "digital_ref": "四库全书影印本第809册",
-      "transcription_verified": true,
-      "variants": []
-    },
-    "text_provenance": {
-      "author": "先贤古赋",
-      "quoted_author": null,
-      "is_quotation": true,
-      "is_editorial_commentary": false
-    },
-    "notes": "古赋原句逐字录入，后世注疏多辨其吉凶仍系于用神。"
-  },
-  {
-    "text_id": "TXT_YHZP_JS_003",
-    "source_id": "SRC_YHZP",
-    "source_layer": "fu_wen",
-    "chapter": "卷三·继善篇",
-    "type": "赋文",
-    "text": "天乙贵人，得聪明智慧之资；福星贵人，受平生福寿之享。",
-    "evidence": {
-      "evidence_level": "E4",
-      "base_edition": "文渊阁四库全书·子部·卷三·继善篇",
-      "digital_ref": "四库全书影印本第809册",
-      "transcription_verified": true,
-      "variants": []
-    },
-    "text_provenance": {
-      "author": "先贤古赋",
-      "quoted_author": null,
-      "is_quotation": true,
-      "is_editorial_commentary": false
-    },
-    "notes": "四库本《渊海子平》卷三继善篇原句。"
-  },
-  {
-    "text_id": "TXT_YHZP_XJ_001",
-    "source_id": "SRC_YHZP",
-    "source_layer": "fu_wen",
-    "chapter": "卷三·喜忌篇",
-    "type": "赋文",
-    "text": "庚辛得局，相生见火，定作廊庙之材。",
-    "evidence": {
-      "evidence_level": "E4",
-      "base_edition": "文渊阁四库全书·子部·卷三·喜忌篇",
-      "digital_ref": "四库全书影印本第809册",
-      "transcription_verified": true,
-      "variants": []
-    },
-    "text_provenance": {
-      "author": "先贤古赋",
-      "quoted_author": null,
-      "is_quotation": true,
-      "is_editorial_commentary": false
-    },
-    "notes": "喜忌篇原句，‘廊庙之材’的出处实为金局得火炼，非孤立贵人互换。"
+    }
   },
   {
     "text_id": "TXT_SMTH_TY_001",
     "source_id": "SRC_SMTH",
     "source_layer": "original_text",
     "chapter": "卷三·论天乙贵人",
-    "type": "考据总论",
-    "text": "天乙者，乃天上之神，在紫微垣、阊阖门外，与太乙并列，事天皇大帝，下游三辰……其神最尊贵，所至之处，一切凶煞隐然而避。",
-    "evidence": {
-      "evidence_level": "E4",
-      "base_edition": "文渊阁四库全书·子部·卷三",
-      "digital_ref": "四库全书影印本第807册",
-      "transcription_verified": true,
-      "variants": []
-    },
-    "text_provenance": {
-      "author": "万民英",
-      "quoted_author": null,
-      "is_quotation": false,
-      "is_editorial_commentary": true
-    },
-    "notes": "文渊阁四库本《三命通会》卷三逐字原文。"
-  },
-  {
-    "text_id": "TXT_SMTH_TY_002",
-    "source_id": "SRC_SMTH",
-    "source_layer": "original_text",
-    "chapter": "卷三·论天乙贵人",
-    "type": "考订按语",
-    "text": "考诸家论天乙起例，古诀有分昼夜者，亦有不分昼夜者。胡氏云：‘分昼夜取贵，此术家臆说，无足凭也。’《三车一览》只以日干所见支为准，信而有征。",
-    "evidence": {
-      "evidence_level": "E4",
-      "base_edition": "文渊阁四库全书·子部·卷三",
-      "digital_ref": "四库全书影印本第807册",
-      "transcription_verified": true,
-      "variants": []
-    },
-    "text_provenance": {
-      "author": "万民英",
-      "quoted_author": "胡瑗（安定先生）",
-      "is_quotation": true,
-      "is_editorial_commentary": true
-    },
-    "notes": "万民英考订按语，明确引胡瑗驳斥昼夜起贵为术家臆说。"
-  },
-  {
-    "text_id": "TXT_SMTH_SY_001",
-    "source_id": "SRC_SMTH",
-    "source_layer": "original_text",
-    "chapter": "卷七·论岁运",
     "type": "总论",
-    "text": "大抵日主元神衰弱，行生旺之运则发；日主元神生旺，行衰绝之运则凶。运克岁者吉凶尚缓，岁克运者吉凶立见。",
+    "text": "天乙者，乃天上之神，在紫微垣、阊阖门外，与太乙并列，事天皇大帝，下游三辰，家在己丑斗牛之次，出乎己未井鬼之舍，执玉衡较量天人之事，名曰天乙也。其神最尊贵，所至之处，一切凶煞隐然而避。",
     "evidence": {
-      "evidence_level": "E3",
-      "base_edition": "文渊阁四库全书·子部·卷七",
-      "digital_ref": "四库全书影印本第808册",
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "《三命通会》卷三；待四库影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/wiki/三命通會_(四庫全書本)/卷03",
+        "https://ctext.org/wiki.pl?chapter=117077&if=gb&remap=gb"
+      ],
       "transcription_verified": true,
-      "variants": []
+      "scan_verified": false,
+      "variants": [
+        {
+          "edition": "四库全书本电子转录",
+          "reading": "名曰天乙也",
+          "status": "confirmed"
+        }
+      ]
     },
     "text_provenance": {
-      "author": "万民英",
+      "traditional_attribution": "明·万民英",
+      "attribution_status": "bibliographic_attribution",
       "quoted_author": null,
       "is_quotation": false,
       "is_editorial_commentary": false
-    },
-    "notes": "文渊阁四库本《三命通会》卷七原句逐字录入。"
-  },
-  {
-    "text_id": "TXT_SMTH_XC_001",
-    "source_id": "SRC_SMTH",
-    "source_layer": "original_text",
-    "chapter": "卷三·论咸池",
-    "type": "象义汇纂",
-    "text": "咸池者，乃太阴之精，主淫佚媾合之所。逢沐浴咸池，主人多情嗜欲，花街柳巷，沉沦无节。",
-    "evidence": {
-      "evidence_level": "E3",
-      "base_edition": "文渊阁四库全书·子部·卷三",
-      "digital_ref": "四库全书影印本第807册",
-      "transcription_verified": true,
-      "variants": []
-    },
-    "text_provenance": {
-      "author": "万民英",
-      "quoted_author": null,
-      "is_quotation": false,
-      "is_editorial_commentary": false
-    },
-    "notes": "四库本卷三咸池象义原文。"
-  },
-  {
-    "text_id": "TXT_SMTH_YR_001",
-    "source_id": "SRC_SMTH",
-    "source_layer": "original_text",
-    "chapter": "卷三·论羊刃",
-    "type": "总论",
-    "text": "羊者，言刚也；刃者，取宰割之义。禄过则刃生，功成当退不退，则过越其分。逢岁运相冲，祸患立至。",
-    "evidence": {
-      "evidence_level": "E3",
-      "base_edition": "文渊阁四库全书·子部·卷三",
-      "digital_ref": "四库全书影印本第807册",
-      "transcription_verified": true,
-      "variants": []
-    },
-    "text_provenance": {
-      "author": "万民英",
-      "quoted_author": null,
-      "is_quotation": false,
-      "is_editorial_commentary": false
-    },
-    "notes": "四库本卷三论羊刃原句。"
-  },
-  {
-    "text_id": "TXT_SMTH_YM_001",
-    "source_id": "SRC_SMTH",
-    "source_layer": "original_text",
-    "chapter": "卷三·论驿马",
-    "type": "总论",
-    "text": "驿马者，主迁改奔驰之象。日时值之，主好动少静；岁运加临，主道路奔波、迁职远涉。",
-    "evidence": {
-      "evidence_level": "E3",
-      "base_edition": "文渊阁四库全书·子部·卷三",
-      "digital_ref": "四库全书影印本第807册",
-      "transcription_verified": true,
-      "variants": []
-    },
-    "text_provenance": {
-      "author": "万民英",
-      "quoted_author": null,
-      "is_quotation": false,
-      "is_editorial_commentary": false
-    },
-    "notes": "四库本卷三论驿马原句。"
-  },
-  {
-    "text_id": "TXT_SMTH_WC_001",
-    "source_id": "SRC_SMTH",
-    "source_layer": "original_text",
-    "chapter": "卷三·论天乙文昌",
-    "type": "总论",
-    "text": "文星入命，聪明过人，气质温雅，好学博古。禄马贵人文星交会，定作玉堂清贵之客。",
-    "evidence": {
-      "evidence_level": "E3",
-      "base_edition": "文渊阁四库全书·子部·卷三",
-      "digital_ref": "四库全书影印本第807册",
-      "transcription_verified": true,
-      "variants": []
-    },
-    "text_provenance": {
-      "author": "万民英",
-      "quoted_author": null,
-      "is_quotation": false,
-      "is_editorial_commentary": false
-    },
-    "notes": "四库本卷三论天乙文昌原文。"
-  },
-  {
-    "text_id": "TXT_SMTH_TYI_001",
-    "source_id": "SRC_SMTH",
-    "source_layer": "original_text",
-    "chapter": "卷三·论天医",
-    "type": "总论",
-    "text": "天医者，天之良医也。岁运逢之，主消灾解疾，神爽体清；常人值之，亦得身心安泰。",
-    "evidence": {
-      "evidence_level": "E3",
-      "base_edition": "文渊阁四库全书·子部·卷三",
-      "digital_ref": "四库全书影印本第807册",
-      "transcription_verified": true,
-      "variants": []
-    },
-    "text_provenance": {
-      "author": "万民英",
-      "quoted_author": null,
-      "is_quotation": false,
-      "is_editorial_commentary": false
-    },
-    "notes": "四库本卷三论天医原文。"
+    }
   }
 ]
