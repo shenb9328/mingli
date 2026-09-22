@@ -1,0 +1,355 @@
+{
+  "schema_version": "1.0",
+  "description": "病药结构模式库。条件是工程化布尔近似，不是古籍原文；用于生成候选‘病’与‘药’，不得直接输出吉凶。",
+  "logic_dsl": {
+    "AND": "全部满足",
+    "OR": "任一满足",
+    "NOT": "不满足",
+    "COUNT_GTE": "数量至少达到N",
+    "HAS": "存在",
+    "ABSENT": "不存在",
+    "ROOTED": "有根",
+    "CLASHED": "存在冲",
+    "COMBINED": "存在合/会局"
+  },
+  "patterns": [
+    {
+      "id": "F官杀混杂",
+      "name": "官杀混杂",
+      "disease": {
+        "AND": [
+          {
+            "HAS": "正官"
+          },
+          {
+            "HAS": "七杀"
+          }
+        ]
+      },
+      "remedies": [
+        {
+          "id": "合杀",
+          "conditions": [
+            {
+              "HAS": "合七杀"
+            }
+          ]
+        },
+        {
+          "id": "制杀",
+          "conditions": [
+            {
+              "HAS": "食神"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC_ZPZQ",
+        "SRC_SMTH"
+      ],
+      "evidence_level": "E2"
+    },
+    {
+      "id": "F财多身弱",
+      "name": "财多身弱",
+      "disease": {
+        "AND": [
+          {
+            "COUNT_GTE": [
+              "正财+偏财",
+              3
+            ]
+          },
+          {
+            "BAND_IN": [
+              "strength",
+              [
+                "very_weak",
+                "weak"
+              ]
+            ]
+          }
+        ]
+      },
+      "remedies": [
+        {
+          "id": "印比扶身",
+          "conditions": [
+            {
+              "OR": [
+                {
+                  "HAS": "正印"
+                },
+                {
+                  "HAS": "偏印"
+                },
+                {
+                  "HAS": "比肩"
+                },
+                {
+                  "HAS": "劫财"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC_SFTK",
+        "SRC_ZPZQ"
+      ],
+      "evidence_level": "E2"
+    },
+    {
+      "id": "F枭神夺食",
+      "name": "枭神夺食",
+      "disease": {
+        "AND": [
+          {
+            "HAS": "偏印"
+          },
+          {
+            "HAS": "食神"
+          }
+        ]
+      },
+      "remedies": [
+        {
+          "id": "财制枭",
+          "conditions": [
+            {
+              "HAS": "正财/偏财"
+            }
+          ]
+        },
+        {
+          "id": "弃食就煞",
+          "conditions": [
+            {
+              "HAS": "七杀"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC_ZPZQ",
+        "SRC_SMTH"
+      ],
+      "evidence_level": "E2"
+    },
+    {
+      "id": "F伤官见官",
+      "name": "伤官见官",
+      "disease": {
+        "AND": [
+          {
+            "HAS": "伤官"
+          },
+          {
+            "HAS": "正官"
+          }
+        ]
+      },
+      "remedies": [
+        {
+          "id": "佩印",
+          "conditions": [
+            {
+              "HAS": "正印/偏印"
+            }
+          ]
+        },
+        {
+          "id": "伤官生财",
+          "conditions": [
+            {
+              "HAS": "财星"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC_ZPZQ"
+      ],
+      "evidence_level": "E2"
+    },
+    {
+      "id": "F七杀无制",
+      "name": "七杀无制",
+      "disease": {
+        "AND": [
+          {
+            "HAS": "七杀"
+          },
+          {
+            "ABSENT": "食神/伤官"
+          },
+          {
+            "ABSENT": "正印/偏印"
+          }
+        ]
+      },
+      "remedies": [
+        {
+          "id": "食神制杀",
+          "conditions": [
+            {
+              "HAS": "食神"
+            }
+          ]
+        },
+        {
+          "id": "印化杀",
+          "conditions": [
+            {
+              "HAS": "正印/偏印"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC_ZPZQ"
+      ],
+      "evidence_level": "E2"
+    },
+    {
+      "id": "F印重身强",
+      "name": "印重身强",
+      "disease": {
+        "AND": [
+          {
+            "COUNT_GTE": [
+              "正印+偏印",
+              3
+            ]
+          },
+          {
+            "BAND_IN": [
+              "strength",
+              [
+                "strong",
+                "very_strong"
+              ]
+            ]
+          }
+        ]
+      },
+      "remedies": [
+        {
+          "id": "食伤泄",
+          "conditions": [
+            {
+              "HAS": "食神/伤官"
+            }
+          ]
+        },
+        {
+          "id": "财制印",
+          "conditions": [
+            {
+              "HAS": "财星"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC_ZPZQ",
+        "SRC_DTS"
+      ],
+      "evidence_level": "E2"
+    },
+    {
+      "id": "F比劫夺财",
+      "name": "比劫夺财",
+      "disease": {
+        "AND": [
+          {
+            "HAS": "财星"
+          },
+          {
+            "COUNT_GTE": [
+              "比肩+劫财",
+              2
+            ]
+          }
+        ]
+      },
+      "remedies": [
+        {
+          "id": "食伤化劫",
+          "conditions": [
+            {
+              "HAS": "食神/伤官"
+            }
+          ]
+        },
+        {
+          "id": "官杀制劫",
+          "conditions": [
+            {
+              "HAS": "正官/七杀"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC_ZPZQ"
+      ],
+      "evidence_level": "E2"
+    },
+    {
+      "id": "F金木相战",
+      "name": "金木相战",
+      "disease": {
+        "AND": [
+          {
+            "HAS_ELEMENT": "金"
+          },
+          {
+            "HAS_ELEMENT": "木"
+          },
+          {
+            "OR": [
+              {
+                "CLASHED_ELEMENTS": [
+                  "金",
+                  "木"
+                ]
+              },
+              {
+                "COUNT_GTE": [
+                  "金木",
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "remedies": [
+        {
+          "id": "水通关",
+          "conditions": [
+            {
+              "HAS_ELEMENT": "水"
+            }
+          ]
+        },
+        {
+          "id": "火制金",
+          "conditions": [
+            {
+              "HAS_ELEMENT": "火"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC_DTS",
+        "SRC_SFTK"
+      ],
+      "evidence_level": "E2"
+    }
+  ]
+}
