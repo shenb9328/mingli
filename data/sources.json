@@ -1,102 +1,61 @@
 [
   {
-    "source_id": "DTX_001",
-    "title": "滴天髓阐微",
-    "author": "京图原著 / 刘基原注 / 任铁樵增注",
-    "dynasty": "清",
-    "edition": "清道光刻本·四库未收善本",
-    "chapter": "通神颂·体用章",
-    "source_type": "classical_text",
-    "verification": "verified"
-  },
-  {
-    "source_id": "DTX_002",
-    "title": "滴天髓阐微",
-    "author": "京图原著 / 刘基原注 / 任铁樵增注",
-    "dynasty": "清",
-    "edition": "清道光刻本·四库未收善本",
-    "chapter": "通神颂·衰旺章",
-    "source_type": "classical_text",
-    "verification": "verified"
-  },
-  {
-    "source_id": "DTX_003",
-    "title": "滴天髓阐微",
-    "author": "京图原著 / 刘基原注 / 任铁樵增注",
-    "dynasty": "清",
-    "edition": "清道光刻本·四库未收善本",
-    "chapter": "通神颂·岁运章",
-    "source_type": "classical_text",
-    "verification": "verified"
-  },
-  {
-    "source_id": "YHQP_001",
-    "title": "渊海子平",
-    "author": "徐升编",
+    "source_id": "SRC_YHZP",
+    "book": "渊海子平",
+    "author": "宋·徐升编 / 明·杨淙校",
     "dynasty": "宋/明",
-    "edition": "文渊阁四库全书子部本",
-    "chapter": "卷一·论月令提纲",
-    "source_type": "classical_text",
+    "edition": "文渊阁四库全书子部术数类本",
+    "layers": [
+      { "layer_id": "fu_wen", "name": "先贤古赋（继善篇、喜忌篇、消息赋等）", "period": "宋" },
+      { "layer_id": "bian_zhe", "name": "徐升原编 / 明代重编增辑", "period": "明嘉靖/万历" }
+    ],
     "verification": "verified"
   },
   {
-    "source_id": "YHQP_002",
-    "title": "渊海子平",
-    "author": "徐升编",
+    "source_id": "SRC_SMTH",
+    "book": "三命通会",
+    "author": "明·万民英",
+    "dynasty": "明",
+    "edition": "文渊阁四库全书子部术数类本",
+    "layers": [
+      { "layer_id": "original_text", "name": "万民英汇集总论与考订按语", "period": "明万历六年" },
+      { "layer_id": "quote_ancient", "name": "万民英引先秦汉唐宋元诸家秘本", "period": "汉唐宋元" }
+    ],
+    "verification": "verified"
+  },
+  {
+    "source_id": "SRC_DTS",
+    "book": "滴天髓",
+    "author": "宋·京图撰 / 明·刘基原注",
     "dynasty": "宋/明",
-    "edition": "文渊阁四库全书子部本",
-    "chapter": "卷三·继善篇",
-    "source_type": "classical_text",
+    "edition": "守山阁丛书本 / 文渊阁四库全书存目",
+    "layers": [
+      { "layer_id": "original_jingtou", "name": "京图经文", "period": "宋" },
+      { "layer_id": "note_liuji", "name": "刘基原注", "period": "明" }
+    ],
     "verification": "verified"
   },
   {
-    "source_id": "TMTH_001",
-    "title": "三命通会",
-    "author": "万民英",
-    "dynasty": "明",
-    "edition": "文渊阁四库全书子部术数类本",
-    "chapter": "卷二·论天干地支五行统属",
-    "source_type": "classical_text",
-    "verification": "verified"
-  },
-  {
-    "source_id": "TMTH_003",
-    "title": "三命通会",
-    "author": "万民英",
-    "dynasty": "明",
-    "edition": "文渊阁四库全书子部术数类本",
-    "chapter": "卷三·论天乙贵人",
-    "source_type": "classical_text",
-    "verification": "verified"
-  },
-  {
-    "source_id": "TMTH_004",
-    "title": "三命通会",
-    "author": "万民英",
-    "dynasty": "明",
-    "edition": "文渊阁四库全书子部术数类本",
-    "chapter": "卷四·论十干坐支十神",
-    "source_type": "classical_text",
-    "verification": "verified"
-  },
-  {
-    "source_id": "TMTH_007",
-    "title": "三命通会",
-    "author": "万民英",
-    "dynasty": "明",
-    "edition": "文渊阁四库全书子部术数类本",
-    "chapter": "卷七·论岁运交战吉凶",
-    "source_type": "classical_text",
-    "verification": "verified"
-  },
-  {
-    "source_id": "QTBG_001",
-    "title": "穷通宝鉴",
-    "author": "余春台编",
+    "source_id": "SRC_DTS_CW",
+    "book": "滴天髓阐微",
+    "author": "清·任铁樵增注",
     "dynasty": "清",
-    "edition": "清民铅印本",
-    "chapter": "各月提纲调候总论",
-    "source_type": "classical_text",
+    "edition": "清道光刻本",
+    "layers": [
+      { "layer_id": "commentary_ren", "name": "任铁樵增注疏义与详实命例", "period": "清道光" }
+    ],
+    "verification": "verified"
+  },
+  {
+    "source_id": "SRC_QTBG",
+    "book": "穷通宝鉴",
+    "author": "余春台辑",
+    "dynasty": "清",
+    "edition": "清光绪甲午初刊本",
+    "layers": [
+      { "layer_id": "lan_jiang_wang", "name": "原书《栏江网》", "period": "明" },
+      { "layer_id": "commentary_yu", "name": "余春台重订", "period": "清光绪" }
+    ],
     "verification": "verified"
   }
 ]

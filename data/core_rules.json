@@ -5,16 +5,23 @@
     "rule_type": "核心",
     "name": "体用辨证不可一端论",
     "priority": 100,
-    "source_refs": ["DTX_001"],
-    "text_refs": ["DTX_001_001"],
-    "statement": {
-      "principle": "体用因局而化：或以日主为体、提纲为用；或以提纲为体、喜神为用；或以四柱为体、岁运为用。不可执定日主一人为体。",
-      "deduction": "判定原局用神与岁运得失前，必须先确立当前的体用结构模型，严禁机械死扣日主强弱套用单一生克。",
-      "strength": "决定性"
+    "source_refs": ["SRC_DTS", "SRC_DTS_CW"],
+    "text_refs": ["TXT_DTS_TY_001"],
+    "interp_refs": ["INT_DTS_TY_001"],
+    "historical_principle": "道有体用，不可以一端论也，要在审其轻重而已矣。",
+    "computational_model": {
+      "model_type": "dynamic_ti_yong",
+      "supported_modes": [
+        "日主为体，提纲为用",
+        "提纲为体，喜神为用",
+        "四柱为体，岁运为用",
+        "化神为体，四柱为用"
+      ],
+      "evaluation": "先依据命局是否成化、是否从格选定体用关系模式，严禁无差别单一取用。"
     },
     "conditions": {
-      "required": ["已完成命局干支五行与月令旺相统计"],
-      "exclusions": ["不得在未审定体用模型前妄断吉凶"]
+      "required": ["命局四柱干支与月令当令气数已清点"],
+      "exclusions": ["未确立全局气势前禁止直接执行克泄用神裁决"]
     },
     "scope": ["原局", "提纲", "大运", "流年", "动态重构"],
     "confidence": {
@@ -29,18 +36,26 @@
     "rule_id": "CORE_SW_001",
     "category": "旺衰",
     "rule_type": "核心",
-    "name": "旺衰常变克泄从化律",
-    "priority": 100,
-    "source_refs": ["DTX_002"],
-    "text_refs": ["DTX_002_001"],
-    "statement": {
-      "principle": "常态下旺者宜克泄，衰者喜生扶；极变下旺极宜从宜顺（不可犯其旺性），衰极宜从宜顺（弃命相从）。",
-      "deduction": "区分常态中和格局与极态专旺/从格。常态以生扶抑挫为准；极态违逆者大凶，顺从者大吉。",
-      "strength": "决定性"
+    "name": "全局旺衰动态平衡律",
+    "priority": 95,
+    "source_refs": ["SRC_DTS", "SRC_DTS_CW"],
+    "text_refs": ["TXT_DTS_SW_001"],
+    "interp_refs": ["INT_DTS_SW_001"],
+    "historical_principle": "旺则宜泄宜伤，衰则喜帮喜助。然旺中有衰，衰中有旺；旺极不可损，衰极不可益。",
+    "computational_model": {
+      "model_type": "multi_pillar_balance",
+      "weights": {
+        "month_commander_baseline": 0.45,
+        "three_pillars_joint_weight": 0.55
+      },
+      "boundary_handling": {
+        "extreme_strong": "专旺/从旺处理，忌逆克其势",
+        "extreme_weak": "弃命从格处理，忌生扶激怒旺神"
+      }
     },
     "conditions": {
-      "required": ["已完成月令当令气数与通根透干清点"],
-      "exclusions": ["专旺格（如润下、炎上、曲直、从财、从杀）不可机械使用克制论断"]
+      "required": ["综合月令司令深浅与年日时通根透干总能量计算"],
+      "exclusions": ["从格、化气格不可套用中和抑扶法则"]
     },
     "scope": ["原局", "大运", "流年", "动态重构"],
     "confidence": {
@@ -55,17 +70,19 @@
     "rule_id": "CORE_ML_001",
     "category": "月令",
     "rule_type": "核心",
-    "name": "月令提纲司权定格",
-    "priority": 100,
-    "source_refs": ["YHQP_001"],
-    "text_refs": ["YHQP_001_001"],
-    "statement": {
-      "principle": "月令为四柱纲领，原局五行旺相休囚皆听令于月令所司之气。取格依月令藏干透出及司令深浅为准。",
-      "deduction": "无论命局它柱干支多寡，五行生克权重必须以月令当令乘数为最高基准。",
-      "strength": "决定性"
+    "name": "月令提纲司权与多柱损益律",
+    "priority": 95,
+    "source_refs": ["SRC_YHZP", "SRC_DTS_CW"],
+    "text_refs": ["TXT_YHZP_ML_001", "TXT_YHZP_JS_001", "TXT_DTS_SW_001"],
+    "interp_refs": ["INT_DTS_SW_001"],
+    "historical_principle": "欲知贵贱，先观月令乃提纲。八字虽以月令为重，而旺相休囚，年日时中，亦有损益之权。",
+    "computational_model": {
+      "model_type": "month_order_anchor_with_pillar_offsets",
+      "anchor": "月令司权作为旺相休囚的基础参照系",
+      "offsets": "年支、日支、时支若会局成党（三合、三会、多透），可对月令力量形成显著损益与反转修正"
     },
     "conditions": {
-      "required": ["已知节气交节时刻并核对真太阳时确定入节深浅日数"]
+      "required": ["核定真太阳时并核准节气入月交节日数"]
     },
     "scope": ["原局", "提纲"],
     "confidence": {
@@ -80,17 +97,19 @@
     "rule_id": "CORE_SY_001",
     "category": "岁运",
     "rule_type": "准核心",
-    "name": "动态命局岁运层级重构",
+    "name": "动态命局岁运相参律",
     "priority": 85,
-    "source_refs": ["DTX_003"],
-    "text_refs": ["DTX_003_001"],
-    "statement": {
-      "principle": "大运管十年之方隅，流年司当年之动应。流年介入必须与原局及大运合成新十干十二支网络重新计算五行旺衰动态平衡。",
-      "deduction": "严禁对流年单独贴静态吉凶标签。流年吉凶取决于原局+大运+流年三层合成后，对于用神是增益生扶还是克泄刑损。",
-      "strength": "决定性"
+    "source_refs": ["SRC_DTS", "SRC_SMTH", "SRC_DTS_CW"],
+    "text_refs": ["TXT_DTS_SY_001", "TXT_SMTH_SY_001"],
+    "interp_refs": ["INT_DTS_SY_001"],
+    "historical_principle": "休咎系乎运，尤系乎岁。运以方隅为主，岁以吉凶为司。",
+    "computational_model": {
+      "model_type": "dynamic_three_tier_recalculation",
+      "layers": ["原局四柱(静态根基)", "大运干支(十年气象基底)", "流年干支(当年动变扳机)"],
+      "execution": "流年介入后，重新核算三者干支合化冲刑后的五行势能与用神得失，严禁直接使用流年静态断语。"
     },
     "conditions": {
-      "required": ["必须先具备原局静态能量及大运干支重构数据"]
+      "required": ["排定大运干支起运时限与逐年流年干支"]
     },
     "scope": ["大运", "流年", "动态重构"],
     "confidence": {
@@ -102,22 +121,23 @@
     "verification": "verified"
   },
   {
-    "rule_id": "CORE_XC_001",
-    "category": "刑冲合害",
+    "rule_id": "CORE_SYBL_001",
+    "category": "岁运",
     "rule_type": "准核心",
-    "name": "刑冲破害体用依归律",
-    "priority": 75,
-    "source_refs": ["TMTH_007"],
-    "text_refs": ["TMTH_007_001"],
-    "statement": {
-      "principle": "冲克本身为气机动荡之象，绝非等同于凶事。冲去原局忌神则发越，冲损原局喜用则招殃；冲动提纲多主门第居处变动，冲动配偶宫主感情震荡。",
-      "deduction": "计算刑冲合害时，必须索引受冲干支在体用模型中属于喜神、用神、闲神抑或忌神，以此定最终吉凶趋向。",
-      "strength": "重度"
+    "name": "岁运并临喜忌依归辨正",
+    "priority": 80,
+    "source_refs": ["SRC_YHZP", "SRC_SMTH"],
+    "text_refs": ["TXT_YHZP_JS_002"],
+    "interp_refs": ["INT_YHZP_JS_002"],
+    "historical_principle": "岁运并临，灾殃立至。此论常态，实际吉凶相半，独喜用神生扶；并临为喜神则增福，并临为忌神则招殃。",
+    "computational_model": {
+      "model_type": "conditional_suiyun_binglin",
+      "logic": "判定流年干支 == 大运干支时，检查该干支五行是原局体用喜用还是克泄忌神，分别输出增吉或防灾警示。"
     },
     "conditions": {
-      "required": ["原局、大运或流年形成对冲（六冲）或三刑组合"]
+      "required": ["流年干支与大运干支完全一致"]
     },
-    "scope": ["原局", "大运", "流年", "动态重构"],
+    "scope": ["大运", "流年", "动态重构"],
     "confidence": {
       "grade": "A",
       "source_verified": true,

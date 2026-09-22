@@ -4,23 +4,19 @@
     "category": "神煞",
     "subcategory": "贵人",
     "rule_type": "辅助",
-    "name": "天乙贵人辅助象义",
-    "priority": 30,
-    "source_refs": ["TMTH_003"],
-    "text_refs": ["TMTH_003_001", "TMTH_003_002"],
-    "statement": {
-      "principle": "天乙贵人具有贵人提携扶持、遇难呈祥、化解次要凶煞的传统象征意义。",
-      "deduction": "当命局岁运呈现吉象时，逢天乙可使吉力倍增、社会阶层获得提拔；当呈现凶象时，逢天乙多获尊长相助或救解。但不可单独据天乙直接断定一生富贵或流年大吉。",
-      "strength": "辅助微弱"
+    "name": "天乙贵人辅助象义与流派考订",
+    "priority": 25,
+    "source_refs": ["SRC_SMTH", "SRC_YHZP"],
+    "text_refs": ["TXT_SMTH_TY_001", "TXT_SMTH_TY_002", "TXT_YHZP_JS_003"],
+    "historical_principle": "天乙者最尊贵，所至之处凶煞隐然而避。得聪明智慧之资，亦受尊人提拔之象。",
+    "computational_model": {
+      "model_type": "auxiliary_tag_modifier",
+      "effect": "仅对已确立的吉凶基调做幅度修正与社会人际象义增补，不决定整体吉凶走向",
+      "nullification": "若该支逢空亡或被冲破，其贵人吉力折半或隐没"
     },
     "conditions": {
-      "required": [
-        "原局、大运或流年地支与日干对应成立天乙贵人查表条件"
-      ],
-      "exclusions": [
-        "贵人落空亡者，吉力受折半",
-        "不可越过五行生克与月令体用直接作为唯一决断依据"
-      ]
+      "required": ["原局、大运或流年地支与日干符合天乙贵人查验标准"],
+      "exclusions": ["严禁直接凭天乙判定一生富贵或流年大吉"]
     },
     "scope": ["原局", "大运", "流年"],
     "confidence": {
@@ -33,9 +29,61 @@
       "has_dispute": true,
       "competing_schools": [
         "古诀昼夜分贵派（甲戊庚牛羊，旦生贵在丑，暮生贵在未）",
-        "全支通用派（《三车一览》《子平真诠》均主不分昼夜直取）"
+        "全支通用派（《三命通会》引胡瑗论述斥昼夜为术家臆说，《三车一览》《子平真诠》均主不分昼夜直取）"
       ],
-      "dispute_summary": "《三命通会》卷三引胡氏之论斥昼夜分贵为术家臆说，但在民间三世相及星宗流派中仍有沿用昼夜起法者，引擎应允许参数切换或明确标注常法。"
+      "dispute_summary": "两派在排盘起法中并存。引擎默认采用《三命通会》与《子平真诠》通行之全支不分昼夜法，同时开放参数支持流派切换。"
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "SS_YR_001",
+    "category": "神煞",
+    "subcategory": "凶煞",
+    "rule_type": "辅助",
+    "name": "羊刃刚烈宰割象义",
+    "priority": 30,
+    "source_refs": ["SRC_SMTH"],
+    "text_refs": ["TXT_SMTH_YR_001"],
+    "historical_principle": "羊者言刚，刃者宰割。禄过则刃生，逢岁运相冲祸患立至。",
+    "computational_model": {
+      "model_type": "auxiliary_tension_modifier",
+      "effect": "主性情刚毅果决、行事迅捷；岁运遇冲刑合会时警示筋骨血气波折与竞争争夺。"
+    },
+    "conditions": {
+      "required": ["日干见帝旺禄后一位地支（阳干为甚）"]
+    },
+    "scope": ["原局", "大运", "流年"],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "SS_YM_001",
+    "category": "神煞",
+    "subcategory": "动象",
+    "rule_type": "辅助",
+    "name": "驿马迁改奔驰象义",
+    "priority": 25,
+    "source_refs": ["SRC_SMTH"],
+    "text_refs": ["TXT_SMTH_YM_001"],
+    "historical_principle": "驿马者，迁改奔驰之象。岁运加临，主道路奔波、迁职远涉。",
+    "computational_model": {
+      "model_type": "mobility_indicator",
+      "effect": "主空间位移、出差调任、出行游历之动象，具体吉凶视运途喜忌而定。"
+    },
+    "conditions": {
+      "required": ["依原局日支或年支三合首位对冲支查验"]
+    },
+    "scope": ["原局", "大运", "流年"],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
     },
     "verification": "verified"
   }
