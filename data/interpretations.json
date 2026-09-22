@@ -4,44 +4,38 @@
     "text_ref": "TXT_DTS_TY_001",
     "author": "清·任铁樵",
     "source_id": "SRC_DTS_CW",
-    "commentary_text": "道有体用，不可以一端论也。有以日主为体，提纲为用；有以提纲为体，喜神为用；有以四柱为体，岁运为用；有以化神为体，四柱为用。大凡体要生旺，用要得所。审其轻重，损益之法，自不差矣。",
-    "semantic_summary": "打破以日干为唯一主体的狭隘视域，确立提纲用神、岁运客体、化气变局等多元体用动态模型。",
-    "schools": ["滴天髓阐微派", "传统格局中和派"]
+    "evidence_level": "E2",
+    "verification_status": "externally_verified",
+    "commentary_text": "道有体用，不可以一端论也。有以日主为体，提纲为用；有以提纲为体，喜神为用；有以四柱为体，岁运为用；有以化神为体，四柱为用。",
+    "semantic_summary": "任氏据体用章展开多种体用关系。",
+    "schools": [
+      "滴天髓阐微"
+    ]
   },
   {
     "interp_id": "INT_DTS_SW_001",
     "text_ref": "TXT_DTS_SW_001",
     "author": "清·任铁樵",
     "source_id": "SRC_DTS_CW",
-    "commentary_text": "得时俱为旺论，失令便作衰看，虽是至理，亦死法也。八字虽以月令为重，而旺相休囚，年日时中，亦有损益之权……旺之极者，不可损也，损之反激而为祸；衰之极者，不可益也，益之反生灾咎。",
-    "semantic_summary": "破除月令绝对乘数之死法。月令虽居纲领，但年日时会党成局亦具损益实权；极旺不可逆其势，极衰不可强益其元。",
-    "schools": ["从格变格辨正派", "四柱权衡派"]
+    "evidence_level": "E2",
+    "verification_status": "externally_verified",
+    "commentary_text": "得时俱为旺论，失令便作衰看，虽是至理，亦死法也。八字虽以月令为重，而旺相休囚，年日时中，亦有损益之权。",
+    "semantic_summary": "反对把月令旺衰机械绝对化，强调年日时亦有损益之权。",
+    "schools": [
+      "滴天髓阐微"
+    ]
   },
   {
     "interp_id": "INT_DTS_SY_001",
     "text_ref": "TXT_DTS_SY_001",
     "author": "清·任铁樵",
     "source_id": "SRC_DTS_CW",
-    "commentary_text": "富贵虽定于格局，穷通全在乎运途。运以方隅为主，岁以吉凶为司。原局干支与大运流年交会，生之克之，合之冲之，须看气势趋向。",
-    "semantic_summary": "运定十年之方隅大势，岁司当年之动机发越，岁运相参重构五行生克局势。",
-    "schools": ["动态岁运派"]
-  },
-  {
-    "interp_id": "INT_YHZP_JS_002_MY",
-    "text_ref": "TXT_YHZP_JS_002",
-    "author": "明·万民英",
-    "source_id": "SRC_SMTH",
-    "commentary_text": "岁运并临，吉凶相半。日主生旺，行衰绝之运反美；日主休废，逢生旺之运始发。不可一概执定为凶煞。",
-    "semantic_summary": "明代万民英考订：岁运并临吉凶各半，重在日主生旺休废与运途生扶反差。",
-    "schools": ["三命通会汇考派"]
-  },
-  {
-    "interp_id": "INT_YHZP_JS_002_CS",
-    "text_ref": "TXT_YHZP_JS_002",
-    "author": "清·陈素庵",
-    "source_id": "SRC_DTS_BJ",
-    "commentary_text": "古赋云岁运并临灾殃立至，此常人之论也。若岁运并临乃日主之喜用，反主增益福禄；若岁运并临乃日主之忌煞，方主大祸倾危。关键在于并临之神是用是忌。",
-    "semantic_summary": "清初陈素庵辨正：岁运并临之祸福完全依归于并临干支属于喜用神还是忌神煞。",
-    "schools": ["命理约言体用派"]
+    "evidence_level": "E2",
+    "verification_status": "externally_verified",
+    "commentary_text": "日主譬如吾身，局中之神譬如舟马引从，大运譬如所历之地，太岁譬如所遇之人。",
+    "semantic_summary": "岁运论将原局、大运、太岁分别比拟，强调岁运战冲和好须结合原局判断。",
+    "schools": [
+      "滴天髓阐微"
+    ]
   }
 ]
