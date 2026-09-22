@@ -11,7 +11,9 @@
         "财印配合",
         "刑冲破害",
         "日主承载"
-      ]
+      ],
+      "logic_ref": "data/pattern_logic.json#正官格",
+      "computation_note": "机器执行使用pattern_logic.json；本目录只保留人类可读检查项。"
     },
     {
       "id": "七杀格",
@@ -22,7 +24,9 @@
         "印化",
         "日主强弱",
         "杀是否混杂"
-      ]
+      ],
+      "logic_ref": "data/pattern_logic.json#七杀格",
+      "computation_note": "机器执行使用pattern_logic.json；本目录只保留人类可读检查项。"
     },
     {
       "id": "财格",
@@ -34,7 +38,9 @@
         "食伤生财",
         "比劫夺财",
         "官杀泄财"
-      ]
+      ],
+      "logic_ref": "data/pattern_logic.json#财格",
+      "computation_note": "机器执行使用pattern_logic.json；本目录只保留人类可读检查项。"
     },
     {
       "id": "印格",
@@ -45,7 +51,9 @@
         "官杀生印",
         "财星破印",
         "日主强弱"
-      ]
+      ],
+      "logic_ref": "data/pattern_logic.json#印格",
+      "computation_note": "机器执行使用pattern_logic.json；本目录只保留人类可读检查项。"
     },
     {
       "id": "食神格",
@@ -56,7 +64,9 @@
         "日主强弱",
         "生财",
         "枭神夺食"
-      ]
+      ],
+      "logic_ref": "data/pattern_logic.json#食神格",
+      "computation_note": "机器执行使用pattern_logic.json；本目录只保留人类可读检查项。"
     },
     {
       "id": "伤官格",
@@ -67,7 +77,9 @@
         "配印",
         "生财",
         "见官条件"
-      ]
+      ],
+      "logic_ref": "data/pattern_logic.json#伤官格",
+      "computation_note": "机器执行使用pattern_logic.json；本目录只保留人类可读检查项。"
     },
     {
       "id": "建禄格",
@@ -76,7 +88,9 @@
       "checks": [
         "财官食伤配置",
         "日主旺衰"
-      ]
+      ],
+      "logic_ref": "data/pattern_logic.json#建禄格",
+      "computation_note": "机器执行使用pattern_logic.json；本目录只保留人类可读检查项。"
     },
     {
       "id": "月劫格",
@@ -87,7 +101,9 @@
         "食伤泄",
         "财星配置",
         "日主旺衰"
-      ]
+      ],
+      "logic_ref": "data/pattern_logic.json#undefined",
+      "computation_note": "机器执行使用pattern_logic.json；本目录只保留人类可读检查项。"
     }
   ]
 }
