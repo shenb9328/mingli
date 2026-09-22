@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "description": "工程启发式旺衰模型，不是古籍原文。用于把结构证据转换成可计算的相对指标；最终解释仍需回到规则层。",
+  "evidence_level": "E1",
+  "parameter_status": "heuristic",
+  "weights": {
+    "month_order": 0.4,
+    "roots": 0.2,
+    "stems_exposed": 0.15,
+    "resource_support": 0.1,
+    "output_drain": 0.05,
+    "control_pressure": 0.1
+  },
+  "scoring": {
+    "same_element_root": 1,
+    "same_element_stem": 0.8,
+    "resource_root": 0.9,
+    "resource_stem": 0.7,
+    "output_stem": -0.5,
+    "wealth_stem": -0.7,
+    "officer_stem": -0.8,
+    "month_same_element": 1,
+    "month_resource": 0.6,
+    "month_output": -0.4,
+    "month_wealth": -0.6,
+    "month_officer": -0.7
+  },
+  "normalization": "各维度先归一化到[-1,1]，再按weights加权；不把结果称为古典‘强弱分数’。",
+  "bands": {
+    "very_weak": [
+      -1,
+      -0.6
+    ],
+    "weak": [
+      -0.6,
+      -0.2
+    ],
+    "balanced": [
+      -0.2,
+      0.2
+    ],
+    "strong": [
+      0.2,
+      0.6
+    ],
+    "very_strong": [
+      0.6,
+      1
+    ]
+  },
+  "special_cases": {
+    "从弱/从强": "不得由阈值直接判定；必须额外满足从格结构完整性、五行一边倒、无关键逆神等条件。",
+    "旺极宜泄": "只作为解释规则候选，不由分数单独触发。"
+  },
+  "audit": [
+    "每次输出必须保留各子项原始证据，禁止只保存最终分数。",
+    "参数调整必须记录版本。"
+  ]
+}
