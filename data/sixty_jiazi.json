@@ -1,0 +1,672 @@
+{
+  "schema_version": "1.0",
+  "description": "六十甲子、纳音、旬空结构表。纳音作为独立传统标记，不与干支五行混算。",
+  "records": [
+    {
+      "index": 1,
+      "ganzhi": "甲子",
+      "nayin": "海中金",
+      "nayin_element": "金",
+      "xun_index": 1,
+      "xun_kong": [
+        "戌",
+        "亥"
+      ]
+    },
+    {
+      "index": 2,
+      "ganzhi": "乙丑",
+      "nayin": "海中金",
+      "nayin_element": "金",
+      "xun_index": 1,
+      "xun_kong": [
+        "亥",
+        "子"
+      ]
+    },
+    {
+      "index": 3,
+      "ganzhi": "丙寅",
+      "nayin": "炉中火",
+      "nayin_element": "火",
+      "xun_index": 1,
+      "xun_kong": [
+        "子",
+        "丑"
+      ]
+    },
+    {
+      "index": 4,
+      "ganzhi": "丁卯",
+      "nayin": "炉中火",
+      "nayin_element": "火",
+      "xun_index": 1,
+      "xun_kong": [
+        "丑",
+        "寅"
+      ]
+    },
+    {
+      "index": 5,
+      "ganzhi": "戊辰",
+      "nayin": "大林木",
+      "nayin_element": "木",
+      "xun_index": 1,
+      "xun_kong": [
+        "寅",
+        "卯"
+      ]
+    },
+    {
+      "index": 6,
+      "ganzhi": "己巳",
+      "nayin": "大林木",
+      "nayin_element": "木",
+      "xun_index": 1,
+      "xun_kong": [
+        "卯",
+        "辰"
+      ]
+    },
+    {
+      "index": 7,
+      "ganzhi": "庚午",
+      "nayin": "路旁土",
+      "nayin_element": "土",
+      "xun_index": 1,
+      "xun_kong": [
+        "辰",
+        "巳"
+      ]
+    },
+    {
+      "index": 8,
+      "ganzhi": "辛未",
+      "nayin": "路旁土",
+      "nayin_element": "土",
+      "xun_index": 1,
+      "xun_kong": [
+        "巳",
+        "午"
+      ]
+    },
+    {
+      "index": 9,
+      "ganzhi": "壬申",
+      "nayin": "剑锋金",
+      "nayin_element": "金",
+      "xun_index": 1,
+      "xun_kong": [
+        "午",
+        "未"
+      ]
+    },
+    {
+      "index": 10,
+      "ganzhi": "癸酉",
+      "nayin": "剑锋金",
+      "nayin_element": "金",
+      "xun_index": 1,
+      "xun_kong": [
+        "未",
+        "申"
+      ]
+    },
+    {
+      "index": 11,
+      "ganzhi": "甲戌",
+      "nayin": "山头火",
+      "nayin_element": "火",
+      "xun_index": 2,
+      "xun_kong": [
+        "戌",
+        "亥"
+      ]
+    },
+    {
+      "index": 12,
+      "ganzhi": "乙亥",
+      "nayin": "山头火",
+      "nayin_element": "火",
+      "xun_index": 2,
+      "xun_kong": [
+        "亥",
+        "子"
+      ]
+    },
+    {
+      "index": 13,
+      "ganzhi": "丙子",
+      "nayin": "涧下水",
+      "nayin_element": "水",
+      "xun_index": 2,
+      "xun_kong": [
+        "子",
+        "丑"
+      ]
+    },
+    {
+      "index": 14,
+      "ganzhi": "丁丑",
+      "nayin": "涧下水",
+      "nayin_element": "水",
+      "xun_index": 2,
+      "xun_kong": [
+        "丑",
+        "寅"
+      ]
+    },
+    {
+      "index": 15,
+      "ganzhi": "戊寅",
+      "nayin": "城头土",
+      "nayin_element": "土",
+      "xun_index": 2,
+      "xun_kong": [
+        "寅",
+        "卯"
+      ]
+    },
+    {
+      "index": 16,
+      "ganzhi": "己卯",
+      "nayin": "城头土",
+      "nayin_element": "土",
+      "xun_index": 2,
+      "xun_kong": [
+        "卯",
+        "辰"
+      ]
+    },
+    {
+      "index": 17,
+      "ganzhi": "庚辰",
+      "nayin": "白蜡金",
+      "nayin_element": "金",
+      "xun_index": 2,
+      "xun_kong": [
+        "辰",
+        "巳"
+      ]
+    },
+    {
+      "index": 18,
+      "ganzhi": "辛巳",
+      "nayin": "白蜡金",
+      "nayin_element": "金",
+      "xun_index": 2,
+      "xun_kong": [
+        "巳",
+        "午"
+      ]
+    },
+    {
+      "index": 19,
+      "ganzhi": "壬午",
+      "nayin": "杨柳木",
+      "nayin_element": "木",
+      "xun_index": 2,
+      "xun_kong": [
+        "午",
+        "未"
+      ]
+    },
+    {
+      "index": 20,
+      "ganzhi": "癸未",
+      "nayin": "杨柳木",
+      "nayin_element": "木",
+      "xun_index": 2,
+      "xun_kong": [
+        "未",
+        "申"
+      ]
+    },
+    {
+      "index": 21,
+      "ganzhi": "甲申",
+      "nayin": "泉中水",
+      "nayin_element": "水",
+      "xun_index": 3,
+      "xun_kong": [
+        "戌",
+        "亥"
+      ]
+    },
+    {
+      "index": 22,
+      "ganzhi": "乙酉",
+      "nayin": "泉中水",
+      "nayin_element": "水",
+      "xun_index": 3,
+      "xun_kong": [
+        "亥",
+        "子"
+      ]
+    },
+    {
+      "index": 23,
+      "ganzhi": "丙戌",
+      "nayin": "屋上土",
+      "nayin_element": "土",
+      "xun_index": 3,
+      "xun_kong": [
+        "子",
+        "丑"
+      ]
+    },
+    {
+      "index": 24,
+      "ganzhi": "丁亥",
+      "nayin": "屋上土",
+      "nayin_element": "土",
+      "xun_index": 3,
+      "xun_kong": [
+        "丑",
+        "寅"
+      ]
+    },
+    {
+      "index": 25,
+      "ganzhi": "戊子",
+      "nayin": "霹雳火",
+      "nayin_element": "火",
+      "xun_index": 3,
+      "xun_kong": [
+        "寅",
+        "卯"
+      ]
+    },
+    {
+      "index": 26,
+      "ganzhi": "己丑",
+      "nayin": "霹雳火",
+      "nayin_element": "火",
+      "xun_index": 3,
+      "xun_kong": [
+        "卯",
+        "辰"
+      ]
+    },
+    {
+      "index": 27,
+      "ganzhi": "庚寅",
+      "nayin": "松柏木",
+      "nayin_element": "木",
+      "xun_index": 3,
+      "xun_kong": [
+        "辰",
+        "巳"
+      ]
+    },
+    {
+      "index": 28,
+      "ganzhi": "辛卯",
+      "nayin": "松柏木",
+      "nayin_element": "木",
+      "xun_index": 3,
+      "xun_kong": [
+        "巳",
+        "午"
+      ]
+    },
+    {
+      "index": 29,
+      "ganzhi": "壬辰",
+      "nayin": "长流水",
+      "nayin_element": "水",
+      "xun_index": 3,
+      "xun_kong": [
+        "午",
+        "未"
+      ]
+    },
+    {
+      "index": 30,
+      "ganzhi": "癸巳",
+      "nayin": "长流水",
+      "nayin_element": "水",
+      "xun_index": 3,
+      "xun_kong": [
+        "未",
+        "申"
+      ]
+    },
+    {
+      "index": 31,
+      "ganzhi": "甲午",
+      "nayin": "沙中金",
+      "nayin_element": "金",
+      "xun_index": 4,
+      "xun_kong": [
+        "戌",
+        "亥"
+      ]
+    },
+    {
+      "index": 32,
+      "ganzhi": "乙未",
+      "nayin": "沙中金",
+      "nayin_element": "金",
+      "xun_index": 4,
+      "xun_kong": [
+        "亥",
+        "子"
+      ]
+    },
+    {
+      "index": 33,
+      "ganzhi": "丙申",
+      "nayin": "山下火",
+      "nayin_element": "火",
+      "xun_index": 4,
+      "xun_kong": [
+        "子",
+        "丑"
+      ]
+    },
+    {
+      "index": 34,
+      "ganzhi": "丁酉",
+      "nayin": "山下火",
+      "nayin_element": "火",
+      "xun_index": 4,
+      "xun_kong": [
+        "丑",
+        "寅"
+      ]
+    },
+    {
+      "index": 35,
+      "ganzhi": "戊戌",
+      "nayin": "平地木",
+      "nayin_element": "木",
+      "xun_index": 4,
+      "xun_kong": [
+        "寅",
+        "卯"
+      ]
+    },
+    {
+      "index": 36,
+      "ganzhi": "己亥",
+      "nayin": "平地木",
+      "nayin_element": "木",
+      "xun_index": 4,
+      "xun_kong": [
+        "卯",
+        "辰"
+      ]
+    },
+    {
+      "index": 37,
+      "ganzhi": "庚子",
+      "nayin": "壁上土",
+      "nayin_element": "土",
+      "xun_index": 4,
+      "xun_kong": [
+        "辰",
+        "巳"
+      ]
+    },
+    {
+      "index": 38,
+      "ganzhi": "辛丑",
+      "nayin": "壁上土",
+      "nayin_element": "土",
+      "xun_index": 4,
+      "xun_kong": [
+        "巳",
+        "午"
+      ]
+    },
+    {
+      "index": 39,
+      "ganzhi": "壬寅",
+      "nayin": "金箔金",
+      "nayin_element": "金",
+      "xun_index": 4,
+      "xun_kong": [
+        "午",
+        "未"
+      ]
+    },
+    {
+      "index": 40,
+      "ganzhi": "癸卯",
+      "nayin": "金箔金",
+      "nayin_element": "金",
+      "xun_index": 4,
+      "xun_kong": [
+        "未",
+        "申"
+      ]
+    },
+    {
+      "index": 41,
+      "ganzhi": "甲辰",
+      "nayin": "覆灯火",
+      "nayin_element": "火",
+      "xun_index": 5,
+      "xun_kong": [
+        "戌",
+        "亥"
+      ]
+    },
+    {
+      "index": 42,
+      "ganzhi": "乙巳",
+      "nayin": "覆灯火",
+      "nayin_element": "火",
+      "xun_index": 5,
+      "xun_kong": [
+        "亥",
+        "子"
+      ]
+    },
+    {
+      "index": 43,
+      "ganzhi": "丙午",
+      "nayin": "天河水",
+      "nayin_element": "水",
+      "xun_index": 5,
+      "xun_kong": [
+        "子",
+        "丑"
+      ]
+    },
+    {
+      "index": 44,
+      "ganzhi": "丁未",
+      "nayin": "天河水",
+      "nayin_element": "水",
+      "xun_index": 5,
+      "xun_kong": [
+        "丑",
+        "寅"
+      ]
+    },
+    {
+      "index": 45,
+      "ganzhi": "戊申",
+      "nayin": "大驿土",
+      "nayin_element": "土",
+      "xun_index": 5,
+      "xun_kong": [
+        "寅",
+        "卯"
+      ]
+    },
+    {
+      "index": 46,
+      "ganzhi": "己酉",
+      "nayin": "大驿土",
+      "nayin_element": "土",
+      "xun_index": 5,
+      "xun_kong": [
+        "卯",
+        "辰"
+      ]
+    },
+    {
+      "index": 47,
+      "ganzhi": "庚戌",
+      "nayin": "钗钏金",
+      "nayin_element": "金",
+      "xun_index": 5,
+      "xun_kong": [
+        "辰",
+        "巳"
+      ]
+    },
+    {
+      "index": 48,
+      "ganzhi": "辛亥",
+      "nayin": "钗钏金",
+      "nayin_element": "金",
+      "xun_index": 5,
+      "xun_kong": [
+        "巳",
+        "午"
+      ]
+    },
+    {
+      "index": 49,
+      "ganzhi": "壬子",
+      "nayin": "桑柘木",
+      "nayin_element": "木",
+      "xun_index": 5,
+      "xun_kong": [
+        "午",
+        "未"
+      ]
+    },
+    {
+      "index": 50,
+      "ganzhi": "癸丑",
+      "nayin": "桑柘木",
+      "nayin_element": "木",
+      "xun_index": 5,
+      "xun_kong": [
+        "未",
+        "申"
+      ]
+    },
+    {
+      "index": 51,
+      "ganzhi": "甲寅",
+      "nayin": "大溪水",
+      "nayin_element": "水",
+      "xun_index": 6,
+      "xun_kong": [
+        "戌",
+        "亥"
+      ]
+    },
+    {
+      "index": 52,
+      "ganzhi": "乙卯",
+      "nayin": "大溪水",
+      "nayin_element": "水",
+      "xun_index": 6,
+      "xun_kong": [
+        "亥",
+        "子"
+      ]
+    },
+    {
+      "index": 53,
+      "ganzhi": "丙辰",
+      "nayin": "沙中土",
+      "nayin_element": "土",
+      "xun_index": 6,
+      "xun_kong": [
+        "子",
+        "丑"
+      ]
+    },
+    {
+      "index": 54,
+      "ganzhi": "丁巳",
+      "nayin": "沙中土",
+      "nayin_element": "土",
+      "xun_index": 6,
+      "xun_kong": [
+        "丑",
+        "寅"
+      ]
+    },
+    {
+      "index": 55,
+      "ganzhi": "戊午",
+      "nayin": "天上火",
+      "nayin_element": "火",
+      "xun_index": 6,
+      "xun_kong": [
+        "寅",
+        "卯"
+      ]
+    },
+    {
+      "index": 56,
+      "ganzhi": "己未",
+      "nayin": "天上火",
+      "nayin_element": "火",
+      "xun_index": 6,
+      "xun_kong": [
+        "卯",
+        "辰"
+      ]
+    },
+    {
+      "index": 57,
+      "ganzhi": "庚申",
+      "nayin": "石榴木",
+      "nayin_element": "木",
+      "xun_index": 6,
+      "xun_kong": [
+        "辰",
+        "巳"
+      ]
+    },
+    {
+      "index": 58,
+      "ganzhi": "辛酉",
+      "nayin": "石榴木",
+      "nayin_element": "木",
+      "xun_index": 6,
+      "xun_kong": [
+        "巳",
+        "午"
+      ]
+    },
+    {
+      "index": 59,
+      "ganzhi": "壬戌",
+      "nayin": "大海水",
+      "nayin_element": "水",
+      "xun_index": 6,
+      "xun_kong": [
+        "午",
+        "未"
+      ]
+    },
+    {
+      "index": 60,
+      "ganzhi": "癸亥",
+      "nayin": "大海水",
+      "nayin_element": "水",
+      "xun_index": 6,
+      "xun_kong": [
+        "未",
+        "申"
+      ]
+    }
+  ],
+  "source_refs": [
+    "SRC_SMTH",
+    "SRC_YHZP"
+  ],
+  "evidence_level": "E2",
+  "verification_status": "cross_verified_digital"
+}
