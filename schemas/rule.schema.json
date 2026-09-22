@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RuleSchema",
+  "description": "命理计算规则结构定义，包含严格的适用条件、优先级权重与置信度",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "rule_id",
+      "category",
+      "rule_type",
+      "name",
+      "priority",
+      "source_refs",
+      "text_refs",
+      "statement",
+      "conditions",
+      "scope",
+      "confidence",
+      "verification"
+    ],
+    "properties": {
+      "rule_id": {
+        "type": "string",
+        "pattern": "^[A-Z0-9_]+$",
+        "description": "规则编号，如 CORE_SW_001, SS_TYGR_001"
+      },
+      "category": {
+        "type": "string",
+        "enum": ["旺衰", "月令", "体用", "格局", "十神", "岁运", "刑冲合害", "调候", "神煞", "纳音", "民间象义"],
+        "description": "规则领域归类"
+      },
+      "subcategory": {
+        "type": "string"
+      },
+      "rule_type": {
+        "type": "string",
+        "enum": ["核心", "准核心", "辅助", "参照"],
+        "description": "规则定位等级：核心(旺衰/月令/体用100)、准核心(格局/十神/岁运85-90)、辅助(神煞20-30/纳音)"
+      },
+      "name": {
+        "type": "string",
+        "description": "规则中文命名，如 衰旺顺逆中和律、天乙化煞扶身"
+      },
+      "priority": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 100,
+        "description": "执行裁决权重。100=绝对决定性权重，20-30=仅作象义增减"
+      },
+      "source_refs": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "引用的 sources.json ID"
+      },
+      "text_refs": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "引用的 classical_texts.json text_id"
+      },
+      "statement": {
+        "type": "object",
+        "required": ["principle", "deduction"],
+        "properties": {
+          "principle": { "type": "string", "description": "推导原理/核心逻辑" },
+          "deduction": { "type": "string", "description": "结论输出/吉凶权衡描述" },
+          "strength": { "type": "string", "description": "作用力大小：决定性/重度/中度/辅助微弱" }
+        }
+      },
+      "conditions": {
+        "type": "object",
+        "required": ["required"],
+        "properties": {
+          "required": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "必要成立前提列表（必须全部满足才触发）"
+          },
+          "exclusions": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "破格/失效/反转排除条件"
+          },
+          "prerequisites": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "前置规则ID或前置计算状态"
+          }
+        }
+      },
+      "scope": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": ["原局", "提纲", "大运", "流年", "动态重构"]
+        }
+      },
+      "confidence": {
+        "type": "object",
+        "required": ["grade", "source_verified", "rule_logic_verified"],
+        "properties": {
+          "grade": {
+            "type": "string",
+            "enum": ["A", "B", "C", "D", "E"],
+            "description": "A: 古籍原文明确+规则明确; B: 原文明确+后人注疏定则; C: 古籍思想提炼; D: 经验断语; E: 待考"
+          },
+          "source_verified": { "type": "boolean" },
+          "interpretation_verified": { "type": "boolean" },
+          "rule_logic_verified": { "type": "boolean" }
+        }
+      },
+      "dispute": {
+        "type": "object",
+        "properties": {
+          "has_dispute": { "type": "boolean" },
+          "competing_schools": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "dispute_summary": { "type": "string" }
+        }
+      },
+      "verification": {
+        "type": "string",
+        "enum": ["verified", "pending", "disputed"]
+      }
+    }
+  }
+}

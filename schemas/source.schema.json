@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SourceSchema",
+  "description": "古籍文献源规范定义，确保每一条命理引文和规则均可精确定位到历史公版典籍",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["source_id", "title", "author", "dynasty", "chapter", "source_type", "verification"],
+    "properties": {
+      "source_id": {
+        "type": "string",
+        "pattern": "^[A-Z0-9_]+$",
+        "description": "典籍章节唯一标识符，如 TMTH_003 (三命通会卷三)"
+      },
+      "title": {
+        "type": "string",
+        "description": "古籍名称，如《三命通会》《渊海子平》《滴天髓》"
+      },
+      "author": {
+        "type": "string",
+        "description": "作者或编撰者，如万民英、徐升、刘伯温/任铁樵"
+      },
+      "dynasty": {
+        "type": "string",
+        "description": "成书或刊印朝代，如明、宋、清"
+      },
+      "edition": {
+        "type": "string",
+        "description": "参考底本/版本，如文渊阁四库全书本、清道光刻本"
+      },
+      "chapter": {
+        "type": "string",
+        "description": "卷次与篇目，如卷三·论天乙贵人"
+      },
+      "source_type": {
+        "type": "string",
+        "enum": ["classical_text", "commentary", "contemporary_study"],
+        "description": "资料性质：古籍经文、后代注疏、现代考证"
+      },
+      "verification": {
+        "type": "string",
+        "enum": ["verified", "pending", "disputed"],
+        "description": "考证状态"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ClassicalTextSchema",
+  "description": "古籍经文与注疏原文数据库规范，杜绝一切现代伪充原文",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["text_id", "source_id", "section", "text", "verification"],
+    "properties": {
+      "text_id": {
+        "type": "string",
+        "pattern": "^[A-Z0-9_]+$",
+        "description": "原文句子或段落唯一编号，如 TMTH_003_001"
+      },
+      "source_id": {
+        "type": "string",
+        "description": "关联的 sources.json 中的 source_id"
+      },
+      "section": {
+        "type": "string",
+        "description": "所属小节标题或引述赋文名，如《通玄赋》《继善篇》"
+      },
+      "text": {
+        "type": "string",
+        "description": "一字不差的古籍文献正文"
+      },
+      "translation": {
+        "type": "string",
+        "description": "现代语境下的客观白话释义与术语解释"
+      },
+      "academic_notes": {
+        "type": "string",
+        "description": "校勘记、异本注记、流派争议点记录"
+      },
+      "verification": {
+        "type": "string",
+        "enum": ["verified", "pending", "disputed"]
+      }
+    }
+  }
+}

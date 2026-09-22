@@ -1,0 +1,278 @@
+{
+  "description": "十二月令提纲气候与当权司令律，子平命学以月令为纲核心基准库",
+  "months": [
+    {
+      "branch": "寅",
+      "season": "初春",
+      "solar_terms": ["立春", "雨水"],
+      "element": "木",
+      "season_element_status": {
+        "木": "旺",
+        "火": "相",
+        "水": "休",
+        "金": "囚",
+        "土": "死"
+      },
+      "commanding_days": [
+        { "stem": "戊", "days": 7, "nature": "余气" },
+        { "stem": "丙", "days": 7, "nature": "中气/进气" },
+        { "stem": "甲", "days": 16, "nature": "本气司权" }
+      ],
+      "tiao_hou": {
+        "need": "丙火",
+        "rationale": "初春余寒未尽，水冻木坚，非丙火照暖则木性不舒。"
+      },
+      "classical_source": "《渊海子平·论月令提纲》《穷通宝鉴》"
+    },
+    {
+      "branch": "卯",
+      "season": "仲春",
+      "solar_terms": ["惊蛰", "春分"],
+      "element": "木",
+      "season_element_status": {
+        "木": "旺",
+        "火": "相",
+        "水": "休",
+        "金": "囚",
+        "土": "死"
+      },
+      "commanding_days": [
+        { "stem": "甲", "days": 10, "nature": "余气" },
+        { "stem": "乙", "days": 20, "nature": "专气司权" }
+      ],
+      "tiao_hou": {
+        "need": "水火相济",
+        "rationale": "仲春木旺气纯，阳气渐升，喜微水滋根，火以吐秀。"
+      },
+      "classical_source": "《渊海子平·论月令提纲》《穷通宝鉴》"
+    },
+    {
+      "branch": "辰",
+      "season": "季春",
+      "solar_terms": ["清明", "谷雨"],
+      "element": "土",
+      "season_element_status": {
+        "土": "旺",
+        "金": "相",
+        "火": "休",
+        "木": "囚",
+        "水": "死"
+      },
+      "commanding_days": [
+        { "stem": "乙", "days": 9, "nature": "余气" },
+        { "stem": "癸", "days": 3, "nature": "中气/水库" },
+        { "stem": "戊", "days": 18, "nature": "本气司权" }
+      ],
+      "tiao_hou": {
+        "need": "木疏土，火生土",
+        "rationale": "湿土当权，万物生长，木以疏湿土，水火相济为上。"
+      },
+      "classical_source": "《渊海子平·论月令提纲》《穷通宝鉴》"
+    },
+    {
+      "branch": "巳",
+      "season": "初夏",
+      "solar_terms": ["立夏", "小满"],
+      "element": "火",
+      "season_element_status": {
+        "火": "旺",
+        "土": "相",
+        "木": "休",
+        "水": "囚",
+        "金": "死"
+      },
+      "commanding_days": [
+        { "stem": "戊", "days": 5, "nature": "余气" },
+        { "stem": "庚", "days": 9, "nature": "中气/长生" },
+        { "stem": "丙", "days": 16, "nature": "本气司权" }
+      ],
+      "tiao_hou": {
+        "need": "癸水/壬水",
+        "rationale": "入夏火炎土燥，先润后荣，急需壬癸水解其烈燥。"
+      },
+      "classical_source": "《渊海子平·论月令提纲》《穷通宝鉴》"
+    },
+    {
+      "branch": "午",
+      "season": "仲夏",
+      "solar_terms": ["芒种", "夏至"],
+      "element": "火",
+      "season_element_status": {
+        "火": "旺",
+        "土": "相",
+        "木": "休",
+        "水": "囚",
+        "金": "死"
+      },
+      "commanding_days": [
+        { "stem": "丙", "days": 10, "nature": "余气" },
+        { "stem": "己", "days": 9, "nature": "中气" },
+        { "stem": "丁", "days": 11, "nature": "本气司权" }
+      ],
+      "tiao_hou": {
+        "need": "壬癸水滋润",
+        "rationale": "仲夏炎帝司权，燥烈至极，无水济之则万物枯槁。"
+      },
+      "classical_source": "《渊海子平·论月令提纲》《穷通宝鉴》"
+    },
+    {
+      "branch": "未",
+      "season": "季夏",
+      "solar_terms": ["小暑", "大暑"],
+      "element": "土",
+      "season_element_status": {
+        "土": "旺",
+        "金": "相",
+        "火": "休",
+        "木": "囚",
+        "水": "死"
+      },
+      "commanding_days": [
+        { "stem": "丁", "days": 9, "nature": "余气" },
+        { "stem": "乙", "days": 3, "nature": "中气/木库" },
+        { "stem": "己", "days": 18, "nature": "本气司权" }
+      ],
+      "tiao_hou": {
+        "need": "水润金生",
+        "rationale": "未土燥烈如炉，土燥不能生金，得水润土方成沃野。"
+      },
+      "classical_source": "《渊海子平·论月令提纲》《穷通宝鉴》"
+    },
+    {
+      "branch": "申",
+      "season": "初秋",
+      "solar_terms": ["立秋", "处暑"],
+      "element": "金",
+      "season_element_status": {
+        "金": "旺",
+        "水": "相",
+        "土": "休",
+        "火": "囚",
+        "木": "死"
+      },
+      "commanding_days": [
+        { "stem": "戊", "days": 7, "nature": "余气" },
+        { "stem": "壬", "days": 7, "nature": "中气/长生" },
+        { "stem": "庚", "days": 16, "nature": "本气司权" }
+      ],
+      "tiao_hou": {
+        "need": "丁火照暖",
+        "rationale": "肃杀之气始萌，刚金宜火炼，得水淘洗自见精莹。"
+      },
+      "classical_source": "《渊海子平·论月令提纲》《穷通宝鉴》"
+    },
+    {
+      "branch": "酉",
+      "season": "仲秋",
+      "solar_terms": ["白露", "秋分"],
+      "element": "金",
+      "season_element_status": {
+        "金": "旺",
+        "水": "相",
+        "土": "休",
+        "火": "囚",
+        "木": "死"
+      },
+      "commanding_days": [
+        { "stem": "庚", "days": 10, "nature": "余气" },
+        { "stem": "辛", "days": 20, "nature": "专气司权" }
+      ],
+      "tiao_hou": {
+        "need": "壬水淘洗",
+        "rationale": "金白水清，辛金珠玉之质，最忌土厚埋金，喜壬水濯之。"
+      },
+      "classical_source": "《渊海子平·论月令提纲》《穷通宝鉴》"
+    },
+    {
+      "branch": "戌",
+      "season": "季秋",
+      "solar_terms": ["寒露", "霜降"],
+      "element": "土",
+      "season_element_status": {
+        "土": "旺",
+        "金": "相",
+        "水": "休",
+        "木": "囚",
+        "火": "死"
+      },
+      "commanding_days": [
+        { "stem": "辛", "days": 9, "nature": "余气" },
+        { "stem": "丁", "days": 3, "nature": "中气/火库" },
+        { "stem": "戊", "days": 18, "nature": "本气司权" }
+      ],
+      "tiao_hou": {
+        "need": "水润火暖",
+        "rationale": "深秋燥土，气寒肃杀，燥土不生，见水则润，见火则融。"
+      },
+      "classical_source": "《渊海子平·论月令提纲》《穷通宝鉴》"
+    },
+    {
+      "branch": "亥",
+      "season": "初冬",
+      "solar_terms": ["立冬", "小雪"],
+      "element": "水",
+      "season_element_status": {
+        "水": "旺",
+        "木": "相",
+        "金": "休",
+        "土": "囚",
+        "火": "死"
+      },
+      "commanding_days": [
+        { "stem": "戊", "days": 7, "nature": "余气" },
+        { "stem": "甲", "days": 7, "nature": "中气/长生" },
+        { "stem": "壬", "days": 16, "nature": "本气司权" }
+      ],
+      "tiao_hou": {
+        "need": "丙火照暖",
+        "rationale": "水势汪洋，天寒地冻，冬水至冷，非丙火阳照则水结成冰。"
+      },
+      "classical_source": "《渊海子平·论月令提纲》《穷通宝鉴》"
+    },
+    {
+      "branch": "子",
+      "season": "仲冬",
+      "solar_terms": ["大雪", "冬至"],
+      "element": "水",
+      "season_element_status": {
+        "水": "旺",
+        "木": "相",
+        "金": "休",
+        "土": "囚",
+        "火": "死"
+      },
+      "commanding_days": [
+        { "stem": "壬", "days": 10, "nature": "余气" },
+        { "stem": "癸", "days": 20, "nature": "专气司权" }
+      ],
+      "tiao_hou": {
+        "need": "丙火解冻",
+        "rationale": "一阳初生而阴凝极盛，全局无火则金寒水冷，百物不生。"
+      },
+      "classical_source": "《渊海子平·论月令提纲》《穷通宝鉴》"
+    },
+    {
+      "branch": "丑",
+      "season": "季冬",
+      "solar_terms": ["小寒", "大寒"],
+      "element": "土",
+      "season_element_status": {
+        "土": "旺",
+        "金": "相",
+        "木": "休",
+        "水": "囚",
+        "火": "死"
+      },
+      "commanding_days": [
+        { "stem": "癸", "days": 9, "nature": "余气" },
+        { "stem": "辛", "days": 3, "nature": "中气/金库" },
+        { "stem": "己", "days": 18, "nature": "本气司权" }
+      ],
+      "tiao_hou": {
+        "need": "丙火解冻生土",
+        "rationale": "湿泥冻土，万物伏藏，无丙火阳和则冻泥不化，难育金木。"
+      },
+      "classical_source": "《渊海子平·论月令提纲》《穷通宝鉴》"
+    }
+  ]
+}
