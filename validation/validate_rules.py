@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"
 def load(n):
     with open(DATA/n,"r",encoding="utf-8") as f:return json.load(f)
 sources=load("sources.json"); texts=load("classical_texts.json"); interps=load("interpretations.json"); rules=load("core_rules.json"); aux=load("auxiliary_rules.json"); evidence=load("evidence_records.json"); rejected=load("rejected_texts.json")
-relations=load("stem_branch_relations.json"); hidden=load("branch_hidden_stems.json"); ten_gods=load("ten_gods_schema.json"); luck=load("luck_rules.json"); shensha=load("shensha_schema.json"); jiazi=load("sixty_jiazi.json"); strength=load("heuristic_strength_model.json"); flaws=load("flaw_and_remedy.json"); pattern_logic=load("pattern_logic.json"); tiaohou=load("tiaohou_matrix.json"); growth=load("twelve_growth.json"); transform=load("transformation_and_override.json"); kinship=load("pillars_and_kinship.json"); stem_nature=load("ten_stems_nature.json"); primitives=load("base_primitives.json")
+relations=load("stem_branch_relations.json"); hidden=load("branch_hidden_stems.json"); ten_gods=load("ten_gods_schema.json"); luck=load("luck_rules.json"); shensha=load("shensha_schema.json"); jiazi=load("sixty_jiazi.json"); strength=load("heuristic_strength_model.json"); flaws=load("flaw_and_remedy.json"); pattern_logic=load("pattern_logic.json"); pattern_catalog=load("pattern_catalog.json"); tiaohou=load("tiaohou_matrix.json"); growth=load("twelve_growth.json"); transform=load("transformation_and_override.json"); kinship=load("pillars_and_kinship.json"); stem_nature=load("ten_stems_nature.json"); primitives=load("base_primitives.json")
 source_ids={x["source_id"] for x in sources}; text_ids={x["text_id"] for x in texts}; interp_ids={x["interp_id"] for x in interps}
 errors=[]
 # V3.2 结构矩阵审计
@@ -24,6 +24,16 @@ if len(shensha.get("schemas",[])) < 1: errors.append("shensha_schema: schemas不
 if not strength.get("weights"): errors.append("heuristic_strength_model: weights不能为空")
 if not flaws.get("patterns"): errors.append("flaw_and_remedy: patterns不能为空")
 if not pattern_logic.get("patterns"): errors.append("pattern_logic: patterns不能为空")
+catalog_ids={x.get("id") for x in pattern_catalog.get("patterns",[])}
+logic_ids=set(pattern_logic.get("patterns",{}).keys())
+for p in pattern_catalog.get("patterns",[]):
+    ref=p.get("logic_ref","")
+    if not ref.startswith("data/pattern_logic.json#"): errors.append(f'{p.get("id")}: logic_ref格式错误')
+    else:
+        target=ref.split("#",1)[1]
+        if target not in logic_ids: errors.append(f'{p.get("id")}: logic_ref不存在 {target}')
+for pid in ["曲直格","炎上格","稼穑格","从革格","润下格","从财格","从杀格","从儿格","从弱格","甲己化土格","乙庚化金格","丙辛化水格","丁壬化木格","戊癸化火格"]:
+    if pid not in logic_ids: errors.append(f'pattern_logic: 缺少变格 {pid}')
 if abs(sum(strength.get("weights",{}).values())-1)>1e-9: errors.append("heuristic_strength_model: weights之和必须为1")
 # V3.4 基础规则层审计
 if len(transform.get("transformation_pairs",[])) != 5: errors.append("transformation_and_override: 五合必须5组")
