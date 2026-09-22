@@ -1,0 +1,647 @@
+{
+  "schema_version": "1.0",
+  "description": "十天干在十二地支上的十二长生映射。用于结构特征，不直接等价于旺衰结论。",
+  "stages": [
+    "长生",
+    "沐浴",
+    "冠带",
+    "临官",
+    "帝旺",
+    "衰",
+    "病",
+    "死",
+    "墓",
+    "绝",
+    "胎",
+    "养"
+  ],
+  "records": {
+    "甲": [
+      {
+        "month_branch": "寅",
+        "stage": "长生",
+        "canonical_stage_branch": "亥"
+      },
+      {
+        "month_branch": "卯",
+        "stage": "沐浴",
+        "canonical_stage_branch": "子"
+      },
+      {
+        "month_branch": "辰",
+        "stage": "冠带",
+        "canonical_stage_branch": "丑"
+      },
+      {
+        "month_branch": "巳",
+        "stage": "临官",
+        "canonical_stage_branch": "寅"
+      },
+      {
+        "month_branch": "午",
+        "stage": "帝旺",
+        "canonical_stage_branch": "卯"
+      },
+      {
+        "month_branch": "未",
+        "stage": "衰",
+        "canonical_stage_branch": "辰"
+      },
+      {
+        "month_branch": "申",
+        "stage": "病",
+        "canonical_stage_branch": "巳"
+      },
+      {
+        "month_branch": "酉",
+        "stage": "死",
+        "canonical_stage_branch": "午"
+      },
+      {
+        "month_branch": "戌",
+        "stage": "墓",
+        "canonical_stage_branch": "未"
+      },
+      {
+        "month_branch": "亥",
+        "stage": "绝",
+        "canonical_stage_branch": "申"
+      },
+      {
+        "month_branch": "子",
+        "stage": "胎",
+        "canonical_stage_branch": "酉"
+      },
+      {
+        "month_branch": "丑",
+        "stage": "养",
+        "canonical_stage_branch": "戌"
+      }
+    ],
+    "乙": [
+      {
+        "month_branch": "寅",
+        "stage": "长生",
+        "canonical_stage_branch": "午"
+      },
+      {
+        "month_branch": "卯",
+        "stage": "沐浴",
+        "canonical_stage_branch": "巳"
+      },
+      {
+        "month_branch": "辰",
+        "stage": "冠带",
+        "canonical_stage_branch": "辰"
+      },
+      {
+        "month_branch": "巳",
+        "stage": "临官",
+        "canonical_stage_branch": "卯"
+      },
+      {
+        "month_branch": "午",
+        "stage": "帝旺",
+        "canonical_stage_branch": "寅"
+      },
+      {
+        "month_branch": "未",
+        "stage": "衰",
+        "canonical_stage_branch": "丑"
+      },
+      {
+        "month_branch": "申",
+        "stage": "病",
+        "canonical_stage_branch": "子"
+      },
+      {
+        "month_branch": "酉",
+        "stage": "死",
+        "canonical_stage_branch": "亥"
+      },
+      {
+        "month_branch": "戌",
+        "stage": "墓",
+        "canonical_stage_branch": "戌"
+      },
+      {
+        "month_branch": "亥",
+        "stage": "绝",
+        "canonical_stage_branch": "酉"
+      },
+      {
+        "month_branch": "子",
+        "stage": "胎",
+        "canonical_stage_branch": "申"
+      },
+      {
+        "month_branch": "丑",
+        "stage": "养",
+        "canonical_stage_branch": "未"
+      }
+    ],
+    "丙": [
+      {
+        "month_branch": "寅",
+        "stage": "长生",
+        "canonical_stage_branch": "寅"
+      },
+      {
+        "month_branch": "卯",
+        "stage": "沐浴",
+        "canonical_stage_branch": "卯"
+      },
+      {
+        "month_branch": "辰",
+        "stage": "冠带",
+        "canonical_stage_branch": "辰"
+      },
+      {
+        "month_branch": "巳",
+        "stage": "临官",
+        "canonical_stage_branch": "巳"
+      },
+      {
+        "month_branch": "午",
+        "stage": "帝旺",
+        "canonical_stage_branch": "午"
+      },
+      {
+        "month_branch": "未",
+        "stage": "衰",
+        "canonical_stage_branch": "未"
+      },
+      {
+        "month_branch": "申",
+        "stage": "病",
+        "canonical_stage_branch": "申"
+      },
+      {
+        "month_branch": "酉",
+        "stage": "死",
+        "canonical_stage_branch": "酉"
+      },
+      {
+        "month_branch": "戌",
+        "stage": "墓",
+        "canonical_stage_branch": "戌"
+      },
+      {
+        "month_branch": "亥",
+        "stage": "绝",
+        "canonical_stage_branch": "亥"
+      },
+      {
+        "month_branch": "子",
+        "stage": "胎",
+        "canonical_stage_branch": "子"
+      },
+      {
+        "month_branch": "丑",
+        "stage": "养",
+        "canonical_stage_branch": "丑"
+      }
+    ],
+    "丁": [
+      {
+        "month_branch": "寅",
+        "stage": "长生",
+        "canonical_stage_branch": "酉"
+      },
+      {
+        "month_branch": "卯",
+        "stage": "沐浴",
+        "canonical_stage_branch": "申"
+      },
+      {
+        "month_branch": "辰",
+        "stage": "冠带",
+        "canonical_stage_branch": "未"
+      },
+      {
+        "month_branch": "巳",
+        "stage": "临官",
+        "canonical_stage_branch": "午"
+      },
+      {
+        "month_branch": "午",
+        "stage": "帝旺",
+        "canonical_stage_branch": "巳"
+      },
+      {
+        "month_branch": "未",
+        "stage": "衰",
+        "canonical_stage_branch": "辰"
+      },
+      {
+        "month_branch": "申",
+        "stage": "病",
+        "canonical_stage_branch": "卯"
+      },
+      {
+        "month_branch": "酉",
+        "stage": "死",
+        "canonical_stage_branch": "寅"
+      },
+      {
+        "month_branch": "戌",
+        "stage": "墓",
+        "canonical_stage_branch": "丑"
+      },
+      {
+        "month_branch": "亥",
+        "stage": "绝",
+        "canonical_stage_branch": "子"
+      },
+      {
+        "month_branch": "子",
+        "stage": "胎",
+        "canonical_stage_branch": "亥"
+      },
+      {
+        "month_branch": "丑",
+        "stage": "养",
+        "canonical_stage_branch": "戌"
+      }
+    ],
+    "戊": [
+      {
+        "month_branch": "寅",
+        "stage": "长生",
+        "canonical_stage_branch": "寅"
+      },
+      {
+        "month_branch": "卯",
+        "stage": "沐浴",
+        "canonical_stage_branch": "卯"
+      },
+      {
+        "month_branch": "辰",
+        "stage": "冠带",
+        "canonical_stage_branch": "辰"
+      },
+      {
+        "month_branch": "巳",
+        "stage": "临官",
+        "canonical_stage_branch": "巳"
+      },
+      {
+        "month_branch": "午",
+        "stage": "帝旺",
+        "canonical_stage_branch": "午"
+      },
+      {
+        "month_branch": "未",
+        "stage": "衰",
+        "canonical_stage_branch": "未"
+      },
+      {
+        "month_branch": "申",
+        "stage": "病",
+        "canonical_stage_branch": "申"
+      },
+      {
+        "month_branch": "酉",
+        "stage": "死",
+        "canonical_stage_branch": "酉"
+      },
+      {
+        "month_branch": "戌",
+        "stage": "墓",
+        "canonical_stage_branch": "戌"
+      },
+      {
+        "month_branch": "亥",
+        "stage": "绝",
+        "canonical_stage_branch": "亥"
+      },
+      {
+        "month_branch": "子",
+        "stage": "胎",
+        "canonical_stage_branch": "子"
+      },
+      {
+        "month_branch": "丑",
+        "stage": "养",
+        "canonical_stage_branch": "丑"
+      }
+    ],
+    "己": [
+      {
+        "month_branch": "寅",
+        "stage": "长生",
+        "canonical_stage_branch": "酉"
+      },
+      {
+        "month_branch": "卯",
+        "stage": "沐浴",
+        "canonical_stage_branch": "申"
+      },
+      {
+        "month_branch": "辰",
+        "stage": "冠带",
+        "canonical_stage_branch": "未"
+      },
+      {
+        "month_branch": "巳",
+        "stage": "临官",
+        "canonical_stage_branch": "午"
+      },
+      {
+        "month_branch": "午",
+        "stage": "帝旺",
+        "canonical_stage_branch": "巳"
+      },
+      {
+        "month_branch": "未",
+        "stage": "衰",
+        "canonical_stage_branch": "辰"
+      },
+      {
+        "month_branch": "申",
+        "stage": "病",
+        "canonical_stage_branch": "卯"
+      },
+      {
+        "month_branch": "酉",
+        "stage": "死",
+        "canonical_stage_branch": "寅"
+      },
+      {
+        "month_branch": "戌",
+        "stage": "墓",
+        "canonical_stage_branch": "丑"
+      },
+      {
+        "month_branch": "亥",
+        "stage": "绝",
+        "canonical_stage_branch": "子"
+      },
+      {
+        "month_branch": "子",
+        "stage": "胎",
+        "canonical_stage_branch": "亥"
+      },
+      {
+        "month_branch": "丑",
+        "stage": "养",
+        "canonical_stage_branch": "戌"
+      }
+    ],
+    "庚": [
+      {
+        "month_branch": "寅",
+        "stage": "长生",
+        "canonical_stage_branch": "巳"
+      },
+      {
+        "month_branch": "卯",
+        "stage": "沐浴",
+        "canonical_stage_branch": "午"
+      },
+      {
+        "month_branch": "辰",
+        "stage": "冠带",
+        "canonical_stage_branch": "未"
+      },
+      {
+        "month_branch": "巳",
+        "stage": "临官",
+        "canonical_stage_branch": "申"
+      },
+      {
+        "month_branch": "午",
+        "stage": "帝旺",
+        "canonical_stage_branch": "酉"
+      },
+      {
+        "month_branch": "未",
+        "stage": "衰",
+        "canonical_stage_branch": "戌"
+      },
+      {
+        "month_branch": "申",
+        "stage": "病",
+        "canonical_stage_branch": "亥"
+      },
+      {
+        "month_branch": "酉",
+        "stage": "死",
+        "canonical_stage_branch": "子"
+      },
+      {
+        "month_branch": "戌",
+        "stage": "墓",
+        "canonical_stage_branch": "丑"
+      },
+      {
+        "month_branch": "亥",
+        "stage": "绝",
+        "canonical_stage_branch": "寅"
+      },
+      {
+        "month_branch": "子",
+        "stage": "胎",
+        "canonical_stage_branch": "卯"
+      },
+      {
+        "month_branch": "丑",
+        "stage": "养",
+        "canonical_stage_branch": "辰"
+      }
+    ],
+    "辛": [
+      {
+        "month_branch": "寅",
+        "stage": "长生",
+        "canonical_stage_branch": "子"
+      },
+      {
+        "month_branch": "卯",
+        "stage": "沐浴",
+        "canonical_stage_branch": "亥"
+      },
+      {
+        "month_branch": "辰",
+        "stage": "冠带",
+        "canonical_stage_branch": "戌"
+      },
+      {
+        "month_branch": "巳",
+        "stage": "临官",
+        "canonical_stage_branch": "酉"
+      },
+      {
+        "month_branch": "午",
+        "stage": "帝旺",
+        "canonical_stage_branch": "申"
+      },
+      {
+        "month_branch": "未",
+        "stage": "衰",
+        "canonical_stage_branch": "未"
+      },
+      {
+        "month_branch": "申",
+        "stage": "病",
+        "canonical_stage_branch": "午"
+      },
+      {
+        "month_branch": "酉",
+        "stage": "死",
+        "canonical_stage_branch": "巳"
+      },
+      {
+        "month_branch": "戌",
+        "stage": "墓",
+        "canonical_stage_branch": "辰"
+      },
+      {
+        "month_branch": "亥",
+        "stage": "绝",
+        "canonical_stage_branch": "卯"
+      },
+      {
+        "month_branch": "子",
+        "stage": "胎",
+        "canonical_stage_branch": "寅"
+      },
+      {
+        "month_branch": "丑",
+        "stage": "养",
+        "canonical_stage_branch": "丑"
+      }
+    ],
+    "壬": [
+      {
+        "month_branch": "寅",
+        "stage": "长生",
+        "canonical_stage_branch": "申"
+      },
+      {
+        "month_branch": "卯",
+        "stage": "沐浴",
+        "canonical_stage_branch": "酉"
+      },
+      {
+        "month_branch": "辰",
+        "stage": "冠带",
+        "canonical_stage_branch": "戌"
+      },
+      {
+        "month_branch": "巳",
+        "stage": "临官",
+        "canonical_stage_branch": "亥"
+      },
+      {
+        "month_branch": "午",
+        "stage": "帝旺",
+        "canonical_stage_branch": "子"
+      },
+      {
+        "month_branch": "未",
+        "stage": "衰",
+        "canonical_stage_branch": "丑"
+      },
+      {
+        "month_branch": "申",
+        "stage": "病",
+        "canonical_stage_branch": "寅"
+      },
+      {
+        "month_branch": "酉",
+        "stage": "死",
+        "canonical_stage_branch": "卯"
+      },
+      {
+        "month_branch": "戌",
+        "stage": "墓",
+        "canonical_stage_branch": "辰"
+      },
+      {
+        "month_branch": "亥",
+        "stage": "绝",
+        "canonical_stage_branch": "巳"
+      },
+      {
+        "month_branch": "子",
+        "stage": "胎",
+        "canonical_stage_branch": "午"
+      },
+      {
+        "month_branch": "丑",
+        "stage": "养",
+        "canonical_stage_branch": "未"
+      }
+    ],
+    "癸": [
+      {
+        "month_branch": "寅",
+        "stage": "长生",
+        "canonical_stage_branch": "卯"
+      },
+      {
+        "month_branch": "卯",
+        "stage": "沐浴",
+        "canonical_stage_branch": "寅"
+      },
+      {
+        "month_branch": "辰",
+        "stage": "冠带",
+        "canonical_stage_branch": "丑"
+      },
+      {
+        "month_branch": "巳",
+        "stage": "临官",
+        "canonical_stage_branch": "子"
+      },
+      {
+        "month_branch": "午",
+        "stage": "帝旺",
+        "canonical_stage_branch": "亥"
+      },
+      {
+        "month_branch": "未",
+        "stage": "衰",
+        "canonical_stage_branch": "戌"
+      },
+      {
+        "month_branch": "申",
+        "stage": "病",
+        "canonical_stage_branch": "酉"
+      },
+      {
+        "month_branch": "酉",
+        "stage": "死",
+        "canonical_stage_branch": "申"
+      },
+      {
+        "month_branch": "戌",
+        "stage": "墓",
+        "canonical_stage_branch": "未"
+      },
+      {
+        "month_branch": "亥",
+        "stage": "绝",
+        "canonical_stage_branch": "午"
+      },
+      {
+        "month_branch": "子",
+        "stage": "胎",
+        "canonical_stage_branch": "巳"
+      },
+      {
+        "month_branch": "丑",
+        "stage": "养",
+        "canonical_stage_branch": "辰"
+      }
+    ]
+  },
+  "source_refs": [
+    "SRC_SMTH",
+    "SRC_YHZP"
+  ],
+  "evidence_level": "E2",
+  "verification_status": "cross_verified_digital",
+  "note": "阴阳顺逆、戊己长生等传统版本存在流派差异；本表采用当前项目既有基准映射，不将其包装为唯一历史版本。"
+}
