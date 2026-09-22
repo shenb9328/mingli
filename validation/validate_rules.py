@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"
 def load(n):
     with open(DATA/n,"r",encoding="utf-8") as f:return json.load(f)
 sources=load("sources.json"); texts=load("classical_texts.json"); interps=load("interpretations.json"); rules=load("core_rules.json"); aux=load("auxiliary_rules.json"); evidence=load("evidence_records.json"); rejected=load("rejected_texts.json")
-relations=load("stem_branch_relations.json"); hidden=load("branch_hidden_stems.json"); ten_gods=load("ten_gods_schema.json"); luck=load("luck_rules.json"); shensha=load("shensha_schema.json"); jiazi=load("sixty_jiazi.json"); strength=load("heuristic_strength_model.json"); flaws=load("flaw_and_remedy.json"); pattern_logic=load("pattern_logic.json"); tiaohou=load("tiaohou_matrix.json"); growth=load("twelve_growth.json")
+relations=load("stem_branch_relations.json"); hidden=load("branch_hidden_stems.json"); ten_gods=load("ten_gods_schema.json"); luck=load("luck_rules.json"); shensha=load("shensha_schema.json"); jiazi=load("sixty_jiazi.json"); strength=load("heuristic_strength_model.json"); flaws=load("flaw_and_remedy.json"); pattern_logic=load("pattern_logic.json"); tiaohou=load("tiaohou_matrix.json"); growth=load("twelve_growth.json"); transform=load("transformation_and_override.json"); kinship=load("pillars_and_kinship.json"); stem_nature=load("ten_stems_nature.json"); primitives=load("base_primitives.json")
 source_ids={x["source_id"] for x in sources}; text_ids={x["text_id"] for x in texts}; interp_ids={x["interp_id"] for x in interps}
 errors=[]
 # V3.2 结构矩阵审计
@@ -25,6 +25,18 @@ if not strength.get("weights"): errors.append("heuristic_strength_model: weights
 if not flaws.get("patterns"): errors.append("flaw_and_remedy: patterns不能为空")
 if not pattern_logic.get("patterns"): errors.append("pattern_logic: patterns不能为空")
 if abs(sum(strength.get("weights",{}).values())-1)>1e-9: errors.append("heuristic_strength_model: weights之和必须为1")
+# V3.4 基础规则层审计
+if len(transform.get("transformation_pairs",[])) != 5: errors.append("transformation_and_override: 五合必须5组")
+if not transform.get("state_machine",{}).get("states"): errors.append("transformation_and_override: state_machine缺失")
+if not transform.get("transformation_conditions"): errors.append("transformation_and_override: transformation_conditions不能为空")
+if not kinship.get("palace_model",{}).get("pillars"): errors.append("pillars_and_kinship: palace_model.pillars不能为空")
+if not kinship.get("kinship_by_gender"): errors.append("pillars_and_kinship: kinship_by_gender不能为空")
+if len(stem_nature.get("stems",[])) != 10: errors.append("ten_stems_nature: 必须10个天干")
+if len(primitives.get("stem_primitives",[])) != 10: errors.append("base_primitives: stem_primitives必须10项")
+if len(primitives.get("branch_primitives",[])) != 12: errors.append("base_primitives: branch_primitives必须12项")
+if set(primitives.get("elements",[])) != {"木","火","土","金","水"}: errors.append("base_primitives: 五行集合错误")
+if set(primitives.get("element_cycle",{}).get("generate",{}).keys()) != set(primitives.get("elements",[])): errors.append("base_primitives: generate矩阵不完整")
+if set(primitives.get("element_cycle",{}).get("control",{}).keys()) != set(primitives.get("elements",[])): errors.append("base_primitives: control矩阵不完整")
 for t in texts:
     e=t.get("evidence",{})
     if t["source_id"] not in source_ids: errors.append(f'{t["text_id"]}: source_id不存在')
