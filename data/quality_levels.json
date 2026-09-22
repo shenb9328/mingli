@@ -1,0 +1,40 @@
+{
+  "levels": [
+    {
+      "level": "E0",
+      "meaning": "无可靠证据",
+      "allowed": false
+    },
+    {
+      "level": "E1",
+      "meaning": "二手资料或现代转述",
+      "allowed": true,
+      "use": "参考，不进入核心原文"
+    },
+    {
+      "level": "E2",
+      "meaning": "两个以上可靠数字文本或可追溯电子版本相互印证",
+      "allowed": true,
+      "use": "进入知识库原文层"
+    },
+    {
+      "level": "E3",
+      "meaning": "可定位历史版本，但尚未逐页扫描核验",
+      "allowed": true,
+      "use": "待核验"
+    },
+    {
+      "level": "E4",
+      "meaning": "历史扫描页逐字核验",
+      "allowed": true,
+      "use": "高可信原文"
+    },
+    {
+      "level": "E5",
+      "meaning": "两种以上历史版本扫描校勘",
+      "allowed": true,
+      "use": "版本学高可信"
+    }
+  ],
+  "principle": "宁可漏收，不可把现代整理文本伪装成古籍扫描证据"
+}
