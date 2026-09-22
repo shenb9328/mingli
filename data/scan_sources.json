@@ -1,0 +1,41 @@
+[
+  {
+    "scan_id": "SCAN_SMTH_NLC_03",
+    "work": "三命通会",
+    "edition": "明万历刻本",
+    "institution": "中国国家图书馆",
+    "repository": "Wikimedia Commons / NLC digital ancient books mirror",
+    "file": "NLC892-411999029701-67186 三命通會 第3冊.pdf",
+    "contents": "卷之二上",
+    "pages": 38,
+    "scan_status": "scan_available_not_page_verified",
+    "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999029701-67186_%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83_%E7%AC%AC3%E5%86%8A.pdf",
+    "note": "本册不是卷三，不能用于直接给 TXT_SMTH_TY_001 定页；需继续定位包含卷三的扫描册。"
+  },
+  {
+    "scan_id": "SCAN_YHZP_NLC_02",
+    "work": "刻京台增补渊海子平大全",
+    "edition": "明万历刻本",
+    "institution": "中国国家图书馆",
+    "repository": "Wikimedia Commons / NLC digital ancient books mirror",
+    "file": "NLC892-2642-210288 刻京臺增補淵海子平大全 第2冊.pdf",
+    "contents": "卷之三",
+    "pages": 30,
+    "scan_status": "scan_available_not_page_verified",
+    "url": "https://commons.wikimedia.org/wiki/File:NLC892-2642-210288_%E5%88%BB%E4%BA%AC%E8%87%BA%E5%A2%9E%E8%A3%9C%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3%E5%A4%A7%E5%85%A8_%E7%AC%AC2%E5%86%8A.pdf",
+    "note": "继善篇位于卷二，因此本册不能直接给 TXT_YHZP_JS_001 定页；需定位第1册中的卷二页面。"
+  },
+  {
+    "scan_id": "SCAN_YHZP_NLC_01",
+    "work": "刻京台增补渊海子平大全",
+    "edition": "明万历刻本",
+    "institution": "中国国家图书馆",
+    "repository": "Wikimedia Commons / NLC digital ancient books mirror",
+    "file": "NLC892-2642-210287 刻京臺增補淵海子平大全 第1冊.pdf",
+    "contents": "卷一、卷二",
+    "pages": 48,
+    "scan_status": "scan_available_not_page_verified",
+    "url": "https://commons.wikimedia.org/wiki/File:NLC892-2642-210287_%E5%88%BB%E4%BA%AC%E8%87%BA%E5%A2%9E%E8%A3%9C%E6%B7%B5%E6%B5%B7%E5%B9%B3%E5%A4%A7%E5%85%A8_%E7%AC%AC1%E5%86%8A.pdf",
+    "note": "这是 TXT_YHZP_JS_001 的正确候选扫描册；下一步必须逐页定位继善篇并记录影印页码。"
+  }
+]
