@@ -8,11 +8,22 @@
     "priority": 25,
     "source_refs": ["SRC_SMTH", "SRC_YHZP"],
     "text_refs": ["TXT_SMTH_TY_001", "TXT_SMTH_TY_002", "TXT_YHZP_JS_003"],
-    "historical_principle": "天乙者最尊贵，所至之处凶煞隐然而避。得聪明智慧之资，亦受尊人提拔之象。",
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SMTH_TY_001",
+        "statement": "其神最尊贵，所至之处，一切凶煞隐然而避。"
+      },
+      {
+        "text_ref": "TXT_YHZP_JS_003",
+        "statement": "天乙贵人，得聪明智慧之资。"
+      }
+    ],
     "computational_model": {
       "model_type": "auxiliary_tag_modifier",
       "effect": "仅对已确立的吉凶基调做幅度修正与社会人际象义增补，不决定整体吉凶走向",
-      "nullification": "若该支逢空亡或被冲破，其贵人吉力折半或隐没"
+      "nullification": "若该支逢空亡或被冲破，其贵人吉力折半或隐没",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统命学辅助神煞经验设值"
     },
     "conditions": {
       "required": ["原局、大运或流年地支与日干符合天乙贵人查验标准"],
@@ -44,10 +55,17 @@
     "priority": 30,
     "source_refs": ["SRC_SMTH"],
     "text_refs": ["TXT_SMTH_YR_001"],
-    "historical_principle": "羊者言刚，刃者宰割。禄过则刃生，逢岁运相冲祸患立至。",
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SMTH_YR_001",
+        "statement": "羊者，言刚也；刃者，取宰割之义。禄过则刃生，功成当退不退，则过越其分。逢岁运相冲，祸患立至。"
+      }
+    ],
     "computational_model": {
       "model_type": "auxiliary_tension_modifier",
-      "effect": "主性情刚毅果决、行事迅捷；岁运遇冲刑合会时警示筋骨血气波折与竞争争夺。"
+      "effect": "主性情刚毅果决、行事迅捷；岁运遇冲刑合会时警示筋骨血气波折与竞争争夺。",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统凶神辅助经验设定"
     },
     "conditions": {
       "required": ["日干见帝旺禄后一位地支（阳干为甚）"]
@@ -70,10 +88,17 @@
     "priority": 25,
     "source_refs": ["SRC_SMTH"],
     "text_refs": ["TXT_SMTH_YM_001"],
-    "historical_principle": "驿马者，迁改奔驰之象。岁运加临，主道路奔波、迁职远涉。",
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SMTH_YM_001",
+        "statement": "驿马者，主迁改奔驰之象。日时值之，主好动少静；岁运加临，主道路奔波、迁职远涉。"
+      }
+    ],
     "computational_model": {
       "model_type": "mobility_indicator",
-      "effect": "主空间位移、出差调任、出行游历之动象，具体吉凶视运途喜忌而定。"
+      "effect": "主空间位移、出差调任、出行游历之动象，具体吉凶视运途喜忌而定。",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统动象辅助经验设定"
     },
     "conditions": {
       "required": ["依原局日支或年支三合首位对冲支查验"]

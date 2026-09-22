@@ -4,7 +4,8 @@
     "book": "渊海子平",
     "author": "宋·徐升编 / 明·杨淙校",
     "dynasty": "宋/明",
-    "edition": "文渊阁四库全书子部术数类本",
+    "base_edition": "文渊阁四库全书子部术数类本",
+    "digital_reference": "ctext:yuanhai-ziping / 四库全书文渊阁影印本",
     "layers": [
       { "layer_id": "fu_wen", "name": "先贤古赋（继善篇、喜忌篇、消息赋等）", "period": "宋" },
       { "layer_id": "bian_zhe", "name": "徐升原编 / 明代重编增辑", "period": "明嘉靖/万历" }
@@ -16,7 +17,8 @@
     "book": "三命通会",
     "author": "明·万民英",
     "dynasty": "明",
-    "edition": "文渊阁四库全书子部术数类本",
+    "base_edition": "文渊阁四库全书子部术数类本",
+    "digital_reference": "ctext:sanming-tonghui / 台北故宫文渊阁影印本",
     "layers": [
       { "layer_id": "original_text", "name": "万民英汇集总论与考订按语", "period": "明万历六年" },
       { "layer_id": "quote_ancient", "name": "万民英引先秦汉唐宋元诸家秘本", "period": "汉唐宋元" }
@@ -28,7 +30,8 @@
     "book": "滴天髓",
     "author": "宋·京图撰 / 明·刘基原注",
     "dynasty": "宋/明",
-    "edition": "守山阁丛书本 / 文渊阁四库全书存目",
+    "base_edition": "守山阁丛书本 / 文渊阁四库全书存目",
+    "digital_reference": "守山阁本重雕本·清刻",
     "layers": [
       { "layer_id": "original_jingtou", "name": "京图经文", "period": "宋" },
       { "layer_id": "note_liuji", "name": "刘基原注", "period": "明" }
@@ -40,9 +43,23 @@
     "book": "滴天髓阐微",
     "author": "清·任铁樵增注",
     "dynasty": "清",
-    "edition": "清道光刻本",
+    "base_edition": "清道光刻本·四库未收书辑刊本",
+    "digital_reference": "道光二十八年晋阳刻本",
     "layers": [
       { "layer_id": "commentary_ren", "name": "任铁樵增注疏义与详实命例", "period": "清道光" }
+    ],
+    "verification": "verified"
+  },
+  {
+    "source_id": "SRC_DTS_BJ",
+    "book": "滴天髓补注",
+    "author": "清·陈素庵辑 / 清·徐乐吾补注",
+    "dynasty": "民国",
+    "base_edition": "民国二十六年上海原铅印本",
+    "digital_reference": "民国命理名著丛书",
+    "layers": [
+      { "layer_id": "suan_an_notes", "name": "陈素庵辑注", "period": "清初" },
+      { "layer_id": "le_wu_notes", "name": "徐乐吾补注", "period": "民国" }
     ],
     "verification": "verified"
   },
@@ -51,7 +68,8 @@
     "book": "穷通宝鉴",
     "author": "余春台辑",
     "dynasty": "清",
-    "edition": "清光绪甲午初刊本",
+    "base_edition": "清光绪甲午初刊本",
+    "digital_reference": "古越余氏刊本",
     "layers": [
       { "layer_id": "lan_jiang_wang", "name": "原书《栏江网》", "period": "明" },
       { "layer_id": "commentary_yu", "name": "余春台重订", "period": "清光绪" }

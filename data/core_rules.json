@@ -8,7 +8,16 @@
     "source_refs": ["SRC_DTS", "SRC_DTS_CW"],
     "text_refs": ["TXT_DTS_TY_001"],
     "interp_refs": ["INT_DTS_TY_001"],
-    "historical_principle": "道有体用，不可以一端论也，要在审其轻重而已矣。",
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      },
+      {
+        "interp_ref": "INT_DTS_TY_001",
+        "statement": "有以日主为体，提纲为用；有以提纲为体，喜神为用；有以四柱为体，岁运为用；有以化神为体，四柱为用。"
+      }
+    ],
     "computational_model": {
       "model_type": "dynamic_ti_yong",
       "supported_modes": [
@@ -41,13 +50,24 @@
     "source_refs": ["SRC_DTS", "SRC_DTS_CW"],
     "text_refs": ["TXT_DTS_SW_001"],
     "interp_refs": ["INT_DTS_SW_001"],
-    "historical_principle": "旺则宜泄宜伤，衰则喜帮喜助。然旺中有衰，衰中有旺；旺极不可损，衰极不可益。",
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_SW_001",
+        "statement": "旺则宜泄宜伤，衰则喜帮喜助。然旺中有衰者存，不可损也；衰中有旺者存，不可益也。旺之极者不可损，以损在其中矣；衰之极者不可益，以益在其中矣。"
+      },
+      {
+        "interp_ref": "INT_DTS_SW_001",
+        "statement": "得时俱为旺论，失令便作衰看，虽是至理，亦死法也。八字虽以月令为重，而旺相休囚，年日时中，亦有损益之权。"
+      }
+    ],
     "computational_model": {
       "model_type": "multi_pillar_balance",
       "weights": {
         "month_commander_baseline": 0.45,
         "three_pillars_joint_weight": 0.55
       },
+      "parameter_status": "heuristic",
+      "parameter_basis": "人工设定基准权重，用于算法初筛，尚未经过百万命例统计拟合验证",
       "boundary_handling": {
         "extreme_strong": "专旺/从旺处理，忌逆克其势",
         "extreme_weak": "弃命从格处理，忌生扶激怒旺神"
@@ -75,11 +95,26 @@
     "source_refs": ["SRC_YHZP", "SRC_DTS_CW"],
     "text_refs": ["TXT_YHZP_ML_001", "TXT_YHZP_JS_001", "TXT_DTS_SW_001"],
     "interp_refs": ["INT_DTS_SW_001"],
-    "historical_principle": "欲知贵贱，先观月令乃提纲。八字虽以月令为重，而旺相休囚，年日时中，亦有损益之权。",
+    "historical_principles": [
+      {
+        "text_ref": "TXT_YHZP_JS_001",
+        "statement": "欲知贵贱，先观月令乃提纲；次察中和，要审日主为紧要。"
+      },
+      {
+        "text_ref": "TXT_YHZP_ML_001",
+        "statement": "月令者，如人之家宅。专以月令提纲为重，次看日干得何等气。"
+      },
+      {
+        "interp_ref": "INT_DTS_SW_001",
+        "statement": "八字虽以月令为重，而旺相休囚，年日时中，亦有损益之权。"
+      }
+    ],
     "computational_model": {
       "model_type": "month_order_anchor_with_pillar_offsets",
       "anchor": "月令司权作为旺相休囚的基础参照系",
-      "offsets": "年支、日支、时支若会局成党（三合、三会、多透），可对月令力量形成显著损益与反转修正"
+      "offsets": "年支、日支、时支若会局成党（三合、三会、多透），可对月令力量形成显著损益与反转修正",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统格局法与任铁樵阐微法折中设计"
     },
     "conditions": {
       "required": ["核定真太阳时并核准节气入月交节日数"]
@@ -102,7 +137,20 @@
     "source_refs": ["SRC_DTS", "SRC_SMTH", "SRC_DTS_CW"],
     "text_refs": ["TXT_DTS_SY_001", "TXT_SMTH_SY_001"],
     "interp_refs": ["INT_DTS_SY_001"],
-    "historical_principle": "休咎系乎运，尤系乎岁。运以方隅为主，岁以吉凶为司。",
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_SY_001",
+        "statement": "休咎系乎运，尤系乎岁。战冲绁掣，往往为祸；休祥顺逆，亦当详审。"
+      },
+      {
+        "text_ref": "TXT_SMTH_SY_001",
+        "statement": "运克岁者吉凶尚缓，岁克运者吉凶立见。"
+      },
+      {
+        "interp_ref": "INT_DTS_SY_001",
+        "statement": "运以方隅为主，岁以吉凶为司。原局干支与大运流年交会，生之克之，合之冲之，须看气势趋向。"
+      }
+    ],
     "computational_model": {
       "model_type": "dynamic_three_tier_recalculation",
       "layers": ["原局四柱(静态根基)", "大运干支(十年气象基底)", "流年干支(当年动变扳机)"],
@@ -126,10 +174,23 @@
     "rule_type": "准核心",
     "name": "岁运并临喜忌依归辨正",
     "priority": 80,
-    "source_refs": ["SRC_YHZP", "SRC_SMTH"],
+    "source_refs": ["SRC_YHZP", "SRC_SMTH", "SRC_DTS_BJ"],
     "text_refs": ["TXT_YHZP_JS_002"],
-    "interp_refs": ["INT_YHZP_JS_002"],
-    "historical_principle": "岁运并临，灾殃立至。此论常态，实际吉凶相半，独喜用神生扶；并临为喜神则增福，并临为忌神则招殃。",
+    "interp_refs": ["INT_YHZP_JS_002_MY", "INT_YHZP_JS_002_CS"],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_YHZP_JS_002",
+        "statement": "岁运并临，灾殃立至。"
+      },
+      {
+        "interp_ref": "INT_YHZP_JS_002_MY",
+        "statement": "岁运并临，吉凶相半。不可一概执定为凶煞。"
+      },
+      {
+        "interp_ref": "INT_YHZP_JS_002_CS",
+        "statement": "若岁运并临乃日主之喜用，反主增益福禄；若岁运并临乃日主之忌煞，方主大祸倾危。关键在于并临之神是用是忌。"
+      }
+    ],
     "computational_model": {
       "model_type": "conditional_suiyun_binglin",
       "logic": "判定流年干支 == 大运干支时，检查该干支五行是原局体用喜用还是克泄忌神，分别输出增吉或防灾警示。"

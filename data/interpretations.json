@@ -27,12 +27,21 @@
     "schools": ["动态岁运派"]
   },
   {
-    "interp_id": "INT_YHZP_JS_002",
+    "interp_id": "INT_YHZP_JS_002_MY",
     "text_ref": "TXT_YHZP_JS_002",
-    "author": "明·万民英 / 清·陈素庵",
+    "author": "明·万民英",
     "source_id": "SRC_SMTH",
-    "commentary_text": "古赋云岁运并临灾殃立至，此常人之论也。若岁运并临乃日主之喜用，反主增益福禄；若岁运并临乃日主之忌煞，方主大祸倾危。不可执一而泥。",
-    "semantic_summary": "辨正岁运并临之吉凶实质系于所并者为喜神还是忌神，非逢并皆凶。",
-    "schools": ["用神得失论"]
+    "commentary_text": "岁运并临，吉凶相半。日主生旺，行衰绝之运反美；日主休废，逢生旺之运始发。不可一概执定为凶煞。",
+    "semantic_summary": "明代万民英考订：岁运并临吉凶各半，重在日主生旺休废与运途生扶反差。",
+    "schools": ["三命通会汇考派"]
+  },
+  {
+    "interp_id": "INT_YHZP_JS_002_CS",
+    "text_ref": "TXT_YHZP_JS_002",
+    "author": "清·陈素庵",
+    "source_id": "SRC_DTS_BJ",
+    "commentary_text": "古赋云岁运并临灾殃立至，此常人之论也。若岁运并临乃日主之喜用，反主增益福禄；若岁运并临乃日主之忌煞，方主大祸倾危。关键在于并临之神是用是忌。",
+    "semantic_summary": "清初陈素庵辨正：岁运并临之祸福完全依归于并临干支属于喜用神还是忌神煞。",
+    "schools": ["命理约言体用派"]
   }
 ]
