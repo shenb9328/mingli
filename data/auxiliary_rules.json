@@ -32,5 +32,170 @@
       ]
     },
     "verification": "source_text_verified; school_dispute_retained"
+  },
+  {
+    "rule_id": "AUX_REL_001",
+    "category": "合冲刑害",
+    "subcategory": "六合",
+    "rule_type": "辅助",
+    "name": "地支六合",
+    "priority": 35,
+    "source_refs": [
+      "SRC_SMTH"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "branch_relation",
+      "relation_ref": "REL_BRANCH_LIUHE",
+      "effect": "记录合的存在；是否合化另判月令、透干、得势等条件。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule"
+  },
+  {
+    "rule_id": "AUX_REL_002",
+    "category": "合冲刑害",
+    "subcategory": "六冲",
+    "rule_type": "辅助",
+    "name": "地支六冲",
+    "priority": 40,
+    "source_refs": [
+      "SRC_SMTH"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "branch_relation",
+      "relation_ref": "REL_BRANCH_LIUCHONG",
+      "effect": "记录冲；不直接映射为固定吉凶。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule"
+  },
+  {
+    "rule_id": "AUX_REL_003",
+    "category": "合冲刑害",
+    "subcategory": "三合三会",
+    "rule_type": "辅助",
+    "name": "三合三会",
+    "priority": 38,
+    "source_refs": [
+      "SRC_SMTH"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "branch_relation",
+      "relation_refs": [
+        "REL_BRANCH_SANHE",
+        "REL_BRANCH_SANHUI"
+      ],
+      "effect": "形成会局/合局候选，再结合季节和透干判断是否成化。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule"
+  },
+  {
+    "rule_id": "AUX_REL_004",
+    "category": "合冲刑害",
+    "subcategory": "刑害破",
+    "rule_type": "辅助",
+    "name": "刑害破",
+    "priority": 30,
+    "source_refs": [
+      "SRC_SMTH"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "branch_relation",
+      "relation_refs": [
+        "REL_BRANCH_SANXING_01",
+        "REL_BRANCH_SANXING_02",
+        "REL_BRANCH_SANXING_03",
+        "REL_BRANCH_ZIXING",
+        "REL_BRANCH_LIUHAI",
+        "REL_BRANCH_POH"
+      ],
+      "effect": "作为结构变化标签，不单独判吉凶。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule"
+  },
+  {
+    "rule_id": "AUX_TG_001",
+    "category": "十神",
+    "subcategory": "基础",
+    "rule_type": "辅助",
+    "name": "十神映射",
+    "priority": 50,
+    "source_refs": [
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_YHZP_RZ_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "ten_god_mapping",
+      "schema_ref": "data/ten_gods_schema.json",
+      "effect": "为每个天干/藏干计算相对日主十神。",
+      "parameter_status": "deterministic"
+    },
+    "verification": "structured_traditional_rule"
+  },
+  {
+    "rule_id": "AUX_LUCK_001",
+    "category": "大运",
+    "subcategory": "顺逆",
+    "rule_type": "辅助",
+    "name": "大运顺逆配置",
+    "priority": 45,
+    "source_refs": [
+      "SRC_SMTH"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "luck_direction",
+      "schema_ref": "data/luck_rules.json",
+      "effect": "默认阳男阴女顺、阴男阳女逆，同时允许门派覆盖。",
+      "parameter_status": "school_variant"
+    },
+    "verification": "school_variant"
+  },
+  {
+    "rule_id": "AUX_TYGR_002",
+    "category": "神煞",
+    "subcategory": "贵人",
+    "rule_type": "辅助",
+    "name": "天乙贵人仅作辅助标签",
+    "priority": 20,
+    "source_refs": [
+      "SRC_SMTH"
+    ],
+    "text_refs": [
+      "TXT_SMTH_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SMTH_TY_001",
+        "statement": "其神最尊贵，所至之处，一切凶煞隐然而避。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "shen_sha_tag",
+      "effect": "仅输出天乙贵人标签；不得覆盖格局、旺衰、调候和岁运主判断。",
+      "parameter_status": "heuristic"
+    },
+    "verification": "source_text_verified; effect_weight_not_classical"
   }
 ]
