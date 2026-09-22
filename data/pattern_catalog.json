@@ -1,5 +1,5 @@
 {
-  "description": "常用子平格局目录。目录本身是结构化索引，不代表看到格名即自动成格。",
+  "description": "常用子平正格与变格目录。目录是结构化索引，不代表看到格名即自动成格；变格必须经过候选、支持证据与破格证据三层判定。",
   "patterns": [
     {
       "id": "正官格",
@@ -102,8 +102,218 @@
         "财星配置",
         "日主旺衰"
       ],
-      "logic_ref": "data/pattern_logic.json#undefined",
+      "logic_ref": "data/pattern_logic.json#月劫格",
       "computation_note": "机器执行使用pattern_logic.json；本目录只保留人类可读检查项。"
+    },
+    {
+      "id": "曲直格",
+      "category": "专旺格",
+      "formation": "木气专旺，需检查得令、得根、局势及金土破坏",
+      "checks": [
+        "变格候选条件",
+        "支持证据",
+        "破格证据",
+        "月令与根气",
+        "合冲刑害及岁运变化"
+      ],
+      "logic_ref": "data/pattern_logic.json#曲直格",
+      "strict_mode": "candidate_only",
+      "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
+    },
+    {
+      "id": "炎上格",
+      "category": "专旺格",
+      "formation": "火气专旺，需检查得令、得根、局势及水金破坏",
+      "checks": [
+        "变格候选条件",
+        "支持证据",
+        "破格证据",
+        "月令与根气",
+        "合冲刑害及岁运变化"
+      ],
+      "logic_ref": "data/pattern_logic.json#炎上格",
+      "strict_mode": "candidate_only",
+      "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
+    },
+    {
+      "id": "稼穑格",
+      "category": "专旺格",
+      "formation": "土气专旺，需检查土气集中及木水破坏",
+      "checks": [
+        "变格候选条件",
+        "支持证据",
+        "破格证据",
+        "月令与根气",
+        "合冲刑害及岁运变化"
+      ],
+      "logic_ref": "data/pattern_logic.json#稼穑格",
+      "strict_mode": "candidate_only",
+      "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
+    },
+    {
+      "id": "从革格",
+      "category": "专旺格",
+      "formation": "金气专旺，需检查得令得根及火木破坏",
+      "checks": [
+        "变格候选条件",
+        "支持证据",
+        "破格证据",
+        "月令与根气",
+        "合冲刑害及岁运变化"
+      ],
+      "logic_ref": "data/pattern_logic.json#从革格",
+      "strict_mode": "candidate_only",
+      "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
+    },
+    {
+      "id": "润下格",
+      "category": "专旺格",
+      "formation": "水气专旺，需检查得令得根及土火破坏",
+      "checks": [
+        "变格候选条件",
+        "支持证据",
+        "破格证据",
+        "月令与根气",
+        "合冲刑害及岁运变化"
+      ],
+      "logic_ref": "data/pattern_logic.json#润下格",
+      "strict_mode": "candidate_only",
+      "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
+    },
+    {
+      "id": "从财格",
+      "category": "从格",
+      "formation": "日主极弱且财势独旺；印比有效根气可破从",
+      "checks": [
+        "变格候选条件",
+        "支持证据",
+        "破格证据",
+        "月令与根气",
+        "合冲刑害及岁运变化"
+      ],
+      "logic_ref": "data/pattern_logic.json#从财格",
+      "strict_mode": "candidate_only",
+      "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
+    },
+    {
+      "id": "从杀格",
+      "category": "从格",
+      "formation": "日主极弱且官杀势旺；印比有效根气可破从",
+      "checks": [
+        "变格候选条件",
+        "支持证据",
+        "破格证据",
+        "月令与根气",
+        "合冲刑害及岁运变化"
+      ],
+      "logic_ref": "data/pattern_logic.json#从杀格",
+      "strict_mode": "candidate_only",
+      "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
+    },
+    {
+      "id": "从儿格",
+      "category": "从格",
+      "formation": "日主极弱而食伤成为主要流通方向；印比可破从",
+      "checks": [
+        "变格候选条件",
+        "支持证据",
+        "破格证据",
+        "月令与根气",
+        "合冲刑害及岁运变化"
+      ],
+      "logic_ref": "data/pattern_logic.json#从儿格",
+      "strict_mode": "candidate_only",
+      "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
+    },
+    {
+      "id": "从弱格",
+      "category": "从格",
+      "formation": "日主极弱且无单一从势，顺财食官杀之势；印比可破从",
+      "checks": [
+        "变格候选条件",
+        "支持证据",
+        "破格证据",
+        "月令与根气",
+        "合冲刑害及岁运变化"
+      ],
+      "logic_ref": "data/pattern_logic.json#从弱格",
+      "strict_mode": "candidate_only",
+      "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
+    },
+    {
+      "id": "甲己化土格",
+      "category": "化气格",
+      "formation": "甲己合且化土条件充分；普通甲己合不等于化气格",
+      "checks": [
+        "变格候选条件",
+        "支持证据",
+        "破格证据",
+        "月令与根气",
+        "合冲刑害及岁运变化"
+      ],
+      "logic_ref": "data/pattern_logic.json#甲己化土格",
+      "strict_mode": "candidate_only",
+      "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
+    },
+    {
+      "id": "乙庚化金格",
+      "category": "化气格",
+      "formation": "乙庚合且化金条件充分；普通乙庚合不等于化气格",
+      "checks": [
+        "变格候选条件",
+        "支持证据",
+        "破格证据",
+        "月令与根气",
+        "合冲刑害及岁运变化"
+      ],
+      "logic_ref": "data/pattern_logic.json#乙庚化金格",
+      "strict_mode": "candidate_only",
+      "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
+    },
+    {
+      "id": "丙辛化水格",
+      "category": "化气格",
+      "formation": "丙辛合且化水条件充分；普通丙辛合不等于化气格",
+      "checks": [
+        "变格候选条件",
+        "支持证据",
+        "破格证据",
+        "月令与根气",
+        "合冲刑害及岁运变化"
+      ],
+      "logic_ref": "data/pattern_logic.json#丙辛化水格",
+      "strict_mode": "candidate_only",
+      "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
+    },
+    {
+      "id": "丁壬化木格",
+      "category": "化气格",
+      "formation": "丁壬合且化木条件充分；普通丁壬合不等于化气格",
+      "checks": [
+        "变格候选条件",
+        "支持证据",
+        "破格证据",
+        "月令与根气",
+        "合冲刑害及岁运变化"
+      ],
+      "logic_ref": "data/pattern_logic.json#丁壬化木格",
+      "strict_mode": "candidate_only",
+      "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
+    },
+    {
+      "id": "戊癸化火格",
+      "category": "化气格",
+      "formation": "戊癸合且化火条件充分；普通戊癸合不等于化气格",
+      "checks": [
+        "变格候选条件",
+        "支持证据",
+        "破格证据",
+        "月令与根气",
+        "合冲刑害及岁运变化"
+      ],
+      "logic_ref": "data/pattern_logic.json#戊癸化火格",
+      "strict_mode": "candidate_only",
+      "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
     }
   ]
 }
