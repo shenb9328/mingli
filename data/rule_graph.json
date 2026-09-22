@@ -1,5 +1,5 @@
 {
-  "version": "3.1",
+  "version": "3.3",
   "nodes": [
     {
       "id": "month_order",
@@ -73,7 +73,8 @@
       "depends_on": [
         "strength",
         "pattern",
-        "relations"
+        "relations",
+        "shensha"
       ]
     },
     {
@@ -105,6 +106,14 @@
         "luck",
         "year"
       ]
+    },
+    {
+      "id": "shensha",
+      "name": "神煞",
+      "depends_on": [
+        "day_master",
+        "relations"
+      ]
     }
   ],
   "decision_order": [
@@ -128,6 +137,9 @@
     "单一合冲不得直接判吉凶",
     "单一十神不得直接判富贵",
     "大运流年必须回到原局解释",
-    "任何数值评分必须标记为heuristic"
+    "任何数值评分必须标记为heuristic",
+    "神煞计算必须声明trigger_source与school_variant",
+    "启发式旺衰分数不得伪装成经典原文",
+    "病药模式只产生候选病/药，不直接输出吉凶"
   ]
 }
