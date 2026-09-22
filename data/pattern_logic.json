@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "description": "《子平真诠》八格成败救应的机器可读条件树。表达式是程序化近似，不把现代布尔表达式冒充古文。",
+  "patterns": {
+    "正官格": {
+      "formation": {
+        "ALL": [
+          "MONTH_TEN_GOD_EQ:正官"
+        ]
+      },
+      "success": {
+        "OR": [
+          "HAS:财星_AND印星",
+          "HAS:财星",
+          "HAS:印星"
+        ],
+        "NOT": [
+          "CLASHED:正官",
+          "DAMAGED_BY:伤官"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "DAMAGED_BY:伤官",
+          "CLASHED:正官",
+          "HARMED_BY:刑冲"
+        ]
+      },
+      "rescue": [
+        "印制伤",
+        "合杀清杂",
+        "会合解冲"
+      ]
+    },
+    "财格": {
+      "formation": {
+        "ALL": [
+          "MONTH_TEN_GOD_EQ:正财",
+          "MONTH_TEN_GOD_EQ:偏财"
+        ]
+      },
+      "success": {
+        "OR": [
+          "财生官",
+          "食神生财_AND身强",
+          "财印位置妥贴"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "比劫过重",
+          "财透七杀"
+        ]
+      },
+      "rescue": [
+        "食神化劫",
+        "官制比劫",
+        "合杀存财"
+      ]
+    },
+    "印格": {
+      "formation": {
+        "ALL": [
+          "MONTH_TEN_GOD_EQ:正印",
+          "MONTH_TEN_GOD_EQ:偏印"
+        ]
+      },
+      "success": {
+        "OR": [
+          "印轻逢杀",
+          "官印双全",
+          "身印旺_AND食伤泄",
+          "印多逢财_AND财透根轻"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "印轻逢财",
+          "身强印重_AND透杀"
+        ]
+      },
+      "rescue": [
+        "劫财解财",
+        "合财存印"
+      ]
+    },
+    "食神格": {
+      "formation": {
+        "ALL": [
+          "MONTH_TEN_GOD_EQ:食神"
+        ]
+      },
+      "success": {
+        "OR": [
+          "食神生财",
+          "食带杀_AND无财",
+          "弃食就杀_AND透印"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "枭神夺食",
+          "生财露杀"
+        ]
+      },
+      "rescue": [
+        "生财护食",
+        "就杀成格"
+      ]
+    },
+    "七杀格": {
+      "formation": {
+        "ALL": [
+          "MONTH_TEN_GOD_EQ:七杀"
+        ]
+      },
+      "success": {
+        "OR": [
+          "身强七杀逢制",
+          "印化杀"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "七杀逢财无制"
+        ]
+      },
+      "rescue": [
+        "食神制杀",
+        "印化杀"
+      ]
+    },
+    "伤官格": {
+      "formation": {
+        "ALL": [
+          "MONTH_TEN_GOD_EQ:伤官"
+        ]
+      },
+      "success": {
+        "OR": [
+          "伤官生财",
+          "伤官佩印_AND伤旺",
+          "伤旺身弱_AND透杀印",
+          "伤官带杀_AND无财"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "伤官见官",
+          "生财带杀",
+          "佩印而伤轻身旺"
+        ]
+      },
+      "rescue": [
+        "佩印",
+        "生财",
+        "合杀"
+      ]
+    },
+    "阳刃格": {
+      "formation": {
+        "ALL": [
+          "MONTH_IS_YANGREN"
+        ]
+      },
+      "success": {
+        "ALL": [
+          "HAS:官杀",
+          "HAS_ANY:财印",
+          "ABSENT:伤官"
+        ]
+      },
+      "failure": {
+        "ALL": [
+          "ABSENT:官杀"
+        ]
+      },
+      "rescue": [
+        "重印护官杀"
+      ]
+    },
+    "建禄格": {
+      "formation": {
+        "ALL": [
+          "MONTH_IS_DAYMASTER_LIN_GUAN"
+        ]
+      },
+      "success": {
+        "OR": [
+          "透官_AND财印",
+          "透财_AND食伤",
+          "透杀_AND制伏"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "无财官",
+          "透杀印"
+        ]
+      },
+      "rescue": [
+        "合伤",
+        "合杀"
+      ]
+    }
+  },
+  "source_refs": [
+    "SRC_ZPZQ"
+  ],
+  "evidence_level": "E2",
+  "note": "formation/success/failure/rescue 均是可执行近似；正式解释仍须保留原始证据链。"
+}
