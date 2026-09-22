@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0",
+  "description": "四柱宫位、时间分段、六亲映射及流派差异的结构化字典。年龄段和宫位不是唯一公认标准，必须保留variant。",
+  "evidence_policy": "E2",
+  "source_refs": [
+    "SRC_YHZP",
+    "SRC_SMTH",
+    "SRC_DTS"
+  ],
+  "status": "multi_school_schema",
+  "palace_model": {
+    "pillars": [
+      {
+        "pillar": "年柱",
+        "domain": [
+          "祖上",
+          "家世",
+          "早年背景",
+          "外缘"
+        ],
+        "age_range": "童年/早年（流派差异）",
+        "confidence": "medium"
+      },
+      {
+        "pillar": "月柱",
+        "domain": [
+          "父母",
+          "兄弟姐妹",
+          "成长环境",
+          "事业基础"
+        ],
+        "age_range": "青年至成长期（流派差异）",
+        "confidence": "medium"
+      },
+      {
+        "pillar": "日柱",
+        "domain": [
+          "自身",
+          "婚姻核心"
+        ],
+        "age_range": "中年/婚姻阶段（流派差异）",
+        "confidence": "medium"
+      },
+      {
+        "pillar": "日支",
+        "domain": [
+          "配偶宫",
+          "婚姻关系"
+        ],
+        "age_range": "不作为固定年龄段",
+        "confidence": "high"
+      },
+      {
+        "pillar": "时柱",
+        "domain": [
+          "子女",
+          "晚景",
+          "后天成就"
+        ],
+        "age_range": "晚年（传统常用，具体年龄切分不统一）",
+        "confidence": "medium"
+      }
+    ],
+    "age_partition_warning": "不要把1-15、16-30等固定数字写成古典统一标准；若某流派采用，应以variant记录。",
+    "body_regions": [
+      {
+        "pillar": "年柱",
+        "regions": [
+          "头",
+          "颈",
+          "上部"
+        ],
+        "status": "school_variant"
+      },
+      {
+        "pillar": "月柱",
+        "regions": [
+          "胸",
+          "背",
+          "肩臂"
+        ],
+        "status": "school_variant"
+      },
+      {
+        "pillar": "日柱",
+        "regions": [
+          "腹",
+          "腰"
+        ],
+        "status": "school_variant"
+      },
+      {
+        "pillar": "时柱",
+        "regions": [
+          "腿",
+          "足",
+          "下部"
+        ],
+        "status": "school_variant"
+      }
+    ]
+  },
+  "kinship_by_gender": [
+    {
+      "gender": "M",
+      "spouse_primary": [
+        "正财",
+        "偏财"
+      ],
+      "father_primary": [
+        "偏财"
+      ],
+      "mother_primary": [
+        "正印"
+      ],
+      "children_primary": [
+        "正官",
+        "七杀"
+      ],
+      "note": "传统子平常见映射；子女十神在不同体系有异。"
+    },
+    {
+      "gender": "F",
+      "spouse_primary": [
+        "正官",
+        "七杀"
+      ],
+      "father_primary": [
+        "正财"
+      ],
+      "mother_primary": [
+        "正印"
+      ],
+      "children_primary": [
+        "食神",
+        "伤官"
+      ],
+      "note": "传统子平常见映射；具体父母、子女取法需保留流派。"
+    }
+  ],
+  "kinship_variants": [
+    {
+      "id": "K001",
+      "topic": "父亲",
+      "common": [
+        "偏财"
+      ],
+      "alternative": [
+        "财星统论"
+      ],
+      "status": "variant"
+    },
+    {
+      "id": "K002",
+      "topic": "母亲",
+      "common": [
+        "正印"
+      ],
+      "alternative": [
+        "印星统论"
+      ],
+      "status": "variant"
+    },
+    {
+      "id": "K003",
+      "topic": "子女",
+      "common_male": [
+        "官杀"
+      ],
+      "common_female": [
+        "食伤"
+      ],
+      "status": "traditional_common_variant"
+    },
+    {
+      "id": "K004",
+      "topic": "兄弟姐妹",
+      "common": [
+        "比肩",
+        "劫财"
+      ],
+      "status": "traditional_common"
+    }
+  ],
+  "computation_policy": {
+    "palace_and_ten_god_are_separate": true,
+    "spouse_requires": [
+      "gender",
+      "day_branch",
+      "relevant_ten_gods",
+      "relations"
+    ],
+    "child_requires": [
+      "gender",
+      "hour_pillar",
+      "relevant_ten_gods"
+    ],
+    "no_fixed_auspiciousness": true
+  },
+  "audit_notes": [
+    "宫位用于定位人事主题，不等于该柱全部内容只代表一个人。",
+    "男女命六亲映射必须保留性别参数与流派参数。",
+    "年龄段和身体部位属于后世系统化整理，当前不作为E4级古典原文。"
+  ]
+}

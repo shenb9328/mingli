@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "description": "合化、争合、合绊、冲合并见及结构状态转换的机器可读基础。严格区分“有合”与“成化”；不把现代简化口诀写成古典定律。",
+  "evidence_policy": "E2",
+  "source_refs": [
+    "SRC_ZPZQ",
+    "SRC_DTS",
+    "SRC_SMTH"
+  ],
+  "status": "structured_classical_plus_variant",
+  "transformation_pairs": [
+    {
+      "pair": [
+        "甲",
+        "己"
+      ],
+      "transformation": "土",
+      "priority": "classical_common"
+    },
+    {
+      "pair": [
+        "乙",
+        "庚"
+      ],
+      "transformation": "金",
+      "priority": "classical_common"
+    },
+    {
+      "pair": [
+        "丙",
+        "辛"
+      ],
+      "transformation": "水",
+      "priority": "classical_common"
+    },
+    {
+      "pair": [
+        "丁",
+        "壬"
+      ],
+      "transformation": "木",
+      "priority": "classical_common"
+    },
+    {
+      "pair": [
+        "戊",
+        "癸"
+      ],
+      "transformation": "火",
+      "priority": "classical_common"
+    }
+  ],
+  "state_machine": {
+    "states": [
+      "uncombined",
+      "combined",
+      "combined_bonded",
+      "transformation_candidate",
+      "transformed",
+      "broken_transformation",
+      "uncertain"
+    ],
+    "transitions": [
+      {
+        "from": "uncombined",
+        "event": "pair_present",
+        "to": "combined"
+      },
+      {
+        "from": "combined",
+        "event": "insufficient_transform_support",
+        "to": "combined_bonded"
+      },
+      {
+        "from": "combined",
+        "event": "transform_support_sufficient",
+        "to": "transformation_candidate"
+      },
+      {
+        "from": "transformation_candidate",
+        "event": "no_effective_break",
+        "to": "transformed"
+      },
+      {
+        "from": "transformation_candidate",
+        "event": "effective_break",
+        "to": "broken_transformation"
+      },
+      {
+        "from": "combined",
+        "event": "variant_conflict",
+        "to": "uncertain"
+      }
+    ]
+  },
+  "transformation_conditions": [
+    {
+      "id": "HC01",
+      "condition": "化神得令或得势",
+      "required": false,
+      "weight_class": "primary",
+      "note": "《子平真诠》体系强调得时乘令；不是唯一条件。"
+    },
+    {
+      "id": "HC02",
+      "condition": "地支对化神有根、有会局或六合等支持",
+      "required": false,
+      "weight_class": "supporting",
+      "note": "天干五合须审地支之助。"
+    },
+    {
+      "id": "HC03",
+      "condition": "化神透干或有引化之气",
+      "required": false,
+      "weight_class": "supporting",
+      "note": "用于判断化神是否有引化/助化。"
+    },
+    {
+      "id": "HC04",
+      "condition": "化神受克、受泄、受冲破或混杂",
+      "required": false,
+      "weight_class": "blocking",
+      "note": "出现时降低成化可信度；不是所有流派都视为绝对否决。"
+    },
+    {
+      "id": "HC05",
+      "condition": "合干本身有根有助而不愿从化",
+      "required": false,
+      "weight_class": "blocking",
+      "note": "化气格尤其需要检查日主根苗；普通合绊不等于化气格。"
+    },
+    {
+      "id": "HC06",
+      "condition": "相邻程度",
+      "required": false,
+      "weight_class": "supporting",
+      "note": "传统论法常重邻合，但远合、争合等应单独记录，不能直接写成绝对硬规则。"
+    }
+  ],
+  "branch_combination_support": {
+    "principle": "地支六合、三合、三会是否化局，应同时考察月令、天干引化、会局完整度及冲破。",
+    "not_equal_to_transformation": true
+  },
+  "conflict_resolution": [
+    {
+      "id": "CR01",
+      "rule": "合冲并见先保留并存状态",
+      "condition": "same_branch_participates_in_combination_and_clash",
+      "effect": "do_not_cancel_either_relation",
+      "priority": 10,
+      "note": "避免把“贪合忘冲”作为无条件程序覆盖。"
+    },
+    {
+      "id": "CR02",
+      "rule": "贪合忘冲仅作候选解释",
+      "condition": "combination_support_stronger_than_clash_support",
+      "effect": "downgrade_effective_clash",
+      "priority": 20,
+      "note": "必须由距离、得令、通根、会局、冲破等证据综合决定。"
+    },
+    {
+      "id": "CR03",
+      "rule": "争合",
+      "condition": "one_stem_has_multiple_matching_partner_candidates",
+      "effect": "mark_competitive_combination",
+      "priority": 20,
+      "note": "不得自动选择第一项合。"
+    },
+    {
+      "id": "CR04",
+      "rule": "妒合",
+      "condition": "same_pair_has_competing_same_type_partner",
+      "effect": "mark_competing_combination",
+      "priority": 20
+    }
+  ],
+  "scoring_policy": {
+    "enabled": false,
+    "reason": "经典材料不足以支持跨流派统一数值权重；未来如工程化评分必须另建heuristic文件。"
+  },
+  "audit_notes": [
+    "甲己并非只有辰戌丑未月才能讨论化土；古籍及后世注本存在按月令、地支助化、透干、真化假化等多条件综合判断的体系。",
+    "普通天干五合与日主参与的化气格必须分开建模。",
+    "合冲优先级不能用单一距离公式决定。"
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "description": "命理推理引擎最底层的干支、五行、生克、阴阳元数据。程序不得硬编码这些基础映射。",
+  "evidence_policy": "E2",
+  "source_refs": [
+    "SRC_YHZP",
+    "SRC_SMTH",
+    "SRC_DTS"
+  ],
+  "elements": [
+    "木",
+    "火",
+    "土",
+    "金",
+    "水"
+  ],
+  "yin_yang": [
+    "阳",
+    "阴"
+  ],
+  "stem_primitives": [
+    [
+      "甲",
+      "木",
+      "阳"
+    ],
+    [
+      "乙",
+      "木",
+      "阴"
+    ],
+    [
+      "丙",
+      "火",
+      "阳"
+    ],
+    [
+      "丁",
+      "火",
+      "阴"
+    ],
+    [
+      "戊",
+      "土",
+      "阳"
+    ],
+    [
+      "己",
+      "土",
+      "阴"
+    ],
+    [
+      "庚",
+      "金",
+      "阳"
+    ],
+    [
+      "辛",
+      "金",
+      "阴"
+    ],
+    [
+      "壬",
+      "水",
+      "阳"
+    ],
+    [
+      "癸",
+      "水",
+      "阴"
+    ]
+  ],
+  "branch_primitives": [
+    [
+      "子",
+      "水",
+      "阳"
+    ],
+    [
+      "丑",
+      "土",
+      "阴"
+    ],
+    [
+      "寅",
+      "木",
+      "阳"
+    ],
+    [
+      "卯",
+      "木",
+      "阴"
+    ],
+    [
+      "辰",
+      "土",
+      "阳"
+    ],
+    [
+      "巳",
+      "火",
+      "阴"
+    ],
+    [
+      "午",
+      "火",
+      "阳"
+    ],
+    [
+      "未",
+      "土",
+      "阴"
+    ],
+    [
+      "申",
+      "金",
+      "阳"
+    ],
+    [
+      "酉",
+      "金",
+      "阴"
+    ],
+    [
+      "戌",
+      "土",
+      "阳"
+    ],
+    [
+      "亥",
+      "水",
+      "阴"
+    ]
+  ],
+  "element_cycle": {
+    "generate": {
+      "木": "火",
+      "火": "土",
+      "土": "金",
+      "金": "水",
+      "水": "木"
+    },
+    "control": {
+      "木": "土",
+      "土": "水",
+      "水": "火",
+      "火": "金",
+      "金": "木"
+    },
+    "generated_by": {
+      "木": "水",
+      "火": "木",
+      "土": "火",
+      "金": "土",
+      "水": "金"
+    },
+    "controlled_by": {
+      "木": "金",
+      "火": "水",
+      "土": "木",
+      "金": "火",
+      "水": "土"
+    }
+  },
+  "interaction_extensions": {
+    "multiplication": {
+      "status": "conceptual_not_primary",
+      "definition": "五行相克过度的传统扩展概念",
+      "computational_rule": null
+    },
+    "insult": {
+      "status": "conceptual_not_primary",
+      "definition": "五行反克/侮的传统扩展概念",
+      "computational_rule": null
+    }
+  },
+  "polarity_policy": {
+    "standard_branch_polarity": true,
+    "note": "地支阴阳按传统子平常用表记录；“体阴用阳/体阳用阴”等特殊理论另建school-specific规则，不覆盖基础极性。"
+  },
+  "three_walls": {
+    "status": "reserved_multi_school",
+    "components": [
+      {
+        "name": "胎元",
+        "status": "rule_family_required"
+      },
+      {
+        "name": "命宫",
+        "status": "rule_family_required"
+      },
+      {
+        "name": "身宫",
+        "status": "rule_family_required"
+      }
+    ],
+    "policy": "不在基础元数据中写死单一起法；未来按流派建立独立起法表、输入要求、边界条件与证据链。"
+  },
+  "audit_notes": [
+    "十二地支阴阳与天干阴阳属于基础元属性；不要把“体阴用阳”等理论混入基础字段。",
+    "胎元、命宫、身宫存在多种起法，应先建立rule_family再进入计算引擎。",
+    "纳音不属于普通五行生克元数据，继续由sixty_jiazi.json独立管理。"
+  ]
+}

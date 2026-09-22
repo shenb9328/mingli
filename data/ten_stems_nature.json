@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "description": "十天干体性、季节外的典型取象与干干组合提示。原文证据与工程诊断严格分离。",
+  "evidence_policy": "E2",
+  "source_refs": [
+    "SRC_DTS",
+    "SRC_ZPZQ"
+  ],
+  "status": "structured_interpretation",
+  "stems": [
+    {
+      "stem": "甲",
+      "element": "木",
+      "polarity": "阳",
+      "nature_keywords": [
+        "参天",
+        "根干",
+        "生发"
+      ],
+      "classic_excerpt_ref": "DTS_TIAN_GAN_JIA",
+      "engineering_notes": [
+        "火可助荣",
+        "秋季与金土关系需结合月令"
+      ]
+    },
+    {
+      "stem": "乙",
+      "element": "木",
+      "polarity": "阴",
+      "nature_keywords": [
+        "柔木",
+        "藤萝/花木取象（解释层）"
+      ],
+      "classic_excerpt_ref": "DTS_TIAN_GAN_YI",
+      "engineering_notes": [
+        "不可将单一取象直接转为吉凶"
+      ]
+    },
+    {
+      "stem": "丙",
+      "element": "火",
+      "polarity": "阳",
+      "nature_keywords": [
+        "阳火",
+        "太阳之象（解释层）"
+      ],
+      "classic_excerpt_ref": "DTS_TIAN_GAN_BING",
+      "engineering_notes": [
+        "辛合水、壬合木等需回到合化模块"
+      ]
+    },
+    {
+      "stem": "丁",
+      "element": "火",
+      "polarity": "阴",
+      "nature_keywords": [
+        "阴火",
+        "灯烛/炉火取象（解释层）"
+      ],
+      "classic_excerpt_ref": "DTS_TIAN_GAN_DING",
+      "engineering_notes": [
+        "木火水金关系需结合月令"
+      ]
+    },
+    {
+      "stem": "戊",
+      "element": "土",
+      "polarity": "阳",
+      "nature_keywords": [
+        "厚土",
+        "堤岸/山岳取象（解释层）"
+      ],
+      "classic_excerpt_ref": "DTS_TIAN_GAN_WU",
+      "engineering_notes": [
+        "不能简单写成“不怕水”"
+      ]
+    },
+    {
+      "stem": "己",
+      "element": "土",
+      "polarity": "阴",
+      "nature_keywords": [
+        "湿土",
+        "田园取象（解释层）"
+      ],
+      "classic_excerpt_ref": "DTS_TIAN_GAN_JI",
+      "engineering_notes": [
+        "不能简单写成“一见水即泥”"
+      ]
+    },
+    {
+      "stem": "庚",
+      "element": "金",
+      "polarity": "阳",
+      "nature_keywords": [
+        "刚金",
+        "器械/矿金取象（解释层）"
+      ],
+      "classic_excerpt_ref": "DTS_TIAN_GAN_GENG",
+      "engineering_notes": [
+        "火炼、水洗均须结合旺衰与结构"
+      ]
+    },
+    {
+      "stem": "辛",
+      "element": "金",
+      "polarity": "阴",
+      "nature_keywords": [
+        "柔金",
+        "珠玉取象（解释层）"
+      ],
+      "classic_excerpt_ref": "DTS_TIAN_GAN_XIN",
+      "engineering_notes": [
+        "不可固化为“极忌丁火”；须区分锻炼、伤损与成器语境"
+      ]
+    },
+    {
+      "stem": "壬",
+      "element": "水",
+      "polarity": "阳",
+      "nature_keywords": [
+        "江河",
+        "流动"
+      ],
+      "classic_excerpt_ref": "DTS_TIAN_GAN_REN",
+      "engineering_notes": [
+        "木泄、水势、土制须结合全局"
+      ]
+    },
+    {
+      "stem": "癸",
+      "element": "水",
+      "polarity": "阴",
+      "nature_keywords": [
+        "雨露",
+        "润泽"
+      ],
+      "classic_excerpt_ref": "DTS_TIAN_GAN_GUI",
+      "engineering_notes": [
+        "不能脱离月令直接判喜忌"
+      ]
+    }
+  ],
+  "interaction_rules": [
+    {
+      "id": "TN01",
+      "pair": [
+        "乙",
+        "庚"
+      ],
+      "type": "五合",
+      "effect": "化金_candidate",
+      "source_refs": [
+        "SRC_ZPZQ"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "TN02",
+      "pair": [
+        "丙",
+        "辛"
+      ],
+      "type": "五合",
+      "effect": "化水_candidate",
+      "source_refs": [
+        "SRC_ZPZQ"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "TN03",
+      "pair": [
+        "丁",
+        "壬"
+      ],
+      "type": "五合",
+      "effect": "化木_candidate",
+      "source_refs": [
+        "SRC_ZPZQ"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "TN04",
+      "pair": [
+        "甲",
+        "己"
+      ],
+      "type": "五合",
+      "effect": "化土_candidate",
+      "source_refs": [
+        "SRC_ZPZQ"
+      ],
+      "status": "candidate"
+    },
+    {
+      "id": "TN05",
+      "pair": [
+        "戊",
+        "癸"
+      ],
+      "type": "五合",
+      "effect": "化火_candidate",
+      "source_refs": [
+        "SRC_ZPZQ"
+      ],
+      "status": "candidate"
+    }
+  ],
+  "diagnostic_policy": {
+    "purpose": "为病药和格局解释提供候选线索",
+    "not_a_standalone_auspiciousness_rule": true,
+    "month_order_override": false,
+    "transformation_engine_ref": "data/transformation_and_override.json"
+  },
+  "audit_notes": [
+    "《滴天髓》天干论提供体性描述，但现代口诀化的“某干遇某干必吉/必凶”不是同等级原文。",
+    "本表不把“庚喜丁、辛忌丁、戊不怕水、己怕水”等网络化概括写成硬规则。",
+    "十干体性与调候矩阵是两个正交层：前者描述干之性质与典型作用，后者处理月令寒暖燥湿。"
+  ]
+}
