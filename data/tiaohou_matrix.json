@@ -1,0 +1,3182 @@
+{
+  "schema_version": "1.0",
+  "description": "《穷通宝鉴》十天干十二月调候提要的结构化检索矩阵。共120格：10日主×12月令。",
+  "purpose": [
+    "快速检索季节调候层",
+    "作为规则图谱的独立 climate/tiaohou 节点输入",
+    "与月令、旺衰、格局、用神分层计算，禁止直接输出吉凶"
+  ],
+  "evidence_policy": {
+    "default_level": "E2",
+    "reason": "数字文本可多源交叉核对，但当前未逐格完成历史刻本扫描页校勘，因此不标E4/E5。",
+    "source_separation": "原文、后世评注、现代解释分开；本文件主要保存结构化提要，不伪装成逐字古籍全文。"
+  },
+  "dimensions": {
+    "day_masters": [
+      "甲",
+      "乙",
+      "丙",
+      "丁",
+      "戊",
+      "己",
+      "庚",
+      "辛",
+      "壬",
+      "癸"
+    ],
+    "month_branches": [
+      "寅",
+      "卯",
+      "辰",
+      "巳",
+      "午",
+      "未",
+      "申",
+      "酉",
+      "戌",
+      "亥",
+      "子",
+      "丑"
+    ]
+  },
+  "records": [
+    {
+      "id": "QTBG_甲_寅",
+      "day_master": "甲",
+      "month_branch": "寅",
+      "month_number": 1,
+      "season": "春",
+      "tiaohou_priority": [
+        "丙",
+        "癸"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "癸"
+      ],
+      "twelve_growth_stage": "临官",
+      "twelve_growth_branch": "寅",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_甲_卯",
+      "day_master": "甲",
+      "month_branch": "卯",
+      "month_number": 2,
+      "season": "春",
+      "tiaohou_priority": [
+        "庚",
+        "丙",
+        "丁",
+        "戊",
+        "己"
+      ],
+      "primary_use": "庚",
+      "secondary_use": [
+        "丙",
+        "丁",
+        "戊",
+        "己"
+      ],
+      "twelve_growth_stage": "帝旺",
+      "twelve_growth_branch": "卯",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_甲_辰",
+      "day_master": "甲",
+      "month_branch": "辰",
+      "month_number": 3,
+      "season": "春",
+      "tiaohou_priority": [
+        "庚",
+        "丁",
+        "壬"
+      ],
+      "primary_use": "庚",
+      "secondary_use": [
+        "丁",
+        "壬"
+      ],
+      "twelve_growth_stage": "衰",
+      "twelve_growth_branch": "辰",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_甲_巳",
+      "day_master": "甲",
+      "month_branch": "巳",
+      "month_number": 4,
+      "season": "夏",
+      "tiaohou_priority": [
+        "癸",
+        "丁",
+        "庚"
+      ],
+      "primary_use": "癸",
+      "secondary_use": [
+        "丁",
+        "庚"
+      ],
+      "twelve_growth_stage": "病",
+      "twelve_growth_branch": "巳",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_甲_午",
+      "day_master": "甲",
+      "month_branch": "午",
+      "month_number": 5,
+      "season": "夏",
+      "tiaohou_priority": [
+        "癸",
+        "丁",
+        "庚"
+      ],
+      "primary_use": "癸",
+      "secondary_use": [
+        "丁",
+        "庚"
+      ],
+      "twelve_growth_stage": "死",
+      "twelve_growth_branch": "午",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_甲_未",
+      "day_master": "甲",
+      "month_branch": "未",
+      "month_number": 6,
+      "season": "夏",
+      "tiaohou_priority": [
+        "癸",
+        "丁",
+        "壬"
+      ],
+      "primary_use": "癸",
+      "secondary_use": [
+        "丁",
+        "壬"
+      ],
+      "twelve_growth_stage": "墓",
+      "twelve_growth_branch": "未",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_甲_申",
+      "day_master": "甲",
+      "month_branch": "申",
+      "month_number": 7,
+      "season": "秋",
+      "tiaohou_priority": [
+        "庚",
+        "丁",
+        "壬"
+      ],
+      "primary_use": "庚",
+      "secondary_use": [
+        "丁",
+        "壬"
+      ],
+      "twelve_growth_stage": "绝",
+      "twelve_growth_branch": "申",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_甲_酉",
+      "day_master": "甲",
+      "month_branch": "酉",
+      "month_number": 8,
+      "season": "秋",
+      "tiaohou_priority": [
+        "庚",
+        "丁",
+        "丙"
+      ],
+      "primary_use": "庚",
+      "secondary_use": [
+        "丁",
+        "丙"
+      ],
+      "twelve_growth_stage": "胎",
+      "twelve_growth_branch": "酉",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_甲_戌",
+      "day_master": "甲",
+      "month_branch": "戌",
+      "month_number": 9,
+      "season": "秋",
+      "tiaohou_priority": [
+        "庚",
+        "甲",
+        "丁",
+        "壬",
+        "癸"
+      ],
+      "primary_use": "庚",
+      "secondary_use": [
+        "甲",
+        "丁",
+        "壬",
+        "癸"
+      ],
+      "twelve_growth_stage": "养",
+      "twelve_growth_branch": "戌",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_甲_亥",
+      "day_master": "甲",
+      "month_branch": "亥",
+      "month_number": 10,
+      "season": "冬",
+      "tiaohou_priority": [
+        "庚",
+        "丁",
+        "丙",
+        "戊"
+      ],
+      "primary_use": "庚",
+      "secondary_use": [
+        "丁",
+        "丙",
+        "戊"
+      ],
+      "twelve_growth_stage": "长生",
+      "twelve_growth_branch": "亥",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_甲_子",
+      "day_master": "甲",
+      "month_branch": "子",
+      "month_number": 11,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丁",
+        "庚",
+        "丙"
+      ],
+      "primary_use": "丁",
+      "secondary_use": [
+        "庚",
+        "丙"
+      ],
+      "twelve_growth_stage": "沐浴",
+      "twelve_growth_branch": "子",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_甲_丑",
+      "day_master": "甲",
+      "month_branch": "丑",
+      "month_number": 12,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丁",
+        "庚",
+        "丙"
+      ],
+      "primary_use": "丁",
+      "secondary_use": [
+        "庚",
+        "丙"
+      ],
+      "twelve_growth_stage": "冠带",
+      "twelve_growth_branch": "丑",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_乙_寅",
+      "day_master": "乙",
+      "month_branch": "寅",
+      "month_number": 1,
+      "season": "春",
+      "tiaohou_priority": [
+        "丙",
+        "癸"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "癸"
+      ],
+      "twelve_growth_stage": "帝旺",
+      "twelve_growth_branch": "寅",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_乙_卯",
+      "day_master": "乙",
+      "month_branch": "卯",
+      "month_number": 2,
+      "season": "春",
+      "tiaohou_priority": [
+        "丙",
+        "癸"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "癸"
+      ],
+      "twelve_growth_stage": "临官",
+      "twelve_growth_branch": "卯",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_乙_辰",
+      "day_master": "乙",
+      "month_branch": "辰",
+      "month_number": 3,
+      "season": "春",
+      "tiaohou_priority": [
+        "癸",
+        "丙",
+        "戊"
+      ],
+      "primary_use": "癸",
+      "secondary_use": [
+        "丙",
+        "戊"
+      ],
+      "twelve_growth_stage": "冠带",
+      "twelve_growth_branch": "辰",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_乙_巳",
+      "day_master": "乙",
+      "month_branch": "巳",
+      "month_number": 4,
+      "season": "夏",
+      "tiaohou_priority": [
+        "癸"
+      ],
+      "primary_use": "癸",
+      "secondary_use": [],
+      "twelve_growth_stage": "沐浴",
+      "twelve_growth_branch": "巳",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_乙_午",
+      "day_master": "乙",
+      "month_branch": "午",
+      "month_number": 5,
+      "season": "夏",
+      "tiaohou_priority": [
+        "癸",
+        "丙"
+      ],
+      "primary_use": "癸",
+      "secondary_use": [
+        "丙"
+      ],
+      "twelve_growth_stage": "长生",
+      "twelve_growth_branch": "午",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_乙_未",
+      "day_master": "乙",
+      "month_branch": "未",
+      "month_number": 6,
+      "season": "夏",
+      "tiaohou_priority": [
+        "癸",
+        "丙"
+      ],
+      "primary_use": "癸",
+      "secondary_use": [
+        "丙"
+      ],
+      "twelve_growth_stage": "养",
+      "twelve_growth_branch": "未",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_乙_申",
+      "day_master": "乙",
+      "month_branch": "申",
+      "month_number": 7,
+      "season": "秋",
+      "tiaohou_priority": [
+        "丙",
+        "癸",
+        "己"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "癸",
+        "己"
+      ],
+      "twelve_growth_stage": "胎",
+      "twelve_growth_branch": "申",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_乙_酉",
+      "day_master": "乙",
+      "month_branch": "酉",
+      "month_number": 8,
+      "season": "秋",
+      "tiaohou_priority": [
+        "癸",
+        "丙"
+      ],
+      "primary_use": "癸",
+      "secondary_use": [
+        "丙"
+      ],
+      "twelve_growth_stage": "绝",
+      "twelve_growth_branch": "酉",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_乙_戌",
+      "day_master": "乙",
+      "month_branch": "戌",
+      "month_number": 9,
+      "season": "秋",
+      "tiaohou_priority": [
+        "癸",
+        "丙"
+      ],
+      "primary_use": "癸",
+      "secondary_use": [
+        "丙"
+      ],
+      "twelve_growth_stage": "墓",
+      "twelve_growth_branch": "戌",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_乙_亥",
+      "day_master": "乙",
+      "month_branch": "亥",
+      "month_number": 10,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙",
+        "癸"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "癸"
+      ],
+      "twelve_growth_stage": "死",
+      "twelve_growth_branch": "亥",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_乙_子",
+      "day_master": "乙",
+      "month_branch": "子",
+      "month_number": 11,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙",
+        "癸"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "癸"
+      ],
+      "twelve_growth_stage": "病",
+      "twelve_growth_branch": "子",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_乙_丑",
+      "day_master": "乙",
+      "month_branch": "丑",
+      "month_number": 12,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [],
+      "twelve_growth_stage": "衰",
+      "twelve_growth_branch": "丑",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丙_寅",
+      "day_master": "丙",
+      "month_branch": "寅",
+      "month_number": 1,
+      "season": "春",
+      "tiaohou_priority": [
+        "壬",
+        "庚"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "庚"
+      ],
+      "twelve_growth_stage": "长生",
+      "twelve_growth_branch": "寅",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丙_卯",
+      "day_master": "丙",
+      "month_branch": "卯",
+      "month_number": 2,
+      "season": "春",
+      "tiaohou_priority": [
+        "壬",
+        "己"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "己"
+      ],
+      "twelve_growth_stage": "沐浴",
+      "twelve_growth_branch": "卯",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丙_辰",
+      "day_master": "丙",
+      "month_branch": "辰",
+      "month_number": 3,
+      "season": "春",
+      "tiaohou_priority": [
+        "壬",
+        "甲"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "甲"
+      ],
+      "twelve_growth_stage": "冠带",
+      "twelve_growth_branch": "辰",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丙_巳",
+      "day_master": "丙",
+      "month_branch": "巳",
+      "month_number": 4,
+      "season": "夏",
+      "tiaohou_priority": [
+        "壬",
+        "庚",
+        "癸"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "庚",
+        "癸"
+      ],
+      "twelve_growth_stage": "临官",
+      "twelve_growth_branch": "巳",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丙_午",
+      "day_master": "丙",
+      "month_branch": "午",
+      "month_number": 5,
+      "season": "夏",
+      "tiaohou_priority": [
+        "壬",
+        "庚"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "庚"
+      ],
+      "twelve_growth_stage": "帝旺",
+      "twelve_growth_branch": "午",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丙_未",
+      "day_master": "丙",
+      "month_branch": "未",
+      "month_number": 6,
+      "season": "夏",
+      "tiaohou_priority": [
+        "壬",
+        "庚"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "庚"
+      ],
+      "twelve_growth_stage": "衰",
+      "twelve_growth_branch": "未",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丙_申",
+      "day_master": "丙",
+      "month_branch": "申",
+      "month_number": 7,
+      "season": "秋",
+      "tiaohou_priority": [
+        "壬",
+        "戊"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "戊"
+      ],
+      "twelve_growth_stage": "病",
+      "twelve_growth_branch": "申",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丙_酉",
+      "day_master": "丙",
+      "month_branch": "酉",
+      "month_number": 8,
+      "season": "秋",
+      "tiaohou_priority": [
+        "壬",
+        "癸"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "癸"
+      ],
+      "twelve_growth_stage": "死",
+      "twelve_growth_branch": "酉",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丙_戌",
+      "day_master": "丙",
+      "month_branch": "戌",
+      "month_number": 9,
+      "season": "秋",
+      "tiaohou_priority": [
+        "甲",
+        "壬"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "壬"
+      ],
+      "twelve_growth_stage": "墓",
+      "twelve_growth_branch": "戌",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丙_亥",
+      "day_master": "丙",
+      "month_branch": "亥",
+      "month_number": 10,
+      "season": "冬",
+      "tiaohou_priority": [
+        "甲",
+        "戊",
+        "庚",
+        "壬"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "戊",
+        "庚",
+        "壬"
+      ],
+      "twelve_growth_stage": "绝",
+      "twelve_growth_branch": "亥",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丙_子",
+      "day_master": "丙",
+      "month_branch": "子",
+      "month_number": 11,
+      "season": "冬",
+      "tiaohou_priority": [
+        "壬",
+        "戊",
+        "己"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "戊",
+        "己"
+      ],
+      "twelve_growth_stage": "胎",
+      "twelve_growth_branch": "子",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丙_丑",
+      "day_master": "丙",
+      "month_branch": "丑",
+      "month_number": 12,
+      "season": "冬",
+      "tiaohou_priority": [
+        "壬",
+        "甲"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "甲"
+      ],
+      "twelve_growth_stage": "养",
+      "twelve_growth_branch": "丑",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丁_寅",
+      "day_master": "丁",
+      "month_branch": "寅",
+      "month_number": 1,
+      "season": "春",
+      "tiaohou_priority": [
+        "甲",
+        "庚"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "庚"
+      ],
+      "twelve_growth_stage": "死",
+      "twelve_growth_branch": "寅",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丁_卯",
+      "day_master": "丁",
+      "month_branch": "卯",
+      "month_number": 2,
+      "season": "春",
+      "tiaohou_priority": [
+        "庚",
+        "甲"
+      ],
+      "primary_use": "庚",
+      "secondary_use": [
+        "甲"
+      ],
+      "twelve_growth_stage": "病",
+      "twelve_growth_branch": "卯",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丁_辰",
+      "day_master": "丁",
+      "month_branch": "辰",
+      "month_number": 3,
+      "season": "春",
+      "tiaohou_priority": [
+        "甲",
+        "庚"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "庚"
+      ],
+      "twelve_growth_stage": "衰",
+      "twelve_growth_branch": "辰",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丁_巳",
+      "day_master": "丁",
+      "month_branch": "巳",
+      "month_number": 4,
+      "season": "夏",
+      "tiaohou_priority": [
+        "甲",
+        "庚"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "庚"
+      ],
+      "twelve_growth_stage": "帝旺",
+      "twelve_growth_branch": "巳",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丁_午",
+      "day_master": "丁",
+      "month_branch": "午",
+      "month_number": 5,
+      "season": "夏",
+      "tiaohou_priority": [
+        "壬",
+        "庚",
+        "癸"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "庚",
+        "癸"
+      ],
+      "twelve_growth_stage": "临官",
+      "twelve_growth_branch": "午",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丁_未",
+      "day_master": "丁",
+      "month_branch": "未",
+      "month_number": 6,
+      "season": "夏",
+      "tiaohou_priority": [
+        "甲",
+        "壬",
+        "庚"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "壬",
+        "庚"
+      ],
+      "twelve_growth_stage": "冠带",
+      "twelve_growth_branch": "未",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丁_申",
+      "day_master": "丁",
+      "month_branch": "申",
+      "month_number": 7,
+      "season": "秋",
+      "tiaohou_priority": [
+        "甲",
+        "庚",
+        "丙",
+        "戊"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "庚",
+        "丙",
+        "戊"
+      ],
+      "twelve_growth_stage": "沐浴",
+      "twelve_growth_branch": "申",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丁_酉",
+      "day_master": "丁",
+      "month_branch": "酉",
+      "month_number": 8,
+      "season": "秋",
+      "tiaohou_priority": [
+        "甲",
+        "庚",
+        "丙",
+        "戊"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "庚",
+        "丙",
+        "戊"
+      ],
+      "twelve_growth_stage": "长生",
+      "twelve_growth_branch": "酉",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丁_戌",
+      "day_master": "丁",
+      "month_branch": "戌",
+      "month_number": 9,
+      "season": "秋",
+      "tiaohou_priority": [
+        "甲",
+        "戊",
+        "庚"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "戊",
+        "庚"
+      ],
+      "twelve_growth_stage": "养",
+      "twelve_growth_branch": "戌",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丁_亥",
+      "day_master": "丁",
+      "month_branch": "亥",
+      "month_number": 10,
+      "season": "冬",
+      "tiaohou_priority": [
+        "甲",
+        "庚"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "庚"
+      ],
+      "twelve_growth_stage": "胎",
+      "twelve_growth_branch": "亥",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丁_子",
+      "day_master": "丁",
+      "month_branch": "子",
+      "month_number": 11,
+      "season": "冬",
+      "tiaohou_priority": [
+        "甲",
+        "庚"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "庚"
+      ],
+      "twelve_growth_stage": "绝",
+      "twelve_growth_branch": "子",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_丁_丑",
+      "day_master": "丁",
+      "month_branch": "丑",
+      "month_number": 12,
+      "season": "冬",
+      "tiaohou_priority": [
+        "甲",
+        "庚"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "庚"
+      ],
+      "twelve_growth_stage": "墓",
+      "twelve_growth_branch": "丑",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_戊_寅",
+      "day_master": "戊",
+      "month_branch": "寅",
+      "month_number": 1,
+      "season": "春",
+      "tiaohou_priority": [
+        "丙",
+        "甲",
+        "癸"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "甲",
+        "癸"
+      ],
+      "twelve_growth_stage": "长生",
+      "twelve_growth_branch": "寅",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_戊_卯",
+      "day_master": "戊",
+      "month_branch": "卯",
+      "month_number": 2,
+      "season": "春",
+      "tiaohou_priority": [
+        "丙",
+        "甲",
+        "癸"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "甲",
+        "癸"
+      ],
+      "twelve_growth_stage": "沐浴",
+      "twelve_growth_branch": "卯",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_戊_辰",
+      "day_master": "戊",
+      "month_branch": "辰",
+      "month_number": 3,
+      "season": "春",
+      "tiaohou_priority": [
+        "甲",
+        "丙",
+        "癸"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "丙",
+        "癸"
+      ],
+      "twelve_growth_stage": "冠带",
+      "twelve_growth_branch": "辰",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_戊_巳",
+      "day_master": "戊",
+      "month_branch": "巳",
+      "month_number": 4,
+      "season": "夏",
+      "tiaohou_priority": [
+        "甲",
+        "丙",
+        "癸"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "丙",
+        "癸"
+      ],
+      "twelve_growth_stage": "临官",
+      "twelve_growth_branch": "巳",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_戊_午",
+      "day_master": "戊",
+      "month_branch": "午",
+      "month_number": 5,
+      "season": "夏",
+      "tiaohou_priority": [
+        "壬",
+        "甲",
+        "丙"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "甲",
+        "丙"
+      ],
+      "twelve_growth_stage": "帝旺",
+      "twelve_growth_branch": "午",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_戊_未",
+      "day_master": "戊",
+      "month_branch": "未",
+      "month_number": 6,
+      "season": "夏",
+      "tiaohou_priority": [
+        "癸",
+        "丙",
+        "甲"
+      ],
+      "primary_use": "癸",
+      "secondary_use": [
+        "丙",
+        "甲"
+      ],
+      "twelve_growth_stage": "衰",
+      "twelve_growth_branch": "未",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_戊_申",
+      "day_master": "戊",
+      "month_branch": "申",
+      "month_number": 7,
+      "season": "秋",
+      "tiaohou_priority": [
+        "丙",
+        "癸",
+        "甲"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "癸",
+        "甲"
+      ],
+      "twelve_growth_stage": "病",
+      "twelve_growth_branch": "申",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_戊_酉",
+      "day_master": "戊",
+      "month_branch": "酉",
+      "month_number": 8,
+      "season": "秋",
+      "tiaohou_priority": [
+        "丙",
+        "癸"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "癸"
+      ],
+      "twelve_growth_stage": "死",
+      "twelve_growth_branch": "酉",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_戊_戌",
+      "day_master": "戊",
+      "month_branch": "戌",
+      "month_number": 9,
+      "season": "秋",
+      "tiaohou_priority": [
+        "甲",
+        "丙",
+        "癸"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "丙",
+        "癸"
+      ],
+      "twelve_growth_stage": "墓",
+      "twelve_growth_branch": "戌",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_戊_亥",
+      "day_master": "戊",
+      "month_branch": "亥",
+      "month_number": 10,
+      "season": "冬",
+      "tiaohou_priority": [
+        "甲",
+        "丙"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "丙"
+      ],
+      "twelve_growth_stage": "绝",
+      "twelve_growth_branch": "亥",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_戊_子",
+      "day_master": "戊",
+      "month_branch": "子",
+      "month_number": 11,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙",
+        "甲"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "甲"
+      ],
+      "twelve_growth_stage": "胎",
+      "twelve_growth_branch": "子",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_戊_丑",
+      "day_master": "戊",
+      "month_branch": "丑",
+      "month_number": 12,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙",
+        "甲"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "甲"
+      ],
+      "twelve_growth_stage": "养",
+      "twelve_growth_branch": "丑",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_己_寅",
+      "day_master": "己",
+      "month_branch": "寅",
+      "month_number": 1,
+      "season": "春",
+      "tiaohou_priority": [
+        "丙",
+        "庚",
+        "甲"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "庚",
+        "甲"
+      ],
+      "twelve_growth_stage": "死",
+      "twelve_growth_branch": "寅",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_己_卯",
+      "day_master": "己",
+      "month_branch": "卯",
+      "month_number": 2,
+      "season": "春",
+      "tiaohou_priority": [
+        "甲",
+        "癸",
+        "丙"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "癸",
+        "丙"
+      ],
+      "twelve_growth_stage": "病",
+      "twelve_growth_branch": "卯",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_己_辰",
+      "day_master": "己",
+      "month_branch": "辰",
+      "month_number": 3,
+      "season": "春",
+      "tiaohou_priority": [
+        "丙",
+        "癸",
+        "甲"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "癸",
+        "甲"
+      ],
+      "twelve_growth_stage": "衰",
+      "twelve_growth_branch": "辰",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_己_巳",
+      "day_master": "己",
+      "month_branch": "巳",
+      "month_number": 4,
+      "season": "夏",
+      "tiaohou_priority": [
+        "癸",
+        "丙"
+      ],
+      "primary_use": "癸",
+      "secondary_use": [
+        "丙"
+      ],
+      "twelve_growth_stage": "帝旺",
+      "twelve_growth_branch": "巳",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_己_午",
+      "day_master": "己",
+      "month_branch": "午",
+      "month_number": 5,
+      "season": "夏",
+      "tiaohou_priority": [
+        "癸",
+        "丙"
+      ],
+      "primary_use": "癸",
+      "secondary_use": [
+        "丙"
+      ],
+      "twelve_growth_stage": "临官",
+      "twelve_growth_branch": "午",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_己_未",
+      "day_master": "己",
+      "month_branch": "未",
+      "month_number": 6,
+      "season": "夏",
+      "tiaohou_priority": [
+        "癸",
+        "丙"
+      ],
+      "primary_use": "癸",
+      "secondary_use": [
+        "丙"
+      ],
+      "twelve_growth_stage": "冠带",
+      "twelve_growth_branch": "未",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_己_申",
+      "day_master": "己",
+      "month_branch": "申",
+      "month_number": 7,
+      "season": "秋",
+      "tiaohou_priority": [
+        "丙",
+        "癸"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "癸"
+      ],
+      "twelve_growth_stage": "沐浴",
+      "twelve_growth_branch": "申",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_己_酉",
+      "day_master": "己",
+      "month_branch": "酉",
+      "month_number": 8,
+      "season": "秋",
+      "tiaohou_priority": [
+        "丙",
+        "癸"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "癸"
+      ],
+      "twelve_growth_stage": "长生",
+      "twelve_growth_branch": "酉",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_己_戌",
+      "day_master": "己",
+      "month_branch": "戌",
+      "month_number": 9,
+      "season": "秋",
+      "tiaohou_priority": [
+        "甲",
+        "丙",
+        "癸"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "丙",
+        "癸"
+      ],
+      "twelve_growth_stage": "养",
+      "twelve_growth_branch": "戌",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_己_亥",
+      "day_master": "己",
+      "month_branch": "亥",
+      "month_number": 10,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙",
+        "甲",
+        "戊"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "甲",
+        "戊"
+      ],
+      "twelve_growth_stage": "胎",
+      "twelve_growth_branch": "亥",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_己_子",
+      "day_master": "己",
+      "month_branch": "子",
+      "month_number": 11,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙",
+        "甲",
+        "戊"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "甲",
+        "戊"
+      ],
+      "twelve_growth_stage": "绝",
+      "twelve_growth_branch": "子",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_己_丑",
+      "day_master": "己",
+      "month_branch": "丑",
+      "month_number": 12,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙",
+        "甲",
+        "戊"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "甲",
+        "戊"
+      ],
+      "twelve_growth_stage": "墓",
+      "twelve_growth_branch": "丑",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_庚_寅",
+      "day_master": "庚",
+      "month_branch": "寅",
+      "month_number": 1,
+      "season": "春",
+      "tiaohou_priority": [
+        "丙",
+        "甲"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "甲"
+      ],
+      "twelve_growth_stage": "绝",
+      "twelve_growth_branch": "寅",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_庚_卯",
+      "day_master": "庚",
+      "month_branch": "卯",
+      "month_number": 2,
+      "season": "春",
+      "tiaohou_priority": [
+        "丁",
+        "甲"
+      ],
+      "primary_use": "丁",
+      "secondary_use": [
+        "甲"
+      ],
+      "twelve_growth_stage": "胎",
+      "twelve_growth_branch": "卯",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_庚_辰",
+      "day_master": "庚",
+      "month_branch": "辰",
+      "month_number": 3,
+      "season": "春",
+      "tiaohou_priority": [
+        "丁",
+        "甲"
+      ],
+      "primary_use": "丁",
+      "secondary_use": [
+        "甲"
+      ],
+      "twelve_growth_stage": "养",
+      "twelve_growth_branch": "辰",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_庚_巳",
+      "day_master": "庚",
+      "month_branch": "巳",
+      "month_number": 4,
+      "season": "夏",
+      "tiaohou_priority": [
+        "壬",
+        "戊",
+        "丙",
+        "丁"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "戊",
+        "丙",
+        "丁"
+      ],
+      "twelve_growth_stage": "长生",
+      "twelve_growth_branch": "巳",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_庚_午",
+      "day_master": "庚",
+      "month_branch": "午",
+      "month_number": 5,
+      "season": "夏",
+      "tiaohou_priority": [
+        "壬",
+        "癸"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "癸"
+      ],
+      "twelve_growth_stage": "沐浴",
+      "twelve_growth_branch": "午",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_庚_未",
+      "day_master": "庚",
+      "month_branch": "未",
+      "month_number": 6,
+      "season": "夏",
+      "tiaohou_priority": [
+        "甲",
+        "丁"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "丁"
+      ],
+      "twelve_growth_stage": "冠带",
+      "twelve_growth_branch": "未",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_庚_申",
+      "day_master": "庚",
+      "month_branch": "申",
+      "month_number": 7,
+      "season": "秋",
+      "tiaohou_priority": [
+        "丁",
+        "甲"
+      ],
+      "primary_use": "丁",
+      "secondary_use": [
+        "甲"
+      ],
+      "twelve_growth_stage": "临官",
+      "twelve_growth_branch": "申",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_庚_酉",
+      "day_master": "庚",
+      "month_branch": "酉",
+      "month_number": 8,
+      "season": "秋",
+      "tiaohou_priority": [
+        "丁",
+        "甲",
+        "丙"
+      ],
+      "primary_use": "丁",
+      "secondary_use": [
+        "甲",
+        "丙"
+      ],
+      "twelve_growth_stage": "帝旺",
+      "twelve_growth_branch": "酉",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_庚_戌",
+      "day_master": "庚",
+      "month_branch": "戌",
+      "month_number": 9,
+      "season": "秋",
+      "tiaohou_priority": [
+        "甲",
+        "壬"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "壬"
+      ],
+      "twelve_growth_stage": "衰",
+      "twelve_growth_branch": "戌",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_庚_亥",
+      "day_master": "庚",
+      "month_branch": "亥",
+      "month_number": 10,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙",
+        "丁",
+        "甲"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "丁",
+        "甲"
+      ],
+      "twelve_growth_stage": "病",
+      "twelve_growth_branch": "亥",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_庚_子",
+      "day_master": "庚",
+      "month_branch": "子",
+      "month_number": 11,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丁",
+        "甲",
+        "丙"
+      ],
+      "primary_use": "丁",
+      "secondary_use": [
+        "甲",
+        "丙"
+      ],
+      "twelve_growth_stage": "死",
+      "twelve_growth_branch": "子",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_庚_丑",
+      "day_master": "庚",
+      "month_branch": "丑",
+      "month_number": 12,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙",
+        "丁",
+        "甲"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "丁",
+        "甲"
+      ],
+      "twelve_growth_stage": "墓",
+      "twelve_growth_branch": "丑",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_辛_寅",
+      "day_master": "辛",
+      "month_branch": "寅",
+      "month_number": 1,
+      "season": "春",
+      "tiaohou_priority": [
+        "己",
+        "壬",
+        "庚"
+      ],
+      "primary_use": "己",
+      "secondary_use": [
+        "壬",
+        "庚"
+      ],
+      "twelve_growth_stage": "胎",
+      "twelve_growth_branch": "寅",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_辛_卯",
+      "day_master": "辛",
+      "month_branch": "卯",
+      "month_number": 2,
+      "season": "春",
+      "tiaohou_priority": [
+        "壬",
+        "甲"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "甲"
+      ],
+      "twelve_growth_stage": "绝",
+      "twelve_growth_branch": "卯",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_辛_辰",
+      "day_master": "辛",
+      "month_branch": "辰",
+      "month_number": 3,
+      "season": "春",
+      "tiaohou_priority": [
+        "壬",
+        "甲"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "甲"
+      ],
+      "twelve_growth_stage": "墓",
+      "twelve_growth_branch": "辰",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_辛_巳",
+      "day_master": "辛",
+      "month_branch": "巳",
+      "month_number": 4,
+      "season": "夏",
+      "tiaohou_priority": [
+        "壬",
+        "甲",
+        "癸"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "甲",
+        "癸"
+      ],
+      "twelve_growth_stage": "死",
+      "twelve_growth_branch": "巳",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_辛_午",
+      "day_master": "辛",
+      "month_branch": "午",
+      "month_number": 5,
+      "season": "夏",
+      "tiaohou_priority": [
+        "壬",
+        "己",
+        "癸"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "己",
+        "癸"
+      ],
+      "twelve_growth_stage": "病",
+      "twelve_growth_branch": "午",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_辛_未",
+      "day_master": "辛",
+      "month_branch": "未",
+      "month_number": 6,
+      "season": "夏",
+      "tiaohou_priority": [
+        "壬",
+        "庚",
+        "甲"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "庚",
+        "甲"
+      ],
+      "twelve_growth_stage": "衰",
+      "twelve_growth_branch": "未",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_辛_申",
+      "day_master": "辛",
+      "month_branch": "申",
+      "month_number": 7,
+      "season": "秋",
+      "tiaohou_priority": [
+        "壬",
+        "甲",
+        "戊"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "甲",
+        "戊"
+      ],
+      "twelve_growth_stage": "帝旺",
+      "twelve_growth_branch": "申",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_辛_酉",
+      "day_master": "辛",
+      "month_branch": "酉",
+      "month_number": 8,
+      "season": "秋",
+      "tiaohou_priority": [
+        "壬",
+        "甲"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "甲"
+      ],
+      "twelve_growth_stage": "临官",
+      "twelve_growth_branch": "酉",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_辛_戌",
+      "day_master": "辛",
+      "month_branch": "戌",
+      "month_number": 9,
+      "season": "秋",
+      "tiaohou_priority": [
+        "壬",
+        "甲"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "甲"
+      ],
+      "twelve_growth_stage": "冠带",
+      "twelve_growth_branch": "戌",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_辛_亥",
+      "day_master": "辛",
+      "month_branch": "亥",
+      "month_number": 10,
+      "season": "冬",
+      "tiaohou_priority": [
+        "壬",
+        "丙"
+      ],
+      "primary_use": "壬",
+      "secondary_use": [
+        "丙"
+      ],
+      "twelve_growth_stage": "沐浴",
+      "twelve_growth_branch": "亥",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_辛_子",
+      "day_master": "辛",
+      "month_branch": "子",
+      "month_number": 11,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙",
+        "戊",
+        "壬",
+        "甲"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "戊",
+        "壬",
+        "甲"
+      ],
+      "twelve_growth_stage": "长生",
+      "twelve_growth_branch": "子",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_辛_丑",
+      "day_master": "辛",
+      "month_branch": "丑",
+      "month_number": 12,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙",
+        "壬",
+        "戊",
+        "己"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "壬",
+        "戊",
+        "己"
+      ],
+      "twelve_growth_stage": "养",
+      "twelve_growth_branch": "丑",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_壬_寅",
+      "day_master": "壬",
+      "month_branch": "寅",
+      "month_number": 1,
+      "season": "春",
+      "tiaohou_priority": [
+        "庚",
+        "丙",
+        "戊"
+      ],
+      "primary_use": "庚",
+      "secondary_use": [
+        "丙",
+        "戊"
+      ],
+      "twelve_growth_stage": "病",
+      "twelve_growth_branch": "寅",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_壬_卯",
+      "day_master": "壬",
+      "month_branch": "卯",
+      "month_number": 2,
+      "season": "春",
+      "tiaohou_priority": [
+        "戊",
+        "辛",
+        "庚"
+      ],
+      "primary_use": "戊",
+      "secondary_use": [
+        "辛",
+        "庚"
+      ],
+      "twelve_growth_stage": "死",
+      "twelve_growth_branch": "卯",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": [
+        "部分数字本排序/转写存在异文；以常见《穷通宝鉴》喜用提要表为结构化基准。"
+      ]
+    },
+    {
+      "id": "QTBG_壬_辰",
+      "day_master": "壬",
+      "month_branch": "辰",
+      "month_number": 3,
+      "season": "春",
+      "tiaohou_priority": [
+        "甲",
+        "庚"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "庚"
+      ],
+      "twelve_growth_stage": "墓",
+      "twelve_growth_branch": "辰",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_壬_巳",
+      "day_master": "壬",
+      "month_branch": "巳",
+      "month_number": 4,
+      "season": "夏",
+      "tiaohou_priority": [
+        "庚",
+        "辛",
+        "壬",
+        "癸"
+      ],
+      "primary_use": "庚",
+      "secondary_use": [
+        "辛",
+        "壬",
+        "癸"
+      ],
+      "twelve_growth_stage": "绝",
+      "twelve_growth_branch": "巳",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_壬_午",
+      "day_master": "壬",
+      "month_branch": "午",
+      "month_number": 5,
+      "season": "夏",
+      "tiaohou_priority": [
+        "癸",
+        "庚",
+        "辛"
+      ],
+      "primary_use": "癸",
+      "secondary_use": [
+        "庚",
+        "辛"
+      ],
+      "twelve_growth_stage": "胎",
+      "twelve_growth_branch": "午",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_壬_未",
+      "day_master": "壬",
+      "month_branch": "未",
+      "month_number": 6,
+      "season": "夏",
+      "tiaohou_priority": [
+        "辛",
+        "甲"
+      ],
+      "primary_use": "辛",
+      "secondary_use": [
+        "甲"
+      ],
+      "twelve_growth_stage": "养",
+      "twelve_growth_branch": "未",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_壬_申",
+      "day_master": "壬",
+      "month_branch": "申",
+      "month_number": 7,
+      "season": "秋",
+      "tiaohou_priority": [
+        "戊",
+        "丁"
+      ],
+      "primary_use": "戊",
+      "secondary_use": [
+        "丁"
+      ],
+      "twelve_growth_stage": "长生",
+      "twelve_growth_branch": "申",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_壬_酉",
+      "day_master": "壬",
+      "month_branch": "酉",
+      "month_number": 8,
+      "season": "秋",
+      "tiaohou_priority": [
+        "甲",
+        "庚"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "庚"
+      ],
+      "twelve_growth_stage": "沐浴",
+      "twelve_growth_branch": "酉",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_壬_戌",
+      "day_master": "壬",
+      "month_branch": "戌",
+      "month_number": 9,
+      "season": "秋",
+      "tiaohou_priority": [
+        "甲",
+        "丙"
+      ],
+      "primary_use": "甲",
+      "secondary_use": [
+        "丙"
+      ],
+      "twelve_growth_stage": "冠带",
+      "twelve_growth_branch": "戌",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_壬_亥",
+      "day_master": "壬",
+      "month_branch": "亥",
+      "month_number": 10,
+      "season": "冬",
+      "tiaohou_priority": [
+        "戊",
+        "丙",
+        "庚"
+      ],
+      "primary_use": "戊",
+      "secondary_use": [
+        "丙",
+        "庚"
+      ],
+      "twelve_growth_stage": "临官",
+      "twelve_growth_branch": "亥",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_壬_子",
+      "day_master": "壬",
+      "month_branch": "子",
+      "month_number": 11,
+      "season": "冬",
+      "tiaohou_priority": [
+        "戊",
+        "丙"
+      ],
+      "primary_use": "戊",
+      "secondary_use": [
+        "丙"
+      ],
+      "twelve_growth_stage": "帝旺",
+      "twelve_growth_branch": "子",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_壬_丑",
+      "day_master": "壬",
+      "month_branch": "丑",
+      "month_number": 12,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙",
+        "丁",
+        "甲"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "丁",
+        "甲"
+      ],
+      "twelve_growth_stage": "衰",
+      "twelve_growth_branch": "丑",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_癸_寅",
+      "day_master": "癸",
+      "month_branch": "寅",
+      "month_number": 1,
+      "season": "春",
+      "tiaohou_priority": [
+        "辛",
+        "丙"
+      ],
+      "primary_use": "辛",
+      "secondary_use": [
+        "丙"
+      ],
+      "twelve_growth_stage": "沐浴",
+      "twelve_growth_branch": "寅",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_癸_卯",
+      "day_master": "癸",
+      "month_branch": "卯",
+      "month_number": 2,
+      "season": "春",
+      "tiaohou_priority": [
+        "庚",
+        "辛"
+      ],
+      "primary_use": "庚",
+      "secondary_use": [
+        "辛"
+      ],
+      "twelve_growth_stage": "长生",
+      "twelve_growth_branch": "卯",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_癸_辰",
+      "day_master": "癸",
+      "month_branch": "辰",
+      "month_number": 3,
+      "season": "春",
+      "tiaohou_priority": [
+        "丙",
+        "辛",
+        "甲"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "辛",
+        "甲"
+      ],
+      "twelve_growth_stage": "养",
+      "twelve_growth_branch": "辰",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_癸_巳",
+      "day_master": "癸",
+      "month_branch": "巳",
+      "month_number": 4,
+      "season": "夏",
+      "tiaohou_priority": [
+        "辛"
+      ],
+      "primary_use": "辛",
+      "secondary_use": [],
+      "twelve_growth_stage": "胎",
+      "twelve_growth_branch": "巳",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_癸_午",
+      "day_master": "癸",
+      "month_branch": "午",
+      "month_number": 5,
+      "season": "夏",
+      "tiaohou_priority": [
+        "庚",
+        "辛",
+        "壬",
+        "癸"
+      ],
+      "primary_use": "庚",
+      "secondary_use": [
+        "辛",
+        "壬",
+        "癸"
+      ],
+      "twelve_growth_stage": "绝",
+      "twelve_growth_branch": "午",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": [
+        "不同数字本对佐神次序有差异；本库只保留喜用集合与主次顺序，不作绝对吉凶。"
+      ]
+    },
+    {
+      "id": "QTBG_癸_未",
+      "day_master": "癸",
+      "month_branch": "未",
+      "month_number": 6,
+      "season": "夏",
+      "tiaohou_priority": [
+        "庚",
+        "辛",
+        "壬",
+        "癸"
+      ],
+      "primary_use": "庚",
+      "secondary_use": [
+        "辛",
+        "壬",
+        "癸"
+      ],
+      "twelve_growth_stage": "墓",
+      "twelve_growth_branch": "未",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_癸_申",
+      "day_master": "癸",
+      "month_branch": "申",
+      "month_number": 7,
+      "season": "秋",
+      "tiaohou_priority": [
+        "丁"
+      ],
+      "primary_use": "丁",
+      "secondary_use": [],
+      "twelve_growth_stage": "死",
+      "twelve_growth_branch": "申",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_癸_酉",
+      "day_master": "癸",
+      "month_branch": "酉",
+      "month_number": 8,
+      "season": "秋",
+      "tiaohou_priority": [
+        "辛",
+        "丙"
+      ],
+      "primary_use": "辛",
+      "secondary_use": [
+        "丙"
+      ],
+      "twelve_growth_stage": "病",
+      "twelve_growth_branch": "酉",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_癸_戌",
+      "day_master": "癸",
+      "month_branch": "戌",
+      "month_number": 9,
+      "season": "秋",
+      "tiaohou_priority": [
+        "辛",
+        "甲",
+        "壬",
+        "癸"
+      ],
+      "primary_use": "辛",
+      "secondary_use": [
+        "甲",
+        "壬",
+        "癸"
+      ],
+      "twelve_growth_stage": "衰",
+      "twelve_growth_branch": "戌",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_癸_亥",
+      "day_master": "癸",
+      "month_branch": "亥",
+      "month_number": 10,
+      "season": "冬",
+      "tiaohou_priority": [
+        "庚",
+        "辛"
+      ],
+      "primary_use": "庚",
+      "secondary_use": [
+        "辛"
+      ],
+      "twelve_growth_stage": "帝旺",
+      "twelve_growth_branch": "亥",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_癸_子",
+      "day_master": "癸",
+      "month_branch": "子",
+      "month_number": 11,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙",
+        "辛"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "辛"
+      ],
+      "twelve_growth_stage": "临官",
+      "twelve_growth_branch": "子",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    },
+    {
+      "id": "QTBG_癸_丑",
+      "day_master": "癸",
+      "month_branch": "丑",
+      "month_number": 12,
+      "season": "冬",
+      "tiaohou_priority": [
+        "丙",
+        "丁"
+      ],
+      "primary_use": "丙",
+      "secondary_use": [
+        "丁"
+      ],
+      "twelve_growth_stage": "冠带",
+      "twelve_growth_branch": "丑",
+      "source_refs": [
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2",
+      "verification_status": "cross_verified_digital",
+      "text_layer": "提要表结构化字段；不等同于逐字原文",
+      "variant_policy": "以多份数字本交叉核对；存在异文或转载讹字时保留为结构化近似并在 notes 标记，不提升为 E3-E5",
+      "notes": []
+    }
+  ]
+}
