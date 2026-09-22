@@ -37,5 +37,148 @@
     "schools": [
       "滴天髓阐微"
     ]
+  },
+  {
+    "interp_id": "INT_YHZP_JS_002",
+    "text_ref": "TXT_YHZP_JS_002",
+    "author": "数据库释义层",
+    "source_id": "SRC_YHZP",
+    "evidence_level": "E1",
+    "verification_status": "semantic_normalization",
+    "commentary_text": "继善篇将月令、日主、格局、财官以及用神不可损伤等作为基础判断框架；数据库仅提取结构，不把后世吉凶绝对化。",
+    "semantic_summary": "月令提纲与日主、格局、财官的基础关系。",
+    "schools": [
+      "渊海子平"
+    ]
+  },
+  {
+    "interp_id": "INT_YHZP_BF_001",
+    "text_ref": "TXT_YHZP_BF_001",
+    "author": "数据库释义层",
+    "source_id": "SRC_YHZP",
+    "evidence_level": "E1",
+    "verification_status": "semantic_normalization",
+    "commentary_text": "以日干为主，以月令提纲所藏之物定格，再参考年月时；强调先定提纲而非任意从年柱取格。",
+    "semantic_summary": "日主—月令—四柱的传统观察顺序。",
+    "schools": [
+      "渊海子平"
+    ]
+  },
+  {
+    "interp_id": "INT_YHZP_BF_002",
+    "text_ref": "TXT_YHZP_BF_002",
+    "author": "数据库释义层",
+    "source_id": "SRC_YHZP",
+    "evidence_level": "E1",
+    "verification_status": "semantic_normalization",
+    "commentary_text": "传统子平法强调先看提纲，再以年日时合成格局；取格不定则后续判断容易失去统一标准。",
+    "semantic_summary": "格局判断以月令为核心。",
+    "schools": [
+      "渊海子平"
+    ]
+  },
+  {
+    "interp_id": "INT_DTS_HN_001",
+    "text_ref": "TXT_DTS_HN_001",
+    "author": "数据库释义层",
+    "source_id": "SRC_DTS",
+    "evidence_level": "E1",
+    "verification_status": "semantic_normalization",
+    "commentary_text": "寒暖属于气候层判断，与旺衰、格局并非同一维度；数据库将其作为调候变量而非自动吉凶结论。",
+    "semantic_summary": "寒暖是命局气象的重要观察维度。",
+    "schools": [
+      "滴天髓"
+    ]
+  },
+  {
+    "interp_id": "INT_DTS_BJ_001",
+    "text_ref": "TXT_DTS_BJ_001",
+    "author": "数据库释义层",
+    "source_id": "SRC_DTS",
+    "evidence_level": "E1",
+    "verification_status": "semantic_normalization",
+    "commentary_text": "病药思路把命局中过强、过弱、阻隔等问题视作病，再观察能否得到对应制化；实际应用需结合全局。",
+    "semantic_summary": "病药是制化层模型，不应简化为单一喜用神。",
+    "schools": [
+      "滴天髓"
+    ]
+  },
+  {
+    "interp_id": "INT_DTS_CF_001",
+    "text_ref": "TXT_DTS_CF_001",
+    "author": "数据库释义层",
+    "source_id": "SRC_DTS",
+    "evidence_level": "E1",
+    "verification_status": "semantic_normalization",
+    "commentary_text": "财气通门户强调财星来源、流通与承载条件，而非单纯统计财星数量。",
+    "semantic_summary": "财星判断兼顾来源、流通和日主承载。",
+    "schools": [
+      "滴天髓"
+    ]
+  },
+  {
+    "interp_id": "INT_ZPZQ_YS_001",
+    "text_ref": "TXT_ZPZQ_YS_002",
+    "author": "数据库释义层",
+    "source_id": "SRC_ZPZQ",
+    "evidence_level": "E1",
+    "verification_status": "semantic_normalization",
+    "commentary_text": "《子平真诠》把月令用神、顺逆使用与格局成败联系起来；与《渊海子平》的月令观存在连续性，但后者更系统地发展了格局成败。",
+    "semantic_summary": "月令取用、顺逆与格局成败构成《子平真诠》的核心框架。",
+    "schools": [
+      "子平真诠"
+    ]
+  },
+  {
+    "interp_id": "INT_ZPZQ_CS_001",
+    "text_ref": "TXT_ZPZQ_CS_001",
+    "author": "数据库释义层",
+    "source_id": "SRC_ZPZQ",
+    "evidence_level": "E1",
+    "verification_status": "semantic_normalization",
+    "commentary_text": "格局成败不是看到一个十神就下结论，而要同时检查财印、刑冲破害、身强身弱以及位置配合。",
+    "semantic_summary": "格局判断必须检查成格条件与破格条件。",
+    "schools": [
+      "子平真诠"
+    ]
+  },
+  {
+    "interp_id": "INT_SFTK_BY_001",
+    "text_ref": "TXT_SFTK_BY_001",
+    "author": "数据库释义层",
+    "source_id": "SRC_SFTK",
+    "evidence_level": "E1",
+    "verification_status": "semantic_normalization",
+    "commentary_text": "病药法强调找到主要矛盾后再找制化之神，并观察行运能否补足制化。",
+    "semantic_summary": "病药模型强调命局主要矛盾及其制化。",
+    "schools": [
+      "神峰通考"
+    ]
+  },
+  {
+    "interp_id": "INT_SMTH_RY_002",
+    "text_ref": "TXT_SMTH_RY_002",
+    "author": "数据库释义层",
+    "source_id": "SRC_SMTH",
+    "evidence_level": "E1",
+    "verification_status": "semantic_normalization",
+    "commentary_text": "三命通会以先天与后天比拟原局与运势，强调过旺者泄、过弱者补的平衡思想。",
+    "semantic_summary": "原局与大运之间存在后天调节关系。",
+    "schools": [
+      "三命通会"
+    ]
+  },
+  {
+    "interp_id": "INT_QTBG_BH_001",
+    "text_ref": "TXT_QTBG_BH_001",
+    "author": "数据库释义层",
+    "source_id": "SRC_QTBG",
+    "evidence_level": "E1",
+    "verification_status": "semantic_normalization",
+    "commentary_text": "《穷通宝鉴》更突出季节气候与天干专用关系，属于调候体系；不能直接与格局用神混成一个算法。",
+    "semantic_summary": "调候体系以月令季节和天干气候需求为核心。",
+    "schools": [
+      "穷通宝鉴"
+    ]
   }
 ]
