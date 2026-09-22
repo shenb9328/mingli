@@ -1,0 +1,133 @@
+{
+  "version": "3.1",
+  "nodes": [
+    {
+      "id": "month_order",
+      "name": "月令/提纲",
+      "depends_on": []
+    },
+    {
+      "id": "day_master",
+      "name": "日主",
+      "depends_on": []
+    },
+    {
+      "id": "hidden_stems",
+      "name": "藏干",
+      "depends_on": [
+        "month_order"
+      ]
+    },
+    {
+      "id": "ten_gods",
+      "name": "十神",
+      "depends_on": [
+        "day_master"
+      ]
+    },
+    {
+      "id": "strength",
+      "name": "旺衰",
+      "depends_on": [
+        "month_order",
+        "day_master",
+        "hidden_stems",
+        "ten_gods"
+      ]
+    },
+    {
+      "id": "pattern",
+      "name": "格局",
+      "depends_on": [
+        "month_order",
+        "day_master",
+        "ten_gods"
+      ]
+    },
+    {
+      "id": "use_god",
+      "name": "用神",
+      "depends_on": [
+        "month_order",
+        "pattern",
+        "strength"
+      ]
+    },
+    {
+      "id": "climate",
+      "name": "调候/寒暖燥湿",
+      "depends_on": [
+        "month_order"
+      ]
+    },
+    {
+      "id": "relations",
+      "name": "合冲刑害破会",
+      "depends_on": [
+        "hidden_stems"
+      ]
+    },
+    {
+      "id": "disease_medicine",
+      "name": "病药",
+      "depends_on": [
+        "strength",
+        "pattern",
+        "relations"
+      ]
+    },
+    {
+      "id": "luck",
+      "name": "大运",
+      "depends_on": [
+        "day_master",
+        "month_order"
+      ]
+    },
+    {
+      "id": "year",
+      "name": "流年",
+      "depends_on": [
+        "luck",
+        "relations",
+        "use_god"
+      ]
+    },
+    {
+      "id": "final_interpretation",
+      "name": "综合判断",
+      "depends_on": [
+        "pattern",
+        "use_god",
+        "strength",
+        "climate",
+        "disease_medicine",
+        "luck",
+        "year"
+      ]
+    }
+  ],
+  "decision_order": [
+    "原局排盘",
+    "月令",
+    "日主",
+    "藏干",
+    "十神",
+    "旺衰",
+    "格局",
+    "用神",
+    "调候",
+    "合冲刑害",
+    "病药",
+    "大运",
+    "流年",
+    "综合"
+  ],
+  "guardrails": [
+    "神煞不得覆盖核心格局判断",
+    "单一合冲不得直接判吉凶",
+    "单一十神不得直接判富贵",
+    "大运流年必须回到原局解释",
+    "任何数值评分必须标记为heuristic"
+  ]
+}

@@ -535,5 +535,109 @@
       "parameter_basis": "按天干与月份建立季节性需求表。"
     },
     "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_ZPZQ_004",
+    "category": "用神",
+    "rule_type": "核心",
+    "name": "顺逆细则",
+    "priority": 95,
+    "source_refs": [
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_ZPZQ_YS_003"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_ZPZQ_YS_003",
+        "statement": "财喜食神以相生，生官以护财；官喜透财以相生，生印以护官；七煞喜食神以制伏；伤官喜佩印以制伏。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "use_god_support_control",
+      "parameter_status": "heuristic",
+      "parameter_basis": "将顺用/逆用关系转化为条件图，而非固定分数。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_ZPZQ_005",
+    "category": "用神",
+    "rule_type": "核心",
+    "name": "用神变化",
+    "priority": 94,
+    "source_refs": [
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_ZPZQ_YY_002"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_ZPZQ_YY_002",
+        "statement": "月令所藏不一，而用神遂有变化。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "use_god_transformation",
+      "parameter_status": "heuristic",
+      "parameter_basis": "检测透干、会合、藏干主次后重新评估格局。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_ZPZQ_006",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "格局高低看有情有力",
+    "priority": 93,
+    "source_refs": [
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_ZPZQ_GD_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_ZPZQ_GD_001",
+        "statement": "有格局必有高低……其理之大纲，亦在有情、有力无力之间。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "pattern_quality",
+      "parameter_status": "heuristic",
+      "parameter_basis": "以有情、有力作为结构特征，不转化成古籍不存在的绝对分数。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
+  },
+  {
+    "rule_id": "CORE_DTS_006",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "旺衰极端反向风险",
+    "priority": 94,
+    "source_refs": [
+      "SRC_DTS"
+    ],
+    "text_refs": [
+      "TXT_DTS_SW_002"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_SW_002",
+        "statement": "旺之极者不可损，以损在其中矣；衰之极者不可益，以益在其中矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "extreme_strength_guard",
+      "parameter_status": "heuristic",
+      "parameter_basis": "极端旺衰时降低机械扶抑规则的优先级。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical"
   }
 ]
