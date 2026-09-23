@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0",
+  "description": "神煞计算基元。仅负责触发/映射，不定义最终吉凶权重；不同典籍起法保留为school_variant。",
+  "evidence_policy": {
+    "default_level": "E2",
+    "note": "以《三命通会》等数字文本交叉核对；未逐条扫描页校勘，不提升至E4/E5。"
+  },
+  "schemas": [
+    {
+      "id": "TIANYI_SMTH",
+      "name": "天乙贵人",
+      "trigger": "day_stem",
+      "rule_type": "lookup",
+      "rules": {
+        "甲": [
+          "丑",
+          "未"
+        ],
+        "乙": [
+          "子",
+          "申"
+        ],
+        "丙": [
+          "亥",
+          "酉"
+        ],
+        "丁": [
+          "亥",
+          "酉"
+        ],
+        "戊": [
+          "丑",
+          "未"
+        ],
+        "己": [
+          "子",
+          "申"
+        ],
+        "庚": [
+          "丑",
+          "未"
+        ],
+        "辛": [
+          "寅",
+          "午"
+        ],
+        "壬": [
+          "卯",
+          "巳"
+        ],
+        "癸": [
+          "卯",
+          "巳"
+        ]
+      },
+      "source_refs": [
+        "SRC_SMTH"
+      ],
+      "school_variant": "SMTH",
+      "notes": [
+        "保留传统起例差异；程序可同时输出variant。"
+      ]
+    },
+    {
+      "id": "YIMA_SANHE",
+      "name": "驿马",
+      "trigger": "branch_triad_group",
+      "rule_type": "derived_lookup",
+      "rules": {
+        "申子辰": "寅",
+        "寅午戌": "申",
+        "巳酉丑": "亥",
+        "亥卯未": "巳"
+      },
+      "source_refs": [
+        "SRC_SMTH"
+      ],
+      "school_variant": "common",
+      "notes": [
+        "以三合局所属组查驿马；触发支可来自年支或日支，调用层必须显式指定trigger_source。"
+      ]
+    },
+    {
+      "id": "HUAGAI_SANHE",
+      "name": "华盖",
+      "trigger": "branch_triad_group",
+      "rule_type": "derived_lookup",
+      "rules": {
+        "申子辰": "辰",
+        "寅午戌": "戌",
+        "巳酉丑": "丑",
+        "亥卯未": "未"
+      },
+      "source_refs": [
+        "SRC_SMTH"
+      ],
+      "school_variant": "common"
+    },
+    {
+      "id": "JIANGXING_SANHE",
+      "name": "将星",
+      "trigger": "branch_triad_group",
+      "rule_type": "derived_lookup",
+      "rules": {
+        "申子辰": "子",
+        "寅午戌": "午",
+        "巳酉丑": "酉",
+        "亥卯未": "卯"
+      },
+      "source_refs": [
+        "SRC_SMTH"
+      ],
+      "school_variant": "common"
+    },
+    {
+      "id": "TAOHUA_SANHE",
+      "name": "桃花",
+      "trigger": "branch_triad_group",
+      "rule_type": "derived_lookup",
+      "rules": {
+        "申子辰": "酉",
+        "寅午戌": "卯",
+        "巳酉丑": "午",
+        "亥卯未": "子"
+      },
+      "source_refs": [
+        "SRC_SMTH"
+      ],
+      "school_variant": "common"
+    },
+    {
+      "id": "YANGREN",
+      "name": "羊刃",
+      "trigger": "day_stem",
+      "rule_type": "lookup",
+      "rules": {
+        "甲": "卯",
+        "乙": "辰",
+        "丙": "午",
+        "丁": "未",
+        "戊": "午",
+        "己": "未",
+        "庚": "酉",
+        "辛": "戌",
+        "壬": "子",
+        "癸": "丑"
+      },
+      "source_refs": [
+        "SRC_YHZP",
+        "SRC_SMTH"
+      ],
+      "school_variant": "common",
+      "notes": [
+        "乙辰、丁未、己未、癸丑等排法需在后续历史底本校勘中单独追踪；当前作为工程映射。"
+      ]
+    }
+  ]
+}

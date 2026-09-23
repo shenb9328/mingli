@@ -1,0 +1,634 @@
+{
+  "schema_version": "1.1",
+  "description": "《子平真诠》正格与传统变格候选的机器可读条件树。变格逻辑是跨文献、跨流派的结构化近似，不把现代布尔表达式冒充古文；变格命中必须输出候选状态与证据链。",
+  "patterns": {
+    "正官格": {
+      "formation": {
+        "ALL": [
+          "MONTH_TEN_GOD_EQ:正官"
+        ]
+      },
+      "success": {
+        "OR": [
+          "HAS:财星_AND印星",
+          "HAS:财星",
+          "HAS:印星"
+        ],
+        "NOT": [
+          "CLASHED:正官",
+          "DAMAGED_BY:伤官"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "DAMAGED_BY:伤官",
+          "CLASHED:正官",
+          "HARMED_BY:刑冲"
+        ]
+      },
+      "rescue": [
+        "印制伤",
+        "合杀清杂",
+        "会合解冲"
+      ]
+    },
+    "财格": {
+      "formation": {
+        "OR": [
+          "MONTH_TEN_GOD_EQ:正财",
+          "MONTH_TEN_GOD_EQ:偏财"
+        ]
+      },
+      "success": {
+        "OR": [
+          "财生官",
+          "食神生财_AND身强",
+          "财印位置妥贴"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "比劫过重",
+          "财透七杀"
+        ]
+      },
+      "rescue": [
+        "食神化劫",
+        "官制比劫",
+        "合杀存财"
+      ]
+    },
+    "印格": {
+      "formation": {
+        "ALL": [
+          "MONTH_TEN_GOD_EQ:正印",
+          "MONTH_TEN_GOD_EQ:偏印"
+        ]
+      },
+      "success": {
+        "OR": [
+          "印轻逢杀",
+          "官印双全",
+          "身印旺_AND食伤泄",
+          "印多逢财_AND财透根轻"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "印轻逢财",
+          "身强印重_AND透杀"
+        ]
+      },
+      "rescue": [
+        "劫财解财",
+        "合财存印"
+      ]
+    },
+    "食神格": {
+      "formation": {
+        "ALL": [
+          "MONTH_TEN_GOD_EQ:食神"
+        ]
+      },
+      "success": {
+        "OR": [
+          "食神生财",
+          "食带杀_AND无财",
+          "弃食就杀_AND透印"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "枭神夺食",
+          "生财露杀"
+        ]
+      },
+      "rescue": [
+        "生财护食",
+        "就杀成格"
+      ]
+    },
+    "七杀格": {
+      "formation": {
+        "ALL": [
+          "MONTH_TEN_GOD_EQ:七杀"
+        ]
+      },
+      "success": {
+        "OR": [
+          "身强七杀逢制",
+          "印化杀"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "七杀逢财无制"
+        ]
+      },
+      "rescue": [
+        "食神制杀",
+        "印化杀"
+      ]
+    },
+    "伤官格": {
+      "formation": {
+        "ALL": [
+          "MONTH_TEN_GOD_EQ:伤官"
+        ]
+      },
+      "success": {
+        "OR": [
+          "伤官生财",
+          "伤官佩印_AND伤旺",
+          "伤旺身弱_AND透杀印",
+          "伤官带杀_AND无财"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "伤官见官",
+          "生财带杀",
+          "佩印而伤轻身旺"
+        ]
+      },
+      "rescue": [
+        "佩印",
+        "生财",
+        "合杀"
+      ]
+    },
+    "阳刃格": {
+      "formation": {
+        "ALL": [
+          "MONTH_IS_YANGREN"
+        ]
+      },
+      "success": {
+        "ALL": [
+          "HAS:官杀",
+          "HAS_ANY:财印",
+          "ABSENT:伤官"
+        ]
+      },
+      "failure": {
+        "ALL": [
+          "ABSENT:官杀"
+        ]
+      },
+      "rescue": [
+        "重印护官杀"
+      ]
+    },
+    "建禄格": {
+      "formation": {
+        "ALL": [
+          "MONTH_IS_DAYMASTER_LIN_GUAN"
+        ]
+      },
+      "success": {
+        "OR": [
+          "透官_AND财印",
+          "透财_AND食伤",
+          "透杀_AND制伏"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "无财官",
+          "透杀印"
+        ]
+      },
+      "rescue": [
+        "合伤",
+        "合杀"
+      ]
+    },
+    "月劫格": {
+      "formation": {
+        "ALL": [
+          "MONTH_IS_JIECAI"
+        ]
+      },
+      "success": {
+        "OR": [
+          "透官_AND财",
+          "透食伤_AND财",
+          "透杀_AND制伏"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "比劫无制_AND财弱",
+          "无财官食伤制化"
+        ]
+      },
+      "rescue": [
+        "官制劫",
+        "食伤泄劫",
+        "财得生扶"
+      ]
+    },
+    "曲直格": {
+      "category": "专旺格",
+      "formation": {
+        "ALL": [
+          "ELEMENT_CONCENTRATION:木",
+          "NO_EFFECTIVE_OPPOSING_ELEMENT:金",
+          "DAYMASTER_ELEMENT:木"
+        ]
+      },
+      "success": {
+        "OR": [
+          "木得令_AND木有根",
+          "地支成亥卯未木局",
+          "木气一气"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "金重破木",
+          "土旺泄木",
+          "木局受重冲"
+        ]
+      },
+      "rescue": [
+        "水生木",
+        "火泄秀"
+      ],
+      "strict_mode": "candidate_only"
+    },
+    "炎上格": {
+      "category": "专旺格",
+      "formation": {
+        "ALL": [
+          "ELEMENT_CONCENTRATION:火",
+          "NO_EFFECTIVE_OPPOSING_ELEMENT:水",
+          "DAYMASTER_ELEMENT:火"
+        ]
+      },
+      "success": {
+        "OR": [
+          "火得令_AND火有根",
+          "地支成寅午戌火局",
+          "火气一气"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "水重破火",
+          "金重耗火",
+          "火局受重冲"
+        ]
+      },
+      "rescue": [
+        "木生火",
+        "土泄秀"
+      ],
+      "strict_mode": "candidate_only"
+    },
+    "稼穑格": {
+      "category": "专旺格",
+      "formation": {
+        "ALL": [
+          "ELEMENT_CONCENTRATION:土",
+          "NO_EFFECTIVE_OPPOSING_ELEMENT:木",
+          "DAYMASTER_ELEMENT:土"
+        ]
+      },
+      "success": {
+        "OR": [
+          "土得令_AND土有根",
+          "辰戌丑未土气集中",
+          "土气一气"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "木重克土",
+          "水旺冲散",
+          "土局受重冲"
+        ]
+      },
+      "rescue": [
+        "火生土",
+        "金泄秀"
+      ],
+      "strict_mode": "candidate_only"
+    },
+    "从革格": {
+      "category": "专旺格",
+      "formation": {
+        "ALL": [
+          "ELEMENT_CONCENTRATION:金",
+          "NO_EFFECTIVE_OPPOSING_ELEMENT:火",
+          "DAYMASTER_ELEMENT:金"
+        ]
+      },
+      "success": {
+        "OR": [
+          "金得令_AND金有根",
+          "地支成巳酉丑金局",
+          "金气一气"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "火重破金",
+          "木旺耗金",
+          "金局受重冲"
+        ]
+      },
+      "rescue": [
+        "土生金",
+        "水泄秀"
+      ],
+      "strict_mode": "candidate_only"
+    },
+    "润下格": {
+      "category": "专旺格",
+      "formation": {
+        "ALL": [
+          "ELEMENT_CONCENTRATION:水",
+          "NO_EFFECTIVE_OPPOSING_ELEMENT:土",
+          "DAYMASTER_ELEMENT:水"
+        ]
+      },
+      "success": {
+        "OR": [
+          "水得令_AND水有根",
+          "地支成申子辰水局",
+          "水气一气"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "土重破水",
+          "火旺耗水",
+          "水局受重冲"
+        ]
+      },
+      "rescue": [
+        "金生水",
+        "木泄秀"
+      ],
+      "strict_mode": "candidate_only"
+    },
+    "从财格": {
+      "category": "从格",
+      "formation": {
+        "ALL": [
+          "DAYMASTER_VERY_WEAK",
+          "WEALTH_DOMINANT",
+          "ABSENT_EFFECTIVE_RESOURCE",
+          "ABSENT_EFFECTIVE_PEER"
+        ]
+      },
+      "success": {
+        "OR": [
+          "WEALTH_DOMINANT_AND_FOLLOWABLE",
+          "MONTH_SUPPORTS_WEALTH"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "EFFECTIVE_RESOURCE_APPEARS",
+          "EFFECTIVE_PEER_ROOT_APPEARS",
+          "DAYMASTER_GAINS_STRONG_ROOT"
+        ]
+      },
+      "rescue": [
+        "顺从财势",
+        "去印去比"
+      ],
+      "strict_mode": "candidate_only"
+    },
+    "从杀格": {
+      "category": "从格",
+      "formation": {
+        "ALL": [
+          "DAYMASTER_VERY_WEAK",
+          "OFFICER_KILLER_DOMINANT",
+          "ABSENT_EFFECTIVE_RESOURCE",
+          "ABSENT_EFFECTIVE_PEER"
+        ]
+      },
+      "success": {
+        "OR": [
+          "KILLER_DOMINANT_AND_FOLLOWABLE",
+          "MONTH_SUPPORTS_OFFICER_KILLER"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "EFFECTIVE_RESOURCE_APPEARS",
+          "EFFECTIVE_PEER_ROOT_APPEARS",
+          "DAYMASTER_GAINS_STRONG_ROOT"
+        ]
+      },
+      "rescue": [
+        "顺从官杀势",
+        "去印去比"
+      ],
+      "strict_mode": "candidate_only"
+    },
+    "从儿格": {
+      "category": "从格",
+      "formation": {
+        "ALL": [
+          "DAYMASTER_VERY_WEAK",
+          "OUTPUT_DOMINANT",
+          "ABSENT_EFFECTIVE_RESOURCE",
+          "ABSENT_EFFECTIVE_PEER",
+          "WEALTH_NOT_REVERSING"
+        ]
+      },
+      "success": {
+        "OR": [
+          "OUTPUT_DOMINANT_AND_FOLLOWABLE",
+          "OUTPUT_FLOWS_TO_WEALTH"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "EFFECTIVE_RESOURCE_APPEARS",
+          "EFFECTIVE_PEER_ROOT_APPEARS",
+          "OUTPUT_IS_DAMAGED"
+        ]
+      },
+      "rescue": [
+        "顺食伤之势",
+        "生财泄秀"
+      ],
+      "strict_mode": "candidate_only"
+    },
+    "从弱格": {
+      "category": "从格",
+      "formation": {
+        "ALL": [
+          "DAYMASTER_VERY_WEAK",
+          "ABSENT_EFFECTIVE_PEER",
+          "ABSENT_EFFECTIVE_RESOURCE",
+          "NOT_SINGLE_FOLLOWER_DOMINANT"
+        ]
+      },
+      "success": {
+        "OR": [
+          "WEALTH_OR_OUTPUT_OR_OFFICER_KILLER_DOMINANT"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "EFFECTIVE_RESOURCE_APPEARS",
+          "EFFECTIVE_PEER_ROOT_APPEARS"
+        ]
+      },
+      "rescue": [
+        "顺势",
+        "避免生扶日主"
+      ],
+      "strict_mode": "candidate_only"
+    },
+    "甲己化土格": {
+      "category": "化气格",
+      "formation": {
+        "ALL": [
+          "STEM_COMB_PRESENT:甲己",
+          "TRANSFORMATION_CANDIDATE:土",
+          "TRANSFORMED_ELEMENT_DOMINANT:土",
+          "DAYMASTER_HAS_NO_STRONG_OPPOSITION"
+        ]
+      },
+      "success": {
+        "ALL": [
+          "TRANSFORMATION_SUPPORT_SUFFICIENT:土"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "TRANSFORMATION_BROKEN",
+          "STRONG_OPPOSITION_TO_TRANSFORMED_ELEMENT"
+        ]
+      },
+      "rescue": [
+        "得地得时",
+        "助化神"
+      ],
+      "strict_mode": "candidate_only"
+    },
+    "乙庚化金格": {
+      "category": "化气格",
+      "formation": {
+        "ALL": [
+          "STEM_COMB_PRESENT:乙庚",
+          "TRANSFORMATION_CANDIDATE:金",
+          "TRANSFORMED_ELEMENT_DOMINANT:金",
+          "DAYMASTER_HAS_NO_STRONG_OPPOSITION"
+        ]
+      },
+      "success": {
+        "ALL": [
+          "TRANSFORMATION_SUPPORT_SUFFICIENT:金"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "TRANSFORMATION_BROKEN",
+          "STRONG_OPPOSITION_TO_TRANSFORMED_ELEMENT"
+        ]
+      },
+      "rescue": [
+        "得地得时",
+        "助化神"
+      ],
+      "strict_mode": "candidate_only"
+    },
+    "丙辛化水格": {
+      "category": "化气格",
+      "formation": {
+        "ALL": [
+          "STEM_COMB_PRESENT:丙辛",
+          "TRANSFORMATION_CANDIDATE:水",
+          "TRANSFORMED_ELEMENT_DOMINANT:水",
+          "DAYMASTER_HAS_NO_STRONG_OPPOSITION"
+        ]
+      },
+      "success": {
+        "ALL": [
+          "TRANSFORMATION_SUPPORT_SUFFICIENT:水"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "TRANSFORMATION_BROKEN",
+          "STRONG_OPPOSITION_TO_TRANSFORMED_ELEMENT"
+        ]
+      },
+      "rescue": [
+        "得地得时",
+        "助化神"
+      ],
+      "strict_mode": "candidate_only"
+    },
+    "丁壬化木格": {
+      "category": "化气格",
+      "formation": {
+        "ALL": [
+          "STEM_COMB_PRESENT:丁壬",
+          "TRANSFORMATION_CANDIDATE:木",
+          "TRANSFORMED_ELEMENT_DOMINANT:木",
+          "DAYMASTER_HAS_NO_STRONG_OPPOSITION"
+        ]
+      },
+      "success": {
+        "ALL": [
+          "TRANSFORMATION_SUPPORT_SUFFICIENT:木"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "TRANSFORMATION_BROKEN",
+          "STRONG_OPPOSITION_TO_TRANSFORMED_ELEMENT"
+        ]
+      },
+      "rescue": [
+        "得地得时",
+        "助化神"
+      ],
+      "strict_mode": "candidate_only"
+    },
+    "戊癸化火格": {
+      "category": "化气格",
+      "formation": {
+        "ALL": [
+          "STEM_COMB_PRESENT:戊癸",
+          "TRANSFORMATION_CANDIDATE:火",
+          "TRANSFORMED_ELEMENT_DOMINANT:火",
+          "DAYMASTER_HAS_NO_STRONG_OPPOSITION"
+        ]
+      },
+      "success": {
+        "ALL": [
+          "TRANSFORMATION_SUPPORT_SUFFICIENT:火"
+        ]
+      },
+      "failure": {
+        "OR": [
+          "TRANSFORMATION_BROKEN",
+          "STRONG_OPPOSITION_TO_TRANSFORMED_ELEMENT"
+        ]
+      },
+      "rescue": [
+        "得地得时",
+        "助化神"
+      ],
+      "strict_mode": "candidate_only"
+    }
+  },
+  "source_refs": [
+    "SRC_ZPZQ",
+    "SRC_DTS",
+    "SRC_SMTH"
+  ],
+  "evidence_level": "E2",
+  "note": "正格与变格均为可执行近似。专旺、从格、化气格不得仅凭单一布尔条件认定；必须输出candidate、支持证据、破格证据与证据等级。五行专旺名目可追溯至传统五行分类；具体子平格局判法属于后世命理体系，需保留流派属性。"
+}

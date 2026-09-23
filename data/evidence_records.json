@@ -1,0 +1,55 @@
+[
+  {
+    "evidence_id": "EVID_DTS_TY_001",
+    "text_ref": "TXT_DTS_TY_001",
+    "level": "E2",
+    "status": "externally_verified",
+    "references": [
+      "https://zh.wikisource.org/zh-hans/滴天髓",
+      "https://ctext.org/wiki.pl?chapter=826601&if=en&remap=gb"
+    ],
+    "scan_verified": false
+  },
+  {
+    "evidence_id": "EVID_DTS_SW_001",
+    "text_ref": "TXT_DTS_SW_001",
+    "level": "E2",
+    "status": "externally_verified",
+    "references": [
+      "https://zh.wikisource.org/zh-hans/滴天髓/12"
+    ],
+    "scan_verified": false
+  },
+  {
+    "evidence_id": "EVID_DTS_SY_001",
+    "text_ref": "TXT_DTS_SY_001",
+    "level": "E2",
+    "status": "externally_verified",
+    "references": [
+      "https://zh.wikisource.org/zh-hans/滴天髓/09"
+    ],
+    "scan_verified": false
+  },
+  {
+    "evidence_id": "EVID_YHZP_JS_001",
+    "text_ref": "TXT_YHZP_JS_001",
+    "level": "E2",
+    "status": "externally_verified",
+    "references": [
+      "https://zh.wikisource.org/zh-hans/渊海子平",
+      "https://www.anhappy.com/share/books/others/books/国学/渊海子平.pdf"
+    ],
+    "scan_verified": false
+  },
+  {
+    "evidence_id": "EVID_SMTH_TY_001",
+    "text_ref": "TXT_SMTH_TY_001",
+    "level": "E2",
+    "status": "externally_verified",
+    "references": [
+      "https://zh.wikisource.org/wiki/三命通會_(四庫全書本)/卷03",
+      "https://ctext.org/wiki.pl?chapter=117077&if=gb&remap=gb"
+    ],
+    "scan_verified": false
+  }
+]
