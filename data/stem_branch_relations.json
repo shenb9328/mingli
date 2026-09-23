@@ -304,5 +304,237 @@
       ]
     ],
     "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_LIUHE_ZI_CHOU",
+    "type": "六合化气",
+    "pairs": [
+      [
+        "子",
+        "丑"
+      ]
+    ],
+    "transformation": "土",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_LIUHE_YIN_HAI",
+    "type": "六合化气",
+    "pairs": [
+      [
+        "寅",
+        "亥"
+      ]
+    ],
+    "transformation": "木",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_LIUHE_MAO_XU",
+    "type": "六合化气",
+    "pairs": [
+      [
+        "卯",
+        "戌"
+      ]
+    ],
+    "transformation": "火",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_LIUHE_CHEN_YOU",
+    "type": "六合化气",
+    "pairs": [
+      [
+        "辰",
+        "酉"
+      ]
+    ],
+    "transformation": "金",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_LIUHE_SI_SHEN",
+    "type": "六合化气",
+    "pairs": [
+      [
+        "巳",
+        "申"
+      ]
+    ],
+    "transformation": "水",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_LIUHE_WU_WEI",
+    "type": "六合化气",
+    "pairs": [
+      [
+        "午",
+        "未"
+      ]
+    ],
+    "transformation": "土",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_BANHE_SHEN_ZI",
+    "type": "三合半合",
+    "branches": [
+      "申",
+      "子"
+    ],
+    "element": "水",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_BANHE_ZI_CHEN",
+    "type": "三合半合",
+    "branches": [
+      "子",
+      "辰"
+    ],
+    "element": "水",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_BANHE_HAI_MAO",
+    "type": "三合半合",
+    "branches": [
+      "亥",
+      "卯"
+    ],
+    "element": "木",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_BANHE_MAO_WEI",
+    "type": "三合半合",
+    "branches": [
+      "卯",
+      "未"
+    ],
+    "element": "木",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_BANHE_YIN_WU",
+    "type": "三合半合",
+    "branches": [
+      "寅",
+      "午"
+    ],
+    "element": "火",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_BANHE_WU_XU",
+    "type": "三合半合",
+    "branches": [
+      "午",
+      "戌"
+    ],
+    "element": "火",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_BANHE_SI_YOU",
+    "type": "三合半合",
+    "branches": [
+      "巳",
+      "酉"
+    ],
+    "element": "金",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_BANHE_YOU_CHOU",
+    "type": "三合半合",
+    "branches": [
+      "酉",
+      "丑"
+    ],
+    "element": "金",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_SANHUI_YIN_MAO",
+    "type": "三会半会",
+    "branches": [
+      "寅",
+      "卯"
+    ],
+    "element": "木",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_SANHUI_MAO_CHEN",
+    "type": "三会半会",
+    "branches": [
+      "卯",
+      "辰"
+    ],
+    "element": "木",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_SANHUI_SI_WU",
+    "type": "三会半会",
+    "branches": [
+      "巳",
+      "午"
+    ],
+    "element": "火",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_SANHUI_WU_WEI",
+    "type": "三会半会",
+    "branches": [
+      "午",
+      "未"
+    ],
+    "element": "火",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_SANHUI_SHEN_YOU",
+    "type": "三会半会",
+    "branches": [
+      "申",
+      "酉"
+    ],
+    "element": "金",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_SANHUI_YOU_XU",
+    "type": "三会半会",
+    "branches": [
+      "酉",
+      "戌"
+    ],
+    "element": "金",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_SANHUI_HAI_ZI",
+    "type": "三会半会",
+    "branches": [
+      "亥",
+      "子"
+    ],
+    "element": "水",
+    "status": "traditional_common"
+  },
+  {
+    "relation_id": "REL_BRANCH_SANHUI_ZI_CHOU",
+    "type": "三会半会",
+    "branches": [
+      "子",
+      "丑"
+    ],
+    "element": "水",
+    "status": "traditional_common"
   }
 ]
