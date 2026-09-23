@@ -4562,7 +4562,7 @@
     "source_id": "SRC_ZPZQ",
     "source_layer": "original_text",
     "chapter": "论用神格局高低",
-    "type": "经文",
+    "type": "注释",
     "text": "干支之藏透，位置之配合次序，喜忌闲神与日元之间隔与贴近，皆为格局高低之分。",
     "evidence": {
       "evidence_level": "E2",
@@ -4578,14 +4578,14 @@
       "transcription_verified": true,
       "scan_verified": false,
       "variants": [],
-      "note": "徐注材料，明确作为注释层使用；不得误标为沈孝瞻原文。"
+      "note": "该条为徐乐吾评注层材料，不是沈孝瞻原文；保留用于解释‘有情无情、有力无力’的后世展开。"
     },
     "text_provenance": {
-      "traditional_attribution": "清·沈孝瞻",
-      "attribution_status": "traditional_attribution",
-      "quoted_author": null,
+      "traditional_attribution": "清·沈孝瞻原文之后的徐乐吾评注传统",
+      "attribution_status": "editorial_commentary",
+      "quoted_author": "徐乐吾",
       "is_quotation": false,
-      "is_editorial_commentary": false
+      "is_editorial_commentary": true
     }
   },
   {
