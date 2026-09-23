@@ -2505,5 +2505,701 @@
       "is_editorial_commentary": false,
       "structured_summary": "夏月丙火章节将金作为水源辅助。"
     }
+  },
+  {
+    "text_id": "TXT_SMTH_LGYSC_001",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "论古人立印食官财名义",
+    "type": "经文",
+    "text": "徐子平论格局，独以印、食、官、财四者为纲。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "用于十神分类的原典依据；保留为原文，不等同现代算法。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_LGYSC_002",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "论古人立印食官财名义",
+    "type": "经文",
+    "text": "生我者，有父母之义，故立名印绶。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "印绶命名的原典语句。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_LGYSC_003",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "论古人立印食官财名义",
+    "type": "经文",
+    "text": "我生者，有子孙之义，故立名食神。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "食神命名的原典语句。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_LGYSC_004",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "论古人立印食官财名义",
+    "type": "经文",
+    "text": "克我者，我受制于人之义，故立名官煞。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "官煞命名的原典语句。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_LGYSC_005",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "论古人立印食官财名义",
+    "type": "经文",
+    "text": "我克者，是人受制于我之义，故立名妻财。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "财星命名的原典语句。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_LGYSC_006",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "论古人立印食官财名义",
+    "type": "经文",
+    "text": "官怕伤，被伤则祸；财怕劫，被劫则分；印怕财，贪财则坏；食怕枭，逢枭则夺。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "十神受制关系的传统概括；不得直接当作无条件吉凶。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_LGYSC_007",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "论古人立印食官财名义",
+    "type": "经文",
+    "text": "巳酉合丑为金局，申子合辰为水局，亥卯合未为木局，寅午合戌为火局。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "三合局原典条目。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_LGYSC_008",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "论古人立印食官财名义",
+    "type": "经文",
+    "text": "舍干支而总言之，甲生亥死午，乙生午死亥。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "十二长生相关原典材料；具体算法应另作结构化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_LGYSC_009",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "论古人立印食官财名义",
+    "type": "经文",
+    "text": "甲见辛为正官，见庚为偏官。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "甲日主官杀阴阳配属例。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_LGYSC_010",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "论古人立印食官财名义",
+    "type": "经文",
+    "text": "甲见己为正妻，见戊为偏妻。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "甲日主财星阴阳配属例。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_BYS_001",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "病药说类",
+    "type": "经文",
+    "text": "何以为之病？原八字中原所害之神也；何以为之药？如八字原有所害之字，而得一字以去之谓了。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "病药体系定义。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_BYS_002",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "病药说类",
+    "type": "经文",
+    "text": "有病方为贵，无伤不是奇；格中如去病，财禄两相随。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "病药说所引歌诀；需标明为书中引用语。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_BYS_003",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "病药说类",
+    "type": "经文",
+    "text": "如用财见比肩为病，喜见官杀为药也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "病药举例，适合作为规则候选而非绝对规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_BYS_004",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "病药说类",
+    "type": "经文",
+    "text": "如用食神伤官，以印为病，喜财为药。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "病药举例，适合作为规则候选。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_BYS_005",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "正官格",
+    "type": "经文",
+    "text": "官星有病，各因病而药之；官旺官多，喜食神以制去之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "正官格病药逻辑。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_BYS_006",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "正官格",
+    "type": "经文",
+    "text": "官星气弱，喜财神以生之，官旺之运以助之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "正官格扶助逻辑；不能脱离日主强弱单独使用。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_JH_001",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三春丙火",
+    "type": "经文",
+    "text": "三春丙火，秉象至威，阳回大地，侮雪欺霜，耑用壬水为扶阳。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "调候体系原典材料。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_JH_002",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三春丙火",
+    "type": "经文",
+    "text": "正月用壬，庚辛为助。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "丙火正月调候短条。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_JH_003",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三春丙火",
+    "type": "经文",
+    "text": "二月耑用壬水。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "丙火二月调候短条。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_JH_004",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三春丙火",
+    "type": "经文",
+    "text": "三月土重晦光，取甲佐之为妙。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "丙火三月调候短条。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_JH_005",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三夏丙火",
+    "type": "经文",
+    "text": "三夏丙火，专用壬水，金为佐。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "丙火夏月调候总则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_JH_006",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三夏丙火",
+    "type": "经文",
+    "text": "夏月之火，秉令乘权；逢水制则免自焚之咎。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "夏火寒暖燥湿材料。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_JH_007",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论火·秋月之火",
+    "type": "经文",
+    "text": "秋月之火，性息体和，得木生则有复明之庆。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "秋火调候材料。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_JH_008",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论火·冬月之火",
+    "type": "经文",
+    "text": "冬月之火，体绝形亡，喜木生而有救，遇水剋以为殃。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；待影印页核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会",
+        "https://zh.wikisource.org/zh-hans/神峰通考",
+        "https://zh.wikisource.org/zh-hans/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "冬火调候材料。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
   }
 ]
