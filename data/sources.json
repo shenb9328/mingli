@@ -75,5 +75,30 @@
       { "layer_id": "commentary_yu", "name": "余春台重订", "period": "清光绪" }
     ],
     "verification": "verified"
+  },
+  {
+    "source_id": "SRC_ZPZQ",
+    "book": "子平真诠评注",
+    "author": "清·沈孝瞻 原著 / 民国·徐乐吾 评注",
+    "dynasty": "清/民国",
+    "base_edition": "乾隆丙申初刊本 / 民国二十五年徐乐吾评注本",
+    "digital_reference": "清乾隆刻本 / 民国精印本",
+    "layers": [
+      { "layer_id": "original_shen", "name": "沈孝瞻原著三十九篇（格局法精髓）", "period": "清乾隆" },
+      { "layer_id": "commentary_xu", "name": "徐乐吾评注与命例阐微", "period": "民国" }
+    ],
+    "verification": "verified"
+  },
+  {
+    "source_id": "SRC_SFTK",
+    "book": "神峰通考",
+    "author": "明·张楠（神峰子）著",
+    "dynasty": "明",
+    "base_edition": "明刻本 / 命理正宗 / 维基文库公开本",
+    "digital_reference": "明崇祯本 / 四库全书存目",
+    "layers": [
+      { "layer_id": "original_zhang", "name": "张楠病药说/雕枯旺弱/辟诸神煞", "period": "明嘉靖" }
+    ],
+    "verification": "verified"
   }
 ]
