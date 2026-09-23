@@ -7482,5 +7482,734 @@
       "is_quotation": false,
       "is_editorial_commentary": false
     }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_001",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·三春甲木",
+    "type": "经文",
+    "text": "春月之木，渐有生长之象。初春犹有余寒，当以火温暖，则有舒畅之美。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_002",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·三春甲木",
+    "type": "经文",
+    "text": "重见生旺，必用庚金斲凿，可成楝梁。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_003",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·三春甲木",
+    "type": "经文",
+    "text": "春末阳壮水渴，藉水资扶，则花繁叶茂。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_004",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·正月甲木",
+    "type": "经文",
+    "text": "正月甲木，初春尚有余寒，得丙癸逢，富贵双全。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_005",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·正月甲木",
+    "type": "经文",
+    "text": "癸藏丙透，名寒木向阳，主大富贵。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_006",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·三月甲木",
+    "type": "经文",
+    "text": "三月甲木，木气相竭。先取庚金，次用壬水。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_007",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·三月甲木",
+    "type": "经文",
+    "text": "庚壬两透，一榜堪图。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_008",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·三月甲木",
+    "type": "经文",
+    "text": "或支成金局，方可用丁，不然，三月无用丁之法。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_009",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·三冬甲木",
+    "type": "经文",
+    "text": "十月甲木，庚丁为要，丙火次之。忌壬水泛身，须戊土制之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_010",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·十一月甲木",
+    "type": "经文",
+    "text": "十一月甲木，木性生寒，丁先庚后，丙火佐之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_011",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·十一月甲木",
+    "type": "经文",
+    "text": "总之十一月甲木，为寒枝，不比春木清茂，耑取庚丁。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_012",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·十二月甲木",
+    "type": "经文",
+    "text": "十二月甲木，天寒气冻，木性极寒，无生发之象，先用庚劈甲，方引丁火始得木火有通明之象。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_013",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·十二月甲木",
+    "type": "经文",
+    "text": "总之腊月甲木，虽有庚金，丁不可少。乏庚略可，乏丁无用。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_014",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丁火·三春丁火",
+    "type": "经文",
+    "text": "正月丁火，甲木当权，乃为母旺，非庚不能劈甲，何以引丁，姑用庚金。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_015",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丁火·正月丁火",
+    "type": "经文",
+    "text": "或一派甲木，无庚制之，非贫即夭。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_016",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丁火·正月丁火",
+    "type": "经文",
+    "text": "得壬化木，弱极复生，合此必主大贵，但此化合，反以不见庚破格为妙。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_017",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论辛金·三春辛金",
+    "type": "经文",
+    "text": "正月辛金，阳气舒而寒气未除，取己土为生身之本，欲得辛金发现，全赖壬水之功。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_018",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论辛金·正月辛金",
+    "type": "经文",
+    "text": "己壬两透，支见庚制甲，科甲定然。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_019",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论辛金·正月辛金",
+    "type": "经文",
+    "text": "或支成水局，不见丙火，名为金弱沉寒，平常之士。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_020",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论辛金·正月辛金",
+    "type": "经文",
+    "text": "故正月辛金，先己后壬。己为君，庚为佐。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_021",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·三夏甲木",
+    "type": "经文",
+    "text": "四月甲木退气，丙火司权，先癸后丁。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_022",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·三夏甲木",
+    "type": "经文",
+    "text": "庚金太多，甲反受病。若得壬水，方配得中和。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_023",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·三夏甲木",
+    "type": "经文",
+    "text": "五月先癸后丁，庚金次之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_024",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·三夏甲木",
+    "type": "经文",
+    "text": "六月三伏生寒，丁火退气。先丁后庚，无癸亦可。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_025",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·三夏甲木",
+    "type": "经文",
+    "text": "总之五六月用丁火，虽运行北地，不致于死。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_026",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·三夏甲木",
+    "type": "经文",
+    "text": "却不利运行火地，号曰木化成灰必死。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_027",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论甲木·三夏甲木",
+    "type": "经文",
+    "text": "行西程又不吉，号曰伤官遇杀，不测灾来，惟东方则吉，北方次之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录，保留原章节定位；尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
   }
 ]
