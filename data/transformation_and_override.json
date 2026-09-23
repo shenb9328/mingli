@@ -135,6 +135,76 @@
       "required": false,
       "weight_class": "supporting",
       "note": "传统论法常重邻合，但远合、争合等应单独记录，不能直接写成绝对硬规则。"
+    },
+    {
+      "id": "HC07",
+      "condition": "合干有根而化神无根",
+      "required": false,
+      "weight_class": "blocking",
+      "note": "普通合绊可成立，但真化可信度降低。"
+    },
+    {
+      "id": "HC08",
+      "condition": "化神同时受到同类助力",
+      "required": false,
+      "weight_class": "supporting",
+      "note": "化神得令之外，若全局同类成势，可提高成化候选可信度。"
+    },
+    {
+      "id": "HC09",
+      "condition": "化神被岁运直接引动",
+      "required": false,
+      "weight_class": "supporting",
+      "note": "原局化气候选在岁运得到同类引动时，应重新评估状态。"
+    },
+    {
+      "id": "HC10",
+      "condition": "合干双方受强力冲克",
+      "required": false,
+      "weight_class": "blocking",
+      "note": "若合干本身被明显冲破，应降低合化稳定性。"
+    },
+    {
+      "id": "HC11",
+      "condition": "一干两合形成争合",
+      "required": false,
+      "weight_class": "blocking",
+      "note": "多个合对象竞争时，不自动判定唯一化神。"
+    },
+    {
+      "id": "HC12",
+      "condition": "同一地支同时参与三合与六合",
+      "required": false,
+      "weight_class": "supporting",
+      "note": "多重关系并存时先记录全部关系，再根据月令和局势判定主次。"
+    },
+    {
+      "id": "HC13",
+      "condition": "三合缺一仅作半合候选",
+      "required": false,
+      "weight_class": "supporting",
+      "note": "两支相见可以记录半合关系，但不能直接等同完整三合局。"
+    },
+    {
+      "id": "HC14",
+      "condition": "三会缺一仅作半会候选",
+      "required": false,
+      "weight_class": "supporting",
+      "note": "两支相邻可以记录半会关系，但不应直接等同完整三会。"
+    },
+    {
+      "id": "HC15",
+      "condition": "会局受月令强烈支持",
+      "required": false,
+      "weight_class": "primary",
+      "note": "月令与会局同气时，可提高会局有效性的候选等级。"
+    },
+    {
+      "id": "HC16",
+      "condition": "会局遭到完整对冲",
+      "required": false,
+      "weight_class": "blocking",
+      "note": "若会局关键支受到强烈冲破，应降低成局可信度。"
     }
   ],
   "branch_combination_support": {
@@ -181,6 +251,9 @@
   "audit_notes": [
     "甲己并非只有辰戌丑未月才能讨论化土；古籍及后世注本存在按月令、地支助化、透干、真化假化等多条件综合判断的体系。",
     "普通天干五合与日主参与的化气格必须分开建模。",
-    "合冲优先级不能用单一距离公式决定。"
+    "合冲优先级不能用单一距离公式决定。",
+    "本文件只表达状态与证据条件，不输出统一数值吉凶。",
+    "半合、半会属于关系层候选，不自动升级为完整化局。",
+    "合化判断应允许uncertain，避免把不同门派的成化标准强制统一。"
   ]
 }
