@@ -350,6 +350,249 @@
         "SRC_SFTK"
       ],
       "evidence_level": "E2"
+    },
+    {
+      "id": "F食伤过旺",
+      "name": "食伤过旺",
+      "disease": {
+        "AND": [
+          {
+            "HAS": "食伤"
+          },
+          {
+            "BAND_IN": [
+              "strength",
+              [
+                "strong",
+                "very_strong"
+              ]
+            ]
+          }
+        ]
+      },
+      "remedies": [
+        {
+          "id": "印制食伤",
+          "conditions": [
+            {
+              "HAS": "正印/偏印"
+            }
+          ]
+        },
+        {
+          "id": "财泄食伤",
+          "conditions": [
+            {
+              "HAS": "财星"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC_ZPZQ",
+        "SRC_DTS"
+      ],
+      "evidence_level": "E2"
+    },
+    {
+      "id": "F财印相战",
+      "name": "财印相战",
+      "disease": {
+        "AND": [
+          {
+            "HAS": "财星"
+          },
+          {
+            "HAS": "印星"
+          },
+          {
+            "OR": [
+              {
+                "CLASHED": "财印"
+              },
+              {
+                "COUNT_GTE": [
+                  "财+印",
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "remedies": [
+        {
+          "id": "位置调和",
+          "conditions": [
+            {
+              "HAS": "财印位置妥贴"
+            }
+          ]
+        },
+        {
+          "id": "取一为用",
+          "conditions": [
+            {
+              "HAS": "用神明确"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC_ZPZQ",
+        "SRC_DTS"
+      ],
+      "evidence_level": "E2"
+    },
+    {
+      "id": "F伤官过旺",
+      "name": "伤官过旺",
+      "disease": {
+        "AND": [
+          {
+            "HAS": "伤官"
+          },
+          {
+            "BAND_IN": [
+              "strength",
+              [
+                "strong",
+                "very_strong"
+              ]
+            ]
+          }
+        ]
+      },
+      "remedies": [
+        {
+          "id": "印制伤官",
+          "conditions": [
+            {
+              "HAS": "印星"
+            }
+          ]
+        },
+        {
+          "id": "财化伤官",
+          "conditions": [
+            {
+              "HAS": "财星"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC_ZPZQ"
+      ],
+      "evidence_level": "E2"
+    },
+    {
+      "id": "F寒湿",
+      "name": "寒湿偏重",
+      "disease": {
+        "AND": [
+          {
+            "CLIMATE_IN": [
+              "cold",
+              "damp"
+            ]
+          }
+        ]
+      },
+      "remedies": [
+        {
+          "id": "火调候",
+          "conditions": [
+            {
+              "HAS_ELEMENT": "火"
+            }
+          ]
+        },
+        {
+          "id": "燥土制湿",
+          "conditions": [
+            {
+              "HAS_ELEMENT": "土"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC_DTS",
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2"
+    },
+    {
+      "id": "F燥烈",
+      "name": "燥烈偏重",
+      "disease": {
+        "AND": [
+          {
+            "CLIMATE_IN": [
+              "hot",
+              "dry"
+            ]
+          }
+        ]
+      },
+      "remedies": [
+        {
+          "id": "水调候",
+          "conditions": [
+            {
+              "HAS_ELEMENT": "水"
+            }
+          ]
+        },
+        {
+          "id": "湿土缓燥",
+          "conditions": [
+            {
+              "HAS_ELEMENT": "土"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC_DTS",
+        "SRC_QTBG"
+      ],
+      "evidence_level": "E2"
+    },
+    {
+      "id": "F五行偏枯",
+      "name": "五行偏枯",
+      "disease": {
+        "AND": [
+          {
+            "ELEMENT_IMBALANCE": true
+          }
+        ]
+      },
+      "remedies": [
+        {
+          "id": "补偏救弊",
+          "conditions": [
+            {
+              "HAS_ELEMENT": "useful_element"
+            }
+          ]
+        },
+        {
+          "id": "通关",
+          "conditions": [
+            {
+              "HAS": "通关条件"
+            }
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC_DTS",
+        "SRC_SFTK"
+      ],
+      "evidence_level": "E2"
     }
   ]
 }
