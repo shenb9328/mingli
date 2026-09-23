@@ -1,0 +1,34 @@
+name: V3.7 Evidence Audit
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "data/**"
+      - "tools/audit_evidence_chain.py"
+      - ".github/workflows/v3.7-evidence-audit.yml"
+      - "docs/V3.7_evidence_audit.md"
+      - "README.md"
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Run evidence-chain audit
+        run: |
+          mkdir -p reports
+          python3 tools/audit_evidence_chain.py \
+            --json-out reports/V3.7_evidence_audit.json \
+            --no-fail | tee reports/V3.7_evidence_audit.log
+
+      - name: Upload audit reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: V3.7-evidence-audit
+          path: reports/V3.7_evidence_audit.*
+          retention-days: 14
