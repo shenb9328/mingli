@@ -9,11 +9,17 @@ Usage:
 """
 from __future__ import annotations
 import json
+import argparse
 from pathlib import Path
 from collections import Counter, defaultdict
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
+
+parser = argparse.ArgumentParser(description="Audit the V3.7 evidence chain")
+parser.add_argument("--json-out", default=None, help="Write a machine-readable JSON report")
+parser.add_argument("--no-fail", action="store_true", help="Do not exit non-zero when issues are found")
+ARGS = parser.parse_args()
 
 def load(name):
     with (DATA / name).open(encoding="utf-8") as f:
@@ -126,4 +132,26 @@ print("\nFirst 100 issues:")
 for k,d in issues[:100]:
     print(f"  [{k}] {d}")
 
-raise SystemExit(1 if issues else 0)
+if ARGS.json_out:
+    out = Path(ARGS.json_out)
+    if not out.is_absolute():
+        out = ROOT / out
+    out.parent.mkdir(parents=True, exist_ok=True)
+    report = {
+        "audit_version": "V3.7",
+        "classical_texts": len(texts),
+        "core_rules": len(rules),
+        "interpretations": len(interps),
+        "evidence_records": len(evidence),
+        "independent_evidence_coverage": {
+            "covered": sum(bool(evidence_by_text.get(t)) for t in text_set),
+            "total": len(text_set)
+        },
+        "embedded_evidence_levels": dict(sorted(levels.items())),
+        "source_distribution": dict(sources_count.most_common()),
+        "issue_counts": dict(Counter(x[0] for x in issues).most_common()),
+        "issues": [{"kind": k, "detail": d} for k, d in issues],
+    }
+    out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+
+raise SystemExit(0 if ARGS.no_fail else (1 if issues else 0))
