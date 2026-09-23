@@ -1301,5 +1301,565 @@
       "is_quotation": false,
       "is_editorial_commentary": false
     }
+  },
+  {
+    "text_id": "TXT_YHZP_JP_002",
+    "source_id": "SRC_YHZP",
+    "source_layer": "original_text",
+    "chapter": "继善篇",
+    "type": "赋文",
+    "text": "先观月令",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/渊海子平"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "《渊海子平》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "月令作为传统子平分析的重要观察入口。"
+    }
+  },
+  {
+    "text_id": "TXT_YHZP_JP_003",
+    "source_id": "SRC_YHZP",
+    "source_layer": "original_text",
+    "chapter": "继善篇",
+    "type": "赋文",
+    "text": "专用日干为主本",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/渊海子平"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "《渊海子平》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "以日干作为命局主体进行十神与格局分析。"
+    }
+  },
+  {
+    "text_id": "TXT_YHZP_JP_004",
+    "source_id": "SRC_YHZP",
+    "source_layer": "original_text",
+    "chapter": "宝法第一",
+    "type": "论法",
+    "text": "用神不可损伤",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/渊海子平"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "《渊海子平》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "强调所取用神需要检查是否受到破坏。"
+    }
+  },
+  {
+    "text_id": "TXT_YHZP_JP_005",
+    "source_id": "SRC_YHZP",
+    "source_layer": "original_text",
+    "chapter": "宝法第一",
+    "type": "论法",
+    "text": "日主最宜健旺",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/渊海子平"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "《渊海子平》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "原文强调日主状态，但不能脱离格局与制化独立判吉凶。"
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_GY_001",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "卷五·论古人立印食官财名义",
+    "type": "总论",
+    "text": "官怕伤",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会_(四库全书本)/卷05"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英《三命通会》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "以十神关系说明官星受伤的传统风险。"
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_GY_002",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "卷五·论古人立印食官财名义",
+    "type": "总论",
+    "text": "财怕劫",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会_(四库全书本)/卷05"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英《三命通会》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "以十神关系说明财星受劫的传统风险。"
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_GY_003",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "卷五·论古人立印食官财名义",
+    "type": "总论",
+    "text": "印怕财",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会_(四库全书本)/卷05"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英《三命通会》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "以十神关系说明财星过度破印的传统风险。"
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_GY_004",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "卷五·论古人立印食官财名义",
+    "type": "总论",
+    "text": "食怕枭",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会_(四库全书本)/卷05"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英《三命通会》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "以十神关系说明偏印夺食的传统概念。"
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_GY_005",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "卷五·论古人立印食官财名义",
+    "type": "总论",
+    "text": "生克制化",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会_(四库全书本)/卷05"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英《三命通会》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "将命理核心机制概括为阴阳五行之间的生克制化。"
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_BY_002",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "病药说",
+    "type": "论法",
+    "text": "日主是人之根基",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/神峰通考"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠《神峰通考》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "以日主作为结构分析的基础层。"
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_BY_003",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "病药说",
+    "type": "论法",
+    "text": "财官为人之禄马",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/神峰通考"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠《神峰通考》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "以财官作为传统命理中的重要功能性十神。"
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_BY_004",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "用财歌",
+    "type": "歌诀",
+    "text": "用财嫌比劫",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/神峰通考"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠《神峰通考》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "财格或用财结构中需要检查比劫夺财问题。"
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_YS_004",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神",
+    "type": "原文",
+    "text": "当顺而顺",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://www.taiyi.me/book/index?id=214242405904453"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻《子平真诠》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "善用神按照其生护方向顺用。"
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_YS_005",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神",
+    "type": "原文",
+    "text": "当逆而逆",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://www.taiyi.me/book/index?id=214242405904453"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻《子平真诠》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "七杀、伤官、阳刃、月劫等按原文思路进行制化。"
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_YS_006",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神",
+    "type": "原文",
+    "text": "配合得宜",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://www.taiyi.me/book/index?id=214242405904453"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻《子平真诠》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "强调用神及相关十神的配合条件。"
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_BH_004",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三夏丙火",
+    "type": "调候",
+    "text": "专用壬水",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台辑《穷通宝鉴》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "夏月丙火以壬水调候制炎的传统表达。"
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_BH_005",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三夏丙火",
+    "type": "调候",
+    "text": "喜木生而有救",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台辑《穷通宝鉴》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "冬月丙火章节强调木生火以救寒弱。"
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_BH_006",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三夏丙火",
+    "type": "调候",
+    "text": "遇水剋以为殃",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台辑《穷通宝鉴》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "冬月丙火章节强调水过度克火的传统判断。"
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_GY_006",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "卷五·论正官",
+    "type": "格局",
+    "text": "正官先看月令",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会_(四库全书本)/卷05"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英《三命通会》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "《三命通会》正官论明确以月令为首要观察。"
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_GY_007",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "卷五·论正官",
+    "type": "格局",
+    "text": "止许一位多则不宜",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会_(四库全书本)/卷05"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条只收录短原文片段；解释另存于摘要，不将后世评注冒充原典。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英《三命通会》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "正官格章节强调官星纯一的重要性，属于该书具体格局口径。"
+    }
   }
 ]
