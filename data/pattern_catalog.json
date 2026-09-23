@@ -314,6 +314,246 @@
       "logic_ref": "data/pattern_logic.json#戊癸化火格",
       "strict_mode": "candidate_only",
       "computation_note": "变格只产生候选，不直接输出吉凶或最终成格结论。"
+    },
+    {
+      "id": "食神制杀格",
+      "category": "组合格局",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#食神制杀格",
+      "strict_mode": "candidate_then_validate",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
+    },
+    {
+      "id": "杀印相生格",
+      "category": "组合格局",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#杀印相生格",
+      "strict_mode": "candidate_then_validate",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
+    },
+    {
+      "id": "伤官配印格",
+      "category": "组合格局",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#伤官配印格",
+      "strict_mode": "candidate_then_validate",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
+    },
+    {
+      "id": "伤官生财格",
+      "category": "组合格局",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#伤官生财格",
+      "strict_mode": "candidate_then_validate",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
+    },
+    {
+      "id": "财官相生格",
+      "category": "组合格局",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#财官相生格",
+      "strict_mode": "candidate_then_validate",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
+    },
+    {
+      "id": "羊刃驾杀格",
+      "category": "组合格局",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#羊刃驾杀格",
+      "strict_mode": "candidate_then_validate",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
+    },
+    {
+      "id": "财滋弱杀格",
+      "category": "组合格局",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#财滋弱杀格",
+      "strict_mode": "candidate_then_validate",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
+    },
+    {
+      "id": "枭神夺食",
+      "category": "十神组合",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#枭神夺食",
+      "strict_mode": "configuration",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
+    },
+    {
+      "id": "伤官见官",
+      "category": "十神组合",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#伤官见官",
+      "strict_mode": "configuration",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
+    },
+    {
+      "id": "比劫夺财",
+      "category": "十神组合",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#比劫夺财",
+      "strict_mode": "configuration",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
+    },
+    {
+      "id": "官杀混杂",
+      "category": "十神组合",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#官杀混杂",
+      "strict_mode": "configuration",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
+    },
+    {
+      "id": "食伤生财",
+      "category": "十神组合",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#食伤生财",
+      "strict_mode": "configuration",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
+    },
+    {
+      "id": "印绶用财",
+      "category": "十神组合",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#印绶用财",
+      "strict_mode": "configuration",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
+    },
+    {
+      "id": "财多身弱",
+      "category": "十神组合",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#财多身弱",
+      "strict_mode": "configuration",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
+    },
+    {
+      "id": "身强官弱",
+      "category": "旺衰组合",
+      "formation": "见 pattern_logic.json",
+      "checks": [
+        "候选条件",
+        "成格条件",
+        "破格条件",
+        "救应条件",
+        "原局强弱",
+        "岁运引动"
+      ],
+      "logic_ref": "data/pattern_logic.json#身强官弱",
+      "strict_mode": "configuration",
+      "computation_note": "仅生成结构候选；最终判断依赖旺衰、制化、月令、位置与岁运。"
     }
   ]
 }
