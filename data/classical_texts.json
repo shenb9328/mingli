@@ -4370,5 +4370,625 @@
       "is_quotation": false,
       "is_editorial_commentary": false
     }
+  },
+  {
+    "text_id": "TXT_ZPZQ_QH_001",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神配气候得失",
+    "type": "经文",
+    "text": "论命惟以月令用神为主，然亦须配气候而互参之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "月令用神与气候并参的原文总纲。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_QH_002",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神配气候得失",
+    "type": "经文",
+    "text": "印绶遇官，此谓官印双全；而冬木逢水，虽透官星，亦难必贵。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "调候对格局取用的修正例。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_QH_003",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神配气候得失",
+    "type": "经文",
+    "text": "金水伤官，生于冬令，金寒水冷，冻水不能生木，故宜火以温之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "冬令寒暖例；数据库保留原典语义，不抽象成无条件规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_QH_004",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神配气候得失",
+    "type": "经文",
+    "text": "夏木逢水，虽有印绶，而水被火燥，不能生木。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "夏令调候例。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_GJ_001",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神格局高低",
+    "type": "经文",
+    "text": "八字既有用神，必有格局，有格局必有高低。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "格局层级总纲。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_GJ_002",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神格局高低",
+    "type": "经文",
+    "text": "然其理之大纲，亦在有情无情、有力无力之间而已。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "有情无情、有力无力的原典概括。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_GJ_003",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神格局高低",
+    "type": "经文",
+    "text": "干支之藏透，位置之配合次序，喜忌闲神与日元之间隔与贴近，皆为格局高低之分。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "徐注材料，明确作为注释层使用；不得误标为沈孝瞻原文。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_HY_001",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神纯杂",
+    "type": "经文",
+    "text": "纯杂之理，不出变化，分而疏之，其理愈明，学命者不可不知也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "纯杂与变化关系。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_HY_002",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神纯杂",
+    "type": "经文",
+    "text": "凡八字佳者，用神未有不纯者也；稍次则稍杂，愈次则愈杂。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "纯杂与格局层级的评述；不转成固定评分。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_XY_001",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论行运成格变格",
+    "type": "经文",
+    "text": "命之格局，成于八字，然配之以运，亦有成格变格之要权。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "原局与大运共同形成成格/变格判断。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_XY_002",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论行运成格变格",
+    "type": "经文",
+    "text": "何为成格？本命用神，成而未全，运从而就之者是也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "行运补足原局的成格定义。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_XY_003",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论行运成格变格",
+    "type": "经文",
+    "text": "何为变格？如丁生辰月，透壬为官，而运又逢戊，透出辰中伤官。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "行运透出藏干导致格局变化的例证。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_XY_004",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论行运成格变格",
+    "type": "经文",
+    "text": "又有逢变格而不忌者，然命中有救应也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "变格不必然为忌，需检查救应。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_GZ_001",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论喜忌干支有别",
+    "type": "经文",
+    "text": "命中喜忌，虽支干俱有，而干主天，动而有为，支主地，静以待用。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "干支作用层次的原文总纲。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_GZ_002",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论喜忌干支有别",
+    "type": "经文",
+    "text": "譬如甲用酉官，逢庚辛则官煞杂，而申酉不作此例。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "透干与地支根气不可机械等同。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_GZ_003",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论喜忌干支有别",
+    "type": "经文",
+    "text": "然亦有支而能作祸福者，何也？……二者合而火动，亦能伤矣。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "支由会合而被引动后可以发挥作用。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_TQ_001",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论支中喜忌逢运透清",
+    "type": "经文",
+    "text": "支中喜忌，固与干有别矣，而运逢透清，则静而待用者，正得其用。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "透清的核心定义。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_TQ_002",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论支中喜忌逢运透清",
+    "type": "经文",
+    "text": "何谓透清？如甲用酉官，逢辰未即为财，而运透戊；逢午未即为伤，而运透丁之类是也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "地支藏神被岁运透干引动的例证。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_TQ_003",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论支中喜忌逢运透清",
+    "type": "经文",
+    "text": "若命与运二支会局，亦作清论。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "命运二支会局作为岁运引动条件。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_TQ_004",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论支中喜忌逢运透清",
+    "type": "经文",
+    "text": "故凡一八字到手，必须逐干逐支，上下统看。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
+        "https://www.taiyi.me/book/index?id=214242405904453",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-xi-ji-gan-zhi-you-bie",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-zhi-zhong-xi-ji-feng-yun-tou-qing",
+        "https://yueguji.com/book/746/7890af0b418e2.html"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "逐干逐支、上下统看的方法论。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
   }
 ]
