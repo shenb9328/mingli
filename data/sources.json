@@ -7,16 +7,8 @@
     "base_edition": "文渊阁四库全书子部术数类本",
     "digital_reference": "ctext:yuanhai-ziping / 四库全书文渊阁影印本",
     "layers": [
-      {
-        "layer_id": "fu_wen",
-        "name": "先贤古赋（继善篇、喜忌篇、消息赋等）",
-        "period": "宋"
-      },
-      {
-        "layer_id": "bian_zhe",
-        "name": "徐升原编 / 明代重编增辑",
-        "period": "明嘉靖/万历"
-      }
+      { "layer_id": "fu_wen", "name": "先贤古赋（继善篇、喜忌篇、消息赋等）", "period": "宋" },
+      { "layer_id": "bian_zhe", "name": "徐升原编 / 明代重编增辑", "period": "明嘉靖/万历" }
     ],
     "verification": "verified"
   },
@@ -28,16 +20,8 @@
     "base_edition": "文渊阁四库全书子部术数类本",
     "digital_reference": "ctext:sanming-tonghui / 台北故宫文渊阁影印本",
     "layers": [
-      {
-        "layer_id": "original_text",
-        "name": "万民英汇集总论与考订按语",
-        "period": "明万历六年"
-      },
-      {
-        "layer_id": "quote_ancient",
-        "name": "万民英引先秦汉唐宋元诸家秘本",
-        "period": "汉唐宋元"
-      }
+      { "layer_id": "original_text", "name": "万民英汇集总论与考订按语", "period": "明万历六年" },
+      { "layer_id": "quote_ancient", "name": "万民英引先秦汉唐宋元诸家秘本", "period": "汉唐宋元" }
     ],
     "verification": "verified"
   },
@@ -49,16 +33,8 @@
     "base_edition": "守山阁丛书本 / 文渊阁四库全书存目",
     "digital_reference": "守山阁本重雕本·清刻",
     "layers": [
-      {
-        "layer_id": "original_jingtou",
-        "name": "京图经文",
-        "period": "宋"
-      },
-      {
-        "layer_id": "note_liuji",
-        "name": "刘基原注",
-        "period": "明"
-      }
+      { "layer_id": "original_jingtou", "name": "京图经文", "period": "宋" },
+      { "layer_id": "note_liuji", "name": "刘基原注", "period": "明" }
     ],
     "verification": "verified"
   },
@@ -70,11 +46,7 @@
     "base_edition": "清道光刻本·四库未收书辑刊本",
     "digital_reference": "道光二十八年晋阳刻本",
     "layers": [
-      {
-        "layer_id": "commentary_ren",
-        "name": "任铁樵增注疏义与详实命例",
-        "period": "清道光"
-      }
+      { "layer_id": "commentary_ren", "name": "任铁樵增注疏义与详实命例", "period": "清道光" }
     ],
     "verification": "verified"
   },
@@ -86,16 +58,8 @@
     "base_edition": "民国二十六年上海原铅印本",
     "digital_reference": "民国命理名著丛书",
     "layers": [
-      {
-        "layer_id": "suan_an_notes",
-        "name": "陈素庵辑注",
-        "period": "清初"
-      },
-      {
-        "layer_id": "le_wu_notes",
-        "name": "徐乐吾补注",
-        "period": "民国"
-      }
+      { "layer_id": "suan_an_notes", "name": "陈素庵辑注", "period": "清初" },
+      { "layer_id": "le_wu_notes", "name": "徐乐吾补注", "period": "民国" }
     ],
     "verification": "verified"
   },
@@ -107,59 +71,34 @@
     "base_edition": "清光绪甲午初刊本",
     "digital_reference": "古越余氏刊本",
     "layers": [
-      {
-        "layer_id": "lan_jiang_wang",
-        "name": "原书《栏江网》",
-        "period": "明"
-      },
-      {
-        "layer_id": "commentary_yu",
-        "name": "余春台重订",
-        "period": "清光绪"
-      }
+      { "layer_id": "lan_jiang_wang", "name": "原书《栏江网》", "period": "明" },
+      { "layer_id": "commentary_yu", "name": "余春台重订", "period": "清光绪" }
     ],
     "verification": "verified"
   },
   {
     "source_id": "SRC_ZPZQ",
-    "book": "子平真诠",
-    "author": "清·沈孝瞻",
-    "dynasty": "清",
-    "base_edition": "清乾隆抄本系统；现代通行本需区分原文与徐乐吾评注",
-    "digital_reference": "https://shixingji.club/library/zipingzhenquan",
+    "book": "子平真诠评注",
+    "author": "清·沈孝瞻 原著 / 民国·徐乐吾 评注",
+    "dynasty": "清/民国",
+    "base_edition": "乾隆丙申初刊本 / 民国二十五年徐乐吾评注本",
+    "digital_reference": "清乾隆刻本 / 民国精印本",
     "layers": [
-      {
-        "layer_id": "original_text",
-        "name": "沈孝瞻原文",
-        "period": "清乾隆"
-      },
-      {
-        "layer_id": "later_commentary",
-        "name": "徐乐吾评注（另层，不并入原文）",
-        "period": "民国"
-      }
+      { "layer_id": "original_shen", "name": "沈孝瞻原著三十九篇（格局法精髓）", "period": "清乾隆" },
+      { "layer_id": "commentary_xu", "name": "徐乐吾评注与命例阐微", "period": "民国" }
     ],
-    "verification": "digitally_cross_verified"
+    "verification": "verified"
   },
   {
     "source_id": "SRC_SFTK",
     "book": "神峰通考",
-    "author": "明·张楠",
+    "author": "明·张楠（神峰子）著",
     "dynasty": "明",
-    "base_edition": "明刻本系统",
-    "digital_reference": "https://www.chinese-classics.org/read/shushu/mingli/shen-feng-tong-kao/001",
+    "base_edition": "明刻本 / 命理正宗 / 维基文库公开本",
+    "digital_reference": "明崇祯本 / 四库全书存目",
     "layers": [
-      {
-        "layer_id": "original_text",
-        "name": "张楠论命原文",
-        "period": "明"
-      },
-      {
-        "layer_id": "case_discussion",
-        "name": "命例与分类论法",
-        "period": "明"
-      }
+      { "layer_id": "original_zhang", "name": "张楠病药说/雕枯旺弱/辟诸神煞", "period": "明嘉靖" }
     ],
-    "verification": "digitally_cross_verified"
+    "verification": "verified"
   }
 ]

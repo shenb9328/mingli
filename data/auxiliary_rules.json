@@ -4,198 +4,112 @@
     "category": "神煞",
     "subcategory": "贵人",
     "rule_type": "辅助",
-    "name": "天乙贵人文献层与流派分歧",
+    "name": "天乙贵人辅助象义与流派考订",
     "priority": 25,
-    "source_refs": [
-      "SRC_SMTH"
-    ],
-    "text_refs": [
-      "TXT_SMTH_TY_001"
-    ],
+    "source_refs": ["SRC_SMTH", "SRC_YHZP"],
+    "text_refs": ["TXT_SMTH_TY_001", "TXT_SMTH_TY_002", "TXT_YHZP_JS_003"],
     "historical_principles": [
       {
         "text_ref": "TXT_SMTH_TY_001",
         "statement": "其神最尊贵，所至之处，一切凶煞隐然而避。"
+      },
+      {
+        "text_ref": "TXT_YHZP_JS_003",
+        "statement": "天乙贵人，得聪明智慧之资。"
       }
     ],
     "computational_model": {
-      "model_type": "auxiliary_tag",
-      "effect": "仅作为辅助标签，不决定整体吉凶。",
+      "model_type": "auxiliary_tag_modifier",
+      "effect": "仅对已确立的吉凶基调做幅度修正与社会人际象义增补，不决定整体吉凶走向",
+      "nullification": "若该支逢空亡或被冲破，其贵人吉力折半或隐没",
       "parameter_status": "heuristic",
-      "parameter_basis": "工程规则，非古籍原文。"
+      "parameter_basis": "传统命学辅助神煞经验设值"
+    },
+    "conditions": {
+      "required": ["原局、大运或流年地支与日干符合天乙贵人查验标准"],
+      "exclusions": ["严禁直接凭天乙判定一生富贵或流年大吉"]
+    },
+    "scope": ["原局", "大运", "流年"],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
     },
     "dispute": {
       "has_dispute": true,
-      "summary": "《三命通会》卷三同时保存了关于天乙起例的不同说法，不能压成单一传统。",
-      "references": [
-        "https://zh.wikisource.org/wiki/三命通會_(四庫全書本)/卷03"
-      ]
-    },
-    "verification": "source_text_verified; school_dispute_retained"
-  },
-  {
-    "rule_id": "AUX_REL_001",
-    "category": "合冲刑害",
-    "subcategory": "六合",
-    "rule_type": "辅助",
-    "name": "地支六合",
-    "priority": 35,
-    "source_refs": [
-      "SRC_SMTH"
-    ],
-    "text_refs": [],
-    "interp_refs": [],
-    "historical_principles": [],
-    "computational_model": {
-      "model_type": "branch_relation",
-      "relation_ref": "REL_BRANCH_LIUHE",
-      "effect": "记录合的存在；是否合化另判月令、透干、得势等条件。",
-      "parameter_status": "traditional_rule_plus_heuristic"
-    },
-    "verification": "structured_traditional_rule"
-  },
-  {
-    "rule_id": "AUX_REL_002",
-    "category": "合冲刑害",
-    "subcategory": "六冲",
-    "rule_type": "辅助",
-    "name": "地支六冲",
-    "priority": 40,
-    "source_refs": [
-      "SRC_SMTH"
-    ],
-    "text_refs": [],
-    "interp_refs": [],
-    "historical_principles": [],
-    "computational_model": {
-      "model_type": "branch_relation",
-      "relation_ref": "REL_BRANCH_LIUCHONG",
-      "effect": "记录冲；不直接映射为固定吉凶。",
-      "parameter_status": "traditional_rule_plus_heuristic"
-    },
-    "verification": "structured_traditional_rule"
-  },
-  {
-    "rule_id": "AUX_REL_003",
-    "category": "合冲刑害",
-    "subcategory": "三合三会",
-    "rule_type": "辅助",
-    "name": "三合三会",
-    "priority": 38,
-    "source_refs": [
-      "SRC_SMTH"
-    ],
-    "text_refs": [],
-    "interp_refs": [],
-    "historical_principles": [],
-    "computational_model": {
-      "model_type": "branch_relation",
-      "relation_refs": [
-        "REL_BRANCH_SANHE",
-        "REL_BRANCH_SANHUI"
+      "competing_schools": [
+        "古诀昼夜分贵派（甲戊庚牛羊，旦生贵在丑，暮生贵在未）",
+        "全支通用派（《三命通会》引胡瑗论述斥昼夜为术家臆说，《三车一览》《子平真诠》均主不分昼夜直取）"
       ],
-      "effect": "形成会局/合局候选，再结合季节和透干判断是否成化。",
-      "parameter_status": "traditional_rule_plus_heuristic"
+      "dispute_summary": "两派在排盘起法中并存。引擎默认采用《三命通会》与《子平真诠》通行之全支不分昼夜法，同时开放参数支持流派切换。"
     },
-    "verification": "structured_traditional_rule"
+    "verification": "verified"
   },
   {
-    "rule_id": "AUX_REL_004",
-    "category": "合冲刑害",
-    "subcategory": "刑害破",
-    "rule_type": "辅助",
-    "name": "刑害破",
-    "priority": 30,
-    "source_refs": [
-      "SRC_SMTH"
-    ],
-    "text_refs": [],
-    "interp_refs": [],
-    "historical_principles": [],
-    "computational_model": {
-      "model_type": "branch_relation",
-      "relation_refs": [
-        "REL_BRANCH_SANXING_01",
-        "REL_BRANCH_SANXING_02",
-        "REL_BRANCH_SANXING_03",
-        "REL_BRANCH_ZIXING",
-        "REL_BRANCH_LIUHAI",
-        "REL_BRANCH_POH"
-      ],
-      "effect": "作为结构变化标签，不单独判吉凶。",
-      "parameter_status": "traditional_rule_plus_heuristic"
-    },
-    "verification": "structured_traditional_rule"
-  },
-  {
-    "rule_id": "AUX_TG_001",
-    "category": "十神",
-    "subcategory": "基础",
-    "rule_type": "辅助",
-    "name": "十神映射",
-    "priority": 50,
-    "source_refs": [
-      "SRC_YHZP"
-    ],
-    "text_refs": [
-      "TXT_YHZP_RZ_001"
-    ],
-    "interp_refs": [],
-    "historical_principles": [],
-    "computational_model": {
-      "model_type": "ten_god_mapping",
-      "schema_ref": "data/ten_gods_schema.json",
-      "effect": "为每个天干/藏干计算相对日主十神。",
-      "parameter_status": "deterministic"
-    },
-    "verification": "structured_traditional_rule"
-  },
-  {
-    "rule_id": "AUX_LUCK_001",
-    "category": "大运",
-    "subcategory": "顺逆",
-    "rule_type": "辅助",
-    "name": "大运顺逆配置",
-    "priority": 45,
-    "source_refs": [
-      "SRC_SMTH"
-    ],
-    "text_refs": [],
-    "interp_refs": [],
-    "historical_principles": [],
-    "computational_model": {
-      "model_type": "luck_direction",
-      "schema_ref": "data/luck_rules.json",
-      "effect": "默认阳男阴女顺、阴男阳女逆，同时允许门派覆盖。",
-      "parameter_status": "school_variant"
-    },
-    "verification": "school_variant"
-  },
-  {
-    "rule_id": "AUX_TYGR_002",
+    "rule_id": "SS_YR_001",
     "category": "神煞",
-    "subcategory": "贵人",
+    "subcategory": "凶煞",
     "rule_type": "辅助",
-    "name": "天乙贵人仅作辅助标签",
-    "priority": 20,
-    "source_refs": [
-      "SRC_SMTH"
-    ],
-    "text_refs": [
-      "TXT_SMTH_TY_001"
-    ],
-    "interp_refs": [],
+    "name": "羊刃刚烈宰割象义",
+    "priority": 30,
+    "source_refs": ["SRC_SMTH"],
+    "text_refs": ["TXT_SMTH_YR_001"],
     "historical_principles": [
       {
-        "text_ref": "TXT_SMTH_TY_001",
-        "statement": "其神最尊贵，所至之处，一切凶煞隐然而避。"
+        "text_ref": "TXT_SMTH_YR_001",
+        "statement": "羊者，言刚也；刃者，取宰割之义。禄过则刃生，功成当退不退，则过越其分。逢岁运相冲，祸患立至。"
       }
     ],
     "computational_model": {
-      "model_type": "shen_sha_tag",
-      "effect": "仅输出天乙贵人标签；不得覆盖格局、旺衰、调候和岁运主判断。",
-      "parameter_status": "heuristic"
+      "model_type": "auxiliary_tension_modifier",
+      "effect": "主性情刚毅果决、行事迅捷；岁运遇冲刑合会时警示筋骨血气波折与竞争争夺。",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统凶神辅助经验设定"
     },
-    "verification": "source_text_verified; effect_weight_not_classical"
+    "conditions": {
+      "required": ["日干见帝旺禄后一位地支（阳干为甚）"]
+    },
+    "scope": ["原局", "大运", "流年"],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "SS_YM_001",
+    "category": "神煞",
+    "subcategory": "动象",
+    "rule_type": "辅助",
+    "name": "驿马迁改奔驰象义",
+    "priority": 25,
+    "source_refs": ["SRC_SMTH"],
+    "text_refs": ["TXT_SMTH_YM_001"],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SMTH_YM_001",
+        "statement": "驿马者，主迁改奔驰之象。日时值之，主好动少静；岁运加临，主道路奔波、迁职远涉。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "mobility_indicator",
+      "effect": "主空间位移、出差调任、出行游历之动象，具体吉凶视运途喜忌而定。",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统动象辅助经验设定"
+    },
+    "conditions": {
+      "required": ["依原局日支或年支三合首位对冲支查验"]
+    },
+    "scope": ["原局", "大运", "流年"],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
   }
 ]

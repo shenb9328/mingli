@@ -287,7 +287,7 @@ add("fallback_jiankang_04", "平运兜底", "健康", "default", "平运", "《�
 # 写入输出文件
 # ==============================================================================
 
-output_path = "/workspace/classical_rules.json"
+output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "classical_rules.json")
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(rules, f, ensure_ascii=False, indent=2)
 
