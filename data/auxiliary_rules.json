@@ -197,5 +197,274 @@
       "parameter_status": "heuristic"
     },
     "verification": "source_text_verified; effect_weight_not_classical"
+  },
+  {
+    "rule_id": "AUX_REL_005",
+    "category": "合冲刑害",
+    "subcategory": "三刑",
+    "rule_type": "辅助",
+    "name": "三刑不直接等于凶",
+    "priority": 35,
+    "source_refs": [
+      "SRC_SMTH",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "branch_or_stem_relation",
+      "effect": "三刑只表示结构关系，实际作用须结合刑中所藏、月令、强弱及是否有解。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule; effect_not_fixed"
+  },
+  {
+    "rule_id": "AUX_REL_006",
+    "category": "合冲刑害",
+    "subcategory": "自刑",
+    "rule_type": "辅助",
+    "name": "自刑须辨成立条件",
+    "priority": 35,
+    "source_refs": [
+      "SRC_SMTH",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "branch_or_stem_relation",
+      "effect": "辰午酉亥自刑等传统说法应保留流派差异，并检查是否重复出现及岁运引动。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule; effect_not_fixed"
+  },
+  {
+    "rule_id": "AUX_REL_007",
+    "category": "合冲刑害",
+    "subcategory": "六害",
+    "rule_type": "辅助",
+    "name": "六害作为结构扰动",
+    "priority": 35,
+    "source_refs": [
+      "SRC_SMTH",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "branch_or_stem_relation",
+      "effect": "害表示地支关系的一种扰动，不应直接映射固定吉凶。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule; effect_not_fixed"
+  },
+  {
+    "rule_id": "AUX_REL_008",
+    "category": "合冲刑害",
+    "subcategory": "六破",
+    "rule_type": "辅助",
+    "name": "六破作为辅助关系",
+    "priority": 35,
+    "source_refs": [
+      "SRC_SMTH",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "branch_or_stem_relation",
+      "effect": "破应与冲、合、刑、害分开记录，避免重复计权。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule; effect_not_fixed"
+  },
+  {
+    "rule_id": "AUX_REL_009",
+    "category": "合冲刑害",
+    "subcategory": "半合",
+    "rule_type": "辅助",
+    "name": "半合只作候选",
+    "priority": 35,
+    "source_refs": [
+      "SRC_SMTH",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "branch_or_stem_relation",
+      "effect": "两支构成三合局的部分结构时先记录半合候选，是否成局另看第三支、月令和岁运。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule; effect_not_fixed"
+  },
+  {
+    "rule_id": "AUX_REL_010",
+    "category": "合冲刑害",
+    "subcategory": "拱局",
+    "rule_type": "辅助",
+    "name": "拱局不等同完整三合",
+    "priority": 35,
+    "source_refs": [
+      "SRC_SMTH",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "branch_or_stem_relation",
+      "effect": "两端支形成拱局条件时可生成候选，但不直接视作完整会合局。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule; effect_not_fixed"
+  },
+  {
+    "rule_id": "AUX_REL_011",
+    "category": "天干合",
+    "subcategory": "合化",
+    "rule_type": "辅助",
+    "name": "天干五合与合化分离",
+    "priority": 35,
+    "source_refs": [
+      "SRC_SMTH",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "branch_or_stem_relation",
+      "effect": "甲己、乙庚、丙辛、丁壬、戊癸出现时先记录五合，再独立判断是否化。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule; effect_not_fixed"
+  },
+  {
+    "rule_id": "AUX_REL_012",
+    "category": "天干合",
+    "subcategory": "争合",
+    "rule_type": "辅助",
+    "name": "争合需记录位置",
+    "priority": 35,
+    "source_refs": [
+      "SRC_SMTH",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "branch_or_stem_relation",
+      "effect": "同一干被两个异性天干争合时，记录邻近、远近、得令和根气，不直接判断化气。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule; effect_not_fixed"
+  },
+  {
+    "rule_id": "AUX_REL_013",
+    "category": "天干合",
+    "subcategory": "妒合",
+    "rule_type": "辅助",
+    "name": "妒合为传统细分概念",
+    "priority": 35,
+    "source_refs": [
+      "SRC_SMTH",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "branch_or_stem_relation",
+      "effect": "多个合关系互相牵制时可标记妒合/牵绊候选，最终作用仍由全局决定。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule; effect_not_fixed"
+  },
+  {
+    "rule_id": "AUX_SS_002",
+    "category": "神煞",
+    "subcategory": "羊刃",
+    "rule_type": "辅助",
+    "name": "羊刃作为辅助结构标签",
+    "priority": 35,
+    "source_refs": [
+      "SRC_SMTH"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "shen_sha_tag",
+      "effect": "羊刃宜与日主强弱、官杀、食伤及岁运同看，不单独决定吉凶。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule; effect_not_fixed"
+  },
+  {
+    "rule_id": "AUX_SS_003",
+    "category": "神煞",
+    "subcategory": "桃花",
+    "rule_type": "辅助",
+    "name": "桃花作为辅助结构标签",
+    "priority": 35,
+    "source_refs": [
+      "SRC_SMTH"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "shen_sha_tag",
+      "effect": "桃花仅记录传统神煞信息，具体感情判断仍应回到夫妻宫、财官、合冲及岁运。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule; effect_not_fixed"
+  },
+  {
+    "rule_id": "AUX_SS_004",
+    "category": "神煞",
+    "subcategory": "驿马",
+    "rule_type": "辅助",
+    "name": "驿马作为动态标签",
+    "priority": 35,
+    "source_refs": [
+      "SRC_SMTH"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "shen_sha_tag",
+      "effect": "驿马可记录移动、变动类传统象义，但需结合日支、三合局及岁运引动。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule; effect_not_fixed"
+  },
+  {
+    "rule_id": "AUX_SS_005",
+    "category": "神煞",
+    "subcategory": "华盖",
+    "rule_type": "辅助",
+    "name": "华盖作为辅助标签",
+    "priority": 35,
+    "source_refs": [
+      "SRC_SMTH"
+    ],
+    "text_refs": [],
+    "interp_refs": [],
+    "historical_principles": [],
+    "computational_model": {
+      "model_type": "shen_sha_tag",
+      "effect": "华盖宜与日主、印星、墓库及岁运结合解释，不单独判定孤独或吉凶。",
+      "parameter_status": "traditional_rule_plus_heuristic"
+    },
+    "verification": "structured_traditional_rule; effect_not_fixed"
   }
 ]
