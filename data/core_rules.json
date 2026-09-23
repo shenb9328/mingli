@@ -35814,5 +35814,4655 @@
       "rule_logic_verified": true
     },
     "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_DTS_EXP_0001",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "体用不可一端论",
+    "priority": 100,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_DTS_CW"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_EXP_0001"
+    ],
+    "interp_refs": [
+      "INT_DTS_TY_001"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_EXP_0001",
+        "statement": "道有体用，不可以一端论也，要在扶之抑之得其宜。"
+      },
+      {
+        "interp_ref": "INT_DTS_TY_001",
+        "statement": "有以日主为体，提纲为用；有以提纲为体，喜神为用；有以四柱为体，岁运为用；有以化神为体，四柱为用。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "dynamic_ti_yong",
+      "parameter_status": "heuristic",
+      "parameter_basis": "工程设计，不属于古籍原文。",
+      "supported_modes": [
+        "日主为体，提纲为用",
+        "提纲为体，喜神为用",
+        "四柱为体，岁运为用",
+        "化神为体，四柱为用"
+      ]
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "体用"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_DTS_EXP_0002",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "旺衰须审全局",
+    "priority": 95,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_DTS_CW"
+    ],
+    "text_refs": [
+      "TXT_DTS_SW_001"
+    ],
+    "interp_refs": [
+      "INT_DTS_SW_001"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_SW_001",
+        "statement": "旺则宜泄宜伤，衰则喜帮喜助。然旺中有衰者存，不可损也；衰中有旺者存，不可益也；旺之极者不可损，以损在其中矣；衰之极者不可益，以益在其中矣。"
+      },
+      {
+        "interp_ref": "INT_DTS_SW_001",
+        "statement": "八字虽以月令为重，而旺相休囚，年日时中，亦有损益之权。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "multi_pillar_balance",
+      "parameter_status": "heuristic",
+      "parameter_basis": "人工设定参数，仅用于计算实验，未被古籍证明。",
+      "weights": {
+        "month_commander_baseline": 0.45,
+        "three_pillars_joint_weight": 0.55
+      }
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "旺衰"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_DTS_EXP_0003",
+    "category": "岁运",
+    "rule_type": "核心",
+    "name": "岁运须与原局参看",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_DTS_CW"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_EXP_0002"
+    ],
+    "interp_refs": [
+      "INT_DTS_SY_001"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_EXP_0002",
+        "statement": "休咎系乎运，尤系乎岁。冲战视其孰降，和好视其孰切。"
+      },
+      {
+        "interp_ref": "INT_DTS_SY_001",
+        "statement": "日主譬如吾身，局中之神譬如舟马引从，大运譬如所历之地，太岁譬如所遇之人。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "dynamic_recalculation",
+      "parameter_status": "heuristic",
+      "parameter_basis": "计算流程属于工程实现，不属于古籍原文。",
+      "layers": [
+        "原局",
+        "大运",
+        "流年"
+      ]
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "岁运"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_YHZP_001",
+    "category": "月令",
+    "rule_type": "核心",
+    "name": "月令提纲优先",
+    "priority": 100,
+    "source_refs": [
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_YHZP_BF_002",
+      "TXT_SRC_YHZP_EXP_0003"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_YHZP_BF_002",
+        "statement": "先看提纲为重……皆以月令为用，不可以年取格。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "month_order_priority",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统文献原则的程序化表达，不等于古人固定权重。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "月令"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_YHZP_002",
+    "category": "日主",
+    "rule_type": "核心",
+    "name": "日干为主",
+    "priority": 99,
+    "source_refs": [
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_YHZP_RZ_001",
+      "TXT_YHZP_BF_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_YHZP_RZ_001",
+        "statement": "取日干为主。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "day_master_anchor",
+      "parameter_status": "heuristic",
+      "parameter_basis": "程序以日干作为十神和生克关系的参照点。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "日主"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_YHZP_003",
+    "category": "用神",
+    "rule_type": "核心",
+    "name": "月令用神与节气浅深",
+    "priority": 98,
+    "source_refs": [
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_SRC_YHZP_EXP_0003",
+      "TXT_YHZP_BF_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_YHZP_EXP_0003",
+        "statement": "取用凭于生月，当推究于浅深；发觉在于日时，要消详于强弱。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "month_hidden_stem_selection",
+      "parameter_status": "heuristic",
+      "parameter_basis": "根据月令藏干和节气深浅实现，不宣称唯一古法算法。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "用神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_YHZP_004",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "取格先定提纲",
+    "priority": 97,
+    "source_refs": [
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_YHZP_BF_001",
+      "TXT_YHZP_BF_002"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_YHZP_BF_001",
+        "statement": "凡格用月令提纲，勿于傍求年日时为格。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "pattern_first",
+      "parameter_status": "heuristic",
+      "parameter_basis": "程序化格局识别规则。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_YHZP_005",
+    "category": "十神",
+    "rule_type": "核心",
+    "name": "十神由日干定",
+    "priority": 95,
+    "source_refs": [
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_YHZP_RZ_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_YHZP_RZ_001",
+        "statement": "取日干为主，以年为根，以月为苗，以日为花，以时为果；以生旺死绝休囚制化，决人生休咎。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "ten_god_mapping",
+      "parameter_status": "deterministic",
+      "parameter_basis": "依据五行生克与阴阳同异确定比劫食伤财官印。"
+    },
+    "verification": "traditional_framework",
+    "conditions": {
+      "required": [
+        "十神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_ZPZQ_001",
+    "category": "用神",
+    "rule_type": "核心",
+    "name": "子平真诠月令用神",
+    "priority": 99,
+    "source_refs": [
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_ZPZQ_YS_002"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_ZPZQ_YS_002",
+        "statement": "八字用神，专求月令，以日干配月令地支，而生克不同，格局分焉。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "ziping_month_use_god",
+      "parameter_status": "heuristic",
+      "parameter_basis": "依据原文构造格局判断流程。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "用神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_ZPZQ_002",
+    "category": "顺逆",
+    "rule_type": "核心",
+    "name": "善用神顺用不善用神逆用",
+    "priority": 96,
+    "source_refs": [
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_ZPZQ_YS_002"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_ZPZQ_YS_002",
+        "statement": "财官印食，此用神之善而顺用之者也；煞伤劫刃，用神之不善而逆用之者也。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "shun_ni_usage",
+      "parameter_status": "heuristic",
+      "parameter_basis": "按格局类型建立顺用/逆用条件。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "顺逆"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_ZPZQ_003",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "格局成败救应",
+    "priority": 95,
+    "source_refs": [
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_ZPZQ_CS_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_ZPZQ_CS_001",
+        "statement": "官逢财印，又无刑冲破害，官格成也。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "pattern_success_failure",
+      "parameter_status": "heuristic",
+      "parameter_basis": "逐项检查成格、破格、救应。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_DTS_001",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "旺衰不可机械化",
+    "priority": 96,
+    "source_refs": [
+      "SRC_DTS"
+    ],
+    "text_refs": [
+      "TXT_DTS_SW_001",
+      "TXT_DTS_ZS_001"
+    ],
+    "interp_refs": [
+      "INT_DTS_SW_001"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_SW_001",
+        "statement": "旺中有衰者存，不可损也；衰中有旺者存，不可益也。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "whole_chart_strength",
+      "parameter_status": "heuristic",
+      "parameter_basis": "多柱综合评估，权重为工程参数。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "旺衰"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_DTS_002",
+    "category": "寒暖",
+    "rule_type": "核心",
+    "name": "寒暖为独立气候维度",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS"
+    ],
+    "text_refs": [
+      "TXT_DTS_HN_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_HN_001",
+        "statement": "天道有寒暖，发育万物。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "climate_axis",
+      "parameter_status": "heuristic",
+      "parameter_basis": "按季节、月令和干支组合估计寒暖燥湿。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "寒暖"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_DTS_003",
+    "category": "病药",
+    "rule_type": "核心",
+    "name": "病药制化",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_SFTK"
+    ],
+    "text_refs": [
+      "TXT_DTS_BJ_001",
+      "TXT_SFTK_BY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_BJ_001",
+        "statement": "有病方为贵，无伤不是奇；格中如去病，财禄两相随。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "problem_solution",
+      "parameter_status": "heuristic",
+      "parameter_basis": "先识别主要失衡，再寻找制化。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "病药"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_DTS_004",
+    "category": "财官",
+    "rule_type": "核心",
+    "name": "财官需看通关与成局",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_JG_001",
+      "TXT_DTS_CF_001",
+      "TXT_YHZP_JS_004"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_CF_001",
+        "statement": "何知其人富，财气通门户。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "wealth_officer_structure",
+      "parameter_status": "heuristic",
+      "parameter_basis": "财官数量不作为唯一判据，增加根气、制化、流通条件。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "财官"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_DTS_005",
+    "category": "岁运",
+    "rule_type": "核心",
+    "name": "岁运动态重算",
+    "priority": 92,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_SMTH"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_EXP_0002",
+      "TXT_SMTH_RY_003"
+    ],
+    "interp_refs": [
+      "INT_DTS_SY_001"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_EXP_0002",
+        "statement": "休咎系乎运，尤系乎岁。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "original_plus_luck_year",
+      "parameter_status": "heuristic",
+      "parameter_basis": "每步大运、每年流年重新计算合冲刑害及十神作用。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "岁运"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_SMTH_001",
+    "category": "先后天",
+    "rule_type": "核心",
+    "name": "先天过不及由后天调节",
+    "priority": 90,
+    "source_refs": [
+      "SRC_SMTH"
+    ],
+    "text_refs": [
+      "TXT_SMTH_RY_002"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SMTH_RY_002",
+        "statement": "先天太过后天减之，先天不及后天补之。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "luck_adjustment",
+      "parameter_status": "heuristic",
+      "parameter_basis": "大运作为后天变量调节原局偏性。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "先后天"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_QTBG_001",
+    "category": "调候",
+    "rule_type": "核心",
+    "name": "穷通宝鉴季节调候",
+    "priority": 90,
+    "source_refs": [
+      "SRC_QTBG"
+    ],
+    "text_refs": [
+      "TXT_QTBG_BH_001",
+      "TXT_QTBG_BH_002",
+      "TXT_QTBG_BH_003"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_QTBG_BH_003",
+        "statement": "正月丙火，三阳开泰，火气渐炎，取壬为尊，庚金佐之。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "seasonal_tiao_hou",
+      "parameter_status": "heuristic",
+      "parameter_basis": "按天干与月份建立季节性需求表。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "调候"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_ZPZQ_004",
+    "category": "用神",
+    "rule_type": "核心",
+    "name": "顺逆细则",
+    "priority": 95,
+    "source_refs": [
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_ZPZQ_YS_003"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_ZPZQ_YS_003",
+        "statement": "财喜食神以相生，生官以护财；官喜透财以相生，生印以护官；七煞喜食神以制伏；伤官喜佩印以制伏。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "use_god_support_control",
+      "parameter_status": "heuristic",
+      "parameter_basis": "将顺用/逆用关系转化为条件图，而非固定分数。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "用神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_ZPZQ_005",
+    "category": "用神",
+    "rule_type": "核心",
+    "name": "用神变化",
+    "priority": 94,
+    "source_refs": [
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_ZPZQ_YY_002"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_ZPZQ_YY_002",
+        "statement": "月令所藏不一，而用神遂有变化。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "use_god_transformation",
+      "parameter_status": "heuristic",
+      "parameter_basis": "检测透干、会合、藏干主次后重新评估格局。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "用神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_ZPZQ_006",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "格局高低看有情有力",
+    "priority": 93,
+    "source_refs": [
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_ZPZQ_GD_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_ZPZQ_GD_001",
+        "statement": "有格局必有高低……其理之大纲，亦在有情、有力无力之间。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "pattern_quality",
+      "parameter_status": "heuristic",
+      "parameter_basis": "以有情、有力作为结构特征，不转化成古籍不存在的绝对分数。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_DTS_006",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "旺衰极端反向风险",
+    "priority": 94,
+    "source_refs": [
+      "SRC_DTS"
+    ],
+    "text_refs": [
+      "TXT_DTS_SW_002"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_SW_002",
+        "statement": "旺之极者不可损，以损在其中矣；衰之极者不可益，以益在其中矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "extreme_strength_guard",
+      "parameter_status": "heuristic",
+      "parameter_basis": "极端旺衰时降低机械扶抑规则的优先级。"
+    },
+    "verification": "source_text_verified; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "旺衰"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_SW_002",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "得令只是旺衰一维",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "multi_axis_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "月令首先决定季节性气势，但不能替代得地、得势、透藏及制化判断。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "旺衰"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_SW_003",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "得地须看通根",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "multi_axis_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "日主及主要用神的根气应分别考察本气、中气、余气与根之远近。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "旺衰"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_SW_004",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "得势须看同党与会局",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "multi_axis_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "同类干支、印比、三会三合等形成的整体气势应纳入旺衰判断，但不得机械叠加。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "旺衰"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_SW_005",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "透干与藏干有别",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "multi_axis_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "透干主显、藏干主潜；月令司令与透干之间应分别记录，不宜把藏干等同于透干。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "旺衰"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_TSG_001",
+    "category": "十神",
+    "rule_type": "核心",
+    "name": "十神以日干为参照",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "ten_god_structural_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "所有十神判定以日干阴阳五行为基准，先确定生克，再区分同异阴阳。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "十神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_TSG_002",
+    "category": "十神",
+    "rule_type": "核心",
+    "name": "比劫见财须审身强身弱",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "ten_god_structural_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "比劫对财星的影响不能单凭数量判断，应结合日主承载、财星根气及官杀制化。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "十神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_TSG_003",
+    "category": "十神",
+    "rule_type": "核心",
+    "name": "食伤生财须有流通",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "ten_god_structural_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "食伤生财需同时考察食伤是否有力、财是否得生以及日主能否承载，不能以见食伤财星即判成立。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "十神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_TSG_004",
+    "category": "十神",
+    "rule_type": "核心",
+    "name": "官印相生须看通关",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "ten_god_structural_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "官生印、印生身形成顺畅流通时可作为结构支持；若印过旺、官弱或受伤，则需重新评价。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "十神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_TSG_005",
+    "category": "十神",
+    "rule_type": "核心",
+    "name": "杀印相生须分制化与化杀",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "ten_god_structural_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "七杀见印既可形成杀印相生，也可能因印过旺而失去制衡，必须结合杀、印、日主强弱。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "十神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_TSG_006",
+    "category": "十神",
+    "rule_type": "核心",
+    "name": "伤官见官须辨有制无制",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "ten_god_structural_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "伤官与正官同时出现不宜机械判凶，应检查伤官强弱、印星制化、官星根气及岁运引动。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "十神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_JG_001",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "格局先候选后定论",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "pattern_candidate_validation",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "月令取格首先生成候选格局，再检查透藏、根气、制化、刑冲破害及成败救应。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_JG_002",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "格局成败不能只看一项",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "pattern_candidate_validation",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "成格判断至少同时检查核心用神、辅助十神、日主承载与破格因素。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_JG_003",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "破格后须检查救应",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "pattern_candidate_validation",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "发现刑冲、伤官、比劫、枭印等破格因素后，应继续检查是否存在合、制、化、通关或位置上的救应。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_JG_004",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "杂气月令须辨透干与司令",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "pattern_candidate_validation",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "辰戌丑未等杂气月令取格，应区分本气、中气、余气及透干情况，不宜固定取一格。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_TY_002",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "扶抑与调候分层",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "multi_axis_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "扶抑判断和寒暖燥湿判断应作为不同维度保存；两者结论冲突时不得静默覆盖。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "体用"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_TY_003",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "病药须先识病后论药",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "multi_axis_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "病药法先识别原局最主要的偏性或阻滞，再寻找能够解除该病的五行、十神或制化关系。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "体用"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_SY_002",
+    "category": "岁运",
+    "rule_type": "核心",
+    "name": "岁运首先改变结构",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ",
+      "SRC_SMTH"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "luck_layer_recalculation",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "大运和流年介入后，应重新计算月令以外的合冲刑害、透藏、十神及格局状态，而非只在原局结论上加减吉凶。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "岁运"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_SY_003",
+    "category": "岁运",
+    "rule_type": "核心",
+    "name": "岁运作用有层次",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ",
+      "SRC_SMTH"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "luck_layer_recalculation",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "大运提供十年背景，流年提供年度触发；二者与原局形成三层结构，具体事件应以被引动的原局结构为基础。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "岁运"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_REL_001",
+    "category": "合冲刑害",
+    "rule_type": "核心",
+    "name": "关系作用须结合强弱",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "relation_contextual_effect",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "合冲刑害只表示结构关系，实际作用方向须结合月令、双方强弱、位置、数量及岁运引动。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "合冲刑害"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_REL_002",
+    "category": "合冲刑害",
+    "rule_type": "核心",
+    "name": "合不等于化",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "relation_contextual_effect",
+      "parameter_status": "heuristic",
+      "parameter_basis": "本条为传统命理原则的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "天干五合、地支六合出现时，先记录合，再独立判断是否具备化神、时令、根气及全局支持条件。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "合冲刑害"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_WX_001",
+    "category": "五行",
+    "rule_type": "核心",
+    "name": "五行生克关系先于十神解释",
+    "priority": 92,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "五行生克是十神、格局、制化计算的基础层；先确定生克方向，再映射十神。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "五行"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_WX_002",
+    "category": "五行",
+    "rule_type": "核心",
+    "name": "同类异性须区分阴阳",
+    "priority": 91,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "同一五行内部还须区分阴阳，十神中的比肩劫财、食神伤官、正偏财官印均由阴阳同异决定。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "五行"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_WX_003",
+    "category": "五行",
+    "rule_type": "核心",
+    "name": "生我者为印",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "以日干为中心，生扶日干的五行归入印星，再按阴阳同异区分正印与偏印。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "五行"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_WX_004",
+    "category": "五行",
+    "rule_type": "核心",
+    "name": "我生者为食伤",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "以日干为中心，日干所生五行归入食伤，再按阴阳同异区分食神与伤官。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "五行"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_WX_005",
+    "category": "五行",
+    "rule_type": "核心",
+    "name": "我克者为财",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "以日干为中心，日干所克五行归入财星，再按阴阳同异区分正财与偏财。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "五行"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_WX_006",
+    "category": "五行",
+    "rule_type": "核心",
+    "name": "克我者为官杀",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "以日干为中心，克制日干的五行归入官杀，再按阴阳同异区分正官与七杀。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "五行"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_WX_007",
+    "category": "五行",
+    "rule_type": "核心",
+    "name": "同我者为比劫",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "与日干同五行者归入比劫，再按阴阳同异区分比肩与劫财。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "五行"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_RZ_001",
+    "category": "日主",
+    "rule_type": "核心",
+    "name": "日主强弱不是十神吉凶本身",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "身旺或身弱首先是结构状态，不能直接等同富贵贫贱；须继续判断格局、用神及制化。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "日主"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_RZ_002",
+    "category": "日主",
+    "rule_type": "核心",
+    "name": "得令不等于独旺",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "月令提供季节与司令信息，但仍须检查通根、透干、同党、会局及制化。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "日主"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_RZ_003",
+    "category": "日主",
+    "rule_type": "核心",
+    "name": "通根须辨根之深浅",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "同一五行虽有根，仍应区分本气、中气、余气以及根是否受冲破。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "日主"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_RZ_004",
+    "category": "日主",
+    "rule_type": "核心",
+    "name": "透干与藏干作用层级不同",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "透干更直接参与结构表达，藏干提供潜在根气与条件；二者不可简单按数量等权。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "日主"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_RZ_005",
+    "category": "日主",
+    "rule_type": "核心",
+    "name": "月令藏干须结合节气深浅",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "杂气或藏干多的月份，不能只按一个固定藏干判格，应结合节气、透干及会合。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "日主"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_GJ_007",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "正官格先看月令官星",
+    "priority": 93,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "子平格局体系以月令为主要取格入口；若月令官星成立，再检查财印、刑冲破害等成败条件。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_GJ_008",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "七杀格先辨制化",
+    "priority": 93,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "七杀出现时重点检查食神制杀、伤官制杀、印化杀以及身杀轻重，不宜见杀即定凶。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_GJ_009",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "财格须看财星是否得用",
+    "priority": 92,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "财格不能只按财多论；须检查财源、日主承载、官杀印比对财的作用及成败。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_GJ_010",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "印格须防印旺闭塞",
+    "priority": 91,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "印格既可生身护官，也可能造成食伤受制；应同时检查财星、食伤及日主强弱。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_GJ_011",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "食神格须辨制杀与生财",
+    "priority": 91,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "食神既可生财，也可制杀；同一食神在不同结构中的功能不同，不能固定解释。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_GJ_012",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "伤官格重点辨配印生财",
+    "priority": 91,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "伤官既可泄秀、生财，也可见官成祸；须判断是否有印制、财泄及官星是否形成有效制化。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_GJ_013",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "建禄月劫须另看财官",
+    "priority": 90,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "建禄、月劫不宜简单按普通正格处理，应观察财官食伤能否形成有效结构。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_GJ_014",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "羊刃格须辨制化与泄化",
+    "priority": 90,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "羊刃为强旺之象，传统论法常重官杀制刃、食伤泄秀及财星结构；不可单凭见刃定吉凶。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_GJ_015",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "杂气格须审透干",
+    "priority": 90,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "辰戌丑未所藏不一，杂气月取格时应结合透干、司令及刑冲会合，不宜固定取某一五行。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_GJ_016",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "格局候选可并存",
+    "priority": 90,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "机器识别阶段允许多个候选格局同时成立，只有完成月令、透藏、制化与破救检查后再收敛。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_GJ_017",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "格局与调候可并行",
+    "priority": 90,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "月令格局和寒暖燥湿是不同分析维度；调候需求不能自动覆盖格局，用神也不能只由季节表决定。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "格局"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_YG_007",
+    "category": "用神",
+    "rule_type": "核心",
+    "name": "相神承担成格功能",
+    "priority": 90,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "在子平真诠体系中，相神常用于辅助用神完成格局；程序应区分用神本体与成格辅助。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "用神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_YG_008",
+    "category": "用神",
+    "rule_type": "核心",
+    "name": "喜神不是固定五行表",
+    "priority": 90,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "喜神应从当前结构的扶助、制化、流通需要推导，而不是把某日主永久绑定某五行。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "用神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_YG_009",
+    "category": "用神",
+    "rule_type": "核心",
+    "name": "忌神须有结构理由",
+    "priority": 90,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "某五行是否为忌，应说明其造成的具体失衡或破格机制，避免仅以身旺身弱机械判定。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "用神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_YG_010",
+    "category": "用神",
+    "rule_type": "核心",
+    "name": "用神必须检查可用性",
+    "priority": 90,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "即使命理上所需五行出现，也要检查是否有根、是否被合化、是否受制、是否过弱或过旺。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "用神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_YG_011",
+    "category": "用神",
+    "rule_type": "核心",
+    "name": "用神与调候可发生冲突",
+    "priority": 90,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "格局用神与季节调候可能指向不同五行，遇此应保留两套证据并说明取舍依据。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "用神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_YG_012",
+    "category": "用神",
+    "rule_type": "核心",
+    "name": "病药优先针对主要结构病",
+    "priority": 90,
+    "source_refs": [
+      "SRC_ZPZQ",
+      "SRC_YHZP"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "病药法应先识别主病，再寻找能制病、化病或通关之药；不宜把所有不平衡因素都列为主病。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "用神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_TZ_001",
+    "category": "调候",
+    "rule_type": "核心",
+    "name": "寒暖与旺衰分层",
+    "priority": 90,
+    "source_refs": [
+      "SRC_QTBG",
+      "SRC_DTS"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "寒暖燥湿描述季节气候条件，旺衰描述五行气势；二者相关但不是同一变量。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "调候"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_TZ_002",
+    "category": "调候",
+    "rule_type": "核心",
+    "name": "燥湿须结合季节",
+    "priority": 90,
+    "source_refs": [
+      "SRC_QTBG",
+      "SRC_DTS"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "燥湿判断首先结合月令和全局水火土状态，不能只按单个地支固定标签。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "调候"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_TZ_003",
+    "category": "调候",
+    "rule_type": "核心",
+    "name": "调候五行须检查根气",
+    "priority": 90,
+    "source_refs": [
+      "SRC_QTBG",
+      "SRC_DTS"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "调候所需五行即使透干，也应检查根气与受制情况；重叠出现不等于调候一定有效。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "调候"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_ZH_001",
+    "category": "制化",
+    "rule_type": "核心",
+    "name": "制化须看受制对象",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "同一克制关系，对强神可能是制，对弱神可能是伤；必须结合双方力量与结构位置。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "制化"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_ZH_002",
+    "category": "制化",
+    "rule_type": "核心",
+    "name": "通关以解决两神对战为目标",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "五行相战时，通关的结构意义是引入中介使生克链条流通，而不是机械增加某一五行。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "制化"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_ZH_003",
+    "category": "制化",
+    "rule_type": "核心",
+    "name": "泄秀与克制功能不同",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "食伤泄日主或旺神与官杀克制日主的机制不同，不能统一归为减弱。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "制化"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_ZH_004",
+    "category": "制化",
+    "rule_type": "核心",
+    "name": "生扶也可能过犹不及",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "印比虽可扶身，但在身旺或印比过重结构中可能成为病；任何生扶都须看全局。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "制化"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_REL_003",
+    "category": "合冲刑害",
+    "rule_type": "核心",
+    "name": "冲首先视为结构触发",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "地支六冲表示强关系触发，但具体是动、破、去、引动还是反成局，须结合位置和全局判断。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "合冲刑害"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_REL_004",
+    "category": "合冲刑害",
+    "rule_type": "核心",
+    "name": "刑不宜一律判凶",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "刑表示传统关系结构，具体影响应结合刑的类型、参与者强弱及是否被岁运引动。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "合冲刑害"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_REL_005",
+    "category": "合冲刑害",
+    "rule_type": "核心",
+    "name": "害与冲不可同权处理",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "六害和六冲属于不同关系，程序上应分别记录，不应把害自动升级为冲。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "合冲刑害"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_REL_006",
+    "category": "合冲刑害",
+    "rule_type": "核心",
+    "name": "破应独立记录",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "六破有独立传统分类，不能在程序中并入冲或害。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "合冲刑害"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_REL_007",
+    "category": "合冲刑害",
+    "rule_type": "核心",
+    "name": "合冲同时出现应保留双方证据",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "同一支既参与合又参与冲时，先保留两种关系，再根据距离、得令、会局和岁运决定实际作用。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "合冲刑害"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_REL_008",
+    "category": "合冲刑害",
+    "rule_type": "核心",
+    "name": "争合须保留竞争状态",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "一个天干存在多个同类合对象时，不宜程序自动选择唯一对象；应保留竞争关系。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "合冲刑害"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_REL_009",
+    "category": "合冲刑害",
+    "rule_type": "核心",
+    "name": "合化与合绊分开",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "出现天干五合只代表合的事实；是否化气或仅合绊必须另行判断。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "合冲刑害"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_SJ_004",
+    "category": "岁运",
+    "rule_type": "核心",
+    "name": "流年可引动原局潜在关系",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_SMTH",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "原局已有的合冲刑害或藏干结构，遇大运流年同类干支时可能被显著引动；应在岁运层重新计算。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "岁运"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_SJ_005",
+    "category": "岁运",
+    "rule_type": "核心",
+    "name": "岁运出现原局同字应记录伏吟候选",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_SMTH",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "同柱或同字重复可作为传统伏吟类结构的候选标记，但不得单凭重复字固定判吉凶。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "岁运"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_SJ_006",
+    "category": "岁运",
+    "rule_type": "核心",
+    "name": "岁运与原局天干地支分别计算",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_SMTH",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "流年干与原局天干的十神、合化，流年支与原局地支的合冲刑害应分别计算后再综合。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "岁运"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_SJ_007",
+    "category": "岁运",
+    "rule_type": "核心",
+    "name": "大运改变十年背景而非重写原局",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_SMTH",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "大运加入后形成新的阶段结构，但原局仍是基础；程序应保留原局与运局两个层次。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "岁运"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_SJ_008",
+    "category": "岁运",
+    "rule_type": "核心",
+    "name": "流年判断不脱离大运",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_SMTH",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "同一流年在不同大运中可能因背景结构不同而表现不同，因此流年规则不能脱离当前大运单独解释。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "岁运"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_CJ_001",
+    "category": "从格",
+    "rule_type": "核心",
+    "name": "从格先验证是否真从",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "从财、从官杀、从儿、从旺等特殊格局必须先检查是否存在足以破从的根气、印比或异党。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "从格"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_CJ_002",
+    "category": "从格",
+    "rule_type": "核心",
+    "name": "从弱与身弱不是同义词",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "身弱只是强弱状态；从弱属于特殊结构，需要满足更严格的从势条件。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "从格"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_CJ_003",
+    "category": "从格",
+    "rule_type": "核心",
+    "name": "从财须防比劫印星破从",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "从财候选成立后，应检查日主根气、比劫、印星及岁运介入是否破坏从财条件。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "从格"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_CJ_004",
+    "category": "从格",
+    "rule_type": "核心",
+    "name": "从官杀须防印比破从",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "从官杀候选成立后，应检查日主根气及印比是否足以改变从势。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "从格"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_CJ_005",
+    "category": "从格",
+    "rule_type": "核心",
+    "name": "从儿须先确认食伤成势",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "从儿结构的核心是食伤泄秀成势，并须检查财星、印星及日主根气是否破局。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "从格"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_CJ_006",
+    "category": "从格",
+    "rule_type": "核心",
+    "name": "专旺格须审一气成势",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "曲直、炎上、稼穑、从革、润下等专旺类结构应检查季节、根气、同党和异党，而非只按五行数量。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "从格"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_HX_001",
+    "category": "化气",
+    "rule_type": "核心",
+    "name": "化气格与普通五合分开",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "普通天干五合和化气格是不同层级：前者是关系，后者要求全局达到特殊成化条件。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "化气"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_HX_002",
+    "category": "化气",
+    "rule_type": "核心",
+    "name": "化气须检查化神得势",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "化气候选至少应检查化神的月令、根气、会局和引化条件；具体门派条件可不同。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "化气"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_HX_003",
+    "category": "化气",
+    "rule_type": "核心",
+    "name": "化气受冲破须降低可信度",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "化神受到明显冲克或局势混杂时，应降低成化状态，不宜直接判定真化。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "化气"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
+  },
+  {
+    "rule_id": "CORE_HX_004",
+    "category": "化气",
+    "rule_type": "核心",
+    "name": "化气状态允许不确定",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS",
+      "SRC_YHZP",
+      "SRC_ZPZQ"
+    ],
+    "text_refs": [
+      "TXT_DTS_TY_001"
+    ],
+    "interp_refs": [],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_DTS_TY_001",
+        "statement": "道有体用，不可以一端论也，要在审其轻重而已矣。"
+      }
+    ],
+    "computational_model": {
+      "model_type": "contextual_rule",
+      "parameter_status": "heuristic",
+      "parameter_basis": "传统子平框架的结构化工程表达；不把工程参数宣称为古籍固定数值。",
+      "statement": "证据不足时保留uncertain状态，避免为了程序确定性而强行二值化。"
+    },
+    "verification": "structured_rule; classical_informed; computational_model_not_classical",
+    "conditions": {
+      "required": [
+        "化气"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    }
   }
 ]

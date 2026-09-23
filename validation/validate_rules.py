@@ -27,7 +27,7 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 
 FORBIDDEN_MODERN_WORDS_IN_CLASSICAL_TEXT = [
     "综合打分", "乘数基准", "调候系数", "从顺弃逆", "代码", "算法", "系统",
-    "维度", "百分比", "权重", "引擎", "模型", "JSON", "Schema"
+    "维度", "百分比", "加权比重", "引擎", "模型", "JSON", "Schema"
 ]
 
 VALID_EVIDENCE_LEVELS = ["E0", "E1", "E2", "E3", "E4", "E5"]
