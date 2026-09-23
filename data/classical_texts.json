@@ -1861,5 +1861,649 @@
       "is_editorial_commentary": false,
       "structured_summary": "正官格章节强调官星纯一的重要性，属于该书具体格局口径。"
     }
+  },
+  {
+    "text_id": "TXT_YHZP_RZ_002",
+    "source_id": "SRC_YHZP",
+    "source_layer": "original_text",
+    "chapter": "论日为主",
+    "type": "论法",
+    "text": "月为提纲",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/渊海子平"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "《渊海子平》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "月令在传统子平体系中具有重要提纲作用。"
+    }
+  },
+  {
+    "text_id": "TXT_YHZP_RZ_003",
+    "source_id": "SRC_YHZP",
+    "source_layer": "original_text",
+    "chapter": "论日为主",
+    "type": "论法",
+    "text": "时为辅佐",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/渊海子平"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "《渊海子平》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "时柱作为传统结构中的辅助层。"
+    }
+  },
+  {
+    "text_id": "TXT_YHZP_RZ_004",
+    "source_id": "SRC_YHZP",
+    "source_layer": "original_text",
+    "chapter": "论日为主",
+    "type": "十神",
+    "text": "曰官曰杀",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/渊海子平"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "《渊海子平》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "官杀属于克我之十神分类。"
+    }
+  },
+  {
+    "text_id": "TXT_YHZP_RZ_005",
+    "source_id": "SRC_YHZP",
+    "source_layer": "original_text",
+    "chapter": "论日为主",
+    "type": "十神",
+    "text": "曰正财偏财",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/渊海子平"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "《渊海子平》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "财星按阴阳分正偏。"
+    }
+  },
+  {
+    "text_id": "TXT_YHZP_RZ_006",
+    "source_id": "SRC_YHZP",
+    "source_layer": "original_text",
+    "chapter": "论日为主",
+    "type": "十神",
+    "text": "曰印绶倒食",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/渊海子平"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "《渊海子平》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "生我者传统分为印绶与倒食。"
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_GG_008",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "卷五·论正官",
+    "type": "格局",
+    "text": "月令为正",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会_(四库全书本)/卷05"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英《三命通会》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "正官论中把月令当时之气视为重要。"
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_GG_009",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "卷五·论正官",
+    "type": "格局",
+    "text": "日主健旺",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会_(四库全书本)/卷05"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英《三命通会》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "正官格论中要求检查日主承载能力。"
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_GG_010",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "卷五·论正官",
+    "type": "格局",
+    "text": "财印两扶",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会_(四库全书本)/卷05"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英《三命通会》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "正官结构中财印均可作为辅助条件。"
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_GG_011",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "卷五·论正官",
+    "type": "格局",
+    "text": "贪合忘官",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会_(四库全书本)/卷05"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英《三命通会》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "官星与合神关系需要单独审查。"
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_GG_012",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "卷五·论正官",
+    "type": "格局",
+    "text": "行印乡",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会_(四库全书本)/卷05"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英《三命通会》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "正官格论运时把印运列为重要观察对象。"
+    }
+  },
+  {
+    "text_id": "TXT_SMTH_GG_013",
+    "source_id": "SRC_SMTH",
+    "source_layer": "original_text",
+    "chapter": "卷五·论正官",
+    "type": "格局",
+    "text": "官星纯一",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/三命通会_(四库全书本)/卷05"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·万民英《三命通会》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "该书正官论强调官星纯一的结构要求。"
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_GQ_001",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "正官格歌",
+    "type": "歌诀",
+    "text": "用官喜身旺",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/神峰通考"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠《神峰通考》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "正官格歌强调身旺是观察条件之一。"
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_GQ_002",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "正官格歌",
+    "type": "歌诀",
+    "text": "嫌刃与冲刑",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/神峰通考"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠《神峰通考》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "正官结构需要检查羊刃及冲刑。"
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_GQ_003",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "正官格歌",
+    "type": "歌诀",
+    "text": "喜印及财星",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/神峰通考"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠《神峰通考》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "正官格歌将印、财列为辅助条件。"
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_GQ_004",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "七杀格歌",
+    "type": "歌诀",
+    "text": "七杀喜印刃",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/神峰通考"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠《神峰通考》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "七杀格歌列印、刃为传统辅助条件。"
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_GQ_005",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "七杀格歌",
+    "type": "歌诀",
+    "text": "所忌见官星",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/神峰通考"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠《神峰通考》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "七杀格歌强调官杀混杂问题。"
+    }
+  },
+  {
+    "text_id": "TXT_SFTK_GQ_006",
+    "source_id": "SRC_SFTK",
+    "source_layer": "original_text",
+    "chapter": "用财歌",
+    "type": "歌诀",
+    "text": "用财嫌比劫",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/神峰通考"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "明·张楠《神峰通考》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "用财结构需要检查比劫夺财。"
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_BH_007",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三春丙火",
+    "type": "调候",
+    "text": "正月用壬",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台辑《穷通宝鉴》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "三春丙火调候首先强调壬水。"
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_BH_008",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三春丙火",
+    "type": "调候",
+    "text": "庚辛为助",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台辑《穷通宝鉴》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "三春丙火章节将庚辛作为壬水辅助。"
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_BH_009",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三春丙火",
+    "type": "调候",
+    "text": "取甲佐之",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台辑《穷通宝鉴》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "三月丙火土重时以甲木辅助的传统表达。"
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_BH_010",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三春丙火",
+    "type": "调候",
+    "text": "取壬为尊",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台辑《穷通宝鉴》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "正月丙火章节强调壬水优先。"
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_BH_011",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三夏丙火",
+    "type": "调候",
+    "text": "专用壬水",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台辑《穷通宝鉴》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "三夏丙火强调壬水制炎调候。"
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_BH_012",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论丙火·三夏丙火",
+    "type": "调候",
+    "text": "金为佐",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开可靠电子文本；影印页待逐条核验",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh/穷通宝鉴"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短引文条目；不把后世评注写入原典字段。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台辑《穷通宝鉴》",
+      "attribution_status": "bibliographic_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false,
+      "structured_summary": "夏月丙火章节将金作为水源辅助。"
+    }
   }
 ]
