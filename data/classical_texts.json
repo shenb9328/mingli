@@ -4990,5 +4990,2497 @@
       "is_quotation": false,
       "is_editorial_commentary": false
     }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_001",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十三·论宫分用神配六亲",
+    "type": "经文",
+    "text": "人有六亲，配之八字，亦存于命。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_002",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十三·论宫分用神配六亲",
+    "type": "经文",
+    "text": "其由宫分配之者，则年月日时，自上而下，祖父妻子，亦自上而下。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_003",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十三·论宫分用神配六亲",
+    "type": "经文",
+    "text": "正印也母，身所自出，取其生我也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_004",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十三·论宫分用神配六亲",
+    "type": "经文",
+    "text": "正财为妻，受我克制，夫为妻纲，妻则从夫。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_005",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十四·论妻子",
+    "type": "经文",
+    "text": "大凡命中吉凶，于人愈近，其验益灵。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_006",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十四·论妻子",
+    "type": "经文",
+    "text": "既看妻宫，又看妻星。妻星者，干头之财也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_007",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十四·论妻子",
+    "type": "经文",
+    "text": "妻透而成局，若官格透财、印多逢财、食伤透财为用之类，即坐下无用，亦主内助。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_008",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十四·论妻子",
+    "type": "经文",
+    "text": "至于子息，其看宫分与星所透喜忌，理与论妻略同。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_009",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十五·论行运",
+    "type": "经文",
+    "text": "论运与看命无二法也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_010",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十五·论行运",
+    "type": "经文",
+    "text": "看命以四柱干支，配月令之喜忌，而取运则又以运之干，配八字之喜忌。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_011",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十五·论行运",
+    "type": "经文",
+    "text": "何为喜？命中所喜之神，我得而助之者是也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_012",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十五·论行运",
+    "type": "经文",
+    "text": "何谓忌？命中所忌，我逆而施之者是也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_013",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十六·论行运成格变格",
+    "type": "经文",
+    "text": "命之格局，成于八字，然配之以运，亦有成格变格之要权。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_014",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十六·论行运成格变格",
+    "type": "经文",
+    "text": "何为成格？本命用神，成而未全，从而就之者是也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_015",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十六·论行运成格变格",
+    "type": "经文",
+    "text": "何为变格？如丁生辰月，透壬为官，而运逢戌，透出辰中伤官。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_016",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十六·论行运成格变格",
+    "type": "经文",
+    "text": "又有逢变格而不忌者，然命中有救应也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_017",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十七·论喜忌干支有别",
+    "type": "经文",
+    "text": "命中喜忌，虽支干俱有，而干主天，动而有为，支主地，静以待用。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_018",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十七·论喜忌干支有别",
+    "type": "经文",
+    "text": "譬如甲用酉官，逢庚辛则官煞杂，而申酉不作此例。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_019",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十八·论支中喜忌逢运透清",
+    "type": "经文",
+    "text": "支中喜忌，固与干有别矣，而运逢透清，则静而待用者，正得其用。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_020",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十八·论支中喜忌逢运透清",
+    "type": "经文",
+    "text": "故凡一八字到手，必须逐干逐支，上下统看。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_021",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十九·论时说拘泥格局",
+    "type": "经文",
+    "text": "八字用神专凭月令，月无用神，徐寻格局。月令，本也；外格，末也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_022",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "二十九·论时说拘泥格局",
+    "type": "经文",
+    "text": "今人不知轻重，拘泥格局，执假失真。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_023",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十·论时说以讹传讹",
+    "type": "经文",
+    "text": "八字本有定理，理之不明，遂生异端，妄言妄听，牢不可破。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_024",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十·论时说以讹传讹",
+    "type": "经文",
+    "text": "论生克，则不察喜忌，而以伤旺扶弱为定法。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_025",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十一·论正官",
+    "type": "经文",
+    "text": "官以克身，虽与七煞有别，终受彼制。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_026",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十一·论正官",
+    "type": "经文",
+    "text": "正官者分所当尊，如在国有君，在家有亲，刑冲破害，以下犯上，乌乎可乎？",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_027",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十一·论正官",
+    "type": "经文",
+    "text": "以刑冲破害为忌，则以生之护之为喜矣。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_028",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十一·论正官",
+    "type": "经文",
+    "text": "若财印不以两用，则单用印不若单用财，以印能护官，亦能泄官，而财生官也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_029",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十二·论正官取运",
+    "type": "经文",
+    "text": "取运之道，一八字则有一八字之论，其理甚精，其法甚活，只可大略言之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_030",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十二·论正官取运",
+    "type": "经文",
+    "text": "正官用财，运喜印绶身旺之地，切忌食伤。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_031",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十二·论正官取运",
+    "type": "经文",
+    "text": "正官佩印，运喜财乡，伤食反吉。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_032",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十三·论财",
+    "type": "经文",
+    "text": "财为我克，使用之物也，以能生官，所以为美。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_033",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十三·论财",
+    "type": "经文",
+    "text": "财喜根深，不宜太露，然透一位以清用，格所最喜，不为之露。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_034",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十三·论财",
+    "type": "经文",
+    "text": "有财旺生官者，身强而不透伤官，不混七煞，贵格也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_035",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十三·论财",
+    "type": "经文",
+    "text": "有财格佩印者，盖孤财不贵，佩印帮身，即印取贵。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_036",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十四·论财取运",
+    "type": "经文",
+    "text": "财格取运，即以财格所就之局，分而配之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_037",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十四·论财取运",
+    "type": "经文",
+    "text": "财用食生，财食重而身轻，则喜助身；财食轻而身重，则仍行财食。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_038",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十四·论财取运",
+    "type": "经文",
+    "text": "财格佩印，运喜官乡，身弱逢之，最喜印旺。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_039",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十五·论印绶",
+    "type": "经文",
+    "text": "印绶喜其生身，正偏同为美格，故财与印不分偏正，同为一格而论之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_040",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十五·论印绶",
+    "type": "经文",
+    "text": "有印而透官者，正官不独取其生印，而即可以为用。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_041",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十五·论印绶",
+    "type": "经文",
+    "text": "有印而用伤食者，身强印旺，恐其太过，泄身以为秀气。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_042",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十五·论印绶",
+    "type": "经文",
+    "text": "有印多而用财者，印重身强，透财以抑太过。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_043",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十六·论印绶取运",
+    "type": "经文",
+    "text": "印格取运，即以印格所成之局，分而配之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_044",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十六·论印绶取运",
+    "type": "经文",
+    "text": "印绶遇财，运喜劫地，官印亦亨，财乡则忌。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_045",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十六·论印绶取运",
+    "type": "经文",
+    "text": "印格而官煞竞透，运喜食神伤官，印旺身旺，行之亦利。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_046",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十七·论食神",
+    "type": "经文",
+    "text": "食神本属泄气，以其能生正财，所以喜之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_047",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十七·论食神",
+    "type": "经文",
+    "text": "食神生财，美格也。财要有根，不必偏正叠出。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_048",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十七·论食神",
+    "type": "经文",
+    "text": "若不用财而就煞印，最为威权显赫。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_049",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十七·论食神",
+    "type": "经文",
+    "text": "更有印来夺食，透财以解，亦有富贵，须就其全局之势而断之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_050",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十八·论食神取运",
+    "type": "经文",
+    "text": "食神取运，即以食神所成之局，分而配之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_051",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十八·论食神取运",
+    "type": "经文",
+    "text": "食神生财，财食轻，则行财食，财食重则喜帮身。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_052",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十八·论食神取运",
+    "type": "经文",
+    "text": "食神太旺而带印，运最利财，食伤亦吉，印则最忌。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_053",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十九·论偏官",
+    "type": "经文",
+    "text": "煞以攻身，似非美物，而大贵之格，多存七煞。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_054",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十九·论偏官",
+    "type": "经文",
+    "text": "七煞之格局亦不一：煞用食制者，上也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_055",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十九·论偏官",
+    "type": "经文",
+    "text": "有七煞用印者，印能护煞，本非所宜，而印有情，便为贵格。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_056",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "三十九·论偏官",
+    "type": "经文",
+    "text": "有煞而杂官者，或去官，或去煞，取清则贵。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_057",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十·论偏官取运",
+    "type": "经文",
+    "text": "偏官取运，即以偏官所成之局分而配之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_058",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十·论偏官取运",
+    "type": "经文",
+    "text": "煞用食制，煞重食轻则助食，煞轻食重则助煞。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_059",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十·论偏官取运",
+    "type": "经文",
+    "text": "煞用印绶，不利财乡，伤官为美，印绶身旺，俱为福地。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_060",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十一·论伤官",
+    "type": "经文",
+    "text": "伤官虽非吉神，实为秀气，故文人学士，多于伤官格内得之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_061",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十一·论伤官",
+    "type": "经文",
+    "text": "故有伤官用财者，伤官生财，则以伤官为生官之具，转凶为吉。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_062",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十一·论伤官",
+    "type": "经文",
+    "text": "有伤官佩印者，印能制伤，所以为贵，反要伤官旺，身稍弱，始为秀气。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_063",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十一·论伤官",
+    "type": "经文",
+    "text": "有伤官用官者，他格不用，金水独宜，然要财印为辅。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_064",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十二·论伤官取运",
+    "type": "经文",
+    "text": "伤官取运，即以伤官所成之局，分而配之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_065",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十二·论伤官取运",
+    "type": "经文",
+    "text": "伤官佩印，运行官煞为宜，印运亦吉，伤食不碍，财地则凶。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_066",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十二·论伤官取运",
+    "type": "经文",
+    "text": "伤官用官，运喜财印，不利食伤。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_067",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十三·论阳刃",
+    "type": "经文",
+    "text": "阳刃者，劫我正财之神，乃正财之七煞也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_068",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十三·论阳刃",
+    "type": "经文",
+    "text": "刃宜伏制，官煞皆宜，财印相随，尤为贵显。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_069",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十三·论阳刃",
+    "type": "经文",
+    "text": "阳刃用官，透刃不虑；阳刃露煞，透刃无成。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_070",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十三·论阳刃",
+    "type": "经文",
+    "text": "更若阳刃用财，格所不喜，然财根深而用伤食，以转刃生财。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_071",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十四·论阳刃取运",
+    "type": "经文",
+    "text": "阳刃用官，则运喜助官。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_072",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十四·论阳刃取运",
+    "type": "经文",
+    "text": "阳刃用煞，煞不甚旺，则运喜助煞；煞若太重，则运喜身旺印绶。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_073",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十四·论阳刃取运",
+    "type": "经文",
+    "text": "阳刃而官煞并出，不论去官去煞，运喜制伏，身旺亦利。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_074",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十五·论建禄月劫",
+    "type": "经文",
+    "text": "建禄者，月建逢禄堂也，禄即是劫。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_075",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十五·论建禄月劫",
+    "type": "经文",
+    "text": "故建禄与月劫，可同一格，不必加分，皆以透干支，别取财官煞食为用。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_076",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十五·论建禄月劫",
+    "type": "经文",
+    "text": "禄格用官，干头透出为奇，又要财印相随，不可孤官无辅。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_077",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十五·论建禄月劫",
+    "type": "经文",
+    "text": "禄劫用财，须带食伤，盖月令为劫而以财作用。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_078",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十六·论建禄月劫取运",
+    "type": "经文",
+    "text": "禄劫取运，即以禄劫所成之局，分而配之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_079",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十六·论建禄月劫取运",
+    "type": "经文",
+    "text": "禄劫用财而带伤食，财食重则喜印绶，而不忌比肩；财食轻则宜助财，而不喜印比。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_080",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十六·论建禄月劫取运",
+    "type": "经文",
+    "text": "禄劫而用伤食，财运最宜，煞亦不忌，行印非吉，透官不美。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_081",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十七·论杂格",
+    "type": "经文",
+    "text": "杂格者，月令无用，以外格而用之，其格甚多，故谓之杂。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_082",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十七·论杂格",
+    "type": "经文",
+    "text": "大约要干头无官无煞，方成格，如有官煞，则自有官煞为用。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_083",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十七·论杂格",
+    "type": "经文",
+    "text": "有从化取格者，要化出之物，得时乘令，四支局全。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_084",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十七·论杂格",
+    "type": "经文",
+    "text": "有倒冲成格者，以四柱列财官而对面以冲之，要支中字多，方冲得动。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_085",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十七·论杂格",
+    "type": "经文",
+    "text": "有合禄成格者，命无官星，借干支以合之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_086",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十八·论杂格取运",
+    "type": "经文",
+    "text": "若夫用官而孤官无辅，格局更小，难于取贵。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_087",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十八·论杂格取运",
+    "type": "经文",
+    "text": "用财而不透伤食，便难于发端，然干头透一位而不杂，地支根多，亦可取富。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_088",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十八·论杂格取运",
+    "type": "经文",
+    "text": "用官煞重而无制伏，运行制伏，亦可发财，但不可官煞太重，致令身危也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_EXP_089",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "四十八·论杂格取运",
+    "type": "经文",
+    "text": "禄劫取运，即以禄劫所成之局，分而配之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
+        "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "本条按《子平真诠》章节定位录入；仅作为原文证据，不直接等同于现代程序化规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
   }
 ]
