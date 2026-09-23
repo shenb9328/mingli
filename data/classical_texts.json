@@ -3539,5 +3539,285 @@
       "is_quotation": false,
       "is_editorial_commentary": false
     }
+  },
+  {
+    "text_id": "TXT_QTBG_GENG_001",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬庚金",
+    "type": "经文",
+    "text": "十月庚金，水冷性寒，非丁莫造，非丙不暖。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91",
+        "https://zh.wikisource.org/zh-hant/%E7%A9%B7%E9%80%9A%E5%AF%B6%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "庚金十月调候总则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_GENG_002",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬庚金",
+    "type": "经文",
+    "text": "十一月庚金，天气严寒，仍取丁甲，次取丙火照暖。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91",
+        "https://zh.wikisource.org/zh-hant/%E7%A9%B7%E9%80%9A%E5%AF%B6%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "庚金十一月调候总则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_GENG_003",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬庚金",
+    "type": "经文",
+    "text": "十二月庚金，寒气太重，且多湿泥，先取丙火解冻，次取丁火炼金。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91",
+        "https://zh.wikisource.org/zh-hant/%E7%A9%B7%E9%80%9A%E5%AF%B6%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "庚金十二月调候总则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_REN_001",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬壬水",
+    "type": "经文",
+    "text": "十月壬水，水势汪洋，取戊为堤，取丙为佐。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91",
+        "https://zh.wikisource.org/zh-hant/%E7%A9%B7%E9%80%9A%E5%AF%B6%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "壬水十月调候材料。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_REN_002",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬壬水",
+    "type": "经文",
+    "text": "十一月壬水，丙戊并用。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91",
+        "https://zh.wikisource.org/zh-hant/%E7%A9%B7%E9%80%9A%E5%AF%B6%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "壬水十一月短条。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_REN_003",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬壬水",
+    "type": "经文",
+    "text": "十二月壬水，旺极复衰，专用丙火，甲木佐之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91",
+        "https://zh.wikisource.org/zh-hant/%E7%A9%B7%E9%80%9A%E5%AF%B6%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "壬水十二月调候短条。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_GUI_001",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬癸水",
+    "type": "经文",
+    "text": "十月癸水，金生水旺，专用丁火。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91",
+        "https://zh.wikisource.org/zh-hant/%E7%A9%B7%E9%80%9A%E5%AF%B6%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "癸水十月调候材料。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_GUI_002",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬癸水",
+    "type": "经文",
+    "text": "十一月癸水，值冰冻之时，专用丙火解冻。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91",
+        "https://zh.wikisource.org/zh-hant/%E7%A9%B7%E9%80%9A%E5%AF%B6%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "癸水十一月调候总则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_GUI_003",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬癸水",
+    "type": "经文",
+    "text": "十二月癸水，寒极成冰，宜丙火解冻。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91",
+        "https://zh.wikisource.org/zh-hant/%E7%A9%B7%E9%80%9A%E5%AF%B6%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "癸水十二月调候总则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_WX_001",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "五行总论",
+    "type": "经文",
+    "text": "过与不及，皆为乖道。故高者抑之使平，下者举之使崇。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91",
+        "https://zh.wikisource.org/zh-hant/%E7%A9%B7%E9%80%9A%E5%AF%B6%E9%91%91"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "《穷通宝鉴》五行总论中的中和思想。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
   }
 ]
