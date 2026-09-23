@@ -1049,5 +1049,257 @@
       "is_quotation": false,
       "is_editorial_commentary": false
     }
+  },
+  {
+    "id": "TXT_DTS_TT_002",
+    "source_id": "SRC_DTS",
+    "source_layer": "original_text",
+    "chapter": "通天论",
+    "type": "经文",
+    "text": "配合干支仔细详，断人祸福与灾祥。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/滴天髓/01"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统《滴天髓》文本",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "id": "TXT_DTS_TT_003",
+    "source_id": "SRC_DTS",
+    "source_layer": "original_text",
+    "chapter": "通天论",
+    "type": "经文",
+    "text": "五阳从气不从势，五阴从势无情义。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/滴天髓/01"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统《滴天髓》文本",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "id": "TXT_DTS_XQ_001",
+    "source_id": "SRC_DTS",
+    "source_layer": "original_text",
+    "chapter": "性情",
+    "type": "经文",
+    "text": "五行不戾，惟正清和；浊乱偏枯，性情乖逆。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/滴天髓"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统《滴天髓》文本",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "id": "TXT_DTS_XS_001",
+    "source_id": "SRC_DTS",
+    "source_layer": "original_text",
+    "chapter": "闲神",
+    "type": "经文",
+    "text": "闲神一二未为疵，不去何妨莫动伊。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/滴天髓"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统《滴天髓》文本",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "id": "TXT_DTS_HN_002",
+    "source_id": "SRC_DTS",
+    "source_layer": "original_text",
+    "chapter": "寒暖",
+    "type": "经文",
+    "text": "天道有寒暖，发育万物，人道行之，不可过也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/滴天髓"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统《滴天髓》文本",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "id": "TXT_DTS_CFMF_001",
+    "source_id": "SRC_DTS",
+    "source_layer": "original_text",
+    "chapter": "从象",
+    "type": "经文",
+    "text": "孤立无气唯有从，依得财官享富贵。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/滴天髓/41"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [
+        "原文在不同整理本中存在编次差异"
+      ]
+    },
+    "text_provenance": {
+      "traditional_attribution": "《滴天髓》从象章；不同整理本有异文",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "id": "TXT_DTS_GJ_001",
+    "source_id": "SRC_DTS",
+    "source_layer": "original_text",
+    "chapter": "贵贱贫富吉凶寿夭",
+    "type": "经文",
+    "text": "何知其人贵，官星有理会。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/滴天髓/41"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统《滴天髓》文本",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "id": "TXT_DTS_GF_001",
+    "source_id": "SRC_DTS",
+    "source_layer": "original_text",
+    "chapter": "贵贱贫富吉凶寿夭",
+    "type": "经文",
+    "text": "何知其人富，财气通门户。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/滴天髓/41"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统《滴天髓》文本",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "id": "TXT_DTS_JJ_001",
+    "source_id": "SRC_DTS",
+    "source_layer": "original_text",
+    "chapter": "贵贱贫富吉凶寿夭",
+    "type": "经文",
+    "text": "何知其人贱，官星总不见。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/滴天髓/41"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统《滴天髓》文本",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "id": "TXT_DTS_QX_003",
+    "source_id": "SRC_DTS",
+    "source_layer": "original_text",
+    "chapter": "气象",
+    "type": "经文",
+    "text": "天地顺遂而精粹者昌，阴阳乖悖而混乱者亡。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/滴天髓"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": []
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统《滴天髓》文本",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
   }
 ]
