@@ -40464,5 +40464,1822 @@
       "interpretation_verified": true,
       "rule_logic_verified": true
     }
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0960",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "三元體用定義",
+    "priority": 95,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1353"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1353",
+        "statement": "支為體，人元為用。"
+      }
+    ],
+    "statement": {
+      "principle": "天干為天元，地支為地元，地支中藏干為人元。地支作為五行之體，其中所藏的人元作為發揮作用的用神基礎。",
+      "deduction": "分析命局時，需以地支為根本，深入挖掘其中藏干（人元）的作用，這是萬法歸宗的基礎。",
+      "strength": "基礎性"
+    },
+    "conditions": {
+      "required": [
+        "分析地支藏干",
+        "區分天元地元人元"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0961",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "帝載神功與四時主宰",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1354"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1354",
+        "statement": "春木夏火秋金冬水，厚土得時則旺"
+      }
+    ],
+    "statement": {
+      "principle": "五行之氣雖無時無刻不流行，但四時各有主宰。春主木、夏主火、秋主金、冬主水，土則隨四季末或得時而旺。",
+      "deduction": "判斷五行旺衰必須結合季節（月令），不可脫離時令空談五行生剋。",
+      "strength": "決定性"
+    },
+    "conditions": {
+      "required": [
+        "確定月令季節",
+        "對應五行當令"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0962",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "順逆之機辨正",
+    "priority": 98,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1355"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1355",
+        "statement": "非生為順，剋為逆，亦非會合為吉，刑沖為凶也。"
+      }
+    ],
+    "statement": {
+      "principle": "順逆吉凶不能機械地理解為生即順、剋即逆，或會合即吉、刑沖即凶。",
+      "deduction": "必須根據命局整體需求，判斷生剋刑沖是否合乎其宜，避免機械套用吉凶定式。",
+      "strength": "核心原則"
+    },
+    "conditions": {
+      "required": [
+        "綜合分析命局喜忌",
+        "避免機械對應"
+      ],
+      "exclusions": [
+        "單純以生剋定吉凶"
+      ]
+    },
+    "scope": [
+      "原局",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0963",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "順逆之機具體判定",
+    "priority": 99,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1356"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1356",
+        "statement": "必須合乎其宜，應生者生，應剋者剋，則為順，不應生而生，不應剋而剋，則為逆。"
+      }
+    ],
+    "statement": {
+      "principle": "順逆的標準在於是否「合乎其宜」。命局需要生扶時得到生扶，需要剋制時得到剋制，方為順；反之則為逆。",
+      "deduction": "判斷大運流年吉凶時，需看該運干支是否滿足原局對生剋的需求。若原局喜生而運來剋，或原局喜剋而運來生，皆為逆，主凶。",
+      "strength": "決定性"
+    },
+    "conditions": {
+      "required": [
+        "明確原局喜忌",
+        "分析運年干支對原局的生剋關係"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0964",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "四柱流通與中和",
+    "priority": 95,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1357"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1357",
+        "statement": "人之命造，最要四柱流通，五行生化補偏救弊，合於中和大忌偏枯缺陷。"
+      }
+    ],
+    "statement": {
+      "principle": "命造的最高境界是四柱氣機流通，五行生化有情，能夠補救偏枯，達到中和狀態。",
+      "deduction": "若命局偏枯缺陷且無流通補救，則為下格；若流通中和，則為上格。",
+      "strength": "核心原則"
+    },
+    "conditions": {
+      "required": [
+        "五行流通",
+        "補偏救弊",
+        "趨向中和"
+      ],
+      "exclusions": [
+        "偏枯無救"
+      ]
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0965",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "理氣乘除與進退",
+    "priority": 96,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1358"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1358",
+        "statement": "談命者不能專恃五行正理，須知天行之理，與四時之氣，互相乘除而行，本無常道，必須隨氣之進退而抑揚之方能斷其吉凶也。"
+      }
+    ],
+    "statement": {
+      "principle": "五行之理與四時之氣互相影響（乘除），沒有固定不變的常道。必須根據氣之進退（季節氣場變化）來調整對五行強弱的判斷。",
+      "deduction": "斷吉凶時，不能死守五行生剋正理，必須考慮季節氣場對五行力量的增減（進退），從而決定用神的抑揚。",
+      "strength": "核心原則"
+    },
+    "conditions": {
+      "required": [
+        "結合月令氣場",
+        "分析五行進退"
+      ],
+      "exclusions": [
+        "脫離時令空談五行"
+      ]
+    },
+    "scope": [
+      "原局",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0966",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "微弱可用與生旺不可用",
+    "priority": 92,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1359"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1359",
+        "statement": "四柱配合于支，有微弱而可用，有生旺而不可用者，無一定也。"
+      }
+    ],
+    "statement": {
+      "principle": "地支配合中，五行力量微弱者有時可用，力量生旺者有時反而不可用，沒有絕對標準。",
+      "deduction": "判斷用神可用性時，需綜合考慮干支配合、位置及氣場進退，不可僅看旺衰。",
+      "strength": "重要"
+    },
+    "conditions": {
+      "required": [
+        "分析干支配合",
+        "考慮氣場進退"
+      ],
+      "exclusions": [
+        "僅以旺衰定用神"
+      ]
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0967",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "氣之進退影響壽命",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1360"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1360",
+        "statement": "生於三月，木有餘氣，火方進氣，所以雖無根，樹而至今年逾知命。"
+      }
+    ],
+    "statement": {
+      "principle": "三月（辰月）木氣雖退但仍有餘氣，火氣正進。即使日主無強根，因得氣之進退相助，仍可長壽。",
+      "deduction": "判斷長壽或短命，需細究月令餘氣與進氣對日主的支撐作用。",
+      "strength": "重要"
+    },
+    "conditions": {
+      "required": [
+        "月令為辰月",
+        "日主為火或木",
+        "考慮餘氣與進氣"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0968",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "氣之進退影響生死",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1361"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1361",
+        "statement": "若生於七月，易為丙戌、丙申、丙申、壬辰，則正合丙臨申位逢壬水難獲延年之說，早離此濁世而去矣。"
+      }
+    ],
+    "statement": {
+      "principle": "七月（申月）金旺火絕，若日主丙火臨申位且逢壬水剋，氣之進退不利，則難獲延年。",
+      "deduction": "同樣的干支組合，因月令不同（氣之進退不同），吉凶生死結論截然相反。",
+      "strength": "決定性"
+    },
+    "conditions": {
+      "required": [
+        "月令為申月",
+        "日主丙火",
+        "逢壬水剋"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0969",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "同格異命因氣進退",
+    "priority": 94,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1362"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1362",
+        "statement": "依五行之理，同爲傷官生财，因氣之進退而有可用、不可用之別。"
+      }
+    ],
+    "statement": {
+      "principle": "即使格局相同（如傷官生財），因月令氣之進退不同，導致用神可用或不可用，從而產生貴賤貧富的巨大差異。",
+      "deduction": "分析格局時，必須結合月令氣場，判斷格局中的用神是否得氣而可用。",
+      "strength": "核心原則"
+    },
+    "conditions": {
+      "required": [
+        "格局相同",
+        "月令氣場不同"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0970",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "干支配合與氣勢相接",
+    "priority": 93,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1363"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1363",
+        "statement": "加以卯不在年，申不在時，相隔太遠，氣勢不接，凍木無燄，故不能用木火也。"
+      }
+    ],
+    "statement": {
+      "principle": "干支配合中，若相關五行位置相隔太遠，氣勢無法相接，則無法發揮作用。如冬月木火，若無近處根氣相接，則為凍木無燄，不可用。",
+      "deduction": "判斷用神有效性時，需考慮干支位置是否鄰近，氣勢是否流通相接。",
+      "strength": "重要"
+    },
+    "conditions": {
+      "required": [
+        "干支位置相隔遠",
+        "冬月木火",
+        "無近處根氣"
+      ],
+      "exclusions": [
+        "干支鄰近且氣勢相接"
+      ]
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0971",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "阳干从气不从势",
+    "priority": 95,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1364"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1364",
+        "statement": "陽干從氣不從勢，陰干從勢無情義。"
+      }
+    ],
+    "statement": {
+      "principle": "阳干性质刚健，有特立独行之性，非至本气休囚死绝之地，不能言从。",
+      "deduction": "阳干虽方官党众势强而弱，自归其弱，运吾扶身，不能弃原来之根性也。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "命局中为阳干",
+        "未至本气休囚死绝之地或虽临死绝见印相生"
+      ],
+      "exclusions": [
+        "弃命从格"
+      ]
+    },
+    "scope": [
+      "原局",
+      "大运"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0972",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "阴干从势无情义",
+    "priority": 95,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1365"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1365",
+        "statement": "陽干從氣不從勢，陰干從勢無情義。"
+      }
+    ],
+    "statement": {
+      "principle": "阴干其性柔弱，见四柱才旺则从才，煞旺则从煞。",
+      "deduction": "即使通根月令，自坐生地，亦所不論此所以為從勢無情義也。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "命局中为阴干",
+        "四柱才旺或煞旺之势"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0973",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "阳干绝处逢生",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1366"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1366",
+        "statement": "或雖臨死絕，而見印相生，仍為絕處逢生，亦不能從。"
+      }
+    ],
+    "statement": {
+      "principle": "阳干临死绝之地，若见印星相生，则为绝处逢生。",
+      "deduction": "不能作从论，仍保持独立之本性。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "阳干临死绝",
+        "四柱见印星相生"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0974",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "阴干从势须察配合",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1367"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1367",
+        "statement": "陰干雖云從勢無情義然亦須察其配合。"
+      }
+    ],
+    "statement": {
+      "principle": "阴干虽易从势，但必须审察干支之间的实际配合趋向。",
+      "deduction": "若有情生印、印生身等情况，则不能作从论。",
+      "strength": "倾向性"
+    },
+    "conditions": {
+      "required": [
+        "阴干",
+        "察干支配合之趋向"
+      ],
+      "exclusions": [
+        "有印生身或情生印"
+      ]
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0975",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "甲木参天脱胎要火",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1368"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1368",
+        "statement": "甲木參天，脫胎要火。春不容金，秋不容土。"
+      }
+    ],
+    "statement": {
+      "principle": "甲为纯阳之木，有参天之势。生于春初木嫩气寒，得火而发；仲春旺极宜洩其菁英。",
+      "deduction": "初春嫩木不宜金克；仲春衰金克旺木反金缺；秋季木囚土虛不能培根反生金克，故秋不容土。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "日主为甲木",
+        "春生得火或秋生避土"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0976",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "火燥坐辰水泛坐寅",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1369"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1369",
+        "statement": "火熾乘龍，水蕩騎虎。地潤天和，植立千古。"
+      }
+    ],
+    "statement": {
+      "principle": "支全火局而透丙丁，火旺木焚宜坐辰（湿土培木泄火）；水泛木浮宜坐寅（木之禄地藏火土纳水）。",
+      "deduction": "火躁坐辰，水泛坐寅，金木土不相克，为地润天和之象。",
+      "strength": "倾向性"
+    },
+    "conditions": {
+      "required": [
+        "甲木日主",
+        "火炽或水泛之病"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0977",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "干支克战轻重",
+    "priority": 95,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1370"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1370",
+        "statement": "天干冲戰，地支會合有力可以息動解爭；地支冲戰，天干無能爲力。干剋爲輕，支冲爲重。"
+      }
+    ],
+    "statement": {
+      "principle": "干以支为根，支以干为苗。天干相战得地支会合可解，地支相冲则天干无能为力",
+      "deduction": "干克为轻，支冲为重，根拔则苗枯",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "天干相战或地支相冲"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0978",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "生方怕动",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1371"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1371",
+        "statement": "寅申已亥、四生之地名為生方，忌沖動。"
+      }
+    ],
+    "statement": {
+      "principle": "四生之地（寅申巳亥）气方萌动，向旺而非旺而有余",
+      "deduction": "忌见冲克，冲则根拔而生机歇矣",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "寅申巳亥生方"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0979",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "三刑逢冲祸烈",
+    "priority": 95,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1372"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1372",
+        "statement": "刑沖害三者之中，以沖為重，刑害為輕，但三刑不可逢沖，三刑逢沖為禍甚烈。"
+      }
+    ],
+    "statement": {
+      "principle": "刑冲害中以冲为重，三刑本以刑论，若再逢冲则灾祸极烈",
+      "deduction": "三刑逢冲横祸生",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "三刑全或见刑",
+        "逢冲相见"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0980",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "干支配合顺遂精粹与乖悖混乱",
+    "priority": 95,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1373"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1373",
+        "statement": "天地者，天干地支也。順遂者，體用配合適宜，相生有情，生意不悖也。精粹者，氣勢團結，四柱互相衛護有情也。反之則為乖悖混亂，格局之高低貧富貴賤，此兩局為總要關鍵。"
+      }
+    ],
+    "statement": {
+      "principle": "干支配合得宜、相生有情且气势团结为顺遂精粹；反之流于散漫偏枯则为乖悖混乱，此乃决定格局高低贵贱的关键。",
+      "deduction": "八字若顺遂精粹，主富贵高格；若乖悖混乱，则主贫贱下格。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "体用配合适宜",
+        "相生有情",
+        "气势团结"
+      ],
+      "exclusions": [
+        "散漫",
+        "偏枯",
+        "乖悖混乱"
+      ]
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0981",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "天覆地載与上下有情",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1374"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1374",
+        "statement": "所以干支不論有根無根，只要上下有情，配合得宜即是好八字，天覆地載謂工下有情也"
+      }
+    ],
+    "statement": {
+      "principle": "天覆地載的核心在于上下有情、配合得宜，不论是否有强根，只要配合好即是好八字。",
+      "deduction": "干支上下情意相投、相互护卫，则局势自然美满。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "上下有情",
+        "配合得宜"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0982",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "阳乘阳位与阴乘阴位之偏枯救应",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1375"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1375",
+        "statement": "陽乘陽位而陽氣太盛，則流於枯燥；陰乘陰位而陰氣太盛，則流於寒溼。氣勢偏枯，則乖悖混亂矣。根在苗先，陽盛局中，必須要頓一點溼潤之氣；陰盛局中，必須要頓一點陽和之氣。"
+      }
+    ],
+    "statement": {
+      "principle": "四柱若纯阳或纯阴，极易导致阳盛枯燥或阴盛寒湿之偏枯乖悖，必须有相反之气进行调候救应。",
+      "deduction": "阳盛局中须得湿润之气，阴盛局中须得阳和之气，行运引出方能光亨，否则原局无根虽顺运福泽不厚。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "阳乘阳位配湿气",
+        "阴乘阴位配阳气"
+      ],
+      "exclusions": [
+        "无根之苗虽盛不久"
+      ]
+    },
+    "scope": [
+      "原局",
+      "大运"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0983",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "兩氣成象",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1376"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1376",
+        "statement": "兩氣成象謂干支各半氣勢相均有相生相敵各互局詳住。"
+      }
+    ],
+    "statement": {
+      "principle": "干支各半，气势相均，或相生或相敌，构成两气成象之局。",
+      "deduction": "既已成象即不可破，违背则破格。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "干支各半",
+        "气势相均"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0984",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "獨象喜化",
+    "priority": 95,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1377"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1377",
+        "statement": "獨象喜行化地而化神要昌，全象喜行財地而財神要旺。"
+      }
+    ],
+    "statement": {
+      "principle": "独象气势偏于一方，其象专一，日元太旺宜食伤以泄之引化其旺气；全象有食伤、才星、官星，行财旺之地以化食伤而生官。",
+      "deduction": "成象成格之造，一生福澤自佳。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "气势专一偏于一方"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "大运"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0985",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "方局純疵",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1378"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1378",
+        "statement": "方是方兮局是局，方要得方莫混局。"
+      }
+    ],
+    "statement": {
+      "principle": "方与局不可相混，若相混则局不成，方不成方，非形象之全也。",
+      "deduction": "混杂则不纯，影响格局高低。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "方或局取其全"
+      ],
+      "exclusions": [
+        "方局相混"
+      ]
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0986",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "局混方有纯疵",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1379"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1379",
+        "statement": "局混方兮有纯疵，行运喜南还喜北。"
+      }
+    ],
+    "statement": {
+      "principle": "得方而混以局，与得局而混以方略有不同，局混方有纯疵之别，在取用行运中有所差异。",
+      "deduction": "依具体局混方的月令与燥湿不同，喜南喜北各异。",
+      "strength": "参考性"
+    },
+    "conditions": {
+      "required": [
+        "局混方"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "大运"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0987",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "方局齊來干頭無反覆",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1380"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1380",
+        "statement": "成方干透一元神，生地庫地皆為福。成局干透一官星，匠邊石邊空碌碌。"
+      }
+    ],
+    "statement": {
+      "principle": "方局齐来时，天干须一顺相生，透出元神为无反覆；若支成方局而干透官煞逆其旺气，则为反覆。",
+      "deduction": "干头无反覆则秀气流动，有反覆则空碌碌无成就。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "方局齐来",
+        "干透元神顺生"
+      ],
+      "exclusions": [
+        "干透官煞逆旺气"
+      ]
+    },
+    "scope": [
+      "原局",
+      "大运"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0988",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "用才身旺任才",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1381"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1381",
+        "statement": "用才皆須身旺，身旺方能任財。譬如我人精神健旺，方能享妻妾之奉，否則雖有之而不享受也。故才旺身弱稱為富屋貧人。"
+      }
+    ],
+    "statement": {
+      "principle": "财星代表财富与妻妾，日主必须自身强旺，方能承受与享用财星之气。",
+      "deduction": "身旺用才则能富贵，若才旺而身弱，则称为富屋贫人，虽有如无。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "身旺",
+        "才旺"
+      ],
+      "exclusions": [
+        "才旺身弱"
+      ]
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0989",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "财喜逢禄",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1382"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1382",
+        "statement": "凡財皆喜祿，如建祿（月令得祿）、專祿（日主坐祿）、歸祿（時支逢祿），皆為所喜。用財逢祿，不貴必富。"
+      }
+    ],
+    "statement": {
+      "principle": "禄代表日主或财星的元气与根基，得禄则身健或财厚。",
+      "deduction": "用财而逢禄（建禄、专禄、归禄），主其人非贵即富。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "用财",
+        "逢建禄专禄或归禄"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0990",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "食神制煞优于伤官制煞",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1383"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1383",
+        "statement": "食神制煞傷官亦能制煞，唯其力不純，較食神為遜。乃陰陽干配合之關係也。蓋日主為陽干，食神亦為陽干，煞為陰干，陰陽相制為有力，若傷官制煞則為陰干與陰干相制，陽干與陽干相制，氣勢不純也。"
+      }
+    ],
+    "statement": {
+      "principle": "食神与日主同性（阳克阳或阴克阴为同类异性相制之理，食神对偏官为异性相制有力），伤官与煞同阴阳则气势不纯。",
+      "deduction": "食神制煞之力强于伤官制煞，食神制煞为正格。",
+      "strength": "倾向性"
+    },
+    "conditions": {
+      "required": [
+        "制煞配置"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0991",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "杂气财官引出方用",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1384"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1384",
+        "statement": "雜氣財官得用者極少，蓋透出者與財官為用，無二。不透出者大都不能用。必須須財官為用，而干不透出，支不會，見運程引出，方為真正之雜氣財官格也。"
+      }
+    ],
+    "statement": {
+      "principle": "辰戌丑未四库为杂气，其中财官若不透干或会合，原局力量隐伏，需借岁运引出方能发挥作用。",
+      "deduction": "杂气财官不透不合者，必须等待运程引出方可成格发迹，运不引出则一生困于有耗艰难。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "杂气财官未透未会",
+        "行运引出"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "大运"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0992",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "用神忌冲与合之辨",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1385"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1385",
+        "statement": "大致用神所在，必不可損傷，而預傷豈不為害？逢合則重重鎖閉，亦為忌見。但合之中有分別，如成見寅午會，見卯合，反引火出；丑見酉會，亦是引金出，若用丑申金水見子合，則忌須以意消息之，禾可一例論也。不特雜氣財官如是，平常用神入墓，忌沖合，皆同此理。"
+      }
+    ],
+    "statement": {
+      "principle": "用神喜静忌伤，逢合多为锁闭（忌见），但特定的合会组合（如寅午会合卯反引火出、丑见酉会引金）能起引出作用。",
+      "deduction": "用神与入墓之神，逢冲合需具体辨别是“锁闭”还是“引出”，不可一概而论。",
+      "strength": "倾向性"
+    },
+    "conditions": {
+      "required": [
+        "分析合会具体五行走向"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "大运",
+      "流年"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0993",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "日主與月令之體用歸屬",
+    "priority": 95,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1386"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1386",
+        "statement": "日主者體之體，月令者體之用。用神者用之體者神者用之用也。體用分清，即不致賓主清混矣。"
+      }
+    ],
+    "statement": {
+      "principle": "日主為體之體，月令為體之用；用神為用之體，喜神為用之用，明確賓主之分。",
+      "deduction": "體用分清則賓主不混，推命方能得其要領。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "日主",
+        "月令",
+        "用神"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0994",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "精神之所在",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1387"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1387",
+        "statement": "用神之有情無情有力無力以及干支之後先寒暖燥濕之適宜皆爲精神之所寄"
+      }
+    ],
+    "statement": {
+      "principle": "命局的精神寄託於用神之有情無情、有力無力，以及干支先後與寒暖燥濕之適宜。",
+      "deduction": "八字優劣在於精神之有無與高低，寒暖燥濕適中即為精神所在。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "干支配合",
+        "寒暖燥濕適宜"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0995",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "提綱與生時之重要性",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1388"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1388",
+        "statement": "月令名为提纲，纲者纲领也。配合虽统看四柱，而日主用神之旺衰，当令与否，端在月时。"
+      }
+    ],
+    "statement": {
+      "principle": "月令為提綱，統看四柱配合之際，日主與用神的旺衰是否當令，完全取決於月令與時支。",
+      "deduction": "推斷日主用神旺衰必須以月時為核心依據。",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "月令",
+        "生時"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0996",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "春木不生不用金",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1389"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1389",
+        "statement": "春不生氣，運勃畏見庚辛之所伐，故春不用金，決非工格"
+      }
+    ],
+    "statement": {
+      "principle": "春季木气正处于萌芽生发之初，春不生气，若逢庚辛金克伐则伤生机",
+      "deduction": "故春季木旺或逢春不宜见金克，不可盲目以金为用",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "日主为木",
+        "生于春月"
+      ],
+      "exclusions": [
+        "金旺有火制"
+      ]
+    },
+    "scope": [
+      "原局",
+      "提纲"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0997",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "秋木喜金剋制",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1390"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1390",
+        "statement": "秋木生氣下飮外象枯枝落葉室礙生機，非經一番蕭殺則氣轉陽和之候，木氣不能條達生機不暢，故秋木喜金剋制者，以殺爲生也。"
+      }
+    ],
+    "statement": {
+      "principle": "秋季木气收敛，枯枝落叶阻碍生机，必须经过金之萧杀雕琢，方能转生机而条达",
+      "deduction": "秋木不畏金克，反而喜金克制，此乃以杀为生之变理",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "日主为木",
+        "生于秋月"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0998",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "夏木宜印冬木宜洩",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1391"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1391",
+        "statement": "夏木綠葉陰濃，反宜印綬生扶。冬木枝枯葉瘁，反宜食傷洩氣，此為調候之作用，更當別論。"
+      }
+    ],
+    "statement": {
+      "principle": "夏季枝繁叶茂需要印绶生扶，冬季枝枯叶瘁需要食伤泄秀，此乃五行之调候原则",
+      "deduction": "夏木不作强论反宜生，冬木不作弱论反宜泄",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "木生夏月或冬月"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_0999",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "金之調候與淘洗",
+    "priority": 90,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1392"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1392",
+        "statement": "金生於秋喜見火制以成器，生於冬宜丙火之溫暖，生於春夏喜壬水之淘洗。"
+      }
+    ],
+    "statement": {
+      "principle": "金性根据出生季节不同，其喜忌各有差异：秋金喜火成器，冬金喜丙火温暖，春夏金喜壬水淘洗",
+      "deduction": "推断金行旺衰与用神时必须参酌季节寒暖燥湿",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "日主为金"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局",
+      "提纲"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_1000",
+    "category": "体用",
+    "rule_type": "核心",
+    "name": "阳干从气阴干从势",
+    "priority": 95,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1393"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1393",
+        "statement": "復次陽干從氣陰干從勢。"
+      }
+    ],
+    "statement": {
+      "principle": "十干之中，阳干性质刚健，多主从气；阴干性质柔顺，多主从势",
+      "deduction": "论命时须辨别阴阳干之不同取用逻辑，阴干多顺从旺势",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "阴干逢旺势无依"
+      ],
+      "exclusions": [
+        "阳干不作从势论"
+      ]
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_1001",
+    "category": "旺衰",
+    "rule_type": "核心",
+    "name": "五行中和正理",
+    "priority": 100,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1394"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1394",
+        "statement": "強者宜抑弱者宜扶抑之扶之使歸於中和此五行之正理也"
+      }
+    ],
+    "statement": {
+      "principle": "强金强木等旺者应当抑制，弱者应当扶助，使其归于中和，这是五行不变的正理",
+      "deduction": "命局最终追求平衡中和，一切抑扬扶遏皆为此目的服务",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "原局失衡"
+      ],
+      "exclusions": []
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
+  },
+  {
+    "rule_id": "CORE_SRC_DTS_BJ_1002",
+    "category": "格局",
+    "rule_type": "核心",
+    "name": "源流周流无滞",
+    "priority": 92,
+    "source_refs": [
+      "SRC_DTS_BJ"
+    ],
+    "text_refs": [
+      "TXT_SRC_DTS_BJ_1395"
+    ],
+    "historical_principles": [
+      {
+        "text_ref": "TXT_SRC_DTS_BJ_1395",
+        "statement": "源流者，四柱生化不息，五行周流無滯也。看其從何處起源，順序相生，至何處為住，其中薈萃之點，即用神所在。"
+      }
+    ],
+    "statement": {
+      "principle": "四柱干支若能生化不息、周流无滞，顺次相生并汇聚于某一点，这一点即是全盘精华与用神所在",
+      "deduction": "源流纯粹、周流无滞之造，主一生宦海无波、福泽深厚",
+      "strength": "决定性"
+    },
+    "conditions": {
+      "required": [
+        "四柱干支相生有情",
+        "气势有归宿"
+      ],
+      "exclusions": [
+        "刑冲破害导致气滞"
+      ]
+    },
+    "scope": [
+      "原局"
+    ],
+    "confidence": {
+      "grade": "A",
+      "source_verified": true,
+      "interpretation_verified": true,
+      "rule_logic_verified": true
+    },
+    "verification": "verified"
   }
 ]

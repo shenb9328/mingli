@@ -33328,5 +33328,951 @@
       "author": "传统通行本《穷通宝鉴》"
     },
     "notes": "原 data-expansion-v2 收录，现完成合并归档。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1353",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "通神頌",
+    "type": "注疏",
+    "text": "支為體，人元為用。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/通神頌",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·通神頌》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1354",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "通神頌",
+    "type": "注疏",
+    "text": "春木夏火秋金冬水，厚土得時則旺",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/通神頌",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·通神頌》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1355",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "通神頌",
+    "type": "注疏",
+    "text": "非生為順，剋為逆，亦非會合為吉，刑沖為凶也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/通神頌",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·通神頌》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1356",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "通神頌",
+    "type": "注疏",
+    "text": "必須合乎其宜，應生者生，應剋者剋，則為順，不應生而生，不應剋而剋，則為逆。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/通神頌",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·通神頌》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1357",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "通神頌",
+    "type": "注疏",
+    "text": "人之命造，最要四柱流通，五行生化補偏救弊，合於中和大忌偏枯缺陷。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/通神頌",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·通神頌》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1358",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "通神頌",
+    "type": "注疏",
+    "text": "談命者不能專恃五行正理，須知天行之理，與四時之氣，互相乘除而行，本無常道，必須隨氣之進退而抑揚之方能斷其吉凶也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/通神頌",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·通神頌》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1359",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "通神頌",
+    "type": "注疏",
+    "text": "四柱配合于支，有微弱而可用，有生旺而不可用者，無一定也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/通神頌",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·通神頌》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1360",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "通神頌",
+    "type": "注疏",
+    "text": "生於三月，木有餘氣，火方進氣，所以雖無根，樹而至今年逾知命。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/通神頌",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·通神頌》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1361",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "通神頌",
+    "type": "注疏",
+    "text": "若生於七月，易為丙戌、丙申、丙申、壬辰，則正合丙臨申位逢壬水難獲延年之說，早離此濁世而去矣。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/通神頌",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·通神頌》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1362",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "通神頌",
+    "type": "注疏",
+    "text": "依五行之理，同爲傷官生财，因氣之進退而有可用、不可用之別。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/通神頌",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·通神頌》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1363",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "通神頌",
+    "type": "注疏",
+    "text": "加以卯不在年，申不在時，相隔太遠，氣勢不接，凍木無燄，故不能用木火也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/通神頌",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·通神頌》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1364",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "論天干",
+    "type": "注疏",
+    "text": "陽干從氣不從勢，陰干從勢無情義。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/論天干",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·論天干》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1365",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "論天干",
+    "type": "注疏",
+    "text": "陽干從氣不從勢，陰干從勢無情義。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/論天干",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·論天干》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1366",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "論天干",
+    "type": "注疏",
+    "text": "或雖臨死絕，而見印相生，仍為絕處逢生，亦不能從。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/論天干",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·論天干》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1367",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "論天干",
+    "type": "注疏",
+    "text": "陰干雖云從勢無情義然亦須察其配合。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/論天干",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·論天干》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1368",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "論天干",
+    "type": "注疏",
+    "text": "甲木參天，脫胎要火。春不容金，秋不容土。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/論天干",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·論天干》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1369",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "論天干",
+    "type": "注疏",
+    "text": "火熾乘龍，水蕩騎虎。地潤天和，植立千古。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/論天干",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·論天干》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1370",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "論地支",
+    "type": "注疏",
+    "text": "天干冲戰，地支會合有力可以息動解爭；地支冲戰，天干無能爲力。干剋爲輕，支冲爲重。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/論地支",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·論地支》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1371",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "論地支",
+    "type": "注疏",
+    "text": "寅申已亥、四生之地名為生方，忌沖動。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/論地支",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·論地支》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1372",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "論地支",
+    "type": "注疏",
+    "text": "刑沖害三者之中，以沖為重，刑害為輕，但三刑不可逢沖，三刑逢沖為禍甚烈。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/論地支",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·論地支》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1373",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "總論干支",
+    "type": "注疏",
+    "text": "天地者，天干地支也。順遂者，體用配合適宜，相生有情，生意不悖也。精粹者，氣勢團結，四柱互相衛護有情也。反之則為乖悖混亂，格局之高低貧富貴賤，此兩局為總要關鍵。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/總論干支",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·總論干支》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1374",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "總論干支",
+    "type": "注疏",
+    "text": "所以干支不論有根無根，只要上下有情，配合得宜即是好八字，天覆地載謂工下有情也",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/總論干支",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·總論干支》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1375",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "總論干支",
+    "type": "注疏",
+    "text": "陽乘陽位而陽氣太盛，則流於枯燥；陰乘陰位而陰氣太盛，則流於寒溼。氣勢偏枯，則乖悖混亂矣。根在苗先，陽盛局中，必須要頓一點溼潤之氣；陰盛局中，必須要頓一點陽和之氣。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/總論干支",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·總論干支》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1376",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "形象格局",
+    "type": "注疏",
+    "text": "兩氣成象謂干支各半氣勢相均有相生相敵各互局詳住。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/形象格局",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·形象格局》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1377",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "形象格局",
+    "type": "注疏",
+    "text": "獨象喜行化地而化神要昌，全象喜行財地而財神要旺。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/形象格局",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·形象格局》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1378",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "形象格局",
+    "type": "注疏",
+    "text": "方是方兮局是局，方要得方莫混局。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/形象格局",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·形象格局》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1379",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "形象格局",
+    "type": "注疏",
+    "text": "局混方兮有纯疵，行运喜南还喜北。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/形象格局",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·形象格局》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1380",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "形象格局",
+    "type": "注疏",
+    "text": "成方干透一元神，生地庫地皆為福。成局干透一官星，匠邊石邊空碌碌。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/形象格局",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·形象格局》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1381",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "形象格局",
+    "type": "注疏",
+    "text": "用才皆須身旺，身旺方能任財。譬如我人精神健旺，方能享妻妾之奉，否則雖有之而不享受也。故才旺身弱稱為富屋貧人。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/形象格局",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·形象格局》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1382",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "形象格局",
+    "type": "注疏",
+    "text": "凡財皆喜祿，如建祿（月令得祿）、專祿（日主坐祿）、歸祿（時支逢祿），皆為所喜。用財逢祿，不貴必富。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/形象格局",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·形象格局》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1383",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "形象格局",
+    "type": "注疏",
+    "text": "食神制煞傷官亦能制煞，唯其力不純，較食神為遜。乃陰陽干配合之關係也。蓋日主為陽干，食神亦為陽干，煞為陰干，陰陽相制為有力，若傷官制煞則為陰干與陰干相制，陽干與陽干相制，氣勢不純也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/形象格局",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·形象格局》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1384",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "形象格局",
+    "type": "注疏",
+    "text": "雜氣財官得用者極少，蓋透出者與財官為用，無二。不透出者大都不能用。必須須財官為用，而干不透出，支不會，見運程引出，方為真正之雜氣財官格也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/形象格局",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·形象格局》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1385",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "形象格局",
+    "type": "注疏",
+    "text": "大致用神所在，必不可損傷，而預傷豈不為害？逢合則重重鎖閉，亦為忌見。但合之中有分別，如成見寅午會，見卯合，反引火出；丑見酉會，亦是引金出，若用丑申金水見子合，則忌須以意消息之，禾可一例論也。不特雜氣財官如是，平常用神入墓，忌沖合，皆同此理。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/形象格局",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·形象格局》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1386",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "體用精神",
+    "type": "注疏",
+    "text": "日主者體之體，月令者體之用。用神者用之體者神者用之用也。體用分清，即不致賓主清混矣。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/體用精神",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·體用精神》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1387",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "體用精神",
+    "type": "注疏",
+    "text": "用神之有情無情有力無力以及干支之後先寒暖燥濕之適宜皆爲精神之所寄",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/體用精神",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·體用精神》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1388",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "體用精神",
+    "type": "注疏",
+    "text": "月令名为提纲，纲者纲领也。配合虽统看四柱，而日主用神之旺衰，当令与否，端在月时。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/體用精神",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·體用精神》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1389",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "體用精神",
+    "type": "注疏",
+    "text": "春不生氣，運勃畏見庚辛之所伐，故春不用金，決非工格",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/體用精神",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·體用精神》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1390",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "體用精神",
+    "type": "注疏",
+    "text": "秋木生氣下飮外象枯枝落葉室礙生機，非經一番蕭殺則氣轉陽和之候，木氣不能條達生機不暢，故秋木喜金剋制者，以殺爲生也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/體用精神",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·體用精神》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1391",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "體用精神",
+    "type": "注疏",
+    "text": "夏木綠葉陰濃，反宜印綬生扶。冬木枝枯葉瘁，反宜食傷洩氣，此為調候之作用，更當別論。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/體用精神",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·體用精神》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1392",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "體用精神",
+    "type": "注疏",
+    "text": "金生於秋喜見火制以成器，生於冬宜丙火之溫暖，生於春夏喜壬水之淘洗。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/體用精神",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·體用精神》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1393",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "體用精神",
+    "type": "注疏",
+    "text": "復次陽干從氣陰干從勢。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/體用精神",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·體用精神》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1394",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "體用精神",
+    "type": "注疏",
+    "text": "強者宜抑弱者宜扶抑之扶之使歸於中和此五行之正理也",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/體用精神",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·體用精神》徐乐吾评注精解，逐字核对入库。"
+  },
+  {
+    "text_id": "TXT_SRC_DTS_BJ_1395",
+    "source_id": "SRC_DTS_BJ",
+    "source_layer": "le_wu_notes",
+    "chapter": "體用精神",
+    "type": "注疏",
+    "text": "源流者，四柱生化不息，五行周流無滯也。看其從何處起源，順序相生，至何處為住，其中薈萃之點，即用神所在。",
+    "evidence": {
+      "evidence_level": "E2",
+      "base_edition": "民国二十六年上海原铅印本 / 育林出版社校勘本",
+      "digital_ref": "local:SRC_DTS_BJ/體用精神",
+      "transcription_verified": true,
+      "variants": []
+    },
+    "text_provenance": {
+      "author": "徐乐吾（补注）",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": true
+    },
+    "notes": "《滴天髓补注·體用精神》徐乐吾评注精解，逐字核对入库。"
   }
 ]
