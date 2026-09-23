@@ -1,6 +1,10 @@
 name: V3.7 Evidence Audit
 
 on:
+  push:
+    branches:
+      - main
+      - v3.7-evidence-audit
   pull_request:
     branches:
       - main
@@ -17,12 +21,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install opencc
 
       - name: Run evidence-chain audit
         run: |
           mkdir -p reports
-          python3 tools/audit_evidence_chain.py \
+          python tools/audit_evidence_chain.py \
             --json-out reports/V3.7_evidence_audit.json \
             --no-fail | tee reports/V3.7_evidence_audit.log
 

@@ -67,9 +67,9 @@
   {
     "text_id": "TXT_DTS_SY_001",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "commentary_ren",
     "chapter": "岁运",
-    "type": "经文",
+    "type": "注疏",
     "text": "休咎系乎运，尤系乎岁。战冲绁掣，往往为祸；休祥顺逆，亦当详审。",
     "evidence": {
       "evidence_level": "E3",
@@ -81,7 +81,7 @@
       "scan_ref": "守山阁丛书本·卷下"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "任铁樵",
       "quoted_author": null,
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -96,13 +96,14 @@
     "type": "原文",
     "text": "月令者，如人之家宅。专以月令提纲为重，次看日干得何等气，若月令有官星，即为官禄之命。",
     "evidence": {
-      "evidence_level": "E3",
+      "evidence_level": "E1",
       "base_edition": "文渊阁四库全书·子部·卷一",
       "digital_ref": "ctext:yuanhai-ziping/juan-1",
       "transcription_verified": true,
       "variants": [],
       "scan_verified": true,
-      "scan_ref": "文渊阁四库全书·子部·卷一"
+      "scan_ref": "文渊阁四库全书·子部·卷一",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition"
     },
     "text_provenance": {
       "author": "徐升",
@@ -168,13 +169,14 @@
     "type": "赋文",
     "text": "天乙贵人，得聪明智慧之资；福星贵人，受平生福寿之享。",
     "evidence": {
-      "evidence_level": "E4",
+      "evidence_level": "E1",
       "base_edition": "文渊阁四库全书·子部·卷三·继善篇",
       "digital_ref": "四库全书影印本第809册",
       "transcription_verified": true,
       "variants": [],
       "scan_verified": true,
-      "scan_ref": "文渊阁四库全书·子部·卷三·继善篇"
+      "scan_ref": "文渊阁四库全书·子部·卷三·继善篇",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition"
     },
     "text_provenance": {
       "author": "先贤古赋",
@@ -192,13 +194,14 @@
     "type": "赋文",
     "text": "庚辛得局，相生见火，定作廊庙之材。",
     "evidence": {
-      "evidence_level": "E4",
+      "evidence_level": "E1",
       "base_edition": "文渊阁四库全书·子部·卷三·喜忌篇",
       "digital_ref": "四库全书影印本第809册",
       "transcription_verified": true,
       "variants": [],
       "scan_verified": true,
-      "scan_ref": "文渊阁四库全书·子部·卷三·喜忌篇"
+      "scan_ref": "文渊阁四库全书·子部·卷三·喜忌篇",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition"
     },
     "text_provenance": {
       "author": "先贤古赋",
@@ -240,13 +243,14 @@
     "type": "考订按语",
     "text": "考诸家论天乙起例，古诀有分昼夜者，亦有不分昼夜者。胡氏云：‘分昼夜取贵，此术家臆说，无足凭也。’《三车一览》只以日干所见支为准，信而有征。",
     "evidence": {
-      "evidence_level": "E4",
+      "evidence_level": "E1",
       "base_edition": "文渊阁四库全书·子部·卷三",
       "digital_ref": "四库全书影印本第807册",
       "transcription_verified": true,
       "variants": [],
       "scan_verified": true,
-      "scan_ref": "文渊阁四库全书·子部·卷三"
+      "scan_ref": "文渊阁四库全书·子部·卷三",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition"
     },
     "text_provenance": {
       "author": "万民英",
@@ -264,13 +268,14 @@
     "type": "总论",
     "text": "大抵日主元神衰弱，行生旺之运则发；日主元神生旺，行衰绝之运则凶。运克岁者吉凶尚缓，岁克运者吉凶立见。",
     "evidence": {
-      "evidence_level": "E3",
+      "evidence_level": "E1",
       "base_edition": "文渊阁四库全书·子部·卷七",
       "digital_ref": "四库全书影印本第808册",
       "transcription_verified": true,
       "variants": [],
       "scan_verified": true,
-      "scan_ref": "文渊阁四库全书·子部·卷七"
+      "scan_ref": "文渊阁四库全书·子部·卷七",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition"
     },
     "text_provenance": {
       "author": "万民英",
@@ -288,13 +293,14 @@
     "type": "象义汇纂",
     "text": "咸池者，乃太阴之精，主淫佚媾合之所。逢沐浴咸池，主人多情嗜欲，花街柳巷，沉沦无节。",
     "evidence": {
-      "evidence_level": "E3",
+      "evidence_level": "E1",
       "base_edition": "文渊阁四库全书·子部·卷三",
       "digital_ref": "四库全书影印本第807册",
       "transcription_verified": true,
       "variants": [],
       "scan_verified": true,
-      "scan_ref": "文渊阁四库全书·子部·卷三"
+      "scan_ref": "文渊阁四库全书·子部·卷三",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition"
     },
     "text_provenance": {
       "author": "万民英",
@@ -312,13 +318,14 @@
     "type": "总论",
     "text": "羊者，言刚也；刃者，取宰割之义。禄过则刃生，功成当退不退，则过越其分。逢岁运相冲，祸患立至。",
     "evidence": {
-      "evidence_level": "E3",
+      "evidence_level": "E1",
       "base_edition": "文渊阁四库全书·子部·卷三",
       "digital_ref": "四库全书影印本第807册",
       "transcription_verified": true,
       "variants": [],
       "scan_verified": true,
-      "scan_ref": "文渊阁四库全书·子部·卷三"
+      "scan_ref": "文渊阁四库全书·子部·卷三",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition"
     },
     "text_provenance": {
       "author": "万民英",
@@ -336,13 +343,14 @@
     "type": "总论",
     "text": "驿马者，主迁改奔驰之象。日时值之，主好动少静；岁运加临，主道路奔波、迁职远涉。",
     "evidence": {
-      "evidence_level": "E3",
+      "evidence_level": "E1",
       "base_edition": "文渊阁四库全书·子部·卷三",
       "digital_ref": "四库全书影印本第807册",
       "transcription_verified": true,
       "variants": [],
       "scan_verified": true,
-      "scan_ref": "文渊阁四库全书·子部·卷三"
+      "scan_ref": "文渊阁四库全书·子部·卷三",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition"
     },
     "text_provenance": {
       "author": "万民英",
@@ -360,13 +368,14 @@
     "type": "总论",
     "text": "文星入命，聪明过人，气质温雅，好学博古。禄马贵人文星交会，定作玉堂清贵之客。",
     "evidence": {
-      "evidence_level": "E3",
+      "evidence_level": "E1",
       "base_edition": "文渊阁四库全书·子部·卷三",
       "digital_ref": "四库全书影印本第807册",
       "transcription_verified": true,
       "variants": [],
       "scan_verified": true,
-      "scan_ref": "文渊阁四库全书·子部·卷三"
+      "scan_ref": "文渊阁四库全书·子部·卷三",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition"
     },
     "text_provenance": {
       "author": "万民英",
@@ -384,13 +393,14 @@
     "type": "总论",
     "text": "天医者，天之良医也。岁运逢之，主消灾解疾，神爽体清；常人值之，亦得身心安泰。",
     "evidence": {
-      "evidence_level": "E3",
+      "evidence_level": "E1",
       "base_edition": "文渊阁四库全书·子部·卷三",
       "digital_ref": "四库全书影印本第807册",
       "transcription_verified": true,
       "variants": [],
       "scan_verified": true,
-      "scan_ref": "文渊阁四库全书·子部·卷三"
+      "scan_ref": "文渊阁四库全书·子部·卷三",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition"
     },
     "text_provenance": {
       "author": "万民英",
@@ -14365,9 +14375,9 @@
   {
     "text_id": "TXT_SRC_DTS_0576",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "七、天干",
-    "type": "经文",
+    "type": "注疏",
     "text": "坐寅怕申，坐申怕寅。蓋衝則根動，非地道之正也，故宜靜。",
     "evidence": {
       "evidence_level": "E3",
@@ -14379,7 +14389,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -14821,9 +14831,9 @@
   {
     "text_id": "TXT_SRC_DTS_0595",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "九、干支總論",
-    "type": "经文",
+    "type": "注疏",
     "text": "四甲四乙，而遇寅申卯酉，為地不載。",
     "evidence": {
       "evidence_level": "E3",
@@ -14835,7 +14845,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -14845,9 +14855,9 @@
   {
     "text_id": "TXT_SRC_DTS_0596",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "九、干支總論",
-    "type": "经文",
+    "type": "注疏",
     "text": "寅卯辰、亥卯未而遇甲庚乙辛，則天不覆。",
     "evidence": {
       "evidence_level": "E3",
@@ -14859,7 +14869,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -14869,9 +14879,9 @@
   {
     "text_id": "TXT_SRC_DTS_0597",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "九、干支總論",
-    "type": "经文",
+    "type": "注疏",
     "text": "六陽之位，獨子、寅、辰為陽方，為陽位之純。五陽居之，如若是旺神，最要行運陰順安頓之地。",
     "evidence": {
       "evidence_level": "E3",
@@ -14883,7 +14893,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -14893,9 +14903,9 @@
   {
     "text_id": "TXT_SRC_DTS_0598",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "九、干支總論",
-    "type": "经文",
+    "type": "注疏",
     "text": "五陰居之，如若是旺神，最要行運陽順光亨之地。",
     "evidence": {
       "evidence_level": "E3",
@@ -14907,7 +14917,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -14917,9 +14927,9 @@
   {
     "text_id": "TXT_SRC_DTS_0599",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "九、干支總論",
-    "type": "经文",
+    "type": "注疏",
     "text": "如主衰逢衝，則根拔而禍更甚。",
     "evidence": {
       "evidence_level": "E3",
@@ -14931,7 +14941,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -14941,9 +14951,9 @@
   {
     "text_id": "TXT_SRC_DTS_0600",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "九、干支總論",
-    "type": "经文",
+    "type": "注疏",
     "text": "此乃坐下財官之地，財官若旺，則宜靜不宜衝。",
     "evidence": {
       "evidence_level": "E3",
@@ -14955,7 +14965,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15277,9 +15287,9 @@
   {
     "text_id": "TXT_SRC_DTS_0614",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十一、方局",
-    "type": "经文",
+    "type": "注疏",
     "text": "格之真者，月支之神，透於天乾也。",
     "evidence": {
       "evidence_level": "E3",
@@ -15291,7 +15301,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15301,9 +15311,9 @@
   {
     "text_id": "TXT_SRC_DTS_0615",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十一、方局",
-    "type": "经文",
+    "type": "注疏",
     "text": "戊己日生於四季月者，當看人元透出天乾者取格，不可概以雜氣財官論之",
     "evidence": {
       "evidence_level": "E3",
@@ -15315,7 +15325,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15349,9 +15359,9 @@
   {
     "text_id": "TXT_SRC_DTS_0617",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十三、體用",
-    "type": "经文",
+    "type": "注疏",
     "text": "有以日主為體，提綱為用。",
     "evidence": {
       "evidence_level": "E3",
@@ -15363,7 +15373,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15373,9 +15383,9 @@
   {
     "text_id": "TXT_SRC_DTS_0618",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十三、體用",
-    "type": "经文",
+    "type": "注疏",
     "text": "提納為體，喜神為用者，日主不能用乎提綱矣。",
     "evidence": {
       "evidence_level": "E3",
@@ -15387,7 +15397,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15445,9 +15455,9 @@
   {
     "text_id": "TXT_SRC_DTS_0621",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十七、衰旺",
-    "type": "经文",
+    "type": "注疏",
     "text": "旺則宜洩宜傷，衰則喜幫喜助，子平之理也。",
     "evidence": {
       "evidence_level": "E3",
@@ -15459,7 +15469,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15469,9 +15479,9 @@
   {
     "text_id": "TXT_SRC_DTS_0622",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十七、衰旺",
-    "type": "经文",
+    "type": "注疏",
     "text": "然旺中有衰者存，不可損也；衰右有旺者存，不可益也。",
     "evidence": {
       "evidence_level": "E3",
@@ -15483,7 +15493,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15493,9 +15503,9 @@
   {
     "text_id": "TXT_SRC_DTS_0623",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十七、衰旺",
-    "type": "经文",
+    "type": "注疏",
     "text": "不必論當令不發令，只論取最多最旺，而可以為滿局之祖宗者，為源頭也。",
     "evidence": {
       "evidence_level": "E3",
@@ -15507,7 +15517,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15517,9 +15527,9 @@
   {
     "text_id": "TXT_SRC_DTS_0624",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十七、衰旺",
-    "type": "经文",
+    "type": "注疏",
     "text": "看此源頭，流到何方，流去之處，是所喜之神，即在此住了，乃為好歸路",
     "evidence": {
       "evidence_level": "E3",
@@ -15531,7 +15541,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15541,9 +15551,9 @@
   {
     "text_id": "TXT_SRC_DTS_0625",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十、通關",
-    "type": "经文",
+    "type": "注疏",
     "text": "木土而要火，火金而要土，土水而要金，金林而要水，皆是牛郎織女之有情也。",
     "evidence": {
       "evidence_level": "E3",
@@ -15555,7 +15565,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15565,9 +15575,9 @@
   {
     "text_id": "TXT_SRC_DTS_0626",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十、通關",
-    "type": "经文",
+    "type": "注疏",
     "text": "殺即官也，同流共派者可混也；官非殺也，各立門牆者，不可混也。",
     "evidence": {
       "evidence_level": "E3",
@@ -15579,7 +15589,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15589,9 +15599,9 @@
   {
     "text_id": "TXT_SRC_DTS_0627",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十、通關",
-    "type": "经文",
+    "type": "注疏",
     "text": "藏官露殺，干神助殺，合官留殺，皆成殺氣，勿使官混也；藏殺露官，干神助官，合殺留官，皆從官象，不可命殺混也。",
     "evidence": {
       "evidence_level": "E3",
@@ -15603,7 +15613,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15613,9 +15623,9 @@
   {
     "text_id": "TXT_SRC_DTS_0628",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十、通關",
-    "type": "经文",
+    "type": "注疏",
     "text": "大率傷官有財，皆可見官，傷官無財，皆不可見宮。",
     "evidence": {
       "evidence_level": "E3",
@@ -15627,7 +15637,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15637,9 +15647,9 @@
   {
     "text_id": "TXT_SRC_DTS_0629",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十、通關",
-    "type": "经文",
+    "type": "注疏",
     "text": "身弱而傷官旺者，見印而可見官：身旺而傷官旺者，見財而不見官",
     "evidence": {
       "evidence_level": "E3",
@@ -15651,7 +15661,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15661,9 +15671,9 @@
   {
     "text_id": "TXT_SRC_DTS_0630",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十、通關",
-    "type": "经文",
+    "type": "注疏",
     "text": "傷官用印，無財不宜見財，傷官用財，無印不宜見印，須詳辨之。",
     "evidence": {
       "evidence_level": "E3",
@@ -15675,7 +15685,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15853,9 +15863,9 @@
   {
     "text_id": "TXT_SRC_DTS_0638",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十九、寒暖",
-    "type": "经文",
+    "type": "注疏",
     "text": "陰支為寒，陽支為暖；西北為寒，東南為暖；金水為寒，木火為暖",
     "evidence": {
       "evidence_level": "E3",
@@ -15867,7 +15877,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15877,9 +15887,9 @@
   {
     "text_id": "TXT_SRC_DTS_0639",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十九、寒暖",
-    "type": "经文",
+    "type": "注疏",
     "text": "過於濕者，滯而無成；過於燥者，烈而有禍。",
     "evidence": {
       "evidence_level": "E3",
@@ -15891,7 +15901,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -15901,9 +15911,9 @@
   {
     "text_id": "TXT_SRC_DTS_0640",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十九、寒暖",
-    "type": "经文",
+    "type": "注疏",
     "text": "木火傷官要濕也；土水而成其濕者吉，金水傷官要燥也。",
     "evidence": {
       "evidence_level": "E3",
@@ -15915,7 +15925,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16021,9 +16031,9 @@
   {
     "text_id": "TXT_SRC_DTS_0645",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "一、夫妻",
-    "type": "经文",
+    "type": "注疏",
     "text": "喜神即是財神，其妻美而且富貴",
     "evidence": {
       "evidence_level": "E3",
@@ -16035,7 +16045,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16045,9 +16055,9 @@
   {
     "text_id": "TXT_SRC_DTS_0646",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "一、夫妻",
-    "type": "经文",
+    "type": "注疏",
     "text": "喜神與財神不相妒忌亦好",
     "evidence": {
       "evidence_level": "E3",
@@ -16059,7 +16069,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16069,9 +16079,9 @@
   {
     "text_id": "TXT_SRC_DTS_0647",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "一、夫妻",
-    "type": "经文",
+    "type": "注疏",
     "text": "否則克妻，亦或不美，或欠和",
     "evidence": {
       "evidence_level": "E3",
@@ -16083,7 +16093,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16093,9 +16103,9 @@
   {
     "text_id": "TXT_SRC_DTS_0648",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "一、夫妻",
-    "type": "经文",
+    "type": "注疏",
     "text": "大率依官看子。如喜神即是官星，其子賢俊",
     "evidence": {
       "evidence_level": "E3",
@@ -16107,7 +16117,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16117,9 +16127,9 @@
   {
     "text_id": "TXT_SRC_DTS_0649",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "一、夫妻",
-    "type": "经文",
+    "type": "注疏",
     "text": "以財為父，以印為母",
     "evidence": {
       "evidence_level": "E3",
@@ -16131,7 +16141,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16141,9 +16151,9 @@
   {
     "text_id": "TXT_SRC_DTS_0650",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "一、夫妻",
-    "type": "经文",
+    "type": "注疏",
     "text": "歲氣有益於月令者，及歲月不傷夫喜神者，父母必昌",
     "evidence": {
       "evidence_level": "E3",
@@ -16155,7 +16165,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16285,9 +16295,9 @@
   {
     "text_id": "TXT_SRC_DTS_0656",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "五、何知章",
-    "type": "经文",
+    "type": "注疏",
     "text": "靜者壽，柱中無衝無合，無缺無貪，則性定矣。",
     "evidence": {
       "evidence_level": "E3",
@@ -16299,7 +16309,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16309,9 +16319,9 @@
   {
     "text_id": "TXT_SRC_DTS_0657",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "五、何知章",
-    "type": "经文",
+    "type": "注疏",
     "text": "元神存者，不特精氣神氣皆全之謂也，官星不絕，財神不滅，傷官有氣，身弱印旺，提綱輔主，用神有力，時上生根，運無絕地，皆是元神厚處。",
     "evidence": {
       "evidence_level": "E3",
@@ -16323,7 +16333,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16333,9 +16343,9 @@
   {
     "text_id": "TXT_SRC_DTS_0658",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "五、何知章",
-    "type": "经文",
+    "type": "注疏",
     "text": "氣濁神枯之命極易看，印綬太旺，日主無著落，財殺太旺，日主無依倚，忌神與喜神雜而虞，四柱與用神反而絕，衝而不和，旺而無制，濕而滯，燥而鬱，精流氣洩，月悖時脫，此皆無壽之人也。",
     "evidence": {
       "evidence_level": "E3",
@@ -16347,7 +16357,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16357,9 +16367,9 @@
   {
     "text_id": "TXT_SRC_DTS_0659",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "五、何知章",
-    "type": "经文",
+    "type": "注疏",
     "text": "局中官星明順，夫貴而吉，理自然矣。",
     "evidence": {
       "evidence_level": "E3",
@@ -16371,7 +16381,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16381,9 +16391,9 @@
   {
     "text_id": "TXT_SRC_DTS_0660",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "五、何知章",
-    "type": "经文",
+    "type": "注疏",
     "text": "局中傷官清顯，子貴而親，不必言也。",
     "evidence": {
       "evidence_level": "E3",
@@ -16395,7 +16405,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16501,9 +16511,9 @@
   {
     "text_id": "TXT_SRC_DTS_0665",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十一、閒神",
-    "type": "经文",
+    "type": "注疏",
     "text": "日主有合，不顧用神，用神有合，不顧日主",
     "evidence": {
       "evidence_level": "E3",
@@ -16515,7 +16525,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16525,9 +16535,9 @@
   {
     "text_id": "TXT_SRC_DTS_0666",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十一、閒神",
-    "type": "经文",
+    "type": "注疏",
     "text": "日主乘用神而馳驟，無私意牽制也；用神隨日主而馳驟，無私情羈絆也。",
     "evidence": {
       "evidence_level": "E3",
@@ -16539,7 +16549,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16549,9 +16559,9 @@
   {
     "text_id": "TXT_SRC_DTS_0667",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十一、閒神",
-    "type": "经文",
+    "type": "注疏",
     "text": "日主孤立無氣，無地人元，絕無一毫生扶之意，財官強甚，乃為真從也。",
     "evidence": {
       "evidence_level": "E3",
@@ -16563,7 +16573,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16573,9 +16583,9 @@
   {
     "text_id": "TXT_SRC_DTS_0668",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十一、閒神",
-    "type": "经文",
+    "type": "注疏",
     "text": "既從矣，當論所從之神。如從財，只以財為主；財神是木而旺，又看意向，或要火、要土。要金，而行運得所者吉，否則凶，餘皆仿此，金不可克木，克木財衰矣。",
     "evidence": {
       "evidence_level": "E3",
@@ -16587,7 +16597,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16597,9 +16607,9 @@
   {
     "text_id": "TXT_SRC_DTS_0669",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十一、閒神",
-    "type": "经文",
+    "type": "注疏",
     "text": "日主弱矣，財官強矣，不能不從；中有比劫暗生，從之不真。",
     "evidence": {
       "evidence_level": "E3",
@@ -16611,7 +16621,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16621,9 +16631,9 @@
   {
     "text_id": "TXT_SRC_DTS_0670",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十一、閒神",
-    "type": "经文",
+    "type": "注疏",
     "text": "至於歲運財官得地，雖是假從，亦可取富貴，但其人不能免禍，或心術不端耳。",
     "evidence": {
       "evidence_level": "E3",
@@ -16635,7 +16645,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16717,9 +16727,9 @@
   {
     "text_id": "TXT_SRC_DTS_0674",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十七、反局",
-    "type": "经文",
+    "type": "注疏",
     "text": "乾頭遇庚乙辛謂之天戰，而得地支順者無害；地支寅申卯酉，謂之地戰，則天乾不能為力。",
     "evidence": {
       "evidence_level": "E3",
@@ -16731,7 +16741,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16741,9 +16751,9 @@
   {
     "text_id": "TXT_SRC_DTS_0675",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "十七、反局",
-    "type": "经文",
+    "type": "注疏",
     "text": "皆見謂之天地交戰，必凶無疑，遇歲運合之會之，視其勝負，亦有可存可發者。",
     "evidence": {
       "evidence_level": "E3",
@@ -16755,7 +16765,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16837,9 +16847,9 @@
   {
     "text_id": "TXT_SRC_DTS_0679",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十二、母象",
-    "type": "经文",
+    "type": "注疏",
     "text": "母旺子孤，其勢要多方以生子孫",
     "evidence": {
       "evidence_level": "E3",
@@ -16851,7 +16861,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -16861,9 +16871,9 @@
   {
     "text_id": "TXT_SRC_DTS_0680",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十二、母象",
-    "type": "经文",
+    "type": "注疏",
     "text": "為了眾母衰。其勢要多方以安母",
     "evidence": {
       "evidence_level": "E3",
@@ -16875,7 +16885,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -17557,9 +17567,9 @@
   {
     "text_id": "TXT_SRC_DTS_0709",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十八、歲運",
-    "type": "经文",
+    "type": "注疏",
     "text": "日主喜陽，則庚與申為好；喜陰，則辛與酉為好。",
     "evidence": {
       "evidence_level": "E3",
@@ -17571,7 +17581,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -17581,9 +17591,9 @@
   {
     "text_id": "TXT_SRC_DTS_0710",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十八、歲運",
-    "type": "经文",
+    "type": "注疏",
     "text": "年月吉者，前半世吉，日時吉者，後半世吉。",
     "evidence": {
       "evidence_level": "E3",
@@ -17595,7 +17605,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -17605,9 +17615,9 @@
   {
     "text_id": "TXT_SRC_DTS_0711",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十八、歲運",
-    "type": "经文",
+    "type": "注疏",
     "text": "元亨運吉者，前半世吉，利貞運吉者，後半世吉",
     "evidence": {
       "evidence_level": "E3",
@@ -17619,7 +17629,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -17629,9 +17639,9 @@
   {
     "text_id": "TXT_SRC_DTS_0712",
     "source_id": "SRC_DTS",
-    "source_layer": "original_jingtou",
+    "source_layer": "note_liuji",
     "chapter": "二十八、歲運",
-    "type": "经文",
+    "type": "注疏",
     "text": "果所喜者歟？則其家必興；果所忌者歟？則其家必替。",
     "evidence": {
       "evidence_level": "E3",
@@ -17643,7 +17653,7 @@
       "scan_ref": "守山阁丛书本·卷上 / 道光刻本"
     },
     "text_provenance": {
-      "author": "京图",
+      "author": "刘基原注",
       "quoted_author": "刘基原注",
       "is_quotation": false,
       "is_editorial_commentary": false
@@ -21633,9 +21643,9 @@
   {
     "text_id": "TXT_SRC_DTS_EXP_0002",
     "source_id": "SRC_DTS",
-    "source_layer": "original_text",
+    "source_layer": "commentary_ren",
     "chapter": "岁运",
-    "type": "经文",
+    "type": "注疏",
     "text": "休咎系乎运，尤系乎岁。冲战视其孰降，和好视其孰切。",
     "evidence": {
       "evidence_level": "E2",
@@ -21968,9 +21978,9 @@
   {
     "text_id": "TXT_DTS_BJ_001",
     "source_id": "SRC_DTS",
-    "source_layer": "original_text",
+    "source_layer": "commentary_ren",
     "chapter": "病药",
-    "type": "经文",
+    "type": "注疏",
     "text": "有病方为贵，无伤不是奇；格中如去病，财禄两相随。",
     "evidence": {
       "evidence_level": "E2",
@@ -22049,9 +22059,9 @@
   {
     "text_id": "TXT_DTS_JX_001",
     "source_id": "SRC_DTS",
-    "source_layer": "original_text",
+    "source_layer": "commentary_ren",
     "chapter": "吉凶",
-    "type": "经文",
+    "type": "注疏",
     "text": "何知其人吉，喜神为辅弼。何知其人凶，忌神辗转攻。何知其人灾，忌神逢旺地。何知其人福，喜神逢生地。",
     "evidence": {
       "evidence_level": "E2",
@@ -22076,9 +22086,9 @@
   {
     "text_id": "TXT_DTS_ZS_001",
     "source_id": "SRC_DTS",
-    "source_layer": "original_text",
+    "source_layer": "commentary_ren",
     "chapter": "衰旺",
-    "type": "经文",
+    "type": "注疏",
     "text": "旺则宜泄宜伤，衰则喜帮喜助。",
     "evidence": {
       "evidence_level": "E2",
@@ -22136,8 +22146,8 @@
     "type": "原文",
     "text": "阳主聚，以进为进；阴主散，以退为退。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "digital_refs": [
         "https://shixingji.club/library/zipingzhenquan"
       ],
@@ -22163,8 +22173,8 @@
     "type": "原文",
     "text": "刑冲会合，解法甚多，须察其强弱，究其喜忌，方可断之。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "digital_refs": [
         "https://shixingji.club/library/zipingzhenquan"
       ],
@@ -22380,8 +22390,8 @@
     "type": "论法",
     "text": "运限者后天也。十年一转，穷通可知，皆由大运之兴衰以验岁君之祸福。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "digital_refs": [
         "https://ctext.org/wiki.pl?chapter=548506&if=gb&remap=gb"
       ],
@@ -22434,8 +22444,8 @@
     "type": "调候",
     "text": "夏月之火，秉令乘权。逢水制则免自焚之咎，见木助必招夭折之患，遇金必作良工，得土遂成稼穑。金土虽为美利，无水则金燥土焦，再加木助，太过倾危。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "digital_refs": [
         "https://zh.wikisource.org/zh/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
       ],
@@ -22625,8 +22635,8 @@
     "type": "经文",
     "text": "配合干支仔细详，断人祸福与灾祥。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/滴天髓/01"
       ],
@@ -22643,7 +22653,7 @@
       "author": "传统《滴天髓》文本"
     },
     "notes": "原 data-expansion-v2 收录，现完成合并归档。",
-    "text_id": null
+    "text_id": "TXT_DTS_TT_002"
   },
   {
     "id": "TXT_DTS_TT_003",
@@ -22681,8 +22691,8 @@
     "type": "经文",
     "text": "五行不戾，惟正清和；浊乱偏枯，性情乖逆。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/滴天髓"
       ],
@@ -22709,8 +22719,8 @@
     "type": "经文",
     "text": "闲神一二未为疵，不去何妨莫动伊。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/滴天髓"
       ],
@@ -22765,8 +22775,8 @@
     "type": "经文",
     "text": "孤立无气唯有从，依得财官享富贵。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/滴天髓/41"
       ],
@@ -22851,8 +22861,8 @@
     "type": "经文",
     "text": "何知其人贱，官星总不见。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/滴天髓/41"
       ],
@@ -23389,8 +23399,8 @@
     "type": "调候",
     "text": "遇水剋以为殃",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
       "digital_refs": [
         "https://zh.wikisource.org/zh/穷通宝鉴"
@@ -23419,8 +23429,8 @@
     "type": "格局",
     "text": "正官先看月令",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开可靠电子文本；影印页尚待逐条核验",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/三命通会_(四库全书本)/卷05"
@@ -23599,8 +23609,8 @@
     "type": "十神",
     "text": "曰印绶倒食",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开可靠电子文本；影印页待逐条核验",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/渊海子平"
@@ -23989,8 +23999,8 @@
     "type": "调候",
     "text": "庚辛为助",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开可靠电子文本；影印页待逐条核验",
       "digital_refs": [
         "https://zh.wikisource.org/zh/穷通宝鉴"
@@ -24196,8 +24206,8 @@
     "type": "经文",
     "text": "克我者，我受制于人之义，故立名官煞。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开可靠电子文本；待影印页核验",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hant/三命通會/卷五"
@@ -24225,8 +24235,8 @@
     "type": "经文",
     "text": "我克者，是人受制于我之义，故立名妻财。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开可靠电子文本；待影印页核验",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hant/三命通會/卷五"
@@ -24312,8 +24322,8 @@
     "type": "经文",
     "text": "舍干支而总言之，甲生亥死午，乙生午死亥。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开可靠电子文本；待影印页核验",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hant/三命通會/卷五"
@@ -24573,8 +24583,8 @@
     "type": "经文",
     "text": "正月用壬，庚辛为助。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开可靠电子文本；待影印页核验",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hant/穷通宝鉴"
@@ -24602,8 +24612,8 @@
     "type": "经文",
     "text": "二月耑用壬水。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开可靠电子文本；待影印页核验",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hant/穷通宝鉴"
@@ -24660,8 +24670,8 @@
     "type": "经文",
     "text": "三夏丙火，专用壬水，金为佐。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开可靠电子文本；待影印页核验",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hant/穷通宝鉴"
@@ -24689,8 +24699,8 @@
     "type": "经文",
     "text": "夏月之火，秉令乘权；逢水制则免自焚之咎。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开可靠电子文本；待影印页核验",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hant/穷通宝鉴"
@@ -24718,8 +24728,8 @@
     "type": "经文",
     "text": "秋月之火，性息体和，得木生则有复明之庆。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开可靠电子文本；待影印页核验",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hant/穷通宝鉴"
@@ -24866,8 +24876,8 @@
     "type": "经文",
     "text": "因变化而喜化为忌，为变之不善者。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字底本；待逐条影印页校勘",
       "digital_refs": [
         "https://upload.wikimedia.org/wikipedia/commons/e/e9/NTL-9900014380_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_v.2.pdf",
@@ -25073,8 +25083,8 @@
     "type": "经文",
     "text": "十月辛金，先用壬水，次取丙火。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字底本；待逐条影印页校勘",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -25102,8 +25112,8 @@
     "type": "经文",
     "text": "十一月辛金，壬丙两透，不见戊癸，衣锦腰金。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字底本；待逐条影印页校勘",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -25250,8 +25260,8 @@
     "type": "经文",
     "text": "十月壬水，水势汪洋，取戊为堤，取丙为佐。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字底本；待逐条影印页校勘",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91",
@@ -25340,8 +25350,8 @@
     "type": "经文",
     "text": "十月癸水，金生水旺，专用丁火。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字底本；待逐条影印页校勘",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%91%91",
@@ -25894,8 +25904,8 @@
     "type": "经文",
     "text": "透干会支，取其清者用之。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
       "digital_refs": [
         "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
@@ -25925,8 +25935,8 @@
     "type": "经文",
     "text": "财官印食，本为四吉神，然用之不当，亦能破格。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
       "digital_refs": [
         "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
@@ -25956,8 +25966,8 @@
     "type": "经文",
     "text": "煞伤枭刃，本为四凶神，然施之得宜，亦能成格。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
       "digital_refs": [
         "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
@@ -26018,8 +26028,8 @@
     "type": "经文",
     "text": "真神得用，虽有小忌，不足为害；假神得用，虽有小利，终无大成。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
       "digital_refs": [
         "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
@@ -26148,8 +26158,8 @@
     "type": "经文",
     "text": "夏木逢水，虽有印绶，而水被火燥，不能生木。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
       "digital_refs": [
         "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
@@ -26247,8 +26257,8 @@
     "type": "注释",
     "text": "干支之藏透，位置之配合次序，喜忌闲神与日元之间隔与贴近，皆为格局高低之分。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
       "digital_refs": [
         "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
@@ -26313,8 +26323,8 @@
     "type": "经文",
     "text": "凡八字佳者，用神未有不纯者也；稍次则稍杂，愈次则愈杂。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
       "digital_refs": [
         "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
@@ -26643,8 +26653,8 @@
     "type": "经文",
     "text": "若命与运二支会局，亦作清论。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
       "digital_refs": [
         "https://www.mingsage.com/zh/classics/zi-ping-zhen-quan/lun-yong-shen-pei-qi-hou-de-shi",
@@ -28329,8 +28339,8 @@
     "type": "经文",
     "text": "故有伤官用财者，伤官生财，则以伤官为生官之具，转凶为吉。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本交叉核验；待逐条影印页校勘",
       "digital_refs": [
         "https://github.com/Carl-Tsoi/Lucky/blob/main/books/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0.txt",
@@ -30010,8 +30020,8 @@
     "type": "经文",
     "text": "用癸无根，定主目疾。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -30474,8 +30484,8 @@
     "type": "经文",
     "text": "或成土局，取甲为辅，壬不可离。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -30503,8 +30513,8 @@
     "type": "经文",
     "text": "壬甲两透，科甲定宜，惟忌庚出制甲，则秀才而已。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -30706,8 +30716,8 @@
     "type": "经文",
     "text": "四月耑用壬水，金为佐。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -30735,8 +30745,8 @@
     "type": "经文",
     "text": "五月亦耑用壬。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -31605,8 +31615,8 @@
     "type": "经文",
     "text": "三秋丁火，退气柔弱，耑用甲木。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -31663,8 +31673,8 @@
     "type": "经文",
     "text": "或借丙暖金晒木，不虑丙夺丁火。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -31721,8 +31731,8 @@
     "type": "经文",
     "text": "九月耑用甲庚。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -31750,8 +31760,8 @@
     "type": "经文",
     "text": "大扺甲不离庚，乙不离丙，其理极明。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -31866,8 +31876,8 @@
     "type": "经文",
     "text": "或一派庚金，名财多身弱，主富屋贫人，妻多主事。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -32069,8 +32079,8 @@
     "type": "经文",
     "text": "若一甲破，定是常人。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -32214,8 +32224,8 @@
     "type": "经文",
     "text": "癸水一见，泄金、湿甲、伤丁，故以癸为病。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -32301,8 +32311,8 @@
     "type": "经文",
     "text": "子平批八字清高，但不大贵，亦不大富。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -32446,8 +32456,8 @@
     "type": "经文",
     "text": "正二月先丙后甲，癸又次之。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -32649,8 +32659,8 @@
     "type": "经文",
     "text": "或一派丙火，有甲欠癸，先泰后否。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -32736,8 +32746,8 @@
     "type": "经文",
     "text": "或一派甲木，无丙者，常人。得一庚透方妙。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -32939,8 +32949,8 @@
     "type": "经文",
     "text": "丙透甲出，廊庙之才，丙癸俱透，科甲之士。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -33026,8 +33036,8 @@
     "type": "经文",
     "text": "或支藏癸水衣食充足，但骨肉多刑。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -33722,8 +33732,8 @@
     "type": "经文",
     "text": "或辛丙皆无，贫寒下格。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -33983,8 +33993,8 @@
     "type": "经文",
     "text": "二月癸水，不刚不柔，乙木司令，泄弱元神，专以庚金为用，辛金次之。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -34273,8 +34283,8 @@
     "type": "经文",
     "text": "二月乙木，耑用丙癸，或支成木局，有癸透乃作贵命。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -34592,8 +34602,8 @@
     "type": "经文",
     "text": "总之夏月之乙木，耑用癸水，丙火酌用，庚辛次之。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -34853,8 +34863,8 @@
     "type": "经文",
     "text": "九月壬水，专用甲木，次用丙火。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -34882,8 +34892,8 @@
     "type": "经文",
     "text": "三秋庚金，形体渐弱，专取丁火煅炼，方成利器。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -34911,8 +34921,8 @@
     "type": "经文",
     "text": "七月庚金，刚锐之性，得丁火锻炼，方成钟鼎。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -34940,8 +34950,8 @@
     "type": "经文",
     "text": "八月庚金，金白水清，喜丁火煅炼，亦喜壬水淘洗。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -34969,8 +34979,8 @@
     "type": "经文",
     "text": "九月庚金，土旺金相，先取丁火，次用甲木疏土。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -34998,8 +35008,8 @@
     "type": "经文",
     "text": "三冬辛金，寒气逼人，先用丙火温暖，次取壬水淘洗。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -35027,8 +35037,8 @@
     "type": "经文",
     "text": "十一月辛金，水旺金寒，专用丁火温养，丙火佐之。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -35114,8 +35124,8 @@
     "type": "经文",
     "text": "三月癸水，乙木司权，泄弱元神，先取辛金，次取丙火。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -35143,8 +35153,8 @@
     "type": "经文",
     "text": "十月癸水，水旺秉令，寒气渐盛，专取辛金发源，丙火温暖。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -35172,8 +35182,8 @@
     "type": "经文",
     "text": "十一月癸水，值玄冬之令，水势旺极，先取丙火解冻，次用辛金。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -35201,8 +35211,8 @@
     "type": "经文",
     "text": "十二月癸水，天寒水冻，先取丙火温暖，次取辛金生水。",
     "evidence": {
-      "evidence_level": "E2",
-      "verification_status": "externally_verified",
+      "evidence_level": "E1",
+      "verification_status": "unsubstantiated_in_clean_corpus_pending_edition",
       "base_edition": "公开数字全文底本",
       "digital_refs": [
         "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
@@ -36851,9 +36861,9 @@
   {
     "text_id": "TXT_DTS_SY_002",
     "source_id": "SRC_DTS",
-    "source_layer": "original_text",
+    "source_layer": "commentary_ren",
     "chapter": "岁运",
-    "type": "经文",
+    "type": "注疏",
     "text": "休咎系乎运，尤系乎岁。冲战视其孰降，和好视其孰切。",
     "evidence": {
       "evidence_level": "E2",
@@ -36871,7 +36881,7 @@
       "quoted_author": null,
       "is_quotation": false,
       "is_editorial_commentary": false,
-      "author": "京图"
+      "author": "任铁樵"
     }
   },
   {
@@ -36903,9 +36913,9 @@
   {
     "text_id": "TXT_DTS_BJ_002",
     "source_id": "SRC_DTS",
-    "source_layer": "original_text",
+    "source_layer": "commentary_ren",
     "chapter": "病药",
-    "type": "经文",
+    "type": "注疏",
     "text": "有病方为贵，无伤不是奇；格中如去病，财禄两相随。",
     "evidence": {
       "evidence_level": "E2",
@@ -36923,7 +36933,7 @@
       "quoted_author": null,
       "is_quotation": false,
       "is_editorial_commentary": false,
-      "author": "京图"
+      "author": "任铁樵"
     }
   }
 ]
