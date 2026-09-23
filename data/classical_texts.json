@@ -3819,5 +3819,556 @@
       "is_quotation": false,
       "is_editorial_commentary": false
     }
+  },
+  {
+    "text_id": "TXT_ZPZQ_CBYJ_001",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神成败救应",
+    "type": "经文",
+    "text": "用神专寻月令，以四柱配之，必有成败。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "用神月令总纲。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_CBYJ_002",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神成败救应",
+    "type": "经文",
+    "text": "成中有败，必是带忌；败中有成，全凭救应。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "成败救应总纲。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_CBYJ_003",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神成败救应",
+    "type": "经文",
+    "text": "八字妙用，全在成败救应，其中权轻权重，甚是活泼。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "强调权变，不宜机械评分。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_CBYJ_004",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神成败救应",
+    "type": "经文",
+    "text": "官逢伤而透印以解之，杂煞而合煞以清之，刑冲而会合以解之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "官格救应例。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_CBYJ_005",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神成败救应",
+    "type": "经文",
+    "text": "财逢劫而透食以化之，生官以制之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "财格救应例。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_CBYJ_006",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神成败救应",
+    "type": "经文",
+    "text": "印逢财而劫财以解之，或合财而存印。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "印格救应例。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_CBYJ_007",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神成败救应",
+    "type": "经文",
+    "text": "食逢枭而就煞以成格，或生财以护食。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "食神格救应例。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_CBYJ_008",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神成败救应",
+    "type": "经文",
+    "text": "煞逢食制，印来护煞，而逢财以去印存食。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "七杀格救应例。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_XS_001",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论相神紧要",
+    "type": "经文",
+    "text": "月令既得用神，则别位亦必有相，若君之有相，辅者是也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "相神定义。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_XS_002",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论相神紧要",
+    "type": "经文",
+    "text": "凡全局之格，赖此一字而成者，均谓之相也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "将相神定义为成格关键辅助因素。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_XS_003",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论相神紧要",
+    "type": "经文",
+    "text": "伤用神甚于伤身，伤相甚于伤用。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "用神、相神受损的传统表述。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_XS_004",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论相神紧要",
+    "type": "经文",
+    "text": "相神无破，贵格已成；相神相伤，立败其格。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "相神成败表述；不直接转成现代概率。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_XS_005",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论相神紧要",
+    "type": "经文",
+    "text": "凡八字排定，必有一种议论，一种作用，一种弃取，随地换形，难以虚拟。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "强调具体全局权变。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_ZQ_001",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论杂气如何取用",
+    "type": "经文",
+    "text": "杂气者，乃辰戌丑未是也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "杂气月基本定义。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_ZQ_002",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论杂气如何取用",
+    "type": "经文",
+    "text": "透干会支，取其清者用之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "杂气取用总则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_ZQ_003",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论四吉神能破格",
+    "type": "经文",
+    "text": "财官印食，本为四吉神，然用之不当，亦能破格。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "四吉神非绝对吉的原典依据。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_ZQ_004",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论四凶神能成格",
+    "type": "经文",
+    "text": "煞伤枭刃，本为四凶神，然施之得宜，亦能成格。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "四凶神得用可成格。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_SX_001",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论生克先后分吉凶",
+    "type": "经文",
+    "text": "月令用神，配以四柱，固有一定之理，而生克制化，其间有甚多先后次序。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "生克先后思想。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_SX_002",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论生克先后分吉凶",
+    "type": "经文",
+    "text": "真神得用，虽有小忌，不足为害；假神得用，虽有小利，终无大成。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本交叉核验；待逐条影印页校勘",
+      "digital_refs": [
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/13",
+        "https://shixingji.club/library/zipingzhenquan",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%AF%A0/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "真神假神材料，需结合全文理解。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
   }
 ]
