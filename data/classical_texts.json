@@ -3153,5 +3153,391 @@
       "is_quotation": false,
       "is_editorial_commentary": false
     }
+  },
+  {
+    "text_id": "TXT_ZPZQ_YSG_001",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神",
+    "type": "经文",
+    "text": "八字用神，专求月令，以日干配月令地支，而生克不同，格局分焉。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/NTL-9900014380_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_v.2.pdf",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "月令取用总纲；原文与程序化规则分开。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_YSHB_001",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神变化",
+    "type": "经文",
+    "text": "用神既主月令矣，然月令所藏不一，而用神遂有变化。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/NTL-9900014380_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_v.2.pdf",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "用神随月令藏干、透干与会合而变化的总纲。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_YSHB_002",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神变化",
+    "type": "经文",
+    "text": "变之而善，其格愈美；变之不善，其格遂坏。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/NTL-9900014380_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_v.2.pdf",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "用于记录成格变化的原典表述，不直接转成数值评分。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_YSHB_003",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神变化",
+    "type": "经文",
+    "text": "因变化而忌化为喜，为变之善者。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/NTL-9900014380_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_v.2.pdf",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "用神变化后的喜忌转换原文。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_YSHB_004",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神变化",
+    "type": "经文",
+    "text": "因变化而喜化为忌，为变之不善者。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/NTL-9900014380_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_v.2.pdf",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "用神变化后的忌化逻辑；应与具体格局条件一起使用。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_YSHB_005",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神变化",
+    "type": "经文",
+    "text": "寅午戌三合，伤化为财，不作伤官见官论也。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/NTL-9900014380_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_v.2.pdf",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "会合改变格局判断的例证；具体上下文不可省略。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_YSHB_006",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神变化",
+    "type": "经文",
+    "text": "丙生寅月，本为印绶，甲不透干而会午会戌，则化为劫。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/NTL-9900014380_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_v.2.pdf",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "不善变化的原文案例。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_ZPZQ_YSHB_007",
+    "source_id": "SRC_ZPZQ",
+    "source_layer": "original_text",
+    "chapter": "论用神变化",
+    "type": "经文",
+    "text": "丙生申月，本属偏财，藏庚透壬，会子会辰，则化为煞。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/NTL-9900014380_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_v.2.pdf",
+        "https://shuyuan.zhiming.life/read/%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE/27"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "不善变化的原文案例。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·沈孝瞻",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_JIA_001",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬甲木",
+    "type": "经文",
+    "text": "十月甲木，庚丁为要，丙火次之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "甲木十月调候短条。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_JIA_002",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬甲木",
+    "type": "经文",
+    "text": "十一月甲木，木性生寒，丁先庚后，丙火佐之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "甲木十一月调候短条。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_JIA_003",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬甲木",
+    "type": "经文",
+    "text": "十二月甲木，天寒气冻，木性极寒，无生发之象，先用庚劈甲，方引丁火。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "甲木十二月调候短条。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_XIN_001",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬辛金",
+    "type": "经文",
+    "text": "十月辛金，先用壬水，次取丙火。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "辛金十月调候短条。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_XIN_002",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬辛金",
+    "type": "经文",
+    "text": "十一月辛金，壬丙两透，不见戊癸，衣锦腰金。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "辛金十一月原文例；保留原貌，不作为无条件程序规则。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_XIN_003",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "三冬辛金",
+    "type": "经文",
+    "text": "十二月辛金，寒冻之极，先丙后壬，无丙不能解冻，无壬不能洗淘。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字底本；待逐条影印页校勘",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "辛金十二月调候短条。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "清·余春台（通行署名）",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
   }
 ]
