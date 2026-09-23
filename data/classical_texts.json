@@ -12099,5 +12099,1085 @@
       "is_quotation": false,
       "is_editorial_commentary": false
     }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_172",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·三春乙木",
+    "type": "经文",
+    "text": "三春乙木，为芝兰蒿草之物，丙癸不可离也，春乙见丙，卉木向阳，万象回春，须癸滋养根基。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_173",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·正月乙木",
+    "type": "经文",
+    "text": "正月乙木，必须用丙，因天气尤有余寒，非丙不暖，虽有癸水，恐凝寒气，故以丙火为先，癸水次之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_174",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·正月乙木",
+    "type": "经文",
+    "text": "丙癸两透，科甲定然，或有丙无癸门户阐扬。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_175",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·正月乙木",
+    "type": "经文",
+    "text": "或丙多乏癸，名曰春旱。独阳不长，浊富之人。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_176",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·正月乙木",
+    "type": "经文",
+    "text": "或丙少癸多，又为困丙，终为寒士。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_177",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·二月乙木",
+    "type": "经文",
+    "text": "二月乙木，阳气渐升，木不寒矣，以丙为君，癸为臣，丙癸两透，不透庚金，大富大贵。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_178",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·二月乙木",
+    "type": "经文",
+    "text": "或天干透庚，支下无辰，不能化金，得癸透养木亦为贵。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_179",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·二月乙木",
+    "type": "经文",
+    "text": "二月乙木，耑用丙癸，或支成木局，有癸透乃作贵命。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_180",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·三月乙木",
+    "type": "经文",
+    "text": "三月乙木，阳气愈炽，先癸后丙。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_181",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·三月乙木",
+    "type": "经文",
+    "text": "癸丙两透，不见己庚，玉堂之客。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_182",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·三月乙木",
+    "type": "经文",
+    "text": "或多水见己，只恐高才不第。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_183",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·三月乙木",
+    "type": "经文",
+    "text": "或见水局，丙戊高透，亦主科甲。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_184",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·三夏乙木",
+    "type": "经文",
+    "text": "三夏乙木，木性枯焦。四月专尚癸水。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_185",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·三夏乙木",
+    "type": "经文",
+    "text": "五六月先丙后癸，夏至前仍用癸水。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_186",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·四月乙木",
+    "type": "经文",
+    "text": "四月乙木专用癸水，丙火酌用，虽以庚辛佐癸，须辛透为清。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_187",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·五月乙木",
+    "type": "经文",
+    "text": "五月乙木，丁火司权，禾稼俱旱。上半月属阳，仍用癸水。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_188",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·六月乙木",
+    "type": "经文",
+    "text": "六月乙木，木性且寒，柱多金水，丙火为尊。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_189",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·六月乙木",
+    "type": "经文",
+    "text": "癸水透干，大富大贵。无癸定作常人。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_190",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论乙木·三夏乙木",
+    "type": "经文",
+    "text": "总之夏月之乙木，耑用癸水，丙火酌用，庚辛次之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_191",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论壬水·六月壬水",
+    "type": "经文",
+    "text": "六月壬水，己土当权，丁火退气，先用辛金癸水，次用甲木噼土。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_192",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论壬水·六月壬水",
+    "type": "经文",
+    "text": "辛甲两透，富贵清高。甲藏辛透，贡监生员。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_193",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论壬水·六月壬水",
+    "type": "经文",
+    "text": "或支成木局，泄水太过，当用金水为贵，以金为妻、水为子。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_194",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论壬水·七月壬水",
+    "type": "经文",
+    "text": "七月壬水，庚金司令，壬得申之长生，源流自远，转弱为强，专用戊土，次取丁火佐戊制庚。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_195",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论壬水·七月壬水",
+    "type": "经文",
+    "text": "戊丁俱透，科甲生员。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_196",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论壬水·八月壬水",
+    "type": "经文",
+    "text": "八月壬水，辛金司权，正金白水清，忌戊土为病，专用甲木。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_197",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论壬水·八月壬水",
+    "type": "经文",
+    "text": "甲木一透制戊，壬水澈底澄清，名高翰苑。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_198",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论壬水·九月壬水",
+    "type": "经文",
+    "text": "九月壬水进气，其性特厚，若一派壬水，见一甲、制戌中之戊，戊又出干，斯用丙火。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_199",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论壬水·九月壬水",
+    "type": "经文",
+    "text": "九月壬水，专用甲木，次用丙火。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_200",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论庚金·三秋庚金",
+    "type": "经文",
+    "text": "三秋庚金，形体渐弱，专取丁火煅炼，方成利器。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_201",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论庚金·七月庚金",
+    "type": "经文",
+    "text": "七月庚金，刚锐之性，得丁火锻炼，方成钟鼎。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_202",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论庚金·八月庚金",
+    "type": "经文",
+    "text": "八月庚金，金白水清，喜丁火煅炼，亦喜壬水淘洗。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_203",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论庚金·九月庚金",
+    "type": "经文",
+    "text": "九月庚金，土旺金相，先取丁火，次用甲木疏土。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_204",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论辛金·三冬辛金",
+    "type": "经文",
+    "text": "三冬辛金，寒气逼人，先用丙火温暖，次取壬水淘洗。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_205",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论辛金·十一月辛金",
+    "type": "经文",
+    "text": "十一月辛金，水旺金寒，专用丁火温养，丙火佐之。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_206",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论辛金·十二月辛金",
+    "type": "经文",
+    "text": "十二月辛金，寒冻之金，得丁火温养，方可成器。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_207",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论癸水·三春癸水",
+    "type": "经文",
+    "text": "正月癸水，值三阳之候，雨露之精，其性至柔，先用辛金，生癸水之源，次用丙火照暖。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_208",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论癸水·三春癸水",
+    "type": "经文",
+    "text": "三月癸水，乙木司权，泄弱元神，先取辛金，次取丙火。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_209",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论癸水·三冬癸水",
+    "type": "经文",
+    "text": "十月癸水，水旺秉令，寒气渐盛，专取辛金发源，丙火温暖。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_210",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论癸水·十一月癸水",
+    "type": "经文",
+    "text": "十一月癸水，值玄冬之令，水势旺极，先取丙火解冻，次用辛金。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
+  },
+  {
+    "text_id": "TXT_QTBG_EXP_211",
+    "source_id": "SRC_QTBG",
+    "source_layer": "original_text",
+    "chapter": "论癸水·十二月癸水",
+    "type": "经文",
+    "text": "十二月癸水，天寒水冻，先取丙火温暖，次取辛金生水。",
+    "evidence": {
+      "evidence_level": "E2",
+      "verification_status": "externally_verified",
+      "base_edition": "公开数字全文底本",
+      "digital_refs": [
+        "https://zh.wikisource.org/zh-hans/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4"
+      ],
+      "transcription_verified": true,
+      "scan_verified": false,
+      "variants": [],
+      "note": "短摘录；保留章节定位，尚未逐条完成影印本页码级校勘。"
+    },
+    "text_provenance": {
+      "traditional_attribution": "传统通行本《穷通宝鉴》",
+      "attribution_status": "traditional_attribution",
+      "quoted_author": null,
+      "is_quotation": false,
+      "is_editorial_commentary": false
+    }
   }
 ]
