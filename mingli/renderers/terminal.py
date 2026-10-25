@@ -33,10 +33,13 @@ def render_terminal(data):
     lines.append("-" * 66)
 
     lr = data["liuren"]
-    lines.append("[ 小六壬时间起局 ]")
-    lines.append(f" 局数: {lr['局数']}  |  当前落宫: {lr['当前']}")
+    lines.append("[ 小六壬时空三传速断 ]")
+    san_chuan = lr.get("三传", f"{lr.get('月传')} ➔ {lr.get('日传')} ➔ {lr.get('时传')}")
+    lines.append(f" 三传路径: {san_chuan}  |  最终落宫: 【{lr['当前']}】 ({lr.get('吉凶', '')})")
+    if "诗诀" in lr:
+        lines.append(f" 诗诀解曰: {lr['诗诀']} ({lr['解曰']})")
     lr_宫位串 = "  ".join([f"宫{k}({v})" for k, v in lr["六宫"].items()])
-    lines.append(f" 六宫分布: {lr_宫位串}")
+    lines.append(f" 掌诀六宫: {lr_宫位串}")
     lines.append("-" * 66)
 
     mh = data["meihua"]
@@ -77,9 +80,30 @@ def render_terminal(data):
         lines.append(f" 局制命身: {zw['ju_name']} ({zw['yin_yang_gender']}·{zw['daxian_direction']}) | 命宫【{zw['ming_gong']}】 身宫【{zw['shen_gong']}】")
         si_hua_items = [f"{k}: {v}" for k, v in zw["si_hua"].items()]
         lines.append(f" 生年四化: {' | '.join(si_hua_items)}")
+        
+        # 命宫三方四正
+        if "san_fang_si_zheng" in zw:
+            sf = zw["san_fang_si_zheng"]
+            opp_str = f"{sf['opposite']['name']}·{sf['opposite']['zhi']}"
+            triad_str = "、".join([f"{p['name']}·{p['zhi']}" for p in sf["triad"]])
+            flank_str = "、".join([f"{p['name']}·{p['zhi']}" for p in sf["flanking"]])
+            lines.append(f" 命宫拓扑: 对宫【{opp_str}】 | 三合【{triad_str}】 | 夹宫【{flank_str}】")
+        
+        # 经典格局判定
+        if "patterns" in zw and zw["patterns"]:
+            pt_strs = [f"【{p['name']}】({p['type']})" for p in zw["patterns"]]
+            lines.append(f" 命局格局: {' '.join(pt_strs)}")
+
         lines.append(" 十二宫分布:")
         for p in zw["palaces"]:
-            star_strs = [s["name"] + (f"[{s['hua']}]" if s["hua"] else "") for s in p["stars"]]
+            star_strs = []
+            for s in p["stars"]:
+                bright = s.get("brightness")
+                b_str = f"[{bright}]" if bright else ""
+                if s.get("hua"):
+                    b_str = f"[{bright}·{s['hua']}]" if bright else f"[{s['hua']}]"
+                star_strs.append(f"{s['name']}{b_str}")
+
             star_str = " ".join(star_strs) if star_strs else "—"
             shen_mark = " (身宫)" if p["is_shen"] else "       "
             lines.append(f"   {p['ganzhi']} · {p['name']}{shen_mark} [大限 {pad_string(p['daxian'], 7)}] : {star_str}")

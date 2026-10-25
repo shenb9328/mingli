@@ -60,15 +60,18 @@ def render_markdown(data):
     
     # 3. Xiao Liuren
     liuren = data['liuren']
-    lines.append("\n**小六壬**")
-    lines.append(f"- **局数**：{liuren['局数']}")
-    lines.append(f"- **当前落宫**：{liuren['当前']}\n")
+    lines.append("\n**小六壬（时空三传速断）**")
+    lines.append(f"- **三传路径**：{liuren.get('三传', liuren['当前'])}")
+    lines.append(f"- **最终断诀**：【{liuren['当前']}】（五行{liuren.get('五行', '')} · {liuren.get('吉凶', '')} · 喜神{liuren.get('方位', '')}）")
+    if "诗诀" in liuren:
+        lines.append(f"- **断诗解曰**：*{liuren['诗诀']}* {liuren.get('解曰', '')}\n")
     lines.append("```text")
-    lines.append("宫位  名称")
-    lines.append("────  ────")
+    lines.append("掌诀宫位  六神名称")
+    lines.append("────────  ────────")
     for k in sorted([str(x) for x in liuren['六宫'].keys()], key=int):
         val = liuren['六宫'].get(int(k), liuren['六宫'].get(str(k), ""))
-        lines.append(f"{pad_string(str(k), 6)}{val}")
+        mark = " (终局落宫)" if val == liuren['当前'] else ""
+        lines.append(f"{pad_string('宫 ' + str(k), 10)}{val}{mark}")
     lines.append("```\n")
     lines.append("---")
     
@@ -130,16 +133,36 @@ def render_markdown(data):
         lines.append(f"- **局制**：{zw['ju_name']}（{zw['yin_yang_gender']}，大限{zw['daxian_direction']}）")
         lines.append(f"- **命宫**：{zw['ming_gong']}  |  **身宫**：{zw['shen_gong']}")
         si_hua_str = "、".join([f"{k}【{v}】" for k, v in zw["si_hua"].items()])
-        lines.append(f"- **生年四化**：{si_hua_str}\n")
-        lines.append("```text")
-        lines.append("干支  人事宫   身宫  大限     星曜分布")
-        lines.append("────  ───────  ────  ───────  ────────────────────────")
+        lines.append(f"- **生年四化**：{si_hua_str}")
+
+        if "san_fang_si_zheng" in zw:
+            sf = zw["san_fang_si_zheng"]
+            opp_str = f"{sf['opposite']['name']}·{sf['opposite']['zhi']}"
+            triad_str = "、".join([f"{p['name']}·{p['zhi']}" for p in sf["triad"]])
+            flank_str = "、".join([f"{p['name']}·{p['zhi']}" for p in sf["flanking"]])
+            lines.append(f"- **命宫三方四正**：对宫【{opp_str}】 | 三合【{triad_str}】 | 夹宫【{flank_str}】")
+
+        if "patterns" in zw and zw["patterns"]:
+            pt_lines = []
+            for pt in zw["patterns"]:
+                pt_lines.append(f"  * **【{pt['name']}】**（{pt['type']} · {pt['level']}）：{pt['desc']}")
+            lines.append("- **命局经典格局**：\n" + "\n".join(pt_lines))
+
+        lines.append("\n```text")
+        lines.append("干支  人事宫   身宫  大限     星曜分布（含庙旺与生年四化）")
+        lines.append("────  ───────  ────  ───────  ────────────────────────────────────")
         for p in zw["palaces"]:
             col_gz = pad_string(p["ganzhi"], 6)
             col_name = pad_string(p["name"], 9)
             col_shen = pad_string("身宫" if p["is_shen"] else "—", 6)
             col_daxian = pad_string(p["daxian"], 9)
-            star_strs = [s["name"] + (f"[{s['hua']}]" if s["hua"] else "") for s in p["stars"]]
+            star_strs = []
+            for s in p["stars"]:
+                bright = s.get("brightness")
+                b_str = f"[{bright}]" if bright else ""
+                if s.get("hua"):
+                    b_str = f"[{bright}·{s['hua']}]" if bright else f"[{s['hua']}]"
+                star_strs.append(f"{s['name']}{b_str}")
             col_stars = " ".join(star_strs) if star_strs else "—"
             lines.append(f"{col_gz}{col_name}{col_shen}{col_daxian}{col_stars}")
         lines.append("```")

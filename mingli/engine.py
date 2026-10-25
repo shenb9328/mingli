@@ -101,9 +101,9 @@ def calculate_all(dt=None, city_name="杭州", longitude=None, gender="男", ena
         }
     }
 
-    # 3. 小六壬模块
+    # 3. 小六壬模块（正统农历月日时三传速断）
     if enabled_modules is None or "liuren" in enabled_modules:
-        output["liuren"] = get_liuren_pan(true_dt)
+        output["liuren"] = get_liuren_pan(true_dt, bazi)
 
     # 4. 梅花易数模块
     if enabled_modules is None or "meihua" in enabled_modules:
