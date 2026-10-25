@@ -5,7 +5,7 @@
 [![Code Style: Clean](https://img.shields.io/badge/code%20style-clean-brightgreen.svg)]()
 [![Execution Time: <0.08s](https://img.shields.io/badge/speed-%3C80ms-green.svg)]()
 
-极速、专业、纯粹的中国传统术数综合排盘引擎。一次计算，同时输出 **四柱八字（真太阳时）**、**时家奇门遁甲（转盘法）**、**梅花易数** 与 **小六壬**。
+极速、专业、纯粹的中国传统术数综合排盘引擎。一次计算，同时输出 **四柱八字（真太阳时）**、**时家奇门遁甲（转盘拆补法）**、**紫微斗数（全星曜三方四正与格局）**、**梅花易数** 与 **正统小六壬（时空三传速断）**。
 
 专为高并发 API 网关、智能体助手（Agent Skill）、命令行终端以及自动化易学研究设计，单次完整排盘运算与渲染耗时 **< 0.08 秒**。
 
@@ -179,6 +179,38 @@ json_str = render_json(data)
 | 九地<br>天芮(禽)<br>死门<br>丙(辛) | 九天<br>天柱<br>惊门<br>癸 | 值符<br>天心<br>开门<br>戊 |
 ...
 ```
+
+---
+
+## 🤖 智能体技能标准规范 (AI Agent Skill Specification)
+
+本项目已全面标准化封装为跨智能体通用技能规范（支持 **Hermes Agent**、**Antigravity**、**Claude Code**、**OpenCode**、微信/飞书机器人等），定义文件位于 [`skills/mingli/SKILL.md`](skills/mingli/SKILL.md)。
+
+### 1. 新机器/智能体快速部署
+```bash
+# 1. 克隆代码与依赖
+cd ~ && git clone https://github.com/shenb9328/mingli.git
+pip3 install lunar-python geopy
+
+# 2. Hermes Agent 环境 (newvps / 微信网关)
+mkdir -p ~/.hermes/skills/productivity/mingli ~/.hermes/skills/mingli
+cp ~/mingli/skills/mingli/SKILL.md ~/.hermes/skills/productivity/mingli/SKILL.md
+cp ~/mingli/skills/mingli/SKILL.md ~/.hermes/skills/mingli/SKILL.md
+systemctl --user restart hermes-gateway
+
+# 3. Antigravity / Claude Code 环境
+mkdir -p ~/.gemini/config/skills/mingli
+cp ~/mingli/skills/mingli/SKILL.md ~/.gemini/config/skills/mingli/SKILL.md
+```
+
+### 2. 用户交互与触发模式 (Triggers)
+- **`排盘`**：默认使用当前北京时间，默认测算地点杭州。
+- **`排盘，2509090928`**：智能解析 10 位简写 `YYMMDDHHMM`（2025年9月9日 09:28:00），默认杭州。
+- **`排盘，24年7月9日14点3分，地点张掖`**：解析自然语言时间与城市，AI 仅负责查询地点经纬度（张掖东经约 100.46°）并传入 `--lon 100.46`。
+
+### 3. 绝对忠实输出原则 (Hardline Rule)
+- 严禁 AI 对排盘结果做任何二次解释、断语推演或文字加工；
+- 100% 完整原样将底层 Python 程序输出结果（stdout）发送回终端或聊天窗口。
 
 ---
 
