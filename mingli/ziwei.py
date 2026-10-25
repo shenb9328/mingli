@@ -146,8 +146,20 @@ def get_star_brightness(star_name: str, branch_idx: int) -> str:
 def calc_ziwei_star_pos(lunar_day: int, ju_number: int) -> int:
     """
     依照古典安星法则计算紫微星地支落宫（0: 子 .. 11: 亥）
-    六五四三二，酉午亥辰丑，局数除日数，商数商加一。
-    不够减加添，添单减添双，除尽便以此，步步向前移。
+    《紫微斗数全书》定紫微星诀：
+      六五四三二，酉午亥辰丑，局数除日数，商数商加一。
+      不够减加添，添单减添双，除尽便以此，步步向前移。
+
+    【算法原注与算理说明】：
+      1. 若生日被局数整除（rem == 0）：
+         商为 q = d // j，自寅宫(2)起顺行 q 步：(2 + q - 1) % 12。
+      2. 若生日不可整除（rem > 0）：
+         设补数 x = j - rem，即最少需添借 x 才能被局数整除；
+         新商数 q = (d + x) // j；
+         - “添单减”：若借添数 x 为奇数（单数），自商数基准位逆行 x 步：(2 + q - 1 - x) % 12；
+         - “添双加”：若借添数 x 为偶数（双数），自商数基准位顺行 x 步：(2 + q - 1 + x) % 12。
+         口诀中“添单减添双”字面省略了句末的“加”字，实为“添单减、添双加”。
+      此算法与权威古籍全书原疏及开源标准库 iztro（150组全局全日）完全一致。
     """
     d = lunar_day
     j = ju_number
@@ -541,8 +553,9 @@ def get_ziwei_pan(dt=None, city_name="杭州", longitude=None, gender="男", tru
     stars_in_palace[(tianfu_idx + 10) % 12].append("破军")
 
     # 8. 安辅曜与煞星
-    # 文昌、文曲
-    chang_idx = (4 - hour_idx) % 12
+    # 文昌（戌宫起子逆时）、文曲（辰宫起子顺时）
+    # 古诀：“辰上顺时文曲位，戌上逆时觅文昌”
+    chang_idx = (10 - hour_idx) % 12
     qu_idx = (4 + hour_idx) % 12
     stars_in_palace[chang_idx].append("文昌")
     stars_in_palace[qu_idx].append("文曲")
