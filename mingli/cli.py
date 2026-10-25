@@ -16,15 +16,36 @@ from mingli.renderers import render_terminal, render_markdown, render_json
 
 def parse_datetime(user_input):
     """
-    智能解析各种中英文格式的日期时间字符串（支持2026年9月22日14点30分、前缀剥离等）
+    智能解析各种中英文格式的日期时间字符串（支持10位数字YYMMDDHHMM、两位数年份、中文年月日时分秒、前缀剥离等）
     """
     if not user_input:
         return None
     s = user_input.strip()
-    # 剥离 "时间"、"日期"、"时刻"、"公历"、"阳历" 等前缀
+    # 剥离 "排盘"、"时间"、"日期"、"时刻"、"公历"、"阳历" 等常见前缀
+    s = re.sub(r"^(排盘|起盘|测算|算卦|排八字)[,，\s]*", "", s).strip()
     s = re.sub(r"^(时间|时刻|日期|公历|阳历)[:：\s]*", "", s).strip()
     
-    # 1. 尝试标准 strptime 格式
+    if not s or s.lower() in ("now", "当前", "现在"):
+        return None
+
+    # 1. 纯数字简写格式 (如 2509090928 -> 2025-09-09 09:28)
+    if re.fullmatch(r"\d{10}", s):
+        try:
+            return datetime.datetime.strptime("20" + s, "%Y%m%d%H%M")
+        except ValueError:
+            pass
+    if re.fullmatch(r"\d{12}", s):
+        try:
+            return datetime.datetime.strptime("20" + s, "%Y%m%d%H%M%S")
+        except ValueError:
+            pass
+    if re.fullmatch(r"\d{6}", s):
+        try:
+            return datetime.datetime.strptime("20" + s, "%Y%m%d")
+        except ValueError:
+            pass
+
+    # 2. 尝试标准 strptime 格式
     formats = [
         "%Y-%m-%d %H:%M:%S",
         "%Y-%m-%d %H:%M",
@@ -48,11 +69,14 @@ def parse_datetime(user_input):
         except ValueError:
             pass
 
-    # 2. 强大的正则容错提取（支持中文年/月/日/点/时/分/秒，单双位数均可）
-    pattern = r"(\d{4})[年/\-.](\d{1,2})[月/\-.](\d{1,2})[日号]?(?:[\sT]*(\d{1,2})(?:[点时:](\d{1,2})(?:[分:](\d{1,2})[秒]?)?|[点时]))?"
+    # 3. 强大的正则容错提取（支持2位/4位年，中文年/月/日/点/时/分/秒，单双位数均可）
+    pattern = r"(\d{2,4})[年/\-.](\d{1,2})[月/\-.](\d{1,2})[日号]?(?:[\sT]*(\d{1,2})(?:[点时:](\d{1,2})(?:[分:](\d{1,2})[秒]?)?|[点时]))?"
     m = re.search(pattern, s)
     if m:
         y, mon, d = m.group(1), m.group(2), m.group(3)
+        year = int(y)
+        if len(y) == 2:
+            year += 2000 if year < 70 else 1900
         h = m.group(4)
         minute = m.group(5)
         sec = m.group(6)
@@ -60,11 +84,32 @@ def parse_datetime(user_input):
         minute = int(minute) if minute is not None else 0
         second = int(sec) if sec is not None else 0
         try:
-            return datetime.datetime(int(y), int(mon), int(d), hour, minute, second)
+            return datetime.datetime(year, int(mon), int(d), hour, minute, second)
         except ValueError:
             pass
 
     return None
+
+
+def extract_city_and_time(user_input, default_city="杭州"):
+    """
+    从综合输入串中同时解析城市地点与时间
+    如: '排盘，24年7月9日14点3分，地点张掖' -> (datetime(2024, 7, 9, 14, 3), '张掖')
+    """
+    if not user_input:
+        return None, default_city
+    s = user_input.strip()
+    s = re.sub(r"^(排盘|起盘|测算|算卦|排八字)[,，\s]*", "", s).strip()
+    
+    city = None
+    city_m = re.search(r"(?:地点|城市|方位|地区)[：:\s]*([^\s,，]+)", s)
+    if city_m:
+        city = city_m.group(1).strip()
+        s = s[:city_m.start()] + s[city_m.end():]
+        s = s.strip(" ,，")
+        
+    dt = parse_datetime(s)
+    return dt, city or default_city
 
 
 def parse_arguments(args=None, default_format="terminal"):
@@ -155,8 +200,12 @@ def main_cli(args=None, default_format="terminal"):
             time_str = " ".join(parsed.time_pos).strip()
             
         if time_str:
-            dt = parse_datetime(time_str)
-            if dt is None and out_format == "terminal":
+            extracted_dt, extracted_city = extract_city_and_time(time_str, default_city=city_name)
+            dt = extracted_dt
+            if parsed.city == "杭州" and extracted_city != "杭州":
+                city_name = extracted_city
+            clean_token = re.sub(r"^(排盘|起盘|测算|算卦|排八字)[,，\s]*", "", time_str).strip()
+            if dt is None and clean_token and clean_token not in ("排盘", "起盘", "算卦", "排八字", "now", "当前", "现在") and out_format == "terminal":
                 print(f"提示: 时间格式 '{time_str}' 无法解析，已使用当前系统时间。")
                 
     data = calculate_all(dt=dt, city_name=city_name, longitude=longitude, gender=parsed.gender)
